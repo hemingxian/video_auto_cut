@@ -1,0 +1,30 @@
+{
+  "audit": "independent read-only byte audit; no importer/product invocation",
+  "source_head": "4d62e25965cbae0bd25f53ff2c45881082c87db6",
+  "formal_import_core_pass": true,
+  "u6_overall": "STOP_FOLDER_OPEN_DENIED",
+  "warnings": {
+    "ai_suggested": 43,
+    "status_pending": 8,
+    "status_note": 2
+  },
+  "ai_lines": 44,
+  "models": 0,
+  "folder_error_positions": [
+    {
+      "line_crlf_lf_cr": 23,
+      "byte_offset": 737,
+      "text": "[1] Error occurred in handler for 'folder:open': Error: 目录不在工作区内，已拒绝删除"
+    },
+    {
+      "line_crlf_lf_cr": 29,
+      "byte_offset": 1316,
+      "text": "[0] 16:10:59 [vite] (client) [console.error] [VideoAutoCut] open folder failed {\"target\":\"D:\\\\autocut\\\\video-auto-cut\\\\docs\\\\script-template-v1\",\"error\":{\"name\":\"Error\",\"message\":\"Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除\",\"stack\":\"Error: Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除\"}}"
+    }
+  ],
+  "current_sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+  "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "protected_pass": 6,
+  "shutdown_receipt_sha256": "2cc8714fc9977004b9648b22e1c3748dfa0f4e5eeccf06a2c5406ab31058e994",
+  "stop_receipt_sha256": "2ee3453245de7af0b226aed0874ba2796b65acfdf20c164e48cddc5741182e37"
+}

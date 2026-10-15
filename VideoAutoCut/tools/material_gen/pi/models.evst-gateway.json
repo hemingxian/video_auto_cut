@@ -1,0 +1,86 @@
+{
+  "providers": {
+    "evst-gateway": {
+      "name": "EVST gateway (api.evstai.com, OpenAI-compatible)",
+      "baseUrl": "https://api.evstai.com/v1",
+      "api": "openai-completions",
+      "apiKey": "$DASHSCOPE_API_KEY",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "supportsReasoningEffort": false
+      },
+      "models": [
+        {
+          "id": "qwen3.6-plus",
+          "name": "Qwen3.6 Plus (vision)",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "samplingParams": {
+            "enable_thinking": false,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          }
+        },
+        {
+          "id": "qwen3.6-flash",
+          "name": "Qwen3.6 Flash (vision, cheaper)",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "samplingParams": {
+            "enable_thinking": false,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          }
+        },
+        {
+          "id": "qwen-plus",
+          "name": "Qwen Plus (text)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "samplingParams": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_jpeg_relative_path": "source-jpegs/STOP-formal-exit1-realtime-log-01.jpg",
+  "source_jpeg_retained_locally": true,
+  "source_jpeg_bytes": 105225,
+  "source_jpeg_sha256": "0754a6c2b5b58b90e8719609f12a6ed0e37ac93b32c91d6fb8c7bf56b3949fb1",
+  "png_relative_path": "screenshots/STOP-formal-exit1-realtime-log-01.png",
+  "png_bytes": 466766,
+  "png_sha256": "981fe0bb08ed7303d97895f133cdc799efe8124145b4c371e287bf5c6f1356a1",
+  "width": 1306,
+  "height": 853,
+  "channels": 3,
+  "png_width": 1306,
+  "png_height": 853,
+  "png_channels": 3,
+  "decoded_pixel_sha256": "63d6590340671d09128d1dd50b757376ba9f028c9ef19a4a92485bebe5b4a8a9",
+  "pixel_equal": true
+}

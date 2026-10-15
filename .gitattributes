@@ -1,0 +1,46 @@
+.editorconfig text eol=lf
+.gitattributes text eol=lf
+
+*.css text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.proto text eol=lf
+*.rs text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.txt text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.bat text eol=crlf
+
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.mp3 binary
+*.mp4 binary
+*.png binary
+*.webp binary
+*.otf binary
+
+# The font manifest verifies the upstream license bytes as well as the font files.
+VideoAutoCut/fonts/noto-sans-cjk-sc/LICENSE binary
+
+# Preserve vendored/upstream repositories exactly as supplied.
+VideoAutoCut/sentrysearch/** text=auto !eol
+VideoAutoCut/tools/animation_agent/official/** text=auto !eol
+VideoAutoCut/tools/material_gen/hyperframes/** text=auto !eol
+VideoAutoCut/tools/material_gen/remotion/** text=auto !eol
+VideoAutoCut/tools/_vendor/jieba/LICENSE -text
+VideoAutoCut/tools/_vendor/jieba/__init__.py -text
+VideoAutoCut/tools/_vendor/jieba/_compat.py -text
+VideoAutoCut/tools/_vendor/jieba/dict.txt -text
+VideoAutoCut/tools/_vendor/jieba/finalseg/__init__.py -text
+VideoAutoCut/tools/_vendor/jieba/finalseg/prob_emit.py -text
+VideoAutoCut/tools/_vendor/jieba/finalseg/prob_start.py -text
+VideoAutoCut/tools/_vendor/jieba/finalseg/prob_trans.py -text

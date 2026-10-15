@@ -1,0 +1,8 @@
+{
+  "schema": "poststop-process/v1",
+  "checked_at": "2026-09-29T07:22:26.6325885Z",
+  "root_pid": 6464,
+  "root_pid_alive": false,
+  "observer_status": "complete",
+  "note": "No process was killed; formal exited naturally with code 0. PID reuse-safe owned-child audit pending independent root review."
+}

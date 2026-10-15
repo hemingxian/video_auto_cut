@@ -1,0 +1,22 @@
+{
+  "schema": "vacut-sky-jpeg-to-png-pixel-equivalence/v1",
+  "source_original_jpeg": {
+    "basename": "U6-formal-queue-blocked2-before-folder.jpg",
+    "bytes": 87661,
+    "sha256": "7d3ea73b7bf47bc52d30b98f984931abcc42e5139f15b232a30257b65ab7147c",
+    "retained": "private audit source; not copied to public evidence"
+  },
+  "public_png": {
+    "basename": "U6-formal-queue-blocked2-before-folder.png",
+    "bytes": 303090,
+    "sha256": "fd4a90f03c805b09e990c4aa374bdb75f6ab57be8988079866b7e116313373f8"
+  },
+  "decoded": {
+    "mode": "RGB",
+    "width": 1306,
+    "height": 853,
+    "source_pixel_sha256": "3a2e23cfc461c03b33da087f272fbee133fe704e7a0dacb9976852b795300c36",
+    "png_pixel_sha256": "3a2e23cfc461c03b33da087f272fbee133fe704e7a0dacb9976852b795300c36",
+    "pixel_equal": true
+  }
+}

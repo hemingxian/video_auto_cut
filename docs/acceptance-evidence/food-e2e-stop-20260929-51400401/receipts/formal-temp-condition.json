@@ -1,0 +1,26 @@
+{
+  "schema": "food-route-a-formal-temp-condition/v1",
+  "observed_after_stop": {
+    "formal_temp_exists": false,
+    "workspace_temp_exists": false,
+    "formal_output_exists": false,
+    "formal_workspace_exists": true
+  },
+  "launcher_environment": {
+    "TEMP": "<audit-root>/formal-temp",
+    "TMP": "<audit-root>/formal-temp",
+    "VIDEOAUTO_TEMP_DIR": "<audit-root>/formal-temp"
+  },
+  "child_environment_source_derived": {
+    "TEMP": "<audit-root>/formal-temp (inherited)",
+    "TMP": "<audit-root>/formal-temp (inherited)",
+    "VIDEOAUTO_TEMP_DIR": "<audit-root>/formal-workspace/temp (overridden by Rust add_child_env)"
+  },
+  "source_derived": "paths.rs add_child_env overrides workspace/temp through VIDEOAUTO_TEMP_DIR but does not create or override TEMP/TMP",
+  "interpretation": "This is an E2E environment condition for Mac review. It may matter to SQLite temporary-file handling, but no reproduction experiment was run and causality is unknown.",
+  "actions_after_observation": {
+    "directories_created": false,
+    "product_code_changed": false,
+    "retry_run": false
+  }
+}

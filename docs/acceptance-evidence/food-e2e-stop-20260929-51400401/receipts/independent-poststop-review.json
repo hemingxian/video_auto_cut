@@ -1,0 +1,233 @@
+{
+  "schema": "food-route-a-independent-poststop-review/v1",
+  "method": "read-only post-stop artifact comparison; no importer/model/render",
+  "formal_result": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-result.json",
+    "sha256": "b5ff20caeded35f16223e3afc2857a972717d2b6802e83f44d95c09148a163d9",
+    "exit_code": 1,
+    "started_at": "2026-09-29T03:30:09.519Z",
+    "ended_at": "2026-09-29T03:32:02.875Z",
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf"
+  },
+  "prepared_plan": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\shots.json",
+    "sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d"
+  },
+  "post_plan": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\shots.json",
+    "sha256": "0d1c295ab5aa092a9550a5f26cdee6dde739bb5f42f73a5418f745538a2d6b41",
+    "shots": 9
+  },
+  "protected_metadata": {
+    "script_source_deep_equal": true,
+    "script_meta_render_hints_shot_id_changes": [],
+    "all_required_deep_equal": true
+  },
+  "fresh_voice_and_cues": {
+    "rows": [
+      {
+        "shot": 1,
+        "shot_id": "template-0001",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0001_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 151771,
+        "voice_sha256": "cd63c46a1ba749ae49d974f0608546f7c21a4b1303962f69d8b4b63a73be7de9",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0001_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "3199e8adacd8e3f376b3ba757ae6d042e4f6854963384f9c910b66f1232c5c38",
+        "cue_count": 4,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 2,
+        "shot_id": "template-0002",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0002_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 173851,
+        "voice_sha256": "8be19843580cf40710d4de31c6898e8f1932c9cedf9de2a40d125741dc56ab83",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0002_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "10e0616f82fce9da1f444dbb8ae9a35a76c9329dfe4777b602372c4959a94bf5",
+        "cue_count": 3,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 3,
+        "shot_id": "template-0003",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0003_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 197851,
+        "voice_sha256": "1ab5cdfe2649c64a28358b8cbdfad8285ab3945a1447c72ce52dd950931a50d9",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0003_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "8c47d8a09281a1110c48c9e239e57e9bf93520d05ca7839835554ce3fb2fd088",
+        "cue_count": 6,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 4,
+        "shot_id": "template-0004",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0004_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 153211,
+        "voice_sha256": "306998bd9f87461508cb5f9205b9ca850489ad26fc1c10813f204b51acb8a078",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0004_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "20754f159431ff094ad13bec891fb78b1d495903cacdf3bbcbd5555bf35cc445",
+        "cue_count": 5,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 5,
+        "shot_id": "template-0005",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0005_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 149851,
+        "voice_sha256": "25c9c1c646940041aa5637db705b7da18286569a5618c6825623bd13ab7580ab",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0005_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "31b03e49338890dbfeda1e87991dede9bb3874ed0550b78ead3767623ffd16fc",
+        "cue_count": 5,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 6,
+        "shot_id": "template-0006",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0006_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 190171,
+        "voice_sha256": "e1cdb5572134e8cf0a4fc2de698bcad13c3992a1fe33d7f6964b83b66c2d862b",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0006_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "ced22c96122ae9d4e85bc11b84f46ce379d61cb0dd1c4b6dcbc1fb66d06f7ba1",
+        "cue_count": 5,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 7,
+        "shot_id": "template-0007",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0007_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 140251,
+        "voice_sha256": "df5f7247160be0096901c6ed5a68c96a3cf4770d5edc5e74251a70bb573411d4",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0007_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "63c68cd303cac6628e648763086320d5b188d6d677aba1e4941ef0ddbcce3a7a",
+        "cue_count": 4,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 8,
+        "shot_id": "template-0008",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0008_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 193051,
+        "voice_sha256": "9996bb1d71abefa3773d6706426897f8b7afba822bbadcc10a670de84c1e1dde",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0008_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "5012ce92041216229c024853bc6d8dd0d76e1e63f67883cec2014f3a7172e05f",
+        "cue_count": 6,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      },
+      {
+        "shot": 9,
+        "shot_id": "template-0009",
+        "voice_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0009_voice.mp3",
+        "voice_exists": true,
+        "voice_bytes": 142171,
+        "voice_sha256": "0c049a8523d588664fdb0c66f647faee976a3dc2ed4974fab80b2b87793123de",
+        "cue_file": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0009_cues.json",
+        "cue_exists": true,
+        "cue_sha256": "6a04223d8492100199bdf807b4fff73e9a2a97714863f15a473e6b92b35ef44b",
+        "cue_count": 3,
+        "cue_text_exact_equals_voice_text": true,
+        "cue_text_renderer_normalized_equals_voice_text": true
+      }
+    ],
+    "voice_files_present": 9,
+    "cue_files_present": 9,
+    "renderer_normalized_voice_mappings": 9,
+    "exact_voice_mappings": 9
+  },
+  "asr_artifacts": {
+    "count": 9,
+    "files": [
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa\\voice\\0001_asr_result.json",
+        "sha256": "26187df17909c9313b3aa2802eb81fb2a893d3b0342a05d0719c7cc064dbd31f"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c\\voice\\0001_asr_result.json",
+        "sha256": "af7fa5a81e59a61ef16acd18a026c89b8863f72dadca525fafedcf7e46db0a89"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc\\voice\\0001_asr_result.json",
+        "sha256": "8fba07131470948bc6b77628d9d14f3049c0aa42d170acc9ebcc1b62cb305a3f"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033\\voice\\0001_asr_result.json",
+        "sha256": "5e8328f1eaee5f42cb4b25d2537ddb878c514f26553eba844b20527885208d59"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d\\voice\\0001_asr_result.json",
+        "sha256": "3240c23ec40a234de0ef7d0b1ede947f2e001ff2c3779233dfcbe47cd20a2bf9"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c\\voice\\0001_asr_result.json",
+        "sha256": "33c6c8023ff9cb085381d05d79132d73cbad7fc4362543363cf8e5f8d5e8f1e3"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2\\voice\\0001_asr_result.json",
+        "sha256": "01bf0cbdfd24ccfab0512e0c2a9c63f79d465d52852c35270b044c465675309a"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7\\voice\\0001_asr_result.json",
+        "sha256": "f5188dae7bf39bf05fee26461b736f39698d901a1153a52810e041756e4e0d33"
+      },
+      {
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_51400401_formal\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb\\voice\\0001_asr_result.json",
+        "sha256": "62b7d538f0fe1ce744f582334ab2fd9bfdb932802d3425f8708fe0e947dd4062"
+      }
+    ]
+  },
+  "observed_log_markers": {
+    "whole_shot_tts_generated": 9,
+    "asr_submitted": 9,
+    "voice_reuse": 0,
+    "asr_reuse": 0
+  },
+  "subtitle_llm_source_inference": {
+    "candidate_import_probe": {
+      "python": "same locked embedded Python/runtime used by formal run",
+      "align_subtitles_call_qwen_callable": true,
+      "callable_module": "optimize_queries",
+      "callable_name": "call_qwen",
+      "network_called_by_probe": false
+    },
+    "original_sentence_count": 11,
+    "display_split_path_invocations_per_sentence": 2,
+    "source_derived_call_qwen_wrapper_invocations": 22,
+    "timing_map_additional_invocations": 0,
+    "reason": "cues_from_asr calls display_segments_from_original once, then standard_cues_for_span calls it again; completed cues prove this path returned for all 9 shots; spoken/original normalized equality skips timing-map LLM",
+    "effective_text_model": "qwen-plus",
+    "effective_model_derivation": "formal app.env (mtime before run) sets DASHSCOPE_TEXT_MODEL=qwen-plus; auth.remoteConfigEnv has no such key; gatewayRemoteEnv source returns only DASHSCOPE_API_KEY and DASHSCOPE_BASE_URL, so account overlay cannot replace this model value",
+    "low_level_http_request_count": "not independently observed"
+  },
+  "evidence_limits": [
+    "TTS/ASR counts are workflow log markers plus resulting artifacts, not independent low-level HTTP request-start IDs.",
+    "ASR recognition text is not promoted to a strict product-failure oracle.",
+    "No ASS, rendered clips, or final video exists because the run stopped before rendering.",
+    "This receipt does not claim the full Food E2E passed.",
+    "The subtitle count is 22 source-derived call_qwen wrapper invocations, not direct per-request telemetry; do not report it as a directly observed HTTP count."
+  ],
+  "partial_facts_ok": true,
+  "full_e2e_pass": false
+}

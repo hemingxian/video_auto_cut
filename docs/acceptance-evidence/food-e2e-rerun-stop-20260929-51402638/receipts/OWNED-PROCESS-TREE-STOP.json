@@ -1,0 +1,6 @@
+{
+  "requested_at": "2026-09-29T06:20:44.774Z",
+  "root_pid": 15304,
+  "reason": "Traceback (most recent call last):",
+  "method": "taskkill /PID <owned-root> /T /F"
+}

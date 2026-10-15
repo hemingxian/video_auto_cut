@@ -1,0 +1,48 @@
+{
+  "schema": "food-ass-51404601-synthetic-tests/v1",
+  "helper": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-ass-51404601\\ass_event_text_audit.py",
+  "helper_sha256": "4493bd6d7f7025eb392b9ae260807278ae189cdf887f0c57dc485a7d8bafb918",
+  "test_source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-ass-51404601\\test_ass_event_text_audit.py",
+  "test_source_sha256": "81293f6f116c11788b27251aefb653d31c862328703e36ca47feed3972d6675d",
+  "cases": [
+    {
+      "name": "terminal full stop allowed",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "name": "terminal full stop unique",
+      "actual": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "internal comma missing fails",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "internal character change fails",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "physical soft seam two spaces fails",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "name": "unequal overlap rejected",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    }
+  ],
+  "passed": 6,
+  "total": 6,
+  "ok": true
+}

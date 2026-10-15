@@ -1,0 +1,77 @@
+{
+  "schema": "w6-engine-investigation-evidence/v1",
+  "instruction": 51411758,
+  "files": [
+    {
+      "path": "analyze_pe_diff.py",
+      "bytes": 7512,
+      "sha256": "a6668ca3b1ef68586924b8294c9b16623986f561c2dc7ef43c1544dfb9587d01"
+    },
+    {
+      "path": "cargo-build-release-locked.log",
+      "bytes": 63,
+      "sha256": "8823a7f5a8708e1bebe9c34666db0300c4a333a2a9859d7c42cc30a06f9383be"
+    },
+    {
+      "path": "cargo-build-result.json",
+      "bytes": 438,
+      "sha256": "19a6948bba76dd755374db972e05e760a95faad52e748ebdaa0e48eb4ebd1161"
+    },
+    {
+      "path": "comment-51411758-readback.json",
+      "bytes": 1864,
+      "sha256": "2631b81e364478d07c845202764d14448537ffa55b90e91148b67f0f86443f72"
+    },
+    {
+      "path": "config-copy-cleanup.json",
+      "bytes": 915,
+      "sha256": "7a7250930c7b2e0adff73c724bd3030248de70e5ec8944724479b6b6cdb69fdc"
+    },
+    {
+      "path": "EARLIEST-BUILD-EVIDENCE.md",
+      "bytes": 820,
+      "sha256": "e4ef700e267abe701c435d2020bf29dfa35f6792314a6ec50e234209bd029de4"
+    },
+    {
+      "path": "engine-version-probes.json",
+      "bytes": 583,
+      "sha256": "178c73fea3089ee0d05409d31ca937f9c2f4e2da04e322b77ddddcb149a1899b"
+    },
+    {
+      "path": "instruction-51411758.md",
+      "bytes": 1659,
+      "sha256": "7eee7c9ec99f1bffd70526d9a8f8860aa9c4982ac2d31f98384087a0edbe6be3"
+    },
+    {
+      "path": "ISSUE-REPLY-DRAFT.md",
+      "bytes": 2622,
+      "sha256": "2d40b9b7a63dc677c73c85803da63225d8527c5569dfe83e5897eb5eac0783ff"
+    },
+    {
+      "path": "pack-runtime-retry.log",
+      "bytes": 6204,
+      "sha256": "0599d01d4681ffacbe42fad466731cf9d5e486e8a219ba0da0dc541cf58f8c91"
+    },
+    {
+      "path": "pe-diff.json",
+      "bytes": 9084,
+      "sha256": "f5904f6ad3103b278c431179c065cb246856f89ad57ded293f9d508b05f21a88"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 4652,
+      "sha256": "e02db76b4fa119c492ff1cdfa84e960e3b7f62b5953b911fedf29417ebc067b7"
+    },
+    {
+      "path": "source-build-identity.json",
+      "bytes": 3063,
+      "sha256": "0ddb5375abb5adcb49e3f4244af1459a75a06e198f628012fa182504cacb0a58"
+    }
+  ],
+  "excluded_self": [
+    "HASH-MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "contains_config_file": false,
+  "contains_binary": false
+}

@@ -1,0 +1,76 @@
+diff --git a/VideoAutoCut/tests/test_script_card_fields.py b/VideoAutoCut/tests/test_script_card_fields.py
+index 34ce338..99957ee 100644
+--- a/VideoAutoCut/tests/test_script_card_fields.py
++++ b/VideoAutoCut/tests/test_script_card_fields.py
+@@ -37,6 +37,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
+ from xlsx_fixture import Formula, Number, write_xlsx  # noqa: E402
+ 
+ SCRIPTS = Path(__file__).resolve().parents[2] / "docs" / "packaging-test-scripts-2026-09-21"
++U7_CAPTURED_PLAN = (Path(__file__).resolve().parents[2] / "docs" / "acceptance-evidence"
++                    / "u7-title-stop-20260928-51392529" / "artifacts" / "final-shots-stop.json")
+ 
+ SAMPLE = """# 食品码垛工位观察
+ 
+@@ -1933,6 +1935,43 @@ class EquivalentScriptTests(unittest.TestCase):
+                          "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径")
+         self.assertEqual(fields[5][2], "开场")
+ 
++    def test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels(self):
++        """51405257：用原 07 表和 U7 首次导入 plan 复现第 4/6 镜标题被保护逻辑拦住。"""
++        plan = json.loads(U7_CAPTURED_PLAN.read_text(encoding="utf-8"))
++        report = scf.reconcile(plan, SCRIPTS / EQUIVALENT["table"])
++
++        self.assertEqual(
++            [(item["shot"], item["field"], item["kind"]) for item in report["corrections"]],
++            [(4, "title", "rewritten"), (6, "title", "rewritten")],
++        )
++        self.assertEqual(
++            [plan["shots"][3]["title"], plan["shots"][5]["title"]],
++            ["包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径", "开场"],
++        )
++
++    def test_u7_exception_does_not_unprotect_table_card_fields(self):
++        rows = [["分镜", "分镜标题", "口播", "上屏文字", "章节标签"],
++                ["1", "来料到位", "先看来料怎样到位。", None, "解析器抄来的章节标签"]]
++        path = TableWorkbookMixin.workbook(self, rows)
++        plan = plan_with({"shot": 1, "title": "来料到位", "voice_text": "先看来料怎样到位。",
++                          "card_content": "解析器抄来的章节标签"})
++        report = scf.reconcile(plan, path)
++        self.assertEqual(report["corrections"], [])
++        self.assertEqual(plan["shots"][0]["card_content"], "解析器抄来的章节标签")
++        self.assertTrue(any("本表不认识的字段名" in warning for warning in report["warnings"]))
++
++    def test_u7_exception_does_not_apply_to_plain_text_titles(self):
++        script = TempScriptMixin.write_script(
++            self,
++            SAMPLE.replace("- 时长：7 秒", "- 章节标签：解析器抄来的章节标签"),
++        )
++        plan = sample_plan(s1={"title": "解析器抄来的章节标签",
++                               "card_content": "来料到位是码垛稳定的第一道关"})
++        report = scf.reconcile(plan, script)
++        self.assertEqual(report["corrections"], [])
++        self.assertEqual(plan["shots"][0]["title"], "解析器抄来的章节标签")
++        self.assertTrue(any("本表不认识的字段名" in warning for warning in report["warnings"]))
++
+     def test_the_table_version_corrects_exactly_what_the_markdown_one_does(self):
+         name = "03_混合_show判定_食品码垛_CN.md"
+         expected = None
+diff --git a/VideoAutoCut/tools/script_card_fields.py b/VideoAutoCut/tools/script_card_fields.py
+index 4bf842d..4c21344 100644
+--- a/VideoAutoCut/tools/script_card_fields.py
++++ b/VideoAutoCut/tools/script_card_fields.py
+@@ -1412,7 +1412,13 @@ def reconcile(plan: dict, script_path: Path, *, autofix: bool | None = None) ->
+                 blocked = ("口播/字幕/分镜标题都和 plan 对不上，镜号可能错位"
+                            if verdict == "mismatch"
+                            else "脚本这一镜没有口播/字幕/分镜标题可以用来确认镜号")
+-            elif kind != "missing" and strip_markup(actual) in block["foreign_values"]:
++            elif (kind != "missing"
++                  and strip_markup(actual) in block["foreign_values"]
++                  and not (field == "title"
++                           and info.get("route") == "table"
++                           and "title" in set(info.get("roles") or [])
++                           and entry.get("present")
++                           and entry["reliable"])):
+                 blocked = "plan 里这个值在脚本本镜的其它字段行里出现过，多半是本表不认识的字段名"
+             elif kind == "missing" and has_placeholder_hint(expected):
+                 # 第二次对抗复审应修 2：`不上屏（本镜）` 这类说明文字不在占位名单里，

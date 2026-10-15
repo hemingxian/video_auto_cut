@@ -1,0 +1,239 @@
+{
+  "schema": "food-media-command-ledger/v1",
+  "read_only": true,
+  "ffmpeg": {
+    "path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\ffmpeg\\bin\\ffmpeg.exe",
+    "sha256": "c698cd5687dfed2cc4c78fe28229d5e90493dbb73a5c738f67c63f638b19bcc6",
+    "frame_extractions": [
+      {
+        "shot": 1,
+        "local": 4.0,
+        "global": 4.0,
+        "output": "frames/final-shot01-local-4.0s-global-4.000s.png",
+        "args": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-ss",
+          "4.000",
+          "-i",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+          "-frames:v",
+          "1",
+          "-vsync",
+          "0",
+          "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-media-51404601\\frames\\final-shot01-local-4.0s-global-4.000s.png"
+        ],
+        "exit_code": 0,
+        "output_sha256": "b6bc0ef34a1a1c041761ce4bd8c02f35dfe961fa9fbb0c449cdc0b19c58d9b4e"
+      },
+      {
+        "shot": 5,
+        "local": 4.8,
+        "global": 40.8,
+        "output": "frames/final-shot05-local-4.8s-global-40.800s.png",
+        "args": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-ss",
+          "40.800",
+          "-i",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+          "-frames:v",
+          "1",
+          "-vsync",
+          "0",
+          "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-media-51404601\\frames\\final-shot05-local-4.8s-global-40.800s.png"
+        ],
+        "exit_code": 0,
+        "output_sha256": "49b65f7e4413c305f890aca2c0d9d92dd8ec7b2e926f201424377f3af4496d7b"
+      },
+      {
+        "shot": 8,
+        "local": 4.0,
+        "global": 66.0,
+        "output": "frames/final-shot08-local-4.0s-global-66.000s.png",
+        "args": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-ss",
+          "66.000",
+          "-i",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+          "-frames:v",
+          "1",
+          "-vsync",
+          "0",
+          "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-media-51404601\\frames\\final-shot08-local-4.0s-global-66.000s.png"
+        ],
+        "exit_code": 0,
+        "output_sha256": "20478b6f685589e655a52ca5d1a061df3d32b04b6511d5d9df79e1bf7ef40702"
+      }
+    ]
+  },
+  "ffprobe": {
+    "path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\ffmpeg\\bin\\ffprobe.exe",
+    "sha256": "5e1831ca917702e40ae97a8d3a35d0decea931934f127ea1dc81869dc6fc7448",
+    "probes": [
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+        "receipt": "receipts/final-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0001_final.mp4",
+        "receipt": "receipts/clip-01-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0001_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0002_final.mp4",
+        "receipt": "receipts/clip-02-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0002_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0003_final.mp4",
+        "receipt": "receipts/clip-03-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0003_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0004_final.mp4",
+        "receipt": "receipts/clip-04-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0004_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0005_final.mp4",
+        "receipt": "receipts/clip-05-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0005_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0006_final.mp4",
+        "receipt": "receipts/clip-06-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0006_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0007_final.mp4",
+        "receipt": "receipts/clip-07-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0007_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0008_final.mp4",
+        "receipt": "receipts/clip-08-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0008_final.mp4"
+        ],
+        "exit_code": 0
+      },
+      {
+        "target": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0009_final.mp4",
+        "receipt": "receipts/clip-09-ffprobe.json",
+        "args": [
+          "-v",
+          "error",
+          "-show_format",
+          "-show_streams",
+          "-of",
+          "json",
+          "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0009_final.mp4"
+        ],
+        "exit_code": 0
+      }
+    ]
+  },
+  "reused_frames": [
+    {
+      "shot": 2,
+      "local": 2.0,
+      "global": 10.0,
+      "source": "food-rerun-51403704-independent/frames/final-shot02-local-2.0s-global-10.000s.png",
+      "sha256": "7564974f6f7cb64abc0caa4b74eba6e4590128c41da058c4bde5b53f0158ec85"
+    },
+    {
+      "shot": 2,
+      "local": 6.0,
+      "global": 14.0,
+      "source": "food-rerun-51403704-independent/frames/final-shot02-local-6.0s-global-14.000s.png",
+      "sha256": "3403faae2a808229496e3eb4fb3fa089e7de327ce5ecc5e0e686c314c7feb4b7"
+    }
+  ],
+  "note": "All commands executed in this audit returned exit0. Frame -ss values are final-video global timestamps calculated from probed clip offsets."
+}

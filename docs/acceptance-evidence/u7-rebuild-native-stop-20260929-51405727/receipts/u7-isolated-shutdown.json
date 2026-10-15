@@ -1,0 +1,11 @@
+{
+  "schema": "u7-isolated-shutdown/v1",
+  "checked_at": "2026-09-29T17:51:35.1865673+08:00",
+  "electron_pid": 42904,
+  "electron_running": false,
+  "launcher_pid": 31136,
+  "launcher_running": false,
+  "listening_ports_4173_9": [],
+  "method": "native Alt+F4 after PASS result capture",
+  "second_import": false
+}

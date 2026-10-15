@@ -1,0 +1,82 @@
+{
+  "kind": "u7-stop-offline-summary",
+  "source_sha": "1c307c384a2ffaeed02bf29d5da55b671d3b59ab",
+  "verifier_exit": 2,
+  "conclusion": "STOP: final seven-shot plan does not preserve two authored titles",
+  "inputs": {
+    "xlsx_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+    "shots_sha256": "fc4ba10e6948355642ae56e08347906ce52b7b158f19817b0e17e4d795a73815",
+    "stdout_sha256": "611ebedcf101eff5678d215160f848b715a6cafdd3a8bcc6c995e7203f4168cc",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "events_sha256": "639bfe985851b28342fd37705ff89362b7eeb9cae3ab0de996a7e30cbc2641a3",
+    "metadata_sha256": "1f9f35c1395a28472c473cf5cfe1c4ebd0d51997c76f1c2b9fd01587a631baae"
+  },
+  "workflow": {
+    "upload": 1,
+    "main_parse": 1,
+    "voice_subtitle_review": 0,
+    "voice_subtitle_review_evidence": "source-derived from 0/0 markers plus normalize completion",
+    "progress_label_review": 0,
+    "progress_label_review_evidence": "source-derived from actual title unchanged by ensure_progress_labels plus actual subtitle context/language; final module_label unused",
+    "automatic_retry_warnings": 0,
+    "stderr_lines": 0
+  },
+  "raw_stdout_positions": {
+    "command": 16,
+    "upload_start": 17,
+    "upload_complete": 18,
+    "main_parse_start": 19,
+    "shot4_unfixed_title_warning": 20,
+    "shot6_unfixed_title_warning": 21,
+    "applied_correction_summary": 22,
+    "shot1_card_content_applied": 23,
+    "shot3_title_applied": 24,
+    "card_field_event": 25,
+    "normalize_complete": 26,
+    "shot_count": 27
+  },
+  "independent_xlsx_comparison": {
+    "sheet": "视频脚本",
+    "header_row": 5,
+    "title_column": "B",
+    "module_label_column": "D",
+    "card_content_column": "H",
+    "card_hint_column": "I",
+    "all_card_content_exact_after_placeholder_semantics": true,
+    "all_card_hint_exact_after_placeholder_semantics": true,
+    "title_exact_count": 5,
+    "title_mismatch_count": 2,
+    "module_label_exact_count": 7,
+    "mismatches": [
+      {
+        "shot": 4,
+        "field": "title",
+        "xlsx": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+        "xlsx_len": 28,
+        "xlsx_sha256": "2942046a30aa2d0e8937298d9aa0e82c99ed316b14b19fa0ed0d107ede1aeb18",
+        "actual": "落盘确认",
+        "actual_len": 4,
+        "actual_sha256": "4d715c838a5e1a661d3b7f566e07fd1cc0c8b89642ead70ea8e347fcba7e5822"
+      },
+      {
+        "shot": 6,
+        "field": "title",
+        "xlsx": "开场",
+        "xlsx_len": 2,
+        "xlsx_sha256": "fd0d4b7258c28a997a70287839f0ebb226398443848352c94ebb7738bbd710e9",
+        "actual": "工位衔接",
+        "actual_len": 4,
+        "actual_sha256": "95c49c3ab00db529cfac25c802fba19b311f7a2de749fd29bf459b6f7539a17d"
+      }
+    ]
+  },
+  "other_fields": {
+    "card_content_exact": "7/7",
+    "card_hint_exact": "7/7",
+    "title_exact": "5/7",
+    "module_label_exact": "7/7",
+    "explicit_show_fields_observed": 0,
+    "show_evidence": "card_content presence inference only; UI evidence remains separate"
+  },
+  "not_run": ["legacy UI", "Food E2E", "W6", "any retry", "any additional model call"]
+}

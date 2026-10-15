@@ -1,0 +1,44 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: video_auto_cut_material
+      POSTGRES_USER: material_owner
+      POSTGRES_PASSWORD: ${MATERIAL_POSTGRES_OWNER_PASSWORD:?set MATERIAL_POSTGRES_OWNER_PASSWORD}
+      MATERIAL_APP_DATABASE_PASSWORD: ${MATERIAL_POSTGRES_PASSWORD:?set MATERIAL_POSTGRES_PASSWORD}
+    volumes:
+      - material-postgres:/var/lib/postgresql/data
+      - ./migrations/000_create_app_role.sh:/docker-entrypoint-initdb.d/000_create_app_role.sh:ro
+      - ./migrations/001_material_cloud.sql:/docker-entrypoint-initdb.d/001_material_cloud.sql:ro
+      - ./migrations/002_operational_integrity.sql:/docker-entrypoint-initdb.d/002_operational_integrity.sql:ro
+      - ./migrations/003_application_role.sql:/docker-entrypoint-initdb.d/003_application_role.sql:ro
+      - ./migrations/004_analysis_pipeline.sql:/docker-entrypoint-initdb.d/004_analysis_pipeline.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U material_owner -d video_auto_cut_material"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    ports:
+      - "127.0.0.1:${MATERIAL_POSTGRES_HOST_PORT:-5433}:5432"
+
+  material-api:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MATERIAL_DATABASE_URL: postgresql://video_auto_cut:${MATERIAL_POSTGRES_PASSWORD}@postgres:5432/video_auto_cut_material
+      MATERIAL_MIGRATION_DATABASE_URL: postgresql://material_owner:${MATERIAL_POSTGRES_OWNER_PASSWORD}@postgres:5432/video_auto_cut_material
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8091:8091"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8091/health/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  material-postgres:

@@ -1,0 +1,153 @@
+{
+  "schema": "food-route-a-shortroot-preflight/v1",
+  "created_at": "2026-09-29T06:55:14.262023+00:00",
+  "formal_spawn_count_new_run": 0,
+  "historical_formal_runs": 2,
+  "head": "665cdc0c89e43dbe0b218d7dcb5ebcf91c599017",
+  "branch": "feature/material-agent-select",
+  "dirty": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+  "manifest_run_id": "run_175e3315e0624f028eba293d66a9dece",
+  "shots": 9,
+  "fixture_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "tools": {
+    "tracked_count": 157,
+    "runtime_checked_count": 157,
+    "same": true,
+    "different": []
+  },
+  "materials": [
+    {
+      "material_id": "mat_3da0e2104e894488a75a5887022e26ce",
+      "exists": true,
+      "expected_sha256": "59440657e30ec17b131436d5b5c64aa257704c7fcb965bdec9f50c7377b8c6ef",
+      "actual_sha256": "59440657e30ec17b131436d5b5c64aa257704c7fcb965bdec9f50c7377b8c6ef",
+      "same": true
+    },
+    {
+      "material_id": "mat_44515e666fa743ef91f93c5bb632f795",
+      "exists": true,
+      "expected_sha256": "00f664de57f001c821ea20e4bcc08320f0bd32c0f0b1c83d4470d28303c055db",
+      "actual_sha256": "00f664de57f001c821ea20e4bcc08320f0bd32c0f0b1c83d4470d28303c055db",
+      "same": true
+    },
+    {
+      "material_id": "mat_583a8144c015464fb60fdfcabdbbed1b",
+      "exists": true,
+      "expected_sha256": "193f7aee3b3b5ffcad7ee85e556daa17a65c5f1347f373214946e422893e6edf",
+      "actual_sha256": "193f7aee3b3b5ffcad7ee85e556daa17a65c5f1347f373214946e422893e6edf",
+      "same": true
+    },
+    {
+      "material_id": "mat_781dc99bf0d84e19aba40d089db958ca",
+      "exists": true,
+      "expected_sha256": "84f1a370dcb4546c02fb03af8a0915eae30eebd6190d4b6be4a4f80ce4e3d23d",
+      "actual_sha256": "84f1a370dcb4546c02fb03af8a0915eae30eebd6190d4b6be4a4f80ce4e3d23d",
+      "same": true
+    },
+    {
+      "material_id": "mat_9602ed3d52864e259c636a95f76ad3e6",
+      "exists": true,
+      "expected_sha256": "acf7e181d1117435336767c1a97f1e972fd64646f4b9ff0876c1bfdeeb446abd",
+      "actual_sha256": "acf7e181d1117435336767c1a97f1e972fd64646f4b9ff0876c1bfdeeb446abd",
+      "same": true
+    },
+    {
+      "material_id": "mat_9f2f2498dd1949de839b7111f399a378",
+      "exists": true,
+      "expected_sha256": "e80233bdb3ea74f6f73ef74b07a2230122267c43776b008b8fdb5b09e950202b",
+      "actual_sha256": "e80233bdb3ea74f6f73ef74b07a2230122267c43776b008b8fdb5b09e950202b",
+      "same": true
+    }
+  ],
+  "material_unique_count": 6,
+  "material_hash_source": "fresh hash",
+  "six_protections": [
+    {
+      "path": "VideoAutoCutDesktop/package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/runtime-release/manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:/Video Edit/VideoAutoCut/config/app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:/Users/evstm/.pi/agent/models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "fresh_roots": {
+    "workspace": {
+      "exists": false,
+      "empty": false
+    },
+    "output": {
+      "exists": false,
+      "empty": false
+    },
+    "temp": {
+      "exists": false,
+      "empty": false
+    },
+    "pi_agent": {
+      "exists": false,
+      "empty": false
+    },
+    "appdata": {
+      "exists": false,
+      "empty": false
+    }
+  },
+  "path_estimate": {
+    "short_root": "D:\\vac\\f3",
+    "short_root_length": 9,
+    "cwd_without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+    "cwd_without_prefix_length": 123,
+    "cwd_passed_to_subprocess": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+    "cwd_passed_to_subprocess_length": 127,
+    "short_root_max": 20,
+    "cwd_max": 200,
+    "pass": true
+  },
+  "auth": {
+    "valid_at_check": true,
+    "expires_at_utc": "2026-09-30T03:16:21.251000Z",
+    "secret_values_recorded": false
+  },
+  "oracle": {
+    "path": "../food-rerun-51402638-independent/source-54-field-oracle.json",
+    "sha256": "b94b4817b9fbdd4f75ff16c1dd8947b094e6f531e40915aadb8455d2118d5a94",
+    "not_rerun": true
+  },
+  "engine_or_model_started": false,
+  "ok": true
+}

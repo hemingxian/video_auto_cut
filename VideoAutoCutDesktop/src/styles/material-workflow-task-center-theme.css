@@ -1,0 +1,470 @@
+/*
+ * Material workflow typography and controls aligned with the original task center.
+ * This file intentionally contains overrides only, keeping the reference layouts isolated.
+ */
+
+.materials-page,
+.shot-drawer-panel,
+.shot-picker-dialog,
+.vac-ref-page {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+}
+
+/* Production material library */
+
+.materials-page {
+  --material-canvas: #0f1217;
+  --material-panel: #111418;
+  --material-panel-deep: #0b0e13;
+  --material-control: #171b22;
+  --material-border: #252b36;
+  --material-border-strong: #303744;
+  --material-text: #e8edf6;
+  --material-text-secondary: #b8c0cd;
+  --material-text-muted: #7f8998;
+  width: 100%;
+  height: 100%;
+  padding: 22px;
+  background: transparent;
+}
+
+.materials-page .page-header {
+  min-height: 38px;
+  margin-bottom: 14px;
+}
+
+.material-page-header {
+  min-height: 38px;
+  gap: 16px;
+  padding-right: 0;
+}
+
+.material-page-title h1 {
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.materials-page .material-page-header .button {
+  min-height: 38px;
+  padding: 0 14px;
+  border-color: #303744;
+  border-radius: 12px;
+  color: #e8edf6;
+  background: #171b22;
+  font-size: 13px;
+}
+
+.materials-page .material-page-header .button:nth-child(1),
+.materials-page .material-page-header .button:nth-child(2),
+.materials-page .material-page-header .button:nth-child(3),
+.materials-page .material-page-header .button.primary {
+  min-width: 0;
+}
+
+.materials-page .material-page-header .button:hover {
+  border-color: #3b82f6;
+  background: #1d2430;
+}
+
+.materials-page .material-page-header .button.primary {
+  border-color: #2563eb;
+  background: #2563eb;
+  box-shadow: none;
+}
+
+.materials-page .material-page-header .button-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.materials-page .materials-surface {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.material-library-toolbar {
+  min-height: 66px;
+  flex: 0 0 auto;
+  grid-template-columns: minmax(430px, 1.05fr) minmax(390px, .95fr);
+  gap: 20px;
+  margin: 0 0 14px;
+  padding: 12px;
+  border: 1px solid #252b36;
+  border-radius: 18px;
+  background: #111418;
+}
+
+.material-library-search-row {
+  grid-template-columns: 120px minmax(240px, 1fr) 70px;
+  gap: 8px;
+}
+
+.material-library-search-mode .select-trigger,
+.material-library-search-input input,
+.material-library-search-button {
+  min-height: 38px;
+  height: 38px;
+  border-color: #303744;
+  border-radius: 12px;
+  color: #e8edf6;
+  background: #0b0e13;
+  font-size: 13px;
+}
+
+.material-library-filter-tabs,
+.material-library-view-switch {
+  min-height: 38px;
+  height: 38px;
+  border-color: #303744;
+  border-radius: 12px;
+  background: #111418;
+}
+
+.material-library-filter-row {
+  gap: 12px;
+}
+
+.material-library-filter-tab {
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.material-library-view-switch button {
+  width: 42px;
+  height: 28px;
+  border-radius: 9px;
+}
+
+.material-library-workspace {
+  grid-template-columns: 220px minmax(420px, 1fr) 320px;
+  gap: 10px;
+}
+
+.material-library-folders,
+.material-library-content,
+.material-library-details {
+  border-color: #252b36;
+  border-radius: 18px;
+  background: #111418;
+}
+
+.material-library-content {
+  background: #111418;
+}
+
+.material-library-panel-title {
+  border-bottom-color: #252b36;
+}
+
+.material-library-folder-row {
+  border-radius: 10px;
+}
+
+.material-library-folder-row:hover {
+  background: #171b22;
+}
+
+.material-library-folder-row.active {
+  border-color: rgba(59, 130, 246, 0.32);
+  color: #93c5fd;
+  background: rgba(37, 99, 235, 0.18);
+}
+
+.material-library-panel-title strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.material-library-folder-row {
+  font-size: 13px;
+}
+
+.material-library-folder-row em,
+.material-library-content-head > span {
+  font-size: 12px;
+}
+
+.material-library-content-head button {
+  font-size: 13px;
+}
+
+.material-library-card-main > strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.material-library-grid {
+  gap: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.material-library-card {
+  min-height: 238px;
+  border-color: #252b36;
+  border-radius: 13px;
+  background: #0d1015;
+}
+
+.material-library-card:hover {
+  border-color: #3b82f6;
+  background: #111820;
+}
+
+.material-library-thumbnail {
+  border-color: #252b36;
+  border-radius: 10px;
+}
+
+.material-library-badge {
+  font-size: 10px;
+}
+
+.material-library-batch-bar > span,
+.material-library-batch-bar button {
+  font-size: 12px;
+}
+
+.material-library-batch-bar {
+  border-color: #303744;
+  border-radius: 12px;
+  background: #171b22;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+}
+
+.material-library-detail-heading strong {
+  font-size: 16px;
+}
+
+.material-library-detail-list,
+.material-library-detail-actions button,
+.material-library-page-size,
+.material-library-pagination button {
+  font-size: 12px;
+}
+
+.material-library-detail-actions button,
+.material-library-page-size,
+.material-library-pagination button {
+  border-color: #303744;
+  border-radius: 12px;
+  background: #171b22;
+}
+
+.material-library-detail-list > div {
+  border-top-color: #252b36;
+}
+
+@media (max-width: 1320px) {
+  .material-library-toolbar {
+    grid-template-columns: 1fr;
+    min-height: 118px;
+  }
+
+  .material-library-workspace {
+    grid-template-columns: 190px minmax(390px, 1fr) 280px;
+  }
+
+  .material-library-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Standalone reference pages */
+
+.vac-ref-page {
+  color: #e8edf6;
+}
+
+.vac-ref-page button {
+  border-color: #303744;
+  color: #e8edf6;
+  background: #171b22;
+}
+
+.vac-ref-page button:hover {
+  border-color: #3b82f6;
+  background: #1d2430;
+}
+
+.vac-ref-page button.primary {
+  border-color: #2563eb;
+  background: #2563eb;
+  box-shadow: none;
+}
+
+.vac-ref-editor-header h1 {
+  font-size: 16px;
+}
+
+.vac-ref-editor-header p,
+.vac-ref-topic,
+.vac-ref-shot-head span,
+.vac-ref-shot-fields label {
+  font-size: 12px;
+}
+
+.vac-ref-editor-header button,
+.vac-ref-shot-material > button {
+  min-height: 38px;
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.vac-ref-editor-header button.icon {
+  width: 38px;
+  border-radius: 10px;
+}
+
+.vac-ref-topic input,
+.vac-ref-shot-fields input,
+.vac-ref-shot-fields textarea {
+  border-color: #303744;
+  border-radius: 12px;
+  color: #e8edf6;
+  background: #0b0e13;
+  font-size: 12px;
+}
+
+.vac-ref-shot-head strong {
+  font-size: 13px;
+}
+
+.vac-ref-shot-material > div:first-child strong {
+  font-size: 12px;
+}
+
+.vac-ref-shot-material > div:first-child span,
+.vac-ref-shot-selection-chips > span {
+  font-size: 10px;
+}
+
+.vac-ref-picker-title h1 {
+  font-size: 15px;
+}
+
+.vac-ref-picker-title p,
+.vac-ref-picker-actions button,
+.vac-ref-search-mode,
+.vac-ref-picker-search input {
+  font-size: 10px;
+}
+
+.vac-ref-picker-actions button,
+.vac-ref-search-mode,
+.vac-ref-picker-search {
+  min-height: 34px;
+  height: 34px;
+  border-radius: 7px;
+}
+
+.vac-ref-picker-locations > strong,
+.vac-ref-picker-locations button,
+.vac-ref-picker-footer button {
+  font-size: 10px;
+}
+
+.vac-ref-picker-locations button {
+  height: 32px;
+  border-radius: 7px;
+}
+
+.vac-ref-picker-card > div:last-child strong,
+.vac-ref-material-main strong {
+  font-size: 10px;
+}
+
+.vac-ref-picker-card > div:last-child span,
+.vac-ref-material-main em,
+.vac-ref-picker-result-head,
+.vac-ref-picker-toolbar > span,
+.vac-ref-picker-selection-summary span,
+.vac-ref-picker-footer > span {
+  font-size: 9px;
+}
+
+.vac-ref-picker-selection-summary strong {
+  font-size: 11px;
+}
+
+.vac-ref-library-header h1 {
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.vac-ref-library-header button {
+  min-height: 38px;
+  height: 38px;
+  padding: 0 14px;
+  border-color: #303744;
+  border-radius: 12px;
+  background: #171b22;
+  font-size: 13px;
+}
+
+.vac-ref-library-header button svg {
+  width: 18px;
+}
+
+.vac-ref-library-search-mode,
+.vac-ref-library-toolbar > label,
+.vac-ref-library-toolbar .search-button {
+  height: 38px;
+  border-color: #303744;
+  border-radius: 12px;
+  background: #0b0e13;
+  font-size: 13px;
+}
+
+.vac-ref-library-toolbar input {
+  font-size: 13px;
+}
+
+.vac-ref-library-filters,
+.vac-ref-library-view {
+  height: 38px;
+  border-color: #303744;
+  border-radius: 12px;
+}
+
+.vac-ref-library-filters button {
+  min-width: 76px;
+  padding: 0 12px;
+  font-size: 12px;
+}
+
+.vac-ref-library-folders header strong,
+.vac-ref-library-details > header strong {
+  font-size: 14px;
+}
+
+.vac-ref-library-folders nav button,
+.vac-ref-library-content-head > div,
+.vac-ref-library-card-main > strong {
+  font-size: 13px;
+}
+
+.vac-ref-library-folders nav em,
+.vac-ref-library-content-head > span,
+.vac-ref-library-batch,
+.vac-ref-library-detail-body dl,
+.vac-ref-library-detail-actions button,
+.vac-ref-library-pagination button {
+  font-size: 12px;
+}
+
+.vac-ref-library-detail-body h2 {
+  font-size: 16px;
+}
+
+.vac-ref-library-detail-actions button,
+.vac-ref-library-pagination button {
+  border-color: #303744;
+  border-radius: 12px;
+  background: #171b22;
+}

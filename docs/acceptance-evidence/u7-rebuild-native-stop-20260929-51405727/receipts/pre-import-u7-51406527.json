@@ -1,0 +1,28 @@
+{
+  "schema": "vacut-u7-51406527-preimport/v1",
+  "checked_at": "2026-09-29T09:45:10.1848157Z",
+  "pass": true,
+  "source_head": "59412b33e4b4c68de3867ccb0736ac7fac30f450",
+  "current_version": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "current_runtime_path": "D:\\vac\\u7n",
+  "current_read_at": "2026-09-29T09:45:10.1490825Z",
+  "current_sha256": "a313573406886fcf94c56a61b18305591ab142596b3460e87e862cc05e247d87",
+  "current_copy": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-rerun-51405727\\phase-51406527\\receipts\\current-before-u7.json",
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "fixture_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+  "observer_sha256": "a4686bd134c52aa99119f2311b4940c264007c017b9a4283a87934ea46ab5b91",
+  "observer_owner_pid": 42904,
+  "help_child_pid": 8,
+  "help_exit_code": 0,
+  "help_child_executable_path": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+  "manifest_isolation_listener_present": false,
+  "safe_effective_defaults": {
+    "parse_model": "qwen-long",
+    "review_model": "qwen-long",
+    "script_review": true,
+    "http_attempt_limit": 5
+  },
+  "captured_children_before_click": 1,
+  "gui_import_clicks_before": 0,
+  "model_attempts_before": 0
+}

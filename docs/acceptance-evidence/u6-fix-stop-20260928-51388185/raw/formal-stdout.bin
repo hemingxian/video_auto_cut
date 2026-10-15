@@ -1,0 +1,109 @@
+成片比例: 16:9，分辨率: 1080p，输出尺寸: 1920x1080，等比例居中、纯黑填充
+
+========== VideoAuto ==========
+主题: 转换演示_v1表格
+运行目录: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716
+脚本文档: D:\autocut\video-auto-cut\docs\script-template-v1\转换演示_v1表格.xlsx
+分镜数: 6
+素材来源: Pexels
+每分镜下载: 2
+每分镜剪出: 1
+匹配接受阈值: 0.00
+================================
+
+
+>>> python normalize_script
+"D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\runtime\\0.5.14\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\runtime\\0.5.14\\VideoAutoCut\\tools\\normalize_script.py" "--input" "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx" "--output" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\temp\\normalized_script_shots.json" "--topic" "转换演示_v1表格"
+AI 上传脚本文件: D:\autocut\video-auto-cut\docs\script-template-v1\转换演示_v1表格.xlsx
+AI 脚本文件上传完成: file-fe-d91589f3818344b8af1fa82b
+AI 解析脚本文件: D:\autocut\video-auto-cut\docs\script-template-v1\转换演示_v1表格.xlsx
+AI 脚本规范化完成: D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\temp\normalized_script_shots.json
+分镜数: 8
+任务编排说明: plan only requested
+任务编排置信度: 1.00
+
+========== 任务步骤 ==========
+#01 解析脚本 (ParseScript)
+#02 整理分镜 (PlanStoryboard)
+============================
+
+VACUT_EVENT:{"kind":"workflow_plan","workflowPlan":{"stages":["script","plan"]}}
+已生成分镜: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"script","status":"running","total":null},"workflowStage":"script","workflowStatus":"running"}
+
+>>> 执行能力步骤 #01: 解析脚本 (ParseScript)
+脚本文档已解析: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"plan","status":"running","total":null},"workflowStage":"plan","workflowStatus":"running"}
+
+>>> 执行能力步骤 #02: 整理分镜 (PlanStoryboard)
+
+========== 分镜 ==========
+#01 开场钩子
+  视觉模式: stock_video
+  下载关键词: 机床 机器人 取件, CNC machine tending robot
+  画面搜索描述: 机床全景起幅，机器人从机床里取出工件，切到取件近景
+  时长: 6 秒
+  字幕: 机床在等人？ 副行：CNC 上下料自动化怎么选
+  口播: 加工节拍不到一分钟，工人一天弯腰上千次，机床反而在等人。CNC 上下料，到底该怎么自动化？
+  卡片: 机床在等人？ 副行：CNC 上下料自动化怎么选
+#02 方案·1对2单元
+  视觉模式: stock_video
+  下载关键词: 供料专机 料盘 俯拍, tray type tending cell
+  画面搜索描述: 俯拍一台供料专机：机器人、毛坯盘、成品盘和机床操作面同框
+  时长: 14 秒
+  字幕: 1 台供料专机 → 2 台 CNC 上料 · 取件 · 叠放 一次完成
+  口播: EVST 给出的答案是料盘式机器人上下料单元。一台供料专机，同时服务两台 CNC：把毛坯送进去，把加工好的工件取出来，直接完成叠放。这是一个单元级的方案，不只是一条机械臂。
+  卡片: 1 台供料专机 → 2 台 CNC 上料 · 取件 · 叠放 一次完成
+#03 工作原理·三步
+  视觉模式: stock_video
+  下载关键词: 料仓 转台 吸盘 定位, rotary magazine suction cup locating
+  画面搜索描述: 双料盘对比，转台和吸盘供料、定位抓取
+  时长: 20 秒
+  字幕: 01 料仓预放料 → 02 吸盘供料 + 二次定位 → 03 机械臂取放料
+  口播: 它的核心不在机器人本体，而在「料怎么呈现」。第一步，旋转料仓人工预放料；第二步，转台配合机械臂和吸盘自动供料，并做二次定位；第三步，机械臂自动取放料。定位准了，机床里的装夹才稳。
+  卡片: 01 料仓预放料 → 02 吸盘供料 + 二次定位 → 03 机械臂取放料
+#04 完整形态·上下料+缓存+在线检测
+  视觉模式: stock_video
+  下载关键词: 机床 产线 输送线 检测, machining line conveyor inspection
+  画面搜索描述: 多台机床成线，输送线与料盘上料
+  时长: 15 秒
+  字幕: 上下料 → 缓存 → 在线检测 小字：AGV / AMR · 皮带机 · 理料机 对接
+  口播: 成线的时候，上下料只是一环。完整形态是：上下料机、缓存上下料机、检测专机三件配齐。尺寸检测看厚度、高度、直径，辅料有无、字符对比也能在线做。前后还能对接 AGV、AMR、皮带机和理料机。
+  卡片: 上下料 → 缓存 → 在线检测 小字：AGV / AMR · 皮带机 · 理料机 对接
+#05 参数卡
+  视觉模式: stock_video
+  下载关键词: 供料专机 正面, feeder unit front view
+  画面搜索描述: 供料专机正面全景定格，参数卡叠在右侧
+  时长: 10 秒
+  字幕: 总功率 <3 kW ｜ 电源 单相 220V 50Hz ｜ 气源 0.4–0.6 MPa ｜ 重复定位精度 ±0.03 mm
+  口播: 接入门槛很低：总功率不到 3 千瓦，单相 220 伏就能用，气源 0.4 到 0.6 兆帕，重复定位精度正负 0.03 毫米。
+  卡片: 总功率 <3 kW ｜ 电源 单相 220V 50Hz ｜ 气源 0.4–0.6 MPa ｜ 重复定位精度 ±0.03 mm
+#06 适用边界·何时上/不上
+  视觉模式: stock_video
+  下载关键词: 一拖三 机床 上下料 重载, one robot multiple machines
+  画面搜索描述: 左：成品盘特写；右：一台机器人服务三台机床、重载刹车盘守机
+  时长: 20 秒
+  字幕: 决策树：节拍<60s + 小件 + 850及以下立加 → 料盘式单元 ｜ 节拍长/工件重/多机 → 机器人一拖多守机
+  口播: 它不是万能的。这套单元针对的是 CNC 加工 CT 小于 60 秒的小件自动上下料，比如经过 CNC 二次加工的冲压件、注塑件、压铸件；机床通用范围是 850 及以下的小型立式加工中心，其它机型按实际工况设计。节拍长、工件重的场景，更适合一台机器人守多台机床的方案，EVST 两条路都有。
+  卡片: 决策树：节拍<60s + 小件 + 850及以下立加 → 料盘式单元 ｜ 节拍长/工件重/多机 → 机器人一拖多守机
+#07 行业面
+  视觉模式: stock_video
+  下载关键词: 机加工 上下料 汽车零件 散热片, machining loading auto parts
+  画面搜索描述: 不同行业工件机加工上下料快切：汽车零件、散热片、刹车盘
+  时长: 8 秒
+  字幕: 行业 chip ×4：汽摩配 · 家电数码 · 3C · 零部件加工
+  口播: 汽摩配、家电数码、3C、零部件加工——凡是小件批量 CNC 的车间，这套逻辑都成立。
+  卡片: 行业 chip ×4：汽摩配 · 家电数码 · 3C · 零部件加工
+#08 收尾·CTA
+  视觉模式: stock_video
+  下载关键词: 机器人 机床 全景, robot CNC wide shot
+  画面搜索描述: 机床全景拉回，机器人继续循环
+  时长: 9 秒
+  字幕: 国内：看主页 · 更多上下料产线案例（零联系方式、零外链） 海外：Contact us ｜ sales@evsrobot.com ｜ Tel/WhatsApp/WeChat +86 19381626253 ｜ evsint.com/contact/
+  口播: （国内版）把你的工件图和机床型号发过来，我们先帮你判断该不该上、上哪一种。更多产线案例，看主页。
+  卡片: 国内：看主页 · 更多上下料产线案例（零联系方式、零外链） 海外：Contact us ｜ sales@evsrobot.com ｜ Tel/WhatsApp/WeChat +86 19381626253 ｜ evsint.com/contact/
+===========================
+
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowStage":"done","workflowStatus":"completed"}
+
+全部完成. run: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716

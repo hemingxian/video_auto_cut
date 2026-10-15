@@ -1,0 +1,28 @@
+{
+  "schema": "vacut-u6-folder-stop-operator-timeline/v1",
+  "entries": [
+    {
+      "at_utc": "2026-09-28T08:08:27.2801422Z",
+      "action": "isolated launcher started"
+    },
+    {
+      "at_utc": "2026-09-28T08:09:49.7546070Z",
+      "action": "formal pre-import runtime gate passed"
+    },
+    {
+      "at_utc": "2026-09-28T08:10:24.803Z",
+      "action": "formal import clicked once"
+    },
+    {
+      "at_local": "2026-09-28T16:10:59+08:00",
+      "action": "folder button click rejected; launcher/Vite log timestamp"
+    },
+    {
+      "at_utc": "2026-09-28T08:13:30.879Z",
+      "action": "official Sky Alt+F4 sent to isolated window"
+    }
+  ],
+  "badshot_imports": 0,
+  "u7_imports": 0,
+  "model_calls": 0
+}

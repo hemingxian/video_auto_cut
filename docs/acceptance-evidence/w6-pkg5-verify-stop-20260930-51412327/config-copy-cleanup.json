@@ -1,0 +1,8 @@
+{
+  "authorized_by": 51411758,
+  "fixed_target": "isolated-worktree/VideoAutoCutDesktop/release-upload.local.json",
+  "target_absent": true,
+  "main_config_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+  "main_config_unchanged": true,
+  "content_recorded": false
+}

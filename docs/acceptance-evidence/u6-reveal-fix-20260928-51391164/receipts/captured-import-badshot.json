@@ -1,0 +1,57 @@
+{
+  "schema": "vacut-u6-phase-51391164-5893f7d-captured-import-check/v1",
+  "phase": "badshot",
+  "checked_at": "2026-09-28T09:15:14.4675486Z",
+  "pass": true,
+  "sequence": 3,
+  "metadata_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-metadata.json",
+  "metadata_sha256": "ad70ce981ba89ba40c2476bf2af205f426ab3d7fcb1ef7458defa5a8b6fd9364",
+  "exit_code": 1,
+  "inner_normalize_exit_code": 2,
+  "stderr_wrapper": {
+    "nonempty_lines": 1,
+    "generic_ai_error_only_here": true,
+    "contains_python_normalize_script": true
+  },
+  "stdout": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-stdout.bin",
+    "sha256": "ba9481f75830e3b4eec3a209eb21a190cfeed1007e653d450c077741c2b79027",
+    "bytes": 2080
+  },
+  "stderr": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-stderr.bin",
+    "sha256": "7a264856d9e3d5ff101e838ac142e9dcb9974e7c06df77833c30a01f6427e18d",
+    "bytes": 250
+  },
+  "events": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-vacut-events.bin",
+    "sha256": "6cbb490c9b663ac2a1ae061da8806026b8f045a7c571e8aa77a837d98c9c5f5f",
+    "lines": 1
+  },
+  "standard_template_marker": true,
+  "forbidden_model_path_or_name_markers": 0,
+  "ai_lines": {
+    "inventory_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\receipts\\ai-lines-badshot.json",
+    "inventory_sha256": "b5334f42b334def0d5a44a6d7dc355a5b1a57ce86a4e59dd590ceed296b12b0a",
+    "all": 0,
+    "ordinary": 0,
+    "fixed_ai_suggested": 0,
+    "unexpected_ordinary": 0,
+    "event": 0
+  },
+  "candidate_provenance": {
+    "current_runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+    "captured_child_executable_basename": "videoautocutengine.exe",
+    "candidate_python_path_in_stdout": true,
+    "candidate_normalize_script_path_in_stdout": true
+  },
+  "script_import_event_count": 1,
+  "report": {
+    "route": "template",
+    "format": "VAC-SB-1",
+    "shots": 1,
+    "blocked": 1,
+    "warnings": 0,
+    "warning_codes": {}
+  }
+}

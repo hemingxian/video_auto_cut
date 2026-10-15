@@ -1,0 +1,32 @@
+{
+  "schema": "vacut-food-phase-51390393-launch/v1",
+  "written_at": "2026-09-29T03:16:05.7220765Z",
+  "app_started_when_written": false,
+  "root_released_source_sha": "2cad82d773f8bbfc9e66013628322dd499a3d161",
+  "root_reviewed_ipc_fix_sha": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "source_audit": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928",
+  "reused_user_data_data_config_library": true,
+  "saved_plan_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\data\\video\\runs\\20260928\\示例_食品码垛_v1\\.videoautocut\\runs\\run_20260928_121628_096_36396\\shots.json",
+  "saved_plan_sha256": "b3486d6dd95350bddef2ec5bf01d50831d99f45591149cf7c581668b76d7b05f",
+  "current_json_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\data\\runtime\\current.json",
+  "current_json_sha256": "6eb2148bc8fd45fb5162e437172dc91b7d52afdafe832c719b1c9920dac4968e",
+  "current_json_raw_utf8_bytes": 222,
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "app_env_sha256_before": "26010e085b9a47417907d8c1eb93e145fec479b75c5b086bba1c5768b2e2f099",
+  "observer_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\scripts\\electron-stdout-tap.cjs",
+  "observer_sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc",
+  "manifest_isolation": {
+    "url": "http://127.0.0.1:9/runtime/manifest.json",
+    "aliases": [
+      "VIDEOAUTO_RUNTIME_MANIFEST_URL",
+      "VIDEOAUTOCUT_RUNTIME_MANIFEST_URL"
+    ],
+    "process_environment_only": true,
+    "port_9_listener_present": false
+  },
+  "pre_generate_manifest_required": false,
+  "import_invocations": 0,
+  "generate_clicks": 0,
+  "model_invocations": 0,
+  "secret_values_recorded": false
+}

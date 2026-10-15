@@ -1,0 +1,73 @@
+{
+  "schema": "default-workspace-51403704/v1",
+  "method": "read-only source/config whitelist audit; no engine/model/config mutation",
+  "default": {
+    "user_data_root": "%LOCALAPPDATA%\\VideoAutoCut",
+    "workspace": "%LOCALAPPDATA%\\VideoAutoCut\\workspace",
+    "localappdata_fallback_installer": "$PROFILE\\AppData\\Local",
+    "localappdata_fallback_desktop": "app.getPath('home')\\AppData\\Local",
+    "appdata_role": "legacy roaming workspace only"
+  },
+  "priority": {
+    "user_data_root": ["VIDEOAUTO_USER_DATA_ROOT", "installer marker", "HKCU UserDataRoot", "HKLM UserDataRoot", "LOCALAPPDATA/VideoAutoCut fallback"],
+    "workspace": ["process VIDEOAUTO_DATA_ROOT", "app.env VIDEOAUTO_WORKSPACE_DIR", "app.env VIDEOAUTO_DATA_ROOT", "userDataRoot/workspace fallback"],
+    "engine_data_root": ["VIDEOAUTO_DATA_ROOT", "VIDEOAUTO_WORKSPACE_DIR", "engine root fallback"],
+    "python_data_root": ["VIDEOAUTO_DATA_ROOT", "VIDEOAUTO_WORKSPACE_DIR", "runtime root fallback"]
+  },
+  "citations": [
+    "VideoAutoCutDesktop/build/installer.nsh:84-100",
+    "VideoAutoCutDesktop/build/installer.nsh:256-285",
+    "VideoAutoCutDesktop/electron/main.ts:49-51",
+    "VideoAutoCutDesktop/electron/main.ts:87-103",
+    "VideoAutoCutDesktop/electron/main.ts:136-145",
+    "VideoAutoCutDesktop/electron/workspace-service.ts:168-172",
+    "VideoAutoCutDesktop/electron/workspace-service.ts:453-465",
+    "VideoAutoCutDesktop/electron/material-local-store.ts:3460-3507",
+    "VideoAutoCutApp/src/paths.rs:30-34",
+    "VideoAutoCutApp/src/paths.rs:57-58",
+    "VideoAutoCut/tools/common.py:59-66",
+    "VideoAutoCutApp/src/main.rs:988-1023",
+    "VideoAutoCutApp/src/main.rs:1033-1044",
+    "VideoAutoCutApp/src/main.rs:1087-1095",
+    "VideoAutoCutApp/src/final_video.rs:71-78",
+    "VideoAutoCut/tools/render_segment.py:593-603"
+  ],
+  "examples": {
+    "ordinary_default_for_local_username": {
+      "data_root": "C:\\Users\\evstm\\AppData\\Local\\VideoAutoCut\\workspace",
+      "data_root_length": 51,
+      "desktop_typical_project": "未命名任务",
+      "desktop_preferred_manifest_run_id": "run_175e3315e0624f028eba293d66a9dece",
+      "packaging_cwd_length": 166
+    },
+    "manifest_example": {
+      "project": "food_project",
+      "run_id": "run_175e3315e0624f028eba293d66a9dece",
+      "packaging_cwd_length": 173
+    },
+    "cli_fallback_without_preferred_manifest": {
+      "project": "未命名任务",
+      "run_id": "run_20260929_143223_123_15304",
+      "run_id_length": 29,
+      "packaging_cwd_length": 159
+    },
+    "current_machine_configured": {
+      "registry_user_data_root": "D:\\Video Edit\\VideoAutoCut",
+      "workspace_env_override_present": false,
+      "derived_workspace": "D:\\Video Edit\\VideoAutoCut\\workspace",
+      "derived_workspace_length": 36,
+      "is_ordinary_default": false,
+      "is_audit_root": false
+    }
+  },
+  "formula": "len(data_root) + len(project_name) + len(run_id) + 74",
+  "conditional_bounds": {
+    "project_name": "64 Rust Unicode scalar values after sanitization",
+    "manifest_run_id": "128 ASCII characters",
+    "ordinary_default_current_username_string_character_condition": 317,
+    "supplementary_UTF16_reachability": "not claimed; sanitize_filename third-party byte semantics were not audited",
+    "global_full_path_maximum": null,
+    "global_limit_reason": "user-data/workspace root is configurable to an arbitrary absolute path and has no source-enforced maximum"
+  },
+  "secrets_read_or_emitted": false
+}

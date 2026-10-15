@@ -1,0 +1,14 @@
+[2026-09-28 14:12:24] 日志已启动: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716\run.log
+
+[2026-09-28 14:12:24] 运行目录: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716
+
+[2026-09-28 14:12:24] >>> python normalize_script
+
+[2026-09-28 14:12:24] "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\runtime\\0.5.14\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\runtime\\0.5.14\\VideoAutoCut\\tools\\normalize_script.py" "--input" "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx" "--output" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\temp\\normalized_script_shots.json" "--topic" "转换演示_v1表格"
+
+[2026-09-28 14:14:00] 命令完成: python normalize_script, 退出码: Some(0)
+
+[2026-09-28 14:14:00] 全部完成: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388185-d345570-20260928\data\video\runs\20260928\转换演示_v1表格\.videoautocut\runs\run_20260928_141224_534_39716
+
+[2026-09-28 14:14:00] 程序正常结束
+

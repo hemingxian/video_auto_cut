@@ -1,0 +1,16 @@
+{
+  "records": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCut\\tools\\material_gen\\records\\_probe_w6.txt",
+    "sha256": "ba9c736f19e7f60b7f6764adb0b7908c0a2b394e09b6c09863528c7f2bc86095",
+    "recreated_after_failed_prepare": true
+  },
+  "cache": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCut\\tools\\material_gen\\hyperframes\\node_modules\\.cache\\_probe_w6.txt",
+    "sha256": "ba9c736f19e7f60b7f6764adb0b7908c0a2b394e09b6c09863528c7f2bc86095",
+    "recreated_after_failed_prepare": true
+  },
+  "allowed_untracked": [
+    "?? VideoAutoCut/tools/material_gen/records/_probe_w6.txt"
+  ],
+  "head_before_pack": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21"
+}

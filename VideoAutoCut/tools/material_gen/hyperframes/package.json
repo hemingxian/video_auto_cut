@@ -1,0 +1,13 @@
+{
+  "name": "videoauto-hyperframes-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node node_modules/hyperframes/dist/cli.js render"
+  },
+  "dependencies": {
+    "gsap": "3.14.2",
+    "hyperframes": "0.7.3"
+  }
+}

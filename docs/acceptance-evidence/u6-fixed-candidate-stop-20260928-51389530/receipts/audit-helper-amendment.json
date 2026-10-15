@@ -1,0 +1,21 @@
+{
+  "schema": "vacut-u6-preparation-helper-amendment/v1",
+  "amended_at": "2026-09-28T07:14:18.4669652Z",
+  "reason": "51389530 event AI recursive mechanical gate",
+  "old_helper_sha256": "85956f063f219758aa69768c121a069660da74dac526e0b73fee372ff1e2d877",
+  "new_helper_sha256": "e1645c1c31ecd6b654edf02b855bcf67c2ba5e66e581b85f85bc03b44f5ec91b",
+  "parser_errors": 0,
+  "memory_only_checks": {
+    "get_exact_lines_count": 3,
+    "line_endings": [
+      "CRLF",
+      "LF",
+      "none"
+    ],
+    "recursive_literal_ai_leaf_count": 1,
+    "recursive_literal_ai_path": "scriptImport.warnings[0].message"
+  },
+  "app_started": false,
+  "import_invocations": 0,
+  "model_invocations": 0
+}

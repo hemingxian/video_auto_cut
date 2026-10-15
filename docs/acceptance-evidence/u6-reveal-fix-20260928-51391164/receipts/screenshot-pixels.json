@@ -1,0 +1,99 @@
+{
+  "schema": "vacut-u6-public-screenshot-pixels/v1",
+  "count": 8,
+  "all_decoded_pixels_equal": true,
+  "mappings": [
+    {
+      "jpeg": "screenshots/queue-empty-visible-before-formal.jpeg",
+      "jpeg_sha256": "88a00dc039f86a979968cce4a9c1a1ee43f586cf92d7d9155dc9b17f4422bd0a",
+      "png": "screenshots/queue-empty-visible-before-formal.png",
+      "png_sha256": "c3ac1ea0a8879a654a862ab9dd247ae7e3dad3874a07578310603271c9f3e02c",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/formal-drawer-before-import-no-range-selected.jpeg",
+      "jpeg_sha256": "fc207f7bfabe2794c003bd4f34697361e0ff43eed505a1c57f37500e8e095cac",
+      "png": "screenshots/formal-drawer-before-import-no-range-selected.png",
+      "png_sha256": "a289ff0a84736fc036214f515677b9e019ce8717e00470507da6d378832955f6",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/formal-main-failed.jpeg",
+      "jpeg_sha256": "f423989f7809c5cf9e1b3661ba4778cdb87304058d8fa44165cea248ea31dabd",
+      "png": "screenshots/formal-main-failed.png",
+      "png_sha256": "9d0e522a11e88358920e2d0e080bd78088c029defd38c5a2222773f51ee5f735",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/formal-queue-two-blocked.jpeg",
+      "jpeg_sha256": "8d4e32c5fd1f7f56651bd3e0d0c0bc8a67e8a33ae0a9b67b984f68253099ee36",
+      "png": "screenshots/formal-queue-two-blocked.png",
+      "png_sha256": "c5f79ffdb066a759fa4219450a7a722c692da01a40499aea93981200ade3ae31",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/formal-app-after-folder-click.jpeg",
+      "jpeg_sha256": "6a601988417ab074269445a97d0f507fe40ae40fb23b6eaeb27a8cfdddb38643",
+      "png": "screenshots/formal-app-after-folder-click.png",
+      "png_sha256": "e63d1593aa7d41cc5e16e082ffb2d6621445f061f377038f70cffd91c2fbf974",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/formal-explorer-target-window-selected-workbook.jpeg",
+      "jpeg_sha256": "63601113a7988a003920cdab70b4597967d8179cc24611264a4323b4ec24a44e",
+      "png": "screenshots/formal-explorer-target-window-selected-workbook.png",
+      "png_sha256": "2711586a04ead8d059d9a0e8bd6441d0d93ad94dfae9a9234a7d186b436676f9",
+      "decoded_mode": "RGB",
+      "width": 1489,
+      "height": 634,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/badshot-main-failed.jpeg",
+      "jpeg_sha256": "8dd565c12f2273edfa35d522fec2afa593a6b8fbaf5e6eeee9e539a032a7a1b6",
+      "png": "screenshots/badshot-main-failed.png",
+      "png_sha256": "74bee3af4daab5f0bfa9f2edf752c04aaf54a61ae375ad545a8df1fc735f99f5",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    },
+    {
+      "jpeg": "screenshots/badshot-queue-a2-minus1.jpeg",
+      "jpeg_sha256": "c14422a66b9ebb6b8746bdb956e89f770f4738afc09703a4c0e47c359f1881ea",
+      "png": "screenshots/badshot-queue-a2-minus1.png",
+      "png_sha256": "63e36224ae6cdfc5b1976857900f79f32a935dd53e0e1250fc5fa987651ae651",
+      "decoded_mode": "RGB",
+      "width": 1306,
+      "height": 853,
+      "decoded_pixels_equal": true
+    }
+  ],
+  "excluded_private_sources": [
+    {
+      "name": "queue-absent-before-formal.jpeg",
+      "sha256": "7dba8509e6881315bdcb9cdb99092467081b9db25e619ba39b0aa67043b5cfad",
+      "reason": "loading-only blank frame; does not prove queue state"
+    },
+    {
+      "name": "formal-explorer-selected-workbook.jpeg",
+      "sha256": "a4a84ae4cdfed871555b17b2ad8571abc6cb2b5706fc56b69472a2900de981b0",
+      "reason": "full desktop contains unrelated windows; replaced publicly by the official Sky target-window screenshot"
+    }
+  ]
+}

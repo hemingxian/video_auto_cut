@@ -1,0 +1,47 @@
+# Local tools
+ossutil.exe
+
+# Generated caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Local design backups
+VideoAutoCutDesktop/build/*backup*
+VideoAutoCutDesktop/public/*backup*
+
+# VideoAutoCut runtime payloads and local state
+VideoAutoCut/.env
+VideoAutoCutMaterialService/.env
+VideoAutoCutMaterialService/.env.local
+VideoAutoCutMaterialService/*.egg-info/
+VideoAutoCut/cookies/
+VideoAutoCut/video/
+VideoAutoCut/voice_templates/
+VideoAutoCut/ffmpeg/
+VideoAutoCut/node-runtime/
+VideoAutoCut/python-3.11.9-embed-amd64/
+VideoAutoCut/sentrysearch/.venv/
+VideoAutoCut/sentrysearch/sentrysearch/*.bak_*
+VideoAutoCut/prompts/rust/
+VideoAutoCut/tools/material_gen/**/node_modules/
+VideoAutoCut/tools/material_gen/hyperframes/chrome-headless-shell/
+VideoAutoCut/tools/material_gen/remotion/src/active-plan.json
+VideoAutoCut/tools/material_gen/remotion/src/AiGeneratedMaterialVideo.jsx
+VideoAutoCut/tools/**/__pycache__/
+VideoAutoCut/yt-dlp.exe
+VideoAutoCut/VideoAutoCutEngine.exe
+
+# Generated document QA artifacts
+docs/qa_bin/
+docs/qa_prd_aligned/
+docs/qa_prd_aligned_pdf/
+docs/qa_prd_aligned_v2/
+docs/qa_source.docx
+docs/**/.build/
+docs/**/qa/
+docs/**/qa_final/
+docs/**/qa_final2/
+
+# cargo test (VideoAutoCutApp/tests/material_match_config.rs) scratch directory
+.codex-tmp/

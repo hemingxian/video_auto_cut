@@ -1,0 +1,1427 @@
+{
+  "schema": "food-ass-51404601/v1",
+  "instruction": 51404601,
+  "rules": [
+    "no normalization of internal text, punctuation, case, or spaces",
+    "each temporal ASS event tail may omit only characters in \\s、，,。！？!?；;：:.…",
+    "a same-time physical-line seam may consume zero or one U+0020; authored LF must align to that seam",
+    "same-time/same-layer events are physical lines ordered by pos y then ASS source line",
+    "unequal overlaps or multiple text alignments require manual review and never pass"
+  ],
+  "xlsx": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx",
+  "xlsx_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "oracle": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51402638-independent\\source-54-field-oracle.json",
+  "oracle_sha256": "b94b4817b9fbdd4f75ff16c1dd8947b094e6f531e40915aadb8455d2118d5a94",
+  "run_shots": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\shots.json",
+  "run_shots_sha256": "b1fa7de76279e29abf3cabdad83faea771cad950357cc2ec00a47ed1034a46c8",
+  "duration_receipt": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-media-51404601\\receipts\\media-acceptance.json",
+  "duration_receipt_sha256": "e4a1a5f432e056ae6b30dcc5434d41625c4f92f42417a1c7cc14c517df71cb4d",
+  "source_errors": [],
+  "shot_audits": [
+    {
+      "shot": 1,
+      "shot_id": "template-0001",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0001_final_16520_a970ea5f.ass",
+      "ass_sha256": "2fc7a7ee44309e3c8909f424047936eef81e11f4717051f313476179302958bc",
+      "expected": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.24,
+          "end": 1.76,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}食品包装线的末端",
+          "visible": "食品包装线的末端",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.24,
+            1.76,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 2.08,
+          "end": 3.6,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}一箱箱成品下线以后",
+          "visible": "一箱箱成品下线以后",
+          "pos_y": 1075.0,
+          "group_key": [
+            2.08,
+            3.6,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 3.6,
+          "end": 6.08,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}最重复、最累人的一道活",
+          "visible": "最重复、最累人的一道活",
+          "pos_y": 1075.0,
+          "group_key": [
+            3.6,
+            6.08,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 6.08,
+          "end": 7.36,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}就是码垛",
+          "visible": "就是码垛",
+          "pos_y": 1075.0,
+          "group_key": [
+            6.08,
+            7.36,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.24,
+          "end": 1.76,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 2.08,
+          "end": 3.6,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 3.6,
+          "end": 6.08,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 6.08,
+          "end": 7.36,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 8.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 8,
+            "expected_end": 9,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 18,
+            "expected_end": 19,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 30,
+            "expected_end": 31,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 35,
+            "expected_end": 36,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 2,
+      "shot_id": "template-0002",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0002_final_2644_044d2ee9.ass",
+      "ass_sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6",
+      "expected": "U3字幕验收：整箱来料排队。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.0,
+          "end": 8.54,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}U3字幕验收：整箱来料排队",
+          "visible": "U3字幕验收：整箱来料排队",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.0,
+            8.54,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.0,
+          "end": 8.54,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 9.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 13,
+            "expected_end": 14,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 3,
+      "shot_id": "template-0003",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0003_final_37516_1d74f6b0.ass",
+      "ass_sha256": "06e00b8e575b2897cab7071cbc883ef5ba060cf3060a6c02e8d8ee64c89af6e3",
+      "expected": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.24,
+          "end": 2.64,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}机器人从输送带上抓起整箱",
+          "visible": "机器人从输送带上抓起整箱",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.24,
+            2.64,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 2.64,
+          "end": 4.56,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}抬起、转身",
+          "visible": "抬起、转身",
+          "pos_y": 1075.0,
+          "group_key": [
+            2.64,
+            4.56,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 4.8,
+          "end": 6.08,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}送到托盘上方",
+          "visible": "送到托盘上方",
+          "pos_y": 1075.0,
+          "group_key": [
+            4.8,
+            6.08,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 6.4,
+          "end": 6.88,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}抓得稳",
+          "visible": "抓得稳",
+          "pos_y": 1075.0,
+          "group_key": [
+            6.4,
+            6.88,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 17,
+          "layer": "5",
+          "start": 7.12,
+          "end": 7.68,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}转得快",
+          "visible": "转得快",
+          "pos_y": 1075.0,
+          "group_key": [
+            7.12,
+            7.68,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 18,
+          "layer": "5",
+          "start": 8.0,
+          "end": 9.68,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}节拍才跟得上产线",
+          "visible": "节拍才跟得上产线",
+          "pos_y": 1075.0,
+          "group_key": [
+            8.0,
+            9.68,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.24,
+          "end": 2.64,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 2.64,
+          "end": 4.56,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 4.8,
+          "end": 6.08,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 6.4,
+          "end": 6.88,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 7.12,
+          "end": 7.68,
+          "layer": "5",
+          "physical_lines": [
+            17
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 8.0,
+          "end": 9.68,
+          "layer": "5",
+          "physical_lines": [
+            18
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 11.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 12,
+            "expected_end": 13,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 18,
+            "expected_end": 19,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 25,
+            "expected_end": 26,
+            "expected_text": "。"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 29,
+            "expected_end": 30,
+            "expected_text": "、"
+          },
+          {
+            "event_index": 4,
+            "kind": "tail_allowed",
+            "expected_start": 33,
+            "expected_end": 34,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 5,
+            "kind": "tail_allowed",
+            "expected_start": 42,
+            "expected_end": 43,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 4,
+      "shot_id": "template-0004",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0004_final_34068_cd7083cf.ass",
+      "ass_sha256": "620e32345ff253ca0b807788802ab402247161f2a4702f7211aad1f9285c2577",
+      "expected": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.32,
+          "end": 1.2,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}落到托盘上",
+          "visible": "落到托盘上",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.32,
+            1.2,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 1.36,
+          "end": 3.04,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}每一箱的位置和朝向",
+          "visible": "每一箱的位置和朝向",
+          "pos_y": 1075.0,
+          "group_key": [
+            1.36,
+            3.04,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 3.52,
+          "end": 4.88,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}都按设定好的垛型来",
+          "visible": "都按设定好的垛型来",
+          "pos_y": 1075.0,
+          "group_key": [
+            3.52,
+            4.88,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 4.88,
+          "end": 5.92,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}一层码满",
+          "visible": "一层码满",
+          "pos_y": 1075.0,
+          "group_key": [
+            4.88,
+            5.92,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 17,
+          "layer": "5",
+          "start": 5.92,
+          "end": 7.44,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}再码下一层",
+          "visible": "再码下一层",
+          "pos_y": 1075.0,
+          "group_key": [
+            5.92,
+            7.44,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.32,
+          "end": 1.2,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 1.36,
+          "end": 3.04,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 3.52,
+          "end": 4.88,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 4.88,
+          "end": 5.92,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 5.92,
+          "end": 7.44,
+          "layer": "5",
+          "physical_lines": [
+            17
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 8.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 5,
+            "expected_end": 6,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 15,
+            "expected_end": 16,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 25,
+            "expected_end": 26,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 30,
+            "expected_end": 31,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 4,
+            "kind": "tail_allowed",
+            "expected_start": 36,
+            "expected_end": 37,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 5,
+      "shot_id": "template-0005",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0005_final_42072_8aa8dec1.ass",
+      "ass_sha256": "60d852108a437dd205535c9acd4741d54fa2a00e9dd8f15e208d2406c2ec2b9a",
+      "expected": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.24,
+          "end": 1.68,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}箱子码得整齐",
+          "visible": "箱子码得整齐",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.24,
+            1.68,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 1.84,
+          "end": 2.72,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}整垛才稳",
+          "visible": "整垛才稳",
+          "pos_y": 1075.0,
+          "group_key": [
+            1.84,
+            2.72,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 3.04,
+          "end": 4.24,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}后面叉车转运",
+          "visible": "后面叉车转运",
+          "pos_y": 1075.0,
+          "group_key": [
+            3.04,
+            4.24,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 4.4,
+          "end": 5.28,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}进库存放",
+          "visible": "进库存放",
+          "pos_y": 1075.0,
+          "group_key": [
+            4.4,
+            5.28,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 17,
+          "layer": "5",
+          "start": 5.6,
+          "end": 7.28,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}都不容易倒箱、塌垛",
+          "visible": "都不容易倒箱、塌垛",
+          "pos_y": 1075.0,
+          "group_key": [
+            5.6,
+            7.28,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.24,
+          "end": 1.68,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 1.84,
+          "end": 2.72,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 3.04,
+          "end": 4.24,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 4.4,
+          "end": 5.28,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 5.6,
+          "end": 7.28,
+          "layer": "5",
+          "physical_lines": [
+            17
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 8.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 6,
+            "expected_end": 7,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 11,
+            "expected_end": 12,
+            "expected_text": "。"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 18,
+            "expected_end": 19,
+            "expected_text": "、"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 23,
+            "expected_end": 24,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 4,
+            "kind": "tail_allowed",
+            "expected_start": 33,
+            "expected_end": 34,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 6,
+      "shot_id": "template-0006",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0006_final_3596_a3952c05.ass",
+      "ass_sha256": "98ec744dbf078f61757f56059cbb3aef2e38d9bb7c5b49e7a3a56f129e081159",
+      "expected": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.64,
+          "end": 1.52,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}同一个工作站",
+          "visible": "同一个工作站",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.64,
+            1.52,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 2.16,
+          "end": 3.12,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}箱型变了",
+          "visible": "箱型变了",
+          "pos_y": 1075.0,
+          "group_key": [
+            2.16,
+            3.12,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 3.84,
+          "end": 5.52,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}改的主要是垛型程序",
+          "visible": "改的主要是垛型程序",
+          "pos_y": 1075.0,
+          "group_key": [
+            3.84,
+            5.52,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 6.08,
+          "end": 7.52,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}必要时再换抓具",
+          "visible": "必要时再换抓具",
+          "pos_y": 1075.0,
+          "group_key": [
+            6.08,
+            7.52,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 17,
+          "layer": "5",
+          "start": 8.08,
+          "end": 9.28,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}不用动整条线",
+          "visible": "不用动整条线",
+          "pos_y": 1075.0,
+          "group_key": [
+            8.08,
+            9.28,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.64,
+          "end": 1.52,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 2.16,
+          "end": 3.12,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 3.84,
+          "end": 5.52,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 6.08,
+          "end": 7.52,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 8.08,
+          "end": 9.28,
+          "layer": "5",
+          "physical_lines": [
+            17
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 10.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 6,
+            "expected_end": 7,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 11,
+            "expected_end": 12,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 21,
+            "expected_end": 22,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 29,
+            "expected_end": 30,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 4,
+            "kind": "tail_allowed",
+            "expected_start": 36,
+            "expected_end": 37,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 7,
+      "shot_id": "template-0007",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0007_final_39912_5dc08e8e.ass",
+      "ass_sha256": "c6d282fac0e8cbc8ab531c4ef1f24e38e2e806266b02072983132dd8be388158",
+      "expected": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.24,
+          "end": 1.68,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}现场留一个人巡线",
+          "visible": "现场留一个人巡线",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.24,
+            1.68,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 1.92,
+          "end": 3.04,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}换托盘就够了",
+          "visible": "换托盘就够了",
+          "pos_y": 1075.0,
+          "group_key": [
+            1.92,
+            3.04,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 3.44,
+          "end": 5.12,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}搬箱子这种重复的体力活",
+          "visible": "搬箱子这种重复的体力活",
+          "pos_y": 1075.0,
+          "group_key": [
+            3.44,
+            5.12,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 16,
+          "layer": "5",
+          "start": 5.12,
+          "end": 6.8,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}交给机器人",
+          "visible": "交给机器人",
+          "pos_y": 1075.0,
+          "group_key": [
+            5.12,
+            6.8,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.24,
+          "end": 1.68,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 1.92,
+          "end": 3.04,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 3.44,
+          "end": 5.12,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 5.12,
+          "end": 6.8,
+          "layer": "5",
+          "physical_lines": [
+            16
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 8.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 8,
+            "expected_end": 9,
+            "expected_text": "、"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 15,
+            "expected_end": 16,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 27,
+            "expected_end": 28,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 3,
+            "kind": "tail_allowed",
+            "expected_start": 33,
+            "expected_end": 34,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 8,
+      "shot_id": "template-0008",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0008_final_38468_2f43fbf3.ass",
+      "ass_sha256": "5675467a4daf8b5f14c9d60a21e81c2758a54cc9b8b558c22d4f0692adc005ab",
+      "expected": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.0,
+          "end": 9.5,
+          "raw": "{\\an2\\fs68\\pos(960,993)}先备好四样：箱体尺寸和重量、每小时箱数、托盘规",
+          "visible": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规",
+          "pos_y": 993.0,
+          "group_key": [
+            0.0,
+            9.5,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 2
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 0.0,
+          "end": 9.5,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}格、目标垛型",
+          "visible": "格、目标垛型",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.0,
+            9.5,
+            "5"
+          ],
+          "physical_line_index": 1,
+          "physical_line_count": 2
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.0,
+          "end": 9.5,
+          "layer": "5",
+          "physical_lines": [
+            13,
+            14
+          ],
+          "pos_y": [
+            993.0,
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 10.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_zero",
+            "expected_start": 23,
+            "expected_end": 23,
+            "expected_text": ""
+          },
+          {
+            "event_index": 0,
+            "kind": "soft_zero",
+            "expected_start": 23,
+            "expected_end": 23,
+            "expected_text": ""
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 29,
+            "expected_end": 30,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    },
+    {
+      "shot": 9,
+      "shot_id": "template-0009",
+      "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0009_final_41772_af7380da.ass",
+      "ass_sha256": "d51081f1cb65c5d963f692a974bd96ddbd06ccafc53575b618ba3b6e81fc55e8",
+      "expected": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+      "events": [
+        {
+          "line": 13,
+          "layer": "5",
+          "start": 0.16,
+          "end": 2.24,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}把你的箱型和垛型发过来",
+          "visible": "把你的箱型和垛型发过来",
+          "pos_y": 1075.0,
+          "group_key": [
+            0.16,
+            2.24,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 14,
+          "layer": "5",
+          "start": 2.48,
+          "end": 3.92,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}我们照着现场条件",
+          "visible": "我们照着现场条件",
+          "pos_y": 1075.0,
+          "group_key": [
+            2.48,
+            3.92,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        },
+        {
+          "line": 15,
+          "layer": "5",
+          "start": 4.32,
+          "end": 6.64,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}帮你把这一段码垛工位排出来",
+          "visible": "帮你把这一段码垛工位排出来",
+          "pos_y": 1075.0,
+          "group_key": [
+            4.32,
+            6.64,
+            "5"
+          ],
+          "physical_line_index": 0,
+          "physical_line_count": 1
+        }
+      ],
+      "same_time_groups": [
+        {
+          "start": 0.16,
+          "end": 2.24,
+          "layer": "5",
+          "physical_lines": [
+            13
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 2.48,
+          "end": 3.92,
+          "layer": "5",
+          "physical_lines": [
+            14
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        },
+        {
+          "start": 4.32,
+          "end": 6.64,
+          "layer": "5",
+          "physical_lines": [
+            15
+          ],
+          "pos_y": [
+            1075.0
+          ]
+        }
+      ],
+      "actual_clip_duration": 8.0,
+      "time_tolerance": 0.0,
+      "match": {
+        "match": true,
+        "ambiguous": false,
+        "solution_count": 1,
+        "trace": [
+          {
+            "event_index": 0,
+            "kind": "tail_allowed",
+            "expected_start": 11,
+            "expected_end": 12,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 1,
+            "kind": "tail_allowed",
+            "expected_start": 20,
+            "expected_end": 21,
+            "expected_text": "，"
+          },
+          {
+            "event_index": 2,
+            "kind": "tail_allowed",
+            "expected_start": 34,
+            "expected_end": 35,
+            "expected_text": "。"
+          }
+        ]
+      },
+      "parse_errors": [],
+      "time_errors": [],
+      "manual_review_reasons": [],
+      "pass": true
+    }
+  ],
+  "ok": true
+}

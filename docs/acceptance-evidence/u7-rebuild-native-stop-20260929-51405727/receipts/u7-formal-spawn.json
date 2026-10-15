@@ -1,0 +1,10 @@
+{
+  "schema": "vacut-engine-spawn-identity/v1",
+  "recorded_at": "2026-09-29T09:47:06.873Z",
+  "observer_pid": 42904,
+  "child_pid": 30704,
+  "requested_executable_path": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+  "child_spawnfile": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+  "executable_sha256_at_spawn": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "arguments_sha256": "0f29bd1635ac3df476fa3f10cee29d31d0841432d6efa4307d218ddbf0977e96"
+}

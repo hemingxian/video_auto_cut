@@ -1,0 +1,31 @@
+[1] 
+[1] > videoauto-desktop@0.5.14 build:electron
+[1] > node -e "require('node:fs').rmSync('dist-electron',{recursive:true,force:true})" && tsc -p tsconfig.electron.json && npm run build:preload
+[1] 
+[0] 
+[0]   VITE v8.0.16  ready in 1387 ms
+[0] 
+[0]   ➜  Local:   http://127.0.0.1:4173/
+[1] 
+[1] > videoauto-desktop@0.5.14 build:preload
+[1] > tsc -p tsconfig.preload.json && vite build --config vite.preload.config.ts
+[1] 
+[1] vite v8.0.16 building client environment for production...
+[1] [2Ktransforming...✓ 3 modules transformed.
+[1] rendering chunks...
+[1] computing gzip size...
+[1] dist-electron/preload.cjs  9.15 kB │ gzip: 2.03 kB
+[1] 
+[1] ✓ built in 16ms
+[1] 
+[1] [auth:gateway-key] ready { keyId: 30, groupId: 4 }
+[1] Error occurred in handler for 'folder:open': Error: 目录不在工作区内，已拒绝删除
+[1]     at Object.assertInsideWorkspace (file:///D:/autocut/video-auto-cut/VideoAutoCutDesktop/dist-electron/workspace-service.js:440:19)
+[1]     at openWorkspacePath (file:///D:/autocut/video-auto-cut/VideoAutoCutDesktop/dist-electron/ipc-handlers.js:30:45)
+[1]     at file:///D:/autocut/video-auto-cut/VideoAutoCutDesktop/dist-electron/ipc-handlers.js:123:55
+[1]     at Session.<anonymous> (node:electron/js2c/browser_init:2:116067)
+[1]     at Session.emit (node:events:509:28)
+[0] 16:10:59 [vite] (client) [console.error] [VideoAutoCut] open folder failed {"target":"D:\\autocut\\video-auto-cut\\docs\\script-template-v1","error":{"name":"Error","message":"Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除","stack":"Error: Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除"}}
+[1] npm run build:electron && node_modules\.bin\wait-on.cmd http://127.0.0.1:4173 && node_modules\.bin\cross-env.cmd VITE_DEV_SERVER_URL=http://127.0.0.1:4173 node_modules\.bin\electron.cmd . exited with code 0
+--> Sending SIGTERM to other processes..
+[0] node_modules\.bin\vite.cmd --host 127.0.0.1 --port 4173 exited with code 1

@@ -1,0 +1,115 @@
+{
+  "artifact_checks": [
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_asr_result.json",
+      "same": true
+    },
+    {
+      "name": "0001_cues.json",
+      "same": true
+    },
+    {
+      "name": "0001_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0002_cues.json",
+      "same": true
+    },
+    {
+      "name": "0002_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0003_cues.json",
+      "same": true
+    },
+    {
+      "name": "0003_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0004_cues.json",
+      "same": true
+    },
+    {
+      "name": "0004_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0005_cues.json",
+      "same": true
+    },
+    {
+      "name": "0005_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0006_cues.json",
+      "same": true
+    },
+    {
+      "name": "0006_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0007_cues.json",
+      "same": true
+    },
+    {
+      "name": "0007_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0008_cues.json",
+      "same": true
+    },
+    {
+      "name": "0008_voice.mp3",
+      "same": true
+    },
+    {
+      "name": "0009_cues.json",
+      "same": true
+    },
+    {
+      "name": "0009_voice.mp3",
+      "same": true
+    }
+  ],
+  "checked_count": 27,
+  "failures": 0,
+  "independent_review_sha256": "30fc4b78b8f2ca5a3b994bc8bd4c61bf78a62ff26f0ceef588ba4fb39a64d5cb"
+}

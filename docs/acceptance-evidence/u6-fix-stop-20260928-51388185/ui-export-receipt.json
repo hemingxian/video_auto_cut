@@ -1,0 +1,91 @@
+{
+  "schema": "vacut-ui-evidence-export/v1",
+  "source_audit_relative": "VideoAutoCutDesktop/node_modules/.tmp/ui-u6-51388185-d345570-20260928",
+  "destination_relative": "docs/acceptance-evidence/u6-fix-stop-20260928-51388185",
+  "raw_observer_files": [
+    {
+      "source": "raw-electron-stdout/activation-owner-37812.json",
+      "destination": "raw/activation-owner-37812.json",
+      "bytes": 450,
+      "sha256": "276d6208d7bd04eb2a471021716934cea855fc3409427cfccd1d299d295d0870",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/preflight-owner-37812.json",
+      "destination": "raw/preflight-owner-37812.json",
+      "bytes": 451,
+      "sha256": "40662cac5682a742932a2f94ecc40d6fbded0020d0124df83256144aeddd2c84",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-1-child-5112-metadata.json",
+      "destination": "raw/help-metadata.json",
+      "bytes": 1001,
+      "sha256": "6aad72bfcdbe4b181bf9dddc523a060ed940184854d13ecbe985d8f9daf0102c",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-1-child-5112-stdout.bin",
+      "destination": "raw/help-stdout.bin",
+      "bytes": 1882,
+      "sha256": "d6e5b441a7444c0387a13aa7b0ae0f930c03463c81b6da8e8edf4bd01890a49e",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-1-child-5112-stderr.bin",
+      "destination": "raw/help-stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-1-child-5112-vacut-events.bin",
+      "destination": "raw/help-vacut-events.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-2-child-39716-metadata.json",
+      "destination": "raw/formal-metadata.json",
+      "bytes": 1007,
+      "sha256": "ba6b95938ced0fcfbfea5a6e12641b86da4a53429c83ed5da6c344825e854421",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-2-child-39716-stdout.bin",
+      "destination": "raw/formal-stdout.bin",
+      "bytes": 8708,
+      "sha256": "b350a0c83a4da48d195a5199424cefc360df52dd1b71916de1d671bfae07fd05",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-2-child-39716-stderr.bin",
+      "destination": "raw/formal-stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_identical": true
+    },
+    {
+      "source": "raw-electron-stdout/observer-37812-seq-2-child-39716-vacut-events.bin",
+      "destination": "raw/formal-vacut-events.bin",
+      "bytes": 589,
+      "sha256": "2580e148201b208ffa4e4b37bc2dc8d0cee811319abf23a5a91e57f2f5c81f82",
+      "byte_identical": true
+    }
+  ],
+  "run_log": {
+    "destination": "raw/formal-run.log",
+    "bytes": 1541,
+    "sha256": "3b6b318462bca7f5c5d6d413022bb321bd9186fc464c4fc8ccf97a4fb8ff0d04",
+    "byte_identical": true
+  },
+  "original_screenshot": {
+    "destination": "screenshots/STOP-runtime-drift-formal-ready.original.jpg",
+    "bytes": 139788,
+    "sha256": "c11283988df5181a3efc2668b9eb0a3b3a6ad5a9434ba21f491ec5ca92dd7074",
+    "byte_identical": true
+  },
+  "tests_directory_touched_by_ui_operator": false,
+  "all_copied_files_byte_identical": true
+}

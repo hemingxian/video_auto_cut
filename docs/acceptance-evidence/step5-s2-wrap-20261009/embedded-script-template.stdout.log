@@ -1,0 +1,6 @@
+[script] 标准模板导入 module_label_replaced: B2 段落不适合作为进度标签，已确定性替换
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"running","workflowProgress":{"stage":"script","status":"running","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\uff1a1 \u955c\uff0c1 \u6761\u63d0\u9192"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"english_segment_chinese_script.xlsx","shots":1,"blocked":[],"warnings":[{"shot":1,"cell":"B2","column":"\u6bb5\u843d","code":"module_label_replaced","message":"\u6bb5\u843d\u4e0d\u9002\u5408\u4f5c\u4e3a\u8fdb\u5ea6\u6807\u7b7e\uff0c\u5df2\u786e\u5b9a\u6027\u66ff\u6362","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"module_label","level":"warn"}]}}
+[script] 标准模板导入完成: 1 镜，1 条提醒
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"running","workflowProgress":{"stage":"script","status":"running","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\uff1a9 \u955c\uff0c0 \u6761\u63d0\u9192"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"\u5206\u955c\u811a\u672c\u793a\u4f8b_\u4e0a\u4e0b\u6599_v1.xlsx","shots":9,"blocked":[],"warnings":[]}}
+[script] 标准模板导入完成: 9 镜，0 条提醒
+N1 audited generated fixture states against a29d74f: 225

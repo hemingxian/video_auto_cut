@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "source_head": "2cad82d773f8bbfc9e66013628322dd499a3d161",
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "fixture_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "isolated_app_env_sha256": "26010e085b9a47417907d8c1eb93e145fec479b75c5b086bba1c5768b2e2f099",
+  "state_sha256": "fbecb657c7e2cec00d2920db744502c8bf1653d41702fee1dd38ebd94ff267f8",
+  "same_env_and_auth_resolution_as_accepted_ui": true,
+  "gateway_and_managed_config_helpers_same_as_desktop": true,
+  "managed_remote_config_cannot_override_path_roots": true,
+  "dotenv_setdefault_cannot_override_explicit_process_roots": true,
+  "subtitle_bold_effective": "1",
+  "packaging_cache_effective": "0",
+  "material_match_min_score_effective": "0",
+  "tts_sentence_mode_effective": "false",
+  "fresh_roots_absent": {
+    "workspace": true,
+    "output": true,
+    "temp": true
+  },
+  "accepted_isolation_roots_exist": {
+    "pi_agent": true,
+    "appdata": true,
+    "env": true
+  },
+  "auth_valid_at_check": true,
+  "auth_expires_at_utc": "2026-09-30T03:16:21Z",
+  "secret_values_recorded": false,
+  "engine_or_model_started_by_this_receipt": false
+}

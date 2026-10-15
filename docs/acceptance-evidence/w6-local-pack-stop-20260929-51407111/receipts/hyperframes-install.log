@@ -1,0 +1,33 @@
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+added 170 packages, and audited 171 packages in 5s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (3 moderate, 10 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn allow-scripts 5 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   @google/genai@1.52.0 (preinstall: echo 'preinstall: no-op')
+npm warn allow-scripts   esbuild@0.25.12 (postinstall: node install.js)
+npm warn allow-scripts   onnxruntime-node@1.27.0 (postinstall: node ./script/install)
+npm warn allow-scripts   protobufjs@7.6.4 (postinstall: node scripts/postinstall)
+npm warn allow-scripts   sharp@0.34.5 (install: node install/check.js || npm run build)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+[install_hyperframes] C:\Program Files\nodejs\npm.CMD ci --prefix D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\hyperframes --omit=dev
+[install_hyperframes] ✓ node          D:\Video Edit\VideoAutoCut\workspace\runtime\0.5.14\VideoAutoCut\node-runtime\node.exe
+[install_hyperframes] ✓ chrome        D:\Video Edit\VideoAutoCut\workspace\runtime\0.5.14\VideoAutoCut\tools\material_gen\hyperframes\chrome-headless-shell\chrome-headless-shell.exe
+[install_hyperframes] ✓ hyperframes   0.7.3  D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\hyperframes\node_modules\hyperframes\dist\cli.js
+[install_hyperframes] ✓ gsap          3.14.2  D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\hyperframes\node_modules\gsap\dist\gsap.min.js
+[install_hyperframes] ✓ require(sharp) 通过
+[install_hyperframes] ✓ 最小分页 composition lint 0 errors
+[install_hyperframes] ✓ node_modules  7166 个文件 / 419059753 字节（419.1 MB）
+[install_hyperframes] node_modules 不入库，随运行包分发：打包前依次跑 install_pi.py 与本脚本，各自 --check 通过再打包。

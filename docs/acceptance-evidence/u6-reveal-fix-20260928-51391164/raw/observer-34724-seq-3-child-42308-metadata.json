@@ -1,0 +1,30 @@
+{
+  "schema": "vacut-electron-stdout-tap/v1",
+  "observer_pid": 34724,
+  "observer_executable_basename": "electron.exe",
+  "child_pid": 42308,
+  "child_executable_basename": "videoautocutengine.exe",
+  "child_argv_sha256": "aa9bea33d219239a923051444ced5a36e3803d491e0c0ee34e8f0bcf0dc13bae",
+  "started_at": "2026-09-28T09:14:59.787Z",
+  "closed_at": "2026-09-28T09:15:00.009Z",
+  "exit_code": 1,
+  "signal": null,
+  "stdout": {
+    "path": "observer-34724-seq-3-child-42308-stdout.bin",
+    "bytes": 2080,
+    "chunks": 4,
+    "sha256": "ba9481f75830e3b4eec3a209eb21a190cfeed1007e653d450c077741c2b79027"
+  },
+  "stderr": {
+    "path": "observer-34724-seq-3-child-42308-stderr.bin",
+    "bytes": 250,
+    "chunks": 1,
+    "sha256": "7a264856d9e3d5ff101e838ac142e9dcb9974e7c06df77833c30a01f6427e18d"
+  },
+  "vacut_events": {
+    "path": "observer-34724-seq-3-child-42308-vacut-events.bin",
+    "lines": 1,
+    "bytes": 625,
+    "sha256": "6cbb490c9b663ac2a1ae061da8806026b8f045a7c571e8aa77a837d98c9c5f5f"
+  }
+}

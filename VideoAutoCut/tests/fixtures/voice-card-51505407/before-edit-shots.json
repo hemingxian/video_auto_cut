@@ -1,0 +1,1321 @@
+{
+  "schema_version": 2,
+  "task_revision": 0,
+  "topic": "示例_食品码垛_口播稿",
+  "shots": [
+    {
+      "shot_id": "shot_c63d2dcb3e054f6baa01b39064c4120a",
+      "shot": 1,
+      "title": "码垛环节痛点",
+      "module_label": "问题引入",
+      "download_query": "食品包装线 码垛 工人搬运",
+      "visual_query": "食品包装线末端，工人搬运箱子的场景，输送带上连续移动的纸箱",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "码垛环节痛点",
+          "transition": "",
+          "visual_description": "食品包装线末端，工人搬运箱子的场景，输送带上连续移动的纸箱",
+          "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。"
+        },
+        "search_keywords": "食品包装线 码垛 工人搬运",
+        "segment": "问题引入",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            0,
+            36
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "食品包装线末端，工人搬运箱子的场景，输送带上连续移动的纸箱"
+      }
+    },
+    {
+      "shot_id": "shot_4d9b061ba37047778b5c47ae91ed66da",
+      "shot": 2,
+      "title": "物料输送过程",
+      "module_label": "流程描述",
+      "download_query": "瓶装水 输送带 纸箱牛奶 移动",
+      "visual_query": "输送带上整齐排列的瓶装水和牛奶纸箱，缓慢移向机器人",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "物料输送过程",
+          "transition": "",
+          "visual_description": "输送带上整齐排列的瓶装水和牛奶纸箱，缓慢移向机器人",
+          "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。"
+        },
+        "search_keywords": "瓶装水 输送带 纸箱牛奶 移动",
+        "segment": "流程描述",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            36,
+            79
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "输送带上整齐排列的瓶装水和牛奶纸箱，缓慢移向机器人"
+      }
+    },
+    {
+      "shot_id": "shot_7caa085f704249cfa24091ffe273b46d",
+      "shot": 3,
+      "title": "机器人抓取动作",
+      "module_label": "动作分解",
+      "download_query": "码垛机器人 抓取纸箱 抬起转身",
+      "visual_query": "机械臂抓取纸箱，抬起并旋转，朝向托盘位置",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 6,
+      "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "机器人抓取动作",
+          "transition": "",
+          "visual_description": "机械臂抓取纸箱，抬起并旋转，朝向托盘位置",
+          "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。"
+        },
+        "search_keywords": "码垛机器人 抓取纸箱 抬起转身",
+        "segment": "动作分解",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            79,
+            105
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "机械臂抓取纸箱，抬起并旋转，朝向托盘位置"
+      }
+    },
+    {
+      "shot_id": "shot_1f6cd0870508489d924aa43481e91729",
+      "shot": 4,
+      "title": "节奏与稳定性",
+      "module_label": "性能要求",
+      "download_query": "码垛机器人 高速稳定 节拍同步",
+      "visual_query": "机器人高速稳定运转，与产线同步节奏",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 5,
+      "voice_text": "抓得稳、转得快，节拍才跟得上产线。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "节奏与稳定性",
+          "transition": "",
+          "visual_description": "机器人高速稳定运转，与产线同步节奏",
+          "voice_text": "抓得稳、转得快，节拍才跟得上产线。"
+        },
+        "search_keywords": "码垛机器人 高速稳定 节拍同步",
+        "segment": "性能要求",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            105,
+            122
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "机器人高速稳定运转，与产线同步节奏"
+      }
+    },
+    {
+      "shot_id": "shot_6d06e26e12114550b9c98333aab612eb",
+      "shot": 5,
+      "title": "精准码垛过程",
+      "module_label": "流程描述",
+      "download_query": "码垛机器人 精准放置 层层堆叠",
+      "visual_query": "箱子精准放置在托盘上，逐层堆叠，形成整齐垛型",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "精准码垛过程",
+          "transition": "",
+          "visual_description": "箱子精准放置在托盘上，逐层堆叠，形成整齐垛型",
+          "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。"
+        },
+        "search_keywords": "码垛机器人 精准放置 层层堆叠",
+        "segment": "流程描述",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            122,
+            159
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "箱子精准放置在托盘上，逐层堆叠，形成整齐垛型"
+      }
+    },
+    {
+      "shot_id": "shot_8e7ec44ab7a34a398a3efd6337e06bc7",
+      "shot": 6,
+      "title": "码垛稳定性",
+      "module_label": "优势说明",
+      "download_query": "整齐码垛 稳固结构",
+      "visual_query": "整齐码放的货垛，结构稳固",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 4,
+      "voice_text": "箱子码得整齐，整垛才稳。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "码垛稳定性",
+          "transition": "",
+          "visual_description": "整齐码放的货垛，结构稳固",
+          "voice_text": "箱子码得整齐，整垛才稳。"
+        },
+        "search_keywords": "整齐码垛 稳固结构",
+        "segment": "优势说明",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            159,
+            171
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "整齐码放的货垛，结构稳固"
+      }
+    },
+    {
+      "shot_id": "shot_2083ce74226c4c17b2b5edc49c6763bd",
+      "shot": 7,
+      "title": "后续转运安全",
+      "module_label": "优势延伸",
+      "download_query": "叉车搬运 码垛 货物进库",
+      "visual_query": "叉车搬运整垛货物，平稳进入仓库",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 6,
+      "voice_text": "后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "后续转运安全",
+          "transition": "",
+          "visual_description": "叉车搬运整垛货物，平稳进入仓库",
+          "voice_text": "后面叉车转运、进库存放，都不容易倒箱、塌垛。"
+        },
+        "search_keywords": "叉车搬运 码垛 货物进库",
+        "segment": "优势延伸",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            171,
+            193
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "叉车搬运整垛货物，平稳进入仓库"
+      }
+    },
+    {
+      "shot_id": "shot_c389ae15b54546eaa0456150a46119cf",
+      "shot": 8,
+      "title": "柔性化调整",
+      "module_label": "系统灵活性",
+      "download_query": "码垛机器人 更换箱型 调整程序 抓具",
+      "visual_query": "更换不同箱型，机器人调整垛型和抓具",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 9,
+      "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "柔性化调整",
+          "transition": "",
+          "visual_description": "更换不同箱型，机器人调整垛型和抓具",
+          "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。"
+        },
+        "search_keywords": "码垛机器人 更换箱型 调整程序 抓具",
+        "segment": "系统灵活性",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            193,
+            230
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "更换不同箱型，机器人调整垛型和抓具"
+      }
+    },
+    {
+      "shot_id": "shot_4e78e078f30942d195a494908e673503",
+      "shot": 9,
+      "title": "人力节省",
+      "module_label": "效益总结",
+      "download_query": "码垛机器人 人工巡线 减少体力劳动",
+      "visual_query": "工人在旁巡视，机器人自动码垛，更换空托盘",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+      "voiceover": true,
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "default",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "人力节省",
+          "transition": "",
+          "visual_description": "工人在旁巡视，机器人自动码垛，更换空托盘",
+          "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。"
+        },
+        "search_keywords": "码垛机器人 人工巡线 减少体力劳动",
+        "segment": "效益总结",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            230,
+            264
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "工人在旁巡视，机器人自动码垛，更换空托盘"
+      }
+    },
+    {
+      "shot_id": "shot_20106ad0f6f44152b4a346e3be764929",
+      "shot": 10,
+      "title": "上线准备事项",
+      "module_label": "实施准备",
+      "download_query": "码垛工作站 上线准备 参数清单",
+      "visual_query": "展示四个准备项的文字或图标：箱型参数、产能需求、托盘尺寸、垛型图示",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 10,
+      "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+      "voiceover": true,
+      "card_content": "箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型",
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "script",
+          "card_hint": "default",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型",
+          "card_hint": "",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "上线准备事项",
+          "transition": "",
+          "visual_description": "展示四个准备项的文字或图标：箱型参数、产能需求、托盘尺寸、垛型图示",
+          "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。"
+        },
+        "search_keywords": "码垛工作站 上线准备 参数清单",
+        "segment": "实施准备",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            264,
+            313
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "展示四个准备项的文字或图标：箱型参数、产能需求、托盘尺寸、垛型图示"
+      }
+    },
+    {
+      "shot_id": "shot_1a38631544d24b55a24abec677246a81",
+      "shot": 11,
+      "title": "服务号召",
+      "module_label": "行动引导",
+      "download_query": "码垛方案定制 客户资料对接",
+      "visual_query": "工作人员接收客户资料，进行方案设计",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+      "voiceover": true,
+      "card_content": "把你的箱型和垛型发过来",
+      "card_hint": "提供信息获取定制方案",
+      "download_material": true,
+      "script_meta": {
+        "camera_angle": "不限",
+        "camera_move": "不限",
+        "field_origin": {
+          "camera_angle": "default",
+          "camera_move": "default",
+          "card_content": "script",
+          "card_hint": "script",
+          "duration": "ai",
+          "material_requirements": "ai",
+          "material_source": "default",
+          "module_label": "ai",
+          "notes": "ai",
+          "search_keywords": "ai",
+          "shot_size": "default",
+          "subtitle": "default",
+          "title": "ai",
+          "transition": "default",
+          "visual_description": "ai",
+          "voice_text": "script"
+        },
+        "material_requirements": "",
+        "material_source": "",
+        "notes": "",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [
+            "title",
+            "subtitle",
+            "card_content",
+            "card_hint",
+            "module_label",
+            "duration",
+            "visual_description",
+            "shot_size",
+            "camera_move",
+            "camera_angle",
+            "transition",
+            "search_keywords",
+            "material_requirements",
+            "material_source",
+            "notes"
+          ],
+          "confirmed": [],
+          "status": "待确认",
+          "status_lines": [
+            "待确认",
+            "AI 整理自：示例_食品码垛_口播稿.txt",
+            "口播按原文逐字切分，分段位置由 AI 决定，请检查每镜起止"
+          ],
+          "warnings": [
+            {
+              "code": "camera_inferred_dropped",
+              "field": "shot_size",
+              "level": "warn",
+              "message": "shot_size=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_move",
+              "level": "warn",
+              "message": "camera_move=不限"
+            },
+            {
+              "code": "camera_inferred_dropped",
+              "field": "camera_angle",
+              "level": "warn",
+              "message": "camera_angle=不限"
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "不限",
+          "camera_move": "不限",
+          "card_content": "把你的箱型和垛型发过来",
+          "card_hint": "提供信息获取定制方案",
+          "card_layout": "",
+          "shot_size": "不限",
+          "subtitle": "",
+          "title": "服务号召",
+          "transition": "",
+          "visual_description": "工作人员接收客户资料，进行方案设计",
+          "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。"
+        },
+        "search_keywords": "码垛方案定制 客户资料对接",
+        "segment": "行动引导",
+        "shot_size": "不限",
+        "source": {
+          "file": "示例_食品码垛_口播稿.txt",
+          "route": "organized",
+          "voice_span": [
+            313,
+            348
+          ]
+        },
+        "transition": "",
+        "v": 1,
+        "visual_description": "工作人员接收客户资料，进行方案设计"
+      }
+    }
+  ],
+  "script_source": {
+    "dictionaries": {
+      "camera_angle": [
+        "平视",
+        "俯拍",
+        "仰拍",
+        "顶拍",
+        "侧拍",
+        "背拍",
+        "主观视角",
+        "倾斜",
+        "不限"
+      ],
+      "camera_move": [
+        "固定",
+        "推",
+        "拉",
+        "左摇",
+        "右摇",
+        "上摇",
+        "下摇",
+        "左移",
+        "右移",
+        "跟",
+        "升",
+        "降",
+        "环绕",
+        "甩",
+        "手持",
+        "不限"
+      ],
+      "shot_size": [
+        "大远景",
+        "远景",
+        "全景",
+        "中景",
+        "中近景",
+        "近景",
+        "特写",
+        "大特写",
+        "不限"
+      ],
+      "transition": [
+        "硬切",
+        "叠化",
+        "淡入",
+        "淡出",
+        "闪白",
+        "闪黑",
+        "划像",
+        "甩切",
+        "匹配剪辑"
+      ]
+    },
+    "file_name": "示例_食品码垛_口播稿.txt",
+    "file_sha256": "a6c7083e333e349a71d4cc12d14b5713080a281fc9ff39e5d9f581bc13c275eb",
+    "format": "VAC-SB-1",
+    "import_summary": {
+      "shots": 11,
+      "shots_with_ai_suggested": 11,
+      "warnings": 33
+    },
+    "project_info": {},
+    "route": "organized",
+    "v": 1,
+    "voice_body_sha256": "90d9a3090acbf4e9572c75ab4bbd5cebdd2f4da246ab46cdf533b8e23979d34b",
+    "voice_mode": "verbatim"
+  }
+}

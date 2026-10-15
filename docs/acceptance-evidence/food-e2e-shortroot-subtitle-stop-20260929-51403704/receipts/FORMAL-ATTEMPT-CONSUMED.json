@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-09-29T06:57:15.819Z",
+  "executable": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\VideoAutoCutEngine.exe",
+  "executable_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "args": [
+    "--restart-all",
+    "--shots-json",
+    "D:\\vac\\f3\\shots.json",
+    "--material-manifest",
+    "D:\\vac\\f3\\material_manifest.json",
+    "--project-name",
+    "f3",
+    "--aspect-ratio",
+    "16:9",
+    "--output-resolution",
+    "1080p",
+    "--source",
+    "pexels"
+  ]
+}

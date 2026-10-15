@@ -1,0 +1,43 @@
+{
+  "schema": "food-xlsx-card-oracle/v1",
+  "xlsx_path": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx",
+  "xlsx_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "sheet": "分镜脚本",
+  "card_content_column": "K 上屏文字",
+  "card_hint_column": "L 卡片提示",
+  "shots": [
+    {
+      "shot": 1,
+      "xlsx_row": 2,
+      "raw_card_content": "大字：包装线末端，最重复的一道活\n副行：箱装食品码垛工作站",
+      "card_hint": "标题卡",
+      "expected_visible_lines": [
+        "包装线末端，最重复的一道活",
+        "箱装食品码垛工作站"
+      ],
+      "card_expected": true
+    },
+    {
+      "shot": 5,
+      "xlsx_row": 6,
+      "raw_card_content": "—",
+      "card_hint": "—",
+      "expected_visible_lines": [],
+      "card_expected": false
+    },
+    {
+      "shot": 8,
+      "xlsx_row": 9,
+      "raw_card_content": "参数卡：箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+      "card_hint": "参数列表",
+      "expected_visible_lines": [
+        "箱体尺寸 · 重量",
+        "产线节拍（箱/小时）",
+        "托盘规格",
+        "目标垛型"
+      ],
+      "card_expected": true
+    }
+  ],
+  "read_only": true
+}

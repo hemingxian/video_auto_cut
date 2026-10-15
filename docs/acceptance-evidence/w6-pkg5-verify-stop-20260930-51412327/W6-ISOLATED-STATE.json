@@ -1,0 +1,19 @@
+{
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "main_evidence_head": "e82be4c8c38e21847d215f7508c0025862b700c3",
+  "worktree": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737",
+  "head_create": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "head_before_pack": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "pack_zip_sha256": "662882deedd897b04043b2cb78ff1a40c17fcfd09cfd80885ace3e1dfd5002f5",
+  "pack_retry_calls": 1,
+  "archive_complete": true,
+  "pack_wrapper_complete": false,
+  "config_copy_deleted": true,
+  "credential_scan_complete": false,
+  "worktree_complete": true,
+  "hash40_calls": 0,
+  "verify_complete": false,
+  "hashes_complete": false,
+  "cleanup_started": false,
+  "verify30_calls": 1
+}

@@ -1,0 +1,128 @@
+{
+  "schema": "food-existing-video-integrity/v1",
+  "read_only": true,
+  "pipeline_engine_spawns": 0,
+  "model_calls": 0,
+  "rerenders": 0,
+  "final_run_shots": {
+    "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\shots.json",
+    "bytes": 52185,
+    "sha256": "b1fa7de76279e29abf3cabdad83faea771cad950357cc2ec00a47ed1034a46c8"
+  },
+  "frozen_input_shots": {
+    "path": "D:\\vac\\f3\\shots.json",
+    "bytes": 38149,
+    "sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d"
+  },
+  "ass": [
+    {
+      "shot": 1,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0001_final_16520_a970ea5f.ass",
+      "sha256": "2fc7a7ee44309e3c8909f424047936eef81e11f4717051f313476179302958bc",
+      "baseline_sha256": "2fc7a7ee44309e3c8909f424047936eef81e11f4717051f313476179302958bc",
+      "unchanged": true
+    },
+    {
+      "shot": 2,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0002_final_2644_044d2ee9.ass",
+      "sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6",
+      "baseline_sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6",
+      "unchanged": true
+    },
+    {
+      "shot": 3,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0003_final_37516_1d74f6b0.ass",
+      "sha256": "06e00b8e575b2897cab7071cbc883ef5ba060cf3060a6c02e8d8ee64c89af6e3",
+      "baseline_sha256": "06e00b8e575b2897cab7071cbc883ef5ba060cf3060a6c02e8d8ee64c89af6e3",
+      "unchanged": true
+    },
+    {
+      "shot": 4,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0004_final_34068_cd7083cf.ass",
+      "sha256": "620e32345ff253ca0b807788802ab402247161f2a4702f7211aad1f9285c2577",
+      "baseline_sha256": "620e32345ff253ca0b807788802ab402247161f2a4702f7211aad1f9285c2577",
+      "unchanged": true
+    },
+    {
+      "shot": 5,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0005_final_42072_8aa8dec1.ass",
+      "sha256": "60d852108a437dd205535c9acd4741d54fa2a00e9dd8f15e208d2406c2ec2b9a",
+      "baseline_sha256": "60d852108a437dd205535c9acd4741d54fa2a00e9dd8f15e208d2406c2ec2b9a",
+      "unchanged": true
+    },
+    {
+      "shot": 6,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0006_final_3596_a3952c05.ass",
+      "sha256": "98ec744dbf078f61757f56059cbb3aef2e38d9bb7c5b49e7a3a56f129e081159",
+      "baseline_sha256": "98ec744dbf078f61757f56059cbb3aef2e38d9bb7c5b49e7a3a56f129e081159",
+      "unchanged": true
+    },
+    {
+      "shot": 7,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0007_final_39912_5dc08e8e.ass",
+      "sha256": "c6d282fac0e8cbc8ab531c4ef1f24e38e2e806266b02072983132dd8be388158",
+      "baseline_sha256": "c6d282fac0e8cbc8ab531c4ef1f24e38e2e806266b02072983132dd8be388158",
+      "unchanged": true
+    },
+    {
+      "shot": 8,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0008_final_38468_2f43fbf3.ass",
+      "sha256": "5675467a4daf8b5f14c9d60a21e81c2758a54cc9b8b558c22d4f0692adc005ab",
+      "baseline_sha256": "5675467a4daf8b5f14c9d60a21e81c2758a54cc9b8b558c22d4f0692adc005ab",
+      "unchanged": true
+    },
+    {
+      "shot": 9,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0009_final_41772_af7380da.ass",
+      "sha256": "d51081f1cb65c5d963f692a974bd96ddbd06ccafc53575b618ba3b6e81fc55e8",
+      "baseline_sha256": "d51081f1cb65c5d963f692a974bd96ddbd06ccafc53575b618ba3b6e81fc55e8",
+      "unchanged": true
+    }
+  ],
+  "ass_unchanged_count": 9,
+  "protections": [
+    {
+      "path": "VideoAutoCutDesktop/package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/runtime-release/manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:/Video Edit/VideoAutoCut/config/app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:/Users/evstm/.pi/agent/models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "protections_same_count": 6,
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json",
+    "?? docs/acceptance-evidence/food-existing-video-audit-20260929-51404601/"
+  ],
+  "note": "New untracked docs package is expected during evidence assembly; two package files are the only pre-existing user modifications."
+}

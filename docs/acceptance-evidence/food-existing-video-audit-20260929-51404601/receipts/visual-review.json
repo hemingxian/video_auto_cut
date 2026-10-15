@@ -1,0 +1,59 @@
+{
+  "schema": "food-visual-review-51404601/v1",
+  "reviewed_at": "2026-09-29T07:51:18.0411873Z",
+  "source": "final video decoded frames",
+  "viewer": "view_image original detail",
+  "xlsx_oracle": "receipts/xlsx-card-oracle.json",
+  "shots": [
+    {
+      "shot": 1,
+      "frame": "frames/final-shot01-local-4.0s-global-4.000s.png",
+      "expected_card": [
+        "包装线末端，最重复的一道活",
+        "箱装食品码垛工作站"
+      ],
+      "actual_card_lines": [
+        "包装线末端，最重",
+        "复的一道活",
+        "箱装食品码垛工作站"
+      ],
+      "soft_wrap_join": "包装线末端，最重复的一道活",
+      "card_pass": true,
+      "subtitle_visible": "最重复、最累人的一道活",
+      "unmodified_subtitle_example": true
+    },
+    {
+      "shot": 8,
+      "frame": "frames/final-shot08-local-4.0s-global-66.000s.png",
+      "expected_card": [
+        "箱体尺寸 · 重量",
+        "产线节拍（箱/小时）",
+        "托盘规格",
+        "目标垛型"
+      ],
+      "actual_card": [
+        "箱体尺寸 · 重量",
+        "产线节拍（箱/小时）",
+        "托盘规格",
+        "目标垛型"
+      ],
+      "hint_excluded": "参数列表",
+      "card_pass": true,
+      "subtitle_lines": [
+        "先备好四样：箱体尺寸和重量、每小时箱数、托盘规",
+        "格、目标垛型"
+      ],
+      "subtitle_join": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型",
+      "soft_wrap_character_loss": 0
+    },
+    {
+      "shot": 5,
+      "frame": "frames/final-shot05-local-4.8s-global-40.800s.png",
+      "expected_card": false,
+      "actual_card": false,
+      "card_pass": true,
+      "subtitle_visible": "进库存放"
+    }
+  ],
+  "scope": "Specified representative frames only; 9-ASS corrected oracle is separate."
+}

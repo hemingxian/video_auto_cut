@@ -1,0 +1,78 @@
+{
+  "schema": "vacut-u7-title-fix-tests/v1",
+  "source_head": "ebab5575b53c0d1241adde7941db001ace381739",
+  "runner": {
+    "path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe",
+    "version": "3.11.9",
+    "sha256": "5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec",
+    "command": "-B -X utf8 -m unittest discover -v -s tests -p test*.py"
+  },
+  "red": {
+    "exit": 1,
+    "ran": 1,
+    "failures": 1,
+    "log": "red-u7-title-test.log",
+    "sha256": "59d2df88f620c11342b4ab9e669e09bcf19bad53365f3915d265552dcbc10aae",
+    "note": "original bytes preserved; redirected Windows text is CP936; AssertionError corrections [] versus expected shots 4/6"
+  },
+  "focused": {
+    "exit": 0,
+    "ran": 3,
+    "log": "green-focused-final.log",
+    "sha256": "45f9eff500276d5f54b97829bdfc267ce1d5c61ddc5c3c8b1b3b7817be27c615"
+  },
+  "baseline": {
+    "head": "ebab5575b53c0d1241adde7941db001ace381739",
+    "worktree": "D:\\vac\\u7b",
+    "exit": 0,
+    "ran": 636,
+    "skipped": 2,
+    "log": "full-baseline-embedded.log",
+    "sha256": "c46b67c0951af7bb7d257beb9613f760bc0b84e8572669958e2821aadcb0a5b7"
+  },
+  "current": {
+    "exit": 0,
+    "ran": 639,
+    "skipped": 2,
+    "failures": 0,
+    "errors": 0,
+    "log": "full-current-embedded.log",
+    "sha256": "51de16fa7c15ed996c96736021c1ffda4dd52c7519311c5626aa47270f401588",
+    "passed": 637
+  },
+  "skips": [
+    {
+      "id": "test_packaging_agent.PagedCompositionTests.test_real_hyperframes_lint_accepts_the_paged_composition",
+      "reason": "current: missing bundled Node and Chrome Headless Shell; baseline: missing bundled Node, HyperFrames 0.7.3, GSAP 3.14.2, and Chrome Headless Shell"
+    },
+    {
+      "id": "test_script_card_fields.ScriptLayoutRenderTests.test_real_hyperframes_lint_accepts_the_headline_card",
+      "reason": "current: missing bundled Node and Chrome Headless Shell; baseline: missing bundled Node, HyperFrames 0.7.3, GSAP 3.14.2, and Chrome Headless Shell"
+    }
+  ],
+  "setup_attempts": [
+    {
+      "runner": "system Python 3.12.10",
+      "result": "629 tests, errors=2, skipped=4",
+      "reason": "dotenv unavailable for test_qwen_cloud_embedder imports; not acceptance runner"
+    },
+    {
+      "runner": "incomplete git archive",
+      "result": "629 tests, failures=4, errors=14, skipped=12",
+      "reason": "archive omitted tracked docs fixtures; invalid baseline"
+    },
+    {
+      "runner": "embedded baseline direct module names",
+      "result": "2 loader errors, 0 target tests executed",
+      "reason": "tests path not injected; superseded by baseline-skips-v-final.log"
+    }
+  ],
+  "baseline_skip_replay": {
+    "exit": 0,
+    "ran": 2,
+    "skipped": 2,
+    "log": "baseline-skips-v-final.log",
+    "sha256": "b23f0fafd7d97f1824a583f4dea1ea9e421c90a4a1c5f1e0c463a0c1d7b53939",
+    "reason_relation": "same existing missing-components branch and same IDs; exact missing-component strings differ by worktree visibility"
+  }
+}

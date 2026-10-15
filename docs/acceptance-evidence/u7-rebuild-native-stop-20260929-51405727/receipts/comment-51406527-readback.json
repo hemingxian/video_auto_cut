@@ -1,0 +1,14 @@
+{
+  "id": 51406527,
+  "created_at": "2026-09-29T17:27:51+08:00",
+  "updated_at": "2026-09-29T17:27:51+08:00",
+  "author": "evst",
+  "source_command": "gitee-api.cmd comments IKGH73 --limit 1",
+  "body_file": ".codex-handoff/instruction-51406527.md",
+  "remote_utf8_bytes": 3999,
+  "remote_sha256": "f1b7e711faf731826d71b189e27bb9d54ac2de77df9c0af223e4ca828d28ba39",
+  "local_bytes": 3999,
+  "local_sha256": "f1b7e711faf731826d71b189e27bb9d54ac2de77df9c0af223e4ca828d28ba39",
+  "exact_body_match": true,
+  "verified_at": "2026-09-29T17:39:38.3887448+08:00"
+}

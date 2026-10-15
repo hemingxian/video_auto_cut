@@ -1,0 +1,45 @@
+{
+  "schema": "vacut-u6-51391164-invocation-ledger/v1",
+  "source_head": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "invocations": [
+    {
+      "sequence": 1,
+      "kind": "engine_help_preflight",
+      "gui_import": false,
+      "qwen": 0,
+      "model_api": 0,
+      "exit_code": 0
+    },
+    {
+      "sequence": 2,
+      "kind": "formal_u6_gui_import",
+      "input_sha256": "64d23f4889081c0239f396db40a4ef18744779232376eeba90d96c5d1ff48b63",
+      "gui_import": true,
+      "qwen": 0,
+      "model_api": 0,
+      "outer_exit_code": 1,
+      "inner_exit_code": 2
+    },
+    {
+      "sequence": 3,
+      "kind": "synthetic_badshot_gui_import",
+      "input_sha256": "81a76914dc7131ca818a545816c0b8dc8b71406c1653bc2c96228ff8f9acb761",
+      "gui_import": true,
+      "qwen": 0,
+      "model_api": 0,
+      "outer_exit_code": 1,
+      "inner_exit_code": 2
+    }
+  ],
+  "formal_folder_button_clicks": 1,
+  "badshot_folder_button_clicks": 0,
+  "generate_clicks": 0,
+  "totals": {
+    "help_preflight": 1,
+    "gui_imports": 2,
+    "qwen": 0,
+    "model_api": 0,
+    "generate": 0
+  }
+}

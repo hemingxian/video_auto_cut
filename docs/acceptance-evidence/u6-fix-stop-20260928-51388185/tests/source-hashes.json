@@ -1,0 +1,51 @@
+[
+  {
+    "file": "tests/tdd-before-focused.log",
+    "original_audit_bytes": 22549,
+    "original_audit_sha256": "4be4bd328cbb82d4841953d6a225ada8490968e366abeb02c1ab44c9a045c459",
+    "published_sha256": "feee30706a22bc6e118dd5f0bbfb8cfeafa4aab239d34d2d64b0810279b3c89b",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/tdd-before-focused-confirmed.log",
+    "original_audit_bytes": 19988,
+    "original_audit_sha256": "89a149c15b1aaf23ef97db7a998482ae26c1639e80474bf786ccebc595774e3a",
+    "published_sha256": "e5c4a5c61bbac98eb74bd45f4c3f7ee9fa02538427b4f7888ec632ce976d1181",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/tdd-after-focused-final.log",
+    "original_audit_bytes": 1881,
+    "original_audit_sha256": "d58421f9dac267dde75b2ed1f0f89de75d1f03f88ccc9ced70403b1c8b874b42",
+    "published_sha256": "a5dcc37d00d072657c8c554f745207f15397ecfc71dda252108e8d2169a99b34",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/npm-test-full.log",
+    "original_audit_bytes": 43367,
+    "original_audit_sha256": "5fc5f9a293316aada5052a309980535f6732ada08aabf4c1cdd18dc2e3d64e97",
+    "published_sha256": "e5c4781892d34f6622bd3099c3e422efdeeae2a244bd091b6e010eecfa5f3a42",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/build.log",
+    "original_audit_bytes": 6009,
+    "original_audit_sha256": "97ed6e154d1af35acd6d42d50f356e4ef8a76da0217c61293ebcc3d55a481790",
+    "published_sha256": "5609a042126d664da2646ce1d0d0668f74388fd3b815db1204ad335af0c705a7",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/baseline-non-template-oracle.json",
+    "original_audit_bytes": 1356,
+    "original_audit_sha256": "a61efb871e947fe2746e225d7c81db0e06f7a1c05c5a600b623b06cdab76c0b7",
+    "published_sha256": "a61efb871e947fe2746e225d7c81db0e06f7a1c05c5a600b623b06cdab76c0b7",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  },
+  {
+    "file": "tests/baseline-oracle-comparison.json",
+    "original_audit_bytes": 390,
+    "original_audit_sha256": "760556ef777a32a24d7ec11d5cd940fef98139c8f7aa10052a4397de2c3db1d7",
+    "published_sha256": "760556ef777a32a24d7ec11d5cd940fef98139c8f7aa10052a4397de2c3db1d7",
+    "conversion": "UTF-8; CRLF normalized to LF for Git text blobs"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "source_head": "7298afb8b10659dbdc3518a4e7f55425330e76f5",
+  "imports_total": 6,
+  "model_calls": {
+    "import_qwen": 0,
+    "packaging_agent_qwen": 0,
+    "material_agent": 0,
+    "tts": 0,
+    "other_model": 0,
+    "asr": 0,
+    "render": 0,
+    "legacy_cue": 0
+  },
+  "generate_clicked": false,
+  "imports": [
+    {
+      "order": 1,
+      "scope": "U1",
+      "input": "docs/script-template-v1/示例_食品码垛_v1.xlsx",
+      "sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+      "run_id": "run_20260928_121628_096_36396",
+      "result": "passed",
+      "qwen_calls": 0
+    },
+    {
+      "order": 2,
+      "scope": "U4_FIX1",
+      "input": "docs/script-template-v1/分镜脚本示例_上下料_v1.xlsx",
+      "sha256": "a8dcefeac18dfb68957189e80719a06e83af7dfc0507577d2385932e70b444a5",
+      "run_id": "run_20260928_122521_160_38340",
+      "result": "passed",
+      "qwen_calls": 0
+    },
+    {
+      "order": 3,
+      "scope": "U6_FIX2",
+      "input": "audit fixture: synthetic-regression-shot-no-invalid.xlsx",
+      "sha256": "81a76914dc7131ca818a545816c0b8dc8b71406c1653bc2c96228ff8f9acb761",
+      "run_id": "run_20260928_123048_232_36676",
+      "result": "expected blocked A2 / shot_no_invalid",
+      "qwen_calls": 0
+    },
+    {
+      "order": 4,
+      "scope": "U4_FIX4",
+      "input": "audit fixture: synthetic-regression-empty-visual-generated-title.xlsx",
+      "sha256": "6ef07931e7e3214348360602204ee318c305018eed5834885b7944dea55b2338",
+      "run_id": "run_20260928_123435_390_37492",
+      "result": "passed",
+      "qwen_calls": 0
+    },
+    {
+      "order": 5,
+      "scope": "U5",
+      "input": "docs/script-template-v1/转换演示_md文本.xlsx",
+      "sha256": "a85420b8bae0f5c0fb8e48d7eaea0b89bc1ccb62c46de615199d0a8ec3784154",
+      "run_id": "run_20260928_123653_635_37124",
+      "result": "passed",
+      "qwen_calls": 0
+    },
+    {
+      "order": 6,
+      "scope": "U6",
+      "input": "docs/script-template-v1/转换演示_v1表格.xlsx",
+      "sha256": "64d23f4889081c0239f396db40a4ef18744779232376eeba90d96c5d1ff48b63",
+      "run_id": "run_20260928_123910_048_37960",
+      "result": "acceptance failed: I9/K9 found in realtime log, queue blocked details absent",
+      "qwen_calls": 0
+    }
+  ]
+}

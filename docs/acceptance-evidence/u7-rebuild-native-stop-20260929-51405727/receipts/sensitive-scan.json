@@ -1,0 +1,8 @@
+{
+  "schema": "sensitive-scan/v1",
+  "scanned_at": "2026-09-29T17:55:34.1400664+08:00",
+  "files": 34,
+  "patterns": "credential-name/value and bearer/sk token patterns",
+  "hits": [],
+  "result": "pass"
+}

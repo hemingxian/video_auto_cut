@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.64,0:00:01.52,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}同一个工作站
+Dialogue: 5,0:00:02.16,0:00:03.12,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}箱型变了
+Dialogue: 5,0:00:03.84,0:00:05.52,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}改的主要是垛型程序
+Dialogue: 5,0:00:06.08,0:00:07.52,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}必要时再换抓具
+Dialogue: 5,0:00:08.08,0:00:09.28,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}不用动整条线

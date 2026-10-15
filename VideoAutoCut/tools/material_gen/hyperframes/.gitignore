@@ -1,0 +1,12 @@
+# HyperFrames 渲染器的 node_modules：**不入库**（2026-09-18 定，与 pi 同口径）。
+# 打包前现装，随视频引擎运行包一起分发：
+#   python VideoAutoCut/tools/material_gen/hyperframes/install_hyperframes.py
+#   python VideoAutoCut/tools/material_gen/hyperframes/install_hyperframes.py --check
+# 仓库根 .gitignore 的 `VideoAutoCut/tools/material_gen/**/node_modules/` 因此保持生效，
+# Windows 工作区装完也不会污染 `git status`（避免 `git add -A` 误提交）。
+#
+# chrome-headless-shell/ 同样不入库（仓库根 .gitignore 已单列），它不由 npm install 装。
+
+# 安装副产物
+node_modules/.cache/
+node_modules/.package-lock.json

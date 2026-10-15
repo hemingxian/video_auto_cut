@@ -1,0 +1,18 @@
+services:
+  material-api:
+    dns:
+      - 61.139.2.69
+      - 119.29.29.29
+    ports: !override
+      - "0.0.0.0:9022:8091"
+      - "127.0.0.1:8091:8091"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - default
+      - material-backend
+
+networks:
+  material-backend:
+    external: true
+    name: material-backend

@@ -1,0 +1,8 @@
+{
+  "base": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+  "destination": "D:\\vac\\u7n",
+  "robocopy_exit": 1,
+  "base_engine_sha": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "base_engine_bytes": 8308224,
+  "candidate_files": 33319
+}

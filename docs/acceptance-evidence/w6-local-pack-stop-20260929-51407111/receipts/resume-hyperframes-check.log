@@ -1,0 +1,8 @@
+[install_hyperframes] ✓ node          D:\Video Edit\VideoAutoCut\workspace\runtime\0.5.14\VideoAutoCut\node-runtime\node.exe
+[install_hyperframes] ✓ chrome        D:\Video Edit\VideoAutoCut\workspace\runtime\0.5.14\VideoAutoCut\tools\material_gen\hyperframes\chrome-headless-shell\chrome-headless-shell.exe
+[install_hyperframes] ✓ hyperframes   0.7.3  D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\hyperframes\node_modules\hyperframes\dist\cli.js
+[install_hyperframes] ✓ gsap          3.14.2  D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\hyperframes\node_modules\gsap\dist\gsap.min.js
+[install_hyperframes] ✓ require(sharp) 通过
+[install_hyperframes] ✓ 最小分页 composition lint 0 errors
+[install_hyperframes] ✓ node_modules  7166 个文件 / 419059753 字节（419.1 MB）
+[install_hyperframes] node_modules 不入库，随运行包分发：打包前依次跑 install_pi.py 与本脚本，各自 --check 通过再打包。

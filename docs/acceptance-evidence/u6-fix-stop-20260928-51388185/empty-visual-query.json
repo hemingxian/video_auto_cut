@@ -1,0 +1,15 @@
+{
+  "schema": "vacut-empty-visual-query-readonly/v1",
+  "recorded_at": "2026-09-28T06:01:25.6633035Z",
+  "operation": "read-only",
+  "shots_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\data\\video\\runs\\20260928\\synthetic-regression-empty-visual-generated-title\\.videoautocut\\runs\\run_20260928_123435_390_37492\\shots.json",
+  "shots_sha256": "e1a625ca7f68e18085f957cdf5056507cb67da81c543e1ae35841c2311d99950",
+  "task_revision": 3,
+  "shot_count": 1,
+  "shot": {
+    "shot_id": "template-0001",
+    "title": "分镜1",
+    "visual_description": null,
+    "visual_query": "分镜1"
+  }
+}

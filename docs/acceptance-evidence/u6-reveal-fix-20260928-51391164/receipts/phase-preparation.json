@@ -1,0 +1,159 @@
+{
+  "schema": "vacut-u6-phase-51391164-5893f7d-preparation/v1",
+  "prepared_at": "2026-09-28T09:06:39.9905023Z",
+  "source_head": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "prior_audit_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928",
+  "phase_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d",
+  "prior_state_reused": {
+    "user_data": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\user-data",
+    "data": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data",
+    "config": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\config",
+    "persistence_file_count": 13,
+    "persistence_files": [
+      {
+        "relative_path": "user-data/Local Storage/leveldb/000003.log",
+        "size": 68,
+        "sha256": "417c9983bede6da65eb263b6e2e28d4ce3200f309e109c2c31d5c24b4baaa3b5"
+      },
+      {
+        "relative_path": "user-data/Local Storage/leveldb/CURRENT",
+        "size": 16,
+        "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+      },
+      {
+        "relative_path": "user-data/Local Storage/leveldb/LOCK",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "relative_path": "user-data/Local Storage/leveldb/LOG",
+        "size": 422,
+        "sha256": "b934ecebba306a987b1c9471afa43c7d0cd9df060dac0b3bf69681a362bff7af"
+      },
+      {
+        "relative_path": "user-data/Local Storage/leveldb/LOG.old",
+        "size": 381,
+        "sha256": "f52f76a8e8b1274de5fdaa2f74dc03d46b789c9d9b641a8927d5de1df0c9527e"
+      },
+      {
+        "relative_path": "user-data/Local Storage/leveldb/MANIFEST-000001",
+        "size": 41,
+        "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+      },
+      {
+        "relative_path": "user-data/Session Storage/000003.log",
+        "size": 424,
+        "sha256": "866b1bde0054fcf4d69903b7a131a8851b044b1222beb5fff090e3435357b1cf"
+      },
+      {
+        "relative_path": "user-data/Session Storage/CURRENT",
+        "size": 16,
+        "sha256": "0f1bad70c7bd1e0a69562853ec529355462fcd0423263a3d39d6d0d70b780443"
+      },
+      {
+        "relative_path": "user-data/Session Storage/LOCK",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "relative_path": "user-data/Session Storage/LOG",
+        "size": 410,
+        "sha256": "8f31f42794a2730607d947ebdd276e49b2861fc8c319e633a26629b77f1e5529"
+      },
+      {
+        "relative_path": "user-data/Session Storage/LOG.old",
+        "size": 369,
+        "sha256": "18b77de012ce060ca511fba2fb16837f50cdee548dd4d6e681c3516ebdc9b39a"
+      },
+      {
+        "relative_path": "user-data/Session Storage/MANIFEST-000001",
+        "size": 41,
+        "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4"
+      },
+      {
+        "relative_path": "user-data/Preferences",
+        "size": 57,
+        "sha256": "be4b8924ab38e8acf350e6e3b9f1f63a1a94952d8002759acd6946c4d5d0b5de"
+      }
+    ],
+    "persistence_modified_during_prepare": false
+  },
+  "current": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut"
+  },
+  "candidate": {
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "tracked_tools": 157,
+    "mismatches": 0
+  },
+  "fixtures": [
+    {
+      "role": "formal_u6",
+      "path": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx",
+      "sha256": "64d23f4889081c0239f396db40a4ef18744779232376eeba90d96c5d1ff48b63"
+    },
+    {
+      "role": "synthetic_badshot",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\fixtures\\synthetic-regression-shot-no-invalid.xlsx",
+      "sha256": "81a76914dc7131ca818a545816c0b8dc8b71406c1653bc2c96228ff8f9acb761"
+    }
+  ],
+  "manifest_isolation": {
+    "method": "process environment only; loopback request failure, not a product disable flag",
+    "url": "http://127.0.0.1:9/runtime/manifest.json",
+    "aliases": [
+      "VIDEOAUTO_RUNTIME_MANIFEST_URL",
+      "VIDEOAUTOCUT_RUNTIME_MANIFEST_URL"
+    ],
+    "listener_present": false,
+    "app_env_modified": false
+  },
+  "app_started": false,
+  "import_invocations": 0,
+  "model_invocations": 0,
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ]
+}

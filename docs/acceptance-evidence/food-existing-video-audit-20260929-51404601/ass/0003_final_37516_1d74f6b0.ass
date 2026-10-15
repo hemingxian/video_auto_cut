@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.24,0:00:02.64,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}机器人从输送带上抓起整箱
+Dialogue: 5,0:00:02.64,0:00:04.56,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}抬起、转身
+Dialogue: 5,0:00:04.80,0:00:06.08,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}送到托盘上方
+Dialogue: 5,0:00:06.40,0:00:06.88,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}抓得稳
+Dialogue: 5,0:00:07.12,0:00:07.68,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}转得快
+Dialogue: 5,0:00:08.00,0:00:09.68,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}节拍才跟得上产线

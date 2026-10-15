@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.24,0:00:01.68,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}现场留一个人巡线
+Dialogue: 5,0:00:01.92,0:00:03.04,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}换托盘就够了
+Dialogue: 5,0:00:03.44,0:00:05.12,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}搬箱子这种重复的体力活
+Dialogue: 5,0:00:05.12,0:00:06.80,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}交给机器人

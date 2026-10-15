@@ -1,0 +1,70 @@
+{
+  "schema": "u7-author-oracle-51405727/v1",
+  "source": "docs/packaging-test-scripts-2026-09-21/07_表格版_混合_show判定_食品码垛_CN.xlsx",
+  "source_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+  "sheet": "视频脚本",
+  "header_row_1based": 5,
+  "rules": {
+    "title": "exact authored cell text",
+    "card_content": "existing contract script_card_fields.script_value(..., card_content, preserve_layout=True): remove non-display layout labels and treat placeholders such as （不填） as empty; otherwise preserve authored layout",
+    "card_hint": "existing contract script_card_fields.script_value(..., card_hint): placeholders such as （不填） are empty; otherwise exact authored text"
+  },
+  "shots": [
+    {
+      "shot": 1,
+      "title": "来料到位是第一道关",
+      "card_content_raw": "来料到位是码垛稳定的第一道关",
+      "card_content_expected": "来料到位是码垛稳定的第一道关",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 2,
+      "title": "袋料和箱体要分开核对",
+      "card_content_raw": "（不填）",
+      "card_content_expected": "",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 3,
+      "title": "镜头B",
+      "card_content_raw": "（不填）",
+      "card_content_expected": "",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 4,
+      "title": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "card_content_raw": "（不填）",
+      "card_content_expected": "",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 5,
+      "title": "换型准备",
+      "card_content_raw": "占位卡 05",
+      "card_content_expected": "占位卡 05",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 6,
+      "title": "开场",
+      "card_content_raw": "（不填）",
+      "card_content_expected": "",
+      "card_hint_raw": "（不填）",
+      "card_hint_expected": ""
+    },
+    {
+      "shot": 7,
+      "title": "欢迎带着包装形态来试",
+      "card_content_raw": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "card_content_expected": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "card_hint_raw": "CTA 行动号召",
+      "card_hint_expected": "CTA 行动号召"
+    }
+  ]
+}

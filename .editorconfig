@@ -1,0 +1,42 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{js,jsx,json,mjs,ts,tsx,css,html,yaml,yml}]
+indent_size = 2
+
+[*.{py,rs,toml}]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+# These trees are maintained upstream and intentionally keep their own style.
+[VideoAutoCut/sentrysearch/**]
+charset = unset
+end_of_line = unset
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
+[VideoAutoCut/tools/animation_agent/official/**]
+charset = unset
+end_of_line = unset
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+
+[VideoAutoCut/tools/material_gen/{hyperframes,remotion}/**]
+charset = unset
+end_of_line = unset
+indent_style = unset
+indent_size = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset

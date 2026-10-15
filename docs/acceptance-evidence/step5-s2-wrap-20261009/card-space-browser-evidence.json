@@ -1,0 +1,62 @@
+{
+  "schema": "step5-s2-card-space-browser-evidence-v1",
+  "browser": "Google Chrome for Testing 131.0.6778.85",
+  "browser_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\tools\\material_gen\\hyperframes\\chrome-headless-shell\\chrome-headless-shell.exe",
+  "method": "Production build_composition generated each HTML document. Evidence-only instrumentation replaced external GSAP with a no-op API and forced card opacity to 1 so a static screenshot could be captured; it did not change card text or the production white-space rule. Chrome computed style and DOM textContent were read from the loaded document. No video was rendered.",
+  "conditional_rule": "white-space:pre is emitted only when an actual wrapped line starts/ends with U+0020 or contains consecutive U+0020; ordinary card HTML keeps the prior bytes.",
+  "ordinary_card_no_style_assertion": "test_chinese_cards_never_load_the_subtitle_tokenizer",
+  "ordinary_headline_no_style_assertion": "test_headline_preserves_only_wrapped_u0020_boundaries",
+  "cases": {
+    "normal": {
+      "label": "普通卡片软换行U+0020复现夹具",
+      "source": "VideoAutoCut.tools.template_packaging.build_composition",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "manifest_pages": [
+        [
+          "parameter0 parameter1 parameter2 ",
+          "parameter3 parameter4 parameter5 ",
+          "parameter6 parameter7 parameter8 ",
+          "parameter9 parameter10 parameter11 ",
+          "parameter12 parameter13 parameter14 ",
+          "parameter15 parameter16 parameter17 ",
+          "parameter18 parameter19 parameter20 ",
+          "parameter21"
+        ]
+      ],
+      "expected_text": "parameter0 parameter1 parameter2 parameter3 parameter4 parameter5 parameter6 parameter7 parameter8 parameter9 parameter10 parameter11 parameter12 parameter13 parameter14 parameter15 parameter16 parameter17 parameter18 parameter19 parameter20 parameter21",
+      "expected_u0020": 21,
+      "browser_computed_white_space": "pre",
+      "browser_text_exact": true,
+      "browser_u0020": 21,
+      "screenshot": "card-space-normal-browser.png",
+      "screenshot_bytes": 77947,
+      "screenshot_sha256": "2de750de6e44fb4aa74d18456c3a25015d2514d84f658693def95dc64caa9b18"
+    },
+    "headline": {
+      "label": "headline_sub软换行U+0020复现夹具",
+      "source": "VideoAutoCut.tools.template_packaging.build_composition",
+      "canvas": {
+        "width": 1080,
+        "height": 1920
+      },
+      "manifest_pages": [
+        [
+          "Precision engineering improves ",
+          "manufacturing reliability",
+          "副行 保留 空格"
+        ]
+      ],
+      "expected_text": "Precision engineering improves manufacturing reliability副行 保留 空格",
+      "expected_u0020": 6,
+      "browser_computed_white_space": "pre",
+      "browser_text_exact": true,
+      "browser_u0020": 6,
+      "screenshot": "card-space-headline-browser.png",
+      "screenshot_bytes": 37195,
+      "screenshot_sha256": "282cf28f4b571cb3c544f4464af905e723ddb98d178e191ae030eed2f5e2189f"
+    }
+  }
+}

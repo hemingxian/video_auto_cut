@@ -1,0 +1,22 @@
+{
+  "schema": "vacut-sky-jpeg-to-png-pixel-equivalence/v1",
+  "source_original_jpeg": {
+    "basename": "U6-formal-main-failed.jpg",
+    "bytes": 73043,
+    "sha256": "f19341a6bbef011794f7139f4b8b89710c141e148508caf95e8bc929a3a16594",
+    "retained": "private audit source; not copied to public evidence"
+  },
+  "public_png": {
+    "basename": "U6-formal-main-failed.png",
+    "bytes": 223260,
+    "sha256": "bd01bc0aa977ba6c3aae12771652c1f7015b85ecd4c9d91668ca4b6f5c7132ed"
+  },
+  "decoded": {
+    "mode": "RGB",
+    "width": 1306,
+    "height": 853,
+    "source_pixel_sha256": "76a3aa043e526bbbe4dc1c47730c8dbb08a6a16ff3d2f95d671c5c768a444580",
+    "png_pixel_sha256": "76a3aa043e526bbbe4dc1c47730c8dbb08a6a16ff3d2f95d671c5c768a444580",
+    "pixel_equal": true
+  }
+}

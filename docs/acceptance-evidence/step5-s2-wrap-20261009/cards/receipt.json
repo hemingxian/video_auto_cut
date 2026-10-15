@@ -1,0 +1,56 @@
+{
+  "schema": "s2-card-static-frame-evidence/v1",
+  "created_at": "2026-10-09T11:36:44.8288810+08:00",
+  "source_run": "run_175e3315e0624f028eba293d66a9dece",
+  "viewport": "1920x1080",
+  "seek_seconds": {
+    "shot01": 4.0,
+    "shot03": 5.5,
+    "shot08": 4.0,
+    "shot09": 4.0
+  },
+  "before": "existing real HTML from 2026-09-29 run",
+  "after": "WIP template_packaging.build_composition from same shots.json, duration and picture_bounds",
+  "browser": "installed Google Chrome headless, GPU disabled",
+  "font": "NotoSansCJKsc-Bold.otf copied byte-for-byte from each real packaging directory",
+  "media": "no video generated; HTML overlay only; transparent background",
+  "frames": [
+    {
+      "shot": "shot01",
+      "before": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/before/shot01/shot01-before.png",
+      "after": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/after/shot01/shot01-after.png",
+      "before_sha256": "e7559d696066102f8e4101339a321fd97888b493e880a479b5803e20ce7d2c52",
+      "after_sha256": "e7559d696066102f8e4101339a321fd97888b493e880a479b5803e20ce7d2c52",
+      "byte_identical": true,
+      "bytes": 34829
+    },
+    {
+      "shot": "shot03",
+      "before": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/before/shot03/shot03-before.png",
+      "after": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/after/shot03/shot03-after.png",
+      "before_sha256": "4df982f67ebb197825ef10f9305bb85215b21989f640d0abfd42285773a615ed",
+      "after_sha256": "4df982f67ebb197825ef10f9305bb85215b21989f640d0abfd42285773a615ed",
+      "byte_identical": true,
+      "bytes": 26300
+    },
+    {
+      "shot": "shot08",
+      "before": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/before/shot08/shot08-before.png",
+      "after": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/after/shot08/shot08-after.png",
+      "before_sha256": "1f971e8a667e3adeb2c0920ab794a82636a58968a0aa1747ebe727c38add8172",
+      "after_sha256": "1f971e8a667e3adeb2c0920ab794a82636a58968a0aa1747ebe727c38add8172",
+      "byte_identical": true,
+      "bytes": 29542
+    },
+    {
+      "shot": "shot09",
+      "before": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/before/shot09/shot09-before.png",
+      "after": "D:/vac/s516-step5-evidence-51486704/s2-frames/cards/after/shot09/shot09-after.png",
+      "before_sha256": "179e2e86e7d4b953313ba3386020a4315573ef763aa6a2e6598ddd0973e6b921",
+      "after_sha256": "179e2e86e7d4b953313ba3386020a4315573ef763aa6a2e6598ddd0973e6b921",
+      "byte_identical": true,
+      "bytes": 30762
+    }
+  ],
+  "result": "PASS: all four before/after PNG files are byte-identical; S1 card title wrapping unchanged"
+}

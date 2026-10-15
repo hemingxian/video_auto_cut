@@ -1,0 +1,953 @@
+{
+  "source_head": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "candidate": "D:\\vac\\u7n",
+  "tracked_tools_count": 157,
+  "mismatch": 0,
+  "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "engine_bytes": 8308224,
+  "script_card_fields_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+  "tools": [
+    {
+      "path": "VideoAutoCut/tools/add_progress.py",
+      "repo_sha256": "f9e0f5fb61f61a0aa2ece9558156d92019ac997015262de98213b6f6e198a821",
+      "candidate_sha256": "f9e0f5fb61f61a0aa2ece9558156d92019ac997015262de98213b6f6e198a821",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/add_subtitle.py",
+      "repo_sha256": "3913b873acf2e53221c1ab5fe58ae2df837a17c609c46cd0c30ad5fbe4281e32",
+      "candidate_sha256": "3913b873acf2e53221c1ab5fe58ae2df837a17c609c46cd0c30ad5fbe4281e32",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/align_subtitles.py",
+      "repo_sha256": "71d3b02c6423b445cf50d1060a85fbdd1b88424f707386a5dd736dcdf5b7f635",
+      "candidate_sha256": "71d3b02c6423b445cf50d1060a85fbdd1b88424f707386a5dd736dcdf5b7f635",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/__init__.py",
+      "repo_sha256": "5017906e160517fb9eb567dc4c4a18b05965e9fcd7bdb87c43440283234e5f62",
+      "candidate_sha256": "5017906e160517fb9eb567dc4c4a18b05965e9fcd7bdb87c43440283234e5f62",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/logger.py",
+      "repo_sha256": "c24af69b0124d267a06e050cec21e70666ff847c85f59214b068e59b359626cc",
+      "candidate_sha256": "c24af69b0124d267a06e050cec21e70666ff847c85f59214b068e59b359626cc",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/manim_agent.py",
+      "repo_sha256": "1cd353cf09099ca4cffb71d726e9706acea9c9a94aa1949afa359a3326e770f2",
+      "candidate_sha256": "1cd353cf09099ca4cffb71d726e9706acea9c9a94aa1949afa359a3326e770f2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/models.py",
+      "repo_sha256": "186984914584e2c27575e93d6012da5a0fcb4d4b42f31d8dd5958abd2813d06d",
+      "candidate_sha256": "186984914584e2c27575e93d6012da5a0fcb4d4b42f31d8dd5958abd2813d06d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/SOURCES.md",
+      "repo_sha256": "32ac8e50e667faa9a1d7121bc3dfe3a3cfe7bb9b3d2d2511455affa618320d5d",
+      "candidate_sha256": "32ac8e50e667faa9a1d7121bc3dfe3a3cfe7bb9b3d2d2511455affa618320d5d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/embedded-captions/SKILL.md",
+      "repo_sha256": "f8fa9db18d3cf7d417d715a980cde7d52e99901ed4f292f65f814307babdb73e",
+      "candidate_sha256": "f8fa9db18d3cf7d417d715a980cde7d52e99901ed4f292f65f814307babdb73e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/general-video/SKILL.md",
+      "repo_sha256": "d480388e85efffa7abc4a7510f0764817887403ea6436ae658d6cc466bf275ef",
+      "candidate_sha256": "d480388e85efffa7abc4a7510f0764817887403ea6436ae658d6cc466bf275ef",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/graphic-overlays/SKILL.md",
+      "repo_sha256": "81374157032833eb4b7cc0e3af43b03b0216aeae19ea3fa993861e0f83c07139",
+      "candidate_sha256": "81374157032833eb4b7cc0e3af43b03b0216aeae19ea3fa993861e0f83c07139",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/SKILL.md",
+      "repo_sha256": "134d69c1ce1718b7689ee143a12620746865948bc432ba4e991cc01a945599bc",
+      "candidate_sha256": "134d69c1ce1718b7689ee143a12620746865948bc432ba4e991cc01a945599bc",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/blueprints-index.md",
+      "repo_sha256": "f7a49d85e63429a1239cca23a702102ab5a15fb213062f6bccf11b10a8e201d0",
+      "candidate_sha256": "f7a49d85e63429a1239cca23a702102ab5a15fb213062f6bccf11b10a8e201d0",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules-index.md",
+      "repo_sha256": "89291eb3ab0d98f2cbee080f6d9765de497ca8d3b7b23baa2d72bd0cd78ac515",
+      "candidate_sha256": "89291eb3ab0d98f2cbee080f6d9765de497ca8d3b7b23baa2d72bd0cd78ac515",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules/discrete-text-sequence.md",
+      "repo_sha256": "89481449df5de9286fb348865dfa332654092c13141a2bc8ee1037175c650b94",
+      "candidate_sha256": "89481449df5de9286fb348865dfa332654092c13141a2bc8ee1037175c650b94",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules/dynamic-content-sequencing.md",
+      "repo_sha256": "85e2516c87892fb5ac2b80b42f9583f38b1ec4da90f76267c799184f2c89b5e3",
+      "candidate_sha256": "85e2516c87892fb5ac2b80b42f9583f38b1ec4da90f76267c799184f2c89b5e3",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules/gsap-effects.md",
+      "repo_sha256": "263b4e17cb546dbfe23755aace3d11842e99b625e0ee25fd1015fddd8e0e426a",
+      "candidate_sha256": "263b4e17cb546dbfe23755aace3d11842e99b625e0ee25fd1015fddd8e0e426a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules/stat-bars-and-fills.md",
+      "repo_sha256": "6a05f326e0e38250eca33c7ddf7d949ac2605dc139305911a5ad8c6e60456915",
+      "candidate_sha256": "6a05f326e0e38250eca33c7ddf7d949ac2605dc139305911a5ad8c6e60456915",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/rules/svg-path-draw.md",
+      "repo_sha256": "5ac04cf83686765a5321b4654b6064aeb12de0ab834374b75d3a76cd01874025",
+      "candidate_sha256": "5ac04cf83686765a5321b4654b6064aeb12de0ab834374b75d3a76cd01874025",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-animation/techniques.md",
+      "repo_sha256": "f4bc0a440c6cc2c6377471ece0ce2d8207f072393aa085617c8ab519797a5392",
+      "candidate_sha256": "f4bc0a440c6cc2c6377471ece0ce2d8207f072393aa085617c8ab519797a5392",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-cli/SKILL.md",
+      "repo_sha256": "a3c7b27d12f96492039bc46808d92fb2f4b908e24a5e3f2c689363096b2c38ae",
+      "candidate_sha256": "a3c7b27d12f96492039bc46808d92fb2f4b908e24a5e3f2c689363096b2c38ae",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-cli/references/lint-validate-inspect.md",
+      "repo_sha256": "947969d634b00fb23cc4f2c889a231ee2b1ea9fb88a8817fa1970be60f0bf12d",
+      "candidate_sha256": "947969d634b00fb23cc4f2c889a231ee2b1ea9fb88a8817fa1970be60f0bf12d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-cli/references/preview-render.md",
+      "repo_sha256": "663818005e2031ff182a78ffc5d6746eb4e0d0c8a2f14337345ead6741044e84",
+      "candidate_sha256": "663818005e2031ff182a78ffc5d6746eb4e0d0c8a2f14337345ead6741044e84",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/SKILL.md",
+      "repo_sha256": "4604363347a1d55ae0eee4c203c51d783137735c3e60647bb308b4a89d440d15",
+      "candidate_sha256": "4604363347a1d55ae0eee4c203c51d783137735c3e60647bb308b4a89d440d15",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/references/data-attributes.md",
+      "repo_sha256": "2bb8f0230bde5cab60f58d5f6e3e44f38585e05151da2f8570c0918f0b1776aa",
+      "candidate_sha256": "2bb8f0230bde5cab60f58d5f6e3e44f38585e05151da2f8570c0918f0b1776aa",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/references/determinism-rules.md",
+      "repo_sha256": "7256c990dd3dc5d93dc14d8b413d5cff43c933adfd860f178c02ebadd422851a",
+      "candidate_sha256": "7256c990dd3dc5d93dc14d8b413d5cff43c933adfd860f178c02ebadd422851a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/references/minimal-composition.md",
+      "repo_sha256": "68df933064264202a1b751accc3d7696207ebf41aacff88b134cd84ee8c4246b",
+      "candidate_sha256": "68df933064264202a1b751accc3d7696207ebf41aacff88b134cd84ee8c4246b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/references/script-format.md",
+      "repo_sha256": "e781b9ae2e46276a284edd7491e6df42d885e248fcb3c6c3e766969877e1770c",
+      "candidate_sha256": "e781b9ae2e46276a284edd7491e6df42d885e248fcb3c6c3e766969877e1770c",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-core/references/tracks-and-clips.md",
+      "repo_sha256": "7a5bfa0f8babad94a67fa0256c3c94f4e1a1168736defd47a8288fbcf50a3b0b",
+      "candidate_sha256": "7a5bfa0f8babad94a67fa0256c3c94f4e1a1168736defd47a8288fbcf50a3b0b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes-media/SKILL.md",
+      "repo_sha256": "f9e6f96b49bcd2a4b72dd706395a99db7040cf67bd6ad38c5706895d282f17db",
+      "candidate_sha256": "f9e6f96b49bcd2a4b72dd706395a99db7040cf67bd6ad38c5706895d282f17db",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/hyperframes/SKILL.md",
+      "repo_sha256": "3415192eb71f2ccd1ea7d22b61ef54c4605d27db5c46b70a1e03a8cda1a20c35",
+      "candidate_sha256": "3415192eb71f2ccd1ea7d22b61ef54c4605d27db5c46b70a1e03a8cda1a20c35",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/motion-graphics/SKILL.md",
+      "repo_sha256": "27c722653a365005bec9da64a284efc86e6b0868128d9ef530e435f9b56c7eda",
+      "candidate_sha256": "27c722653a365005bec9da64a284efc86e6b0868128d9ef530e435f9b56c7eda",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/motion-graphics/catalog-map.md",
+      "repo_sha256": "6e23cd1ffc4f32ab9d54d09c20cea78e84d602def9513d4a0e88528ed5b4651c",
+      "candidate_sha256": "6e23cd1ffc4f32ab9d54d09c20cea78e84d602def9513d4a0e88528ed5b4651c",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/motion-graphics/references/builder-contract.md",
+      "repo_sha256": "6d075c8eed7b4469a39382839cf3b73da16f9345f65514e9533489f83e8c7cad",
+      "candidate_sha256": "6d075c8eed7b4469a39382839cf3b73da16f9345f65514e9533489f83e8c7cad",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/motion-graphics/references/motion-vocabulary.md",
+      "repo_sha256": "6a762e127426f5f8d618992149d92b6f33e128d07aa9775b417bad8ac120bb2e",
+      "candidate_sha256": "6a762e127426f5f8d618992149d92b6f33e128d07aa9775b417bad8ac120bb2e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/hyperframes/motion-graphics/references/shot-plan-ir.md",
+      "repo_sha256": "a53b9af74d2f712a22cdb9a018a1b818277fb28b89f1c019b3b925e53dd38d5d",
+      "candidate_sha256": "a53b9af74d2f712a22cdb9a018a1b818277fb28b89f1c019b3b925e53dd38d5d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/manim/SOURCES.md",
+      "repo_sha256": "6e99576fbc629e82ed7f2c5c73a71b0d894d8f11191bcc1f3c58f913fd61e507",
+      "candidate_sha256": "6e99576fbc629e82ed7f2c5c73a71b0d894d8f11191bcc1f3c58f913fd61e507",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/manim/tutorials/building_blocks.rst",
+      "repo_sha256": "2bad1488ab2bd2720c11090e8fdb97d499a6e5937e183042e4f077059596ab87",
+      "candidate_sha256": "2bad1488ab2bd2720c11090e8fdb97d499a6e5937e183042e4f077059596ab87",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/manim/tutorials/output_and_config.rst",
+      "repo_sha256": "885a05c59b62d76fbb3885ea1cc0296562f1c47bbe488afb25050a8fc44a2dd2",
+      "candidate_sha256": "885a05c59b62d76fbb3885ea1cc0296562f1c47bbe488afb25050a8fc44a2dd2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/manim/tutorials/quickstart.rst",
+      "repo_sha256": "520be95cd1fd1a5c7243d3fa78b52aaf91d054af1d0be74280c8c61659c966ee",
+      "candidate_sha256": "520be95cd1fd1a5c7243d3fa78b52aaf91d054af1d0be74280c8c61659c966ee",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/SKILL.md",
+      "repo_sha256": "209761ee807bf8ef67df2c5556bb7d658eb9577e0e08852f04d1be5d6afef7b6",
+      "candidate_sha256": "209761ee807bf8ef67df2c5556bb7d658eb9577e0e08852f04d1be5d6afef7b6",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/SOURCES.md",
+      "repo_sha256": "c3c8af0bf49c33b00982ab19dd33dbdb061772d17d8fa8b91a03073533f70c95",
+      "candidate_sha256": "c3c8af0bf49c33b00982ab19dd33dbdb061772d17d8fa8b91a03073533f70c95",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/llms.txt",
+      "repo_sha256": "7022633e4adaeff020c08b537c77278507181513b8bb82f6e687069c41725ba8",
+      "candidate_sha256": "7022633e4adaeff020c08b537c77278507181513b8bb82f6e687069c41725ba8",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/3d.md",
+      "repo_sha256": "404c7def5e260d6b76c5d9e6bc7f9059113b00b60e82016f222f79e17c192bd7",
+      "candidate_sha256": "404c7def5e260d6b76c5d9e6bc7f9059113b00b60e82016f222f79e17c192bd7",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/audio-visualization.md",
+      "repo_sha256": "ddb4440fdd236484a06fb39c81b532c48caa4365505b3b12438224832cb2857f",
+      "candidate_sha256": "ddb4440fdd236484a06fb39c81b532c48caa4365505b3b12438224832cb2857f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/audio.md",
+      "repo_sha256": "869291300aebf7570241d5e1cb9f90fcd680a2f84e3e934145d3139627cbe798",
+      "candidate_sha256": "869291300aebf7570241d5e1cb9f90fcd680a2f84e3e934145d3139627cbe798",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/calculate-metadata.md",
+      "repo_sha256": "a1ac366dd90f278efe95033d7df3124883064459db0e23b6760176eed8a45e13",
+      "candidate_sha256": "a1ac366dd90f278efe95033d7df3124883064459db0e23b6760176eed8a45e13",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/compositions.md",
+      "repo_sha256": "6d2bdc57a9ff838609175894ab127050c84c3f75fcda54179667811427357f1e",
+      "candidate_sha256": "6d2bdc57a9ff838609175894ab127050c84c3f75fcda54179667811427357f1e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/display-captions.md",
+      "repo_sha256": "c2952e39e4b26d5c01ba79a93208cc425f2dc9f615d6874c7720803e5ccd0b96",
+      "candidate_sha256": "c2952e39e4b26d5c01ba79a93208cc425f2dc9f615d6874c7720803e5ccd0b96",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/effects.md",
+      "repo_sha256": "f489f77bb00589ba81ce32ec0dbdea893ea65b538727b49470c3c0d8eb5d9553",
+      "candidate_sha256": "f489f77bb00589ba81ce32ec0dbdea893ea65b538727b49470c3c0d8eb5d9553",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/ffmpeg.md",
+      "repo_sha256": "c4ca51e6c36e778f5faebd3c8c74784e33e768c2ad06b044e613f02e9a4429a4",
+      "candidate_sha256": "c4ca51e6c36e778f5faebd3c8c74784e33e768c2ad06b044e613f02e9a4429a4",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/get-audio-duration.md",
+      "repo_sha256": "04a1e12146554e6eaae4bacf64a90c37abb2ce09c0f8e25cfd0a910f998d26f5",
+      "candidate_sha256": "04a1e12146554e6eaae4bacf64a90c37abb2ce09c0f8e25cfd0a910f998d26f5",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/get-video-dimensions.md",
+      "repo_sha256": "7e69da749a5682a9aee902d1d99496e883ef6f3349501b792a77e3ec21a16c75",
+      "candidate_sha256": "7e69da749a5682a9aee902d1d99496e883ef6f3349501b792a77e3ec21a16c75",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/get-video-duration.md",
+      "repo_sha256": "caf1f4400541a40c022b5ddaee570ceda25b427b8644cdc798472f1594963c83",
+      "candidate_sha256": "caf1f4400541a40c022b5ddaee570ceda25b427b8644cdc798472f1594963c83",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/gifs.md",
+      "repo_sha256": "6297795299498cbc78c55c115a5b7c31a72ce88292d43869a60bfd950ba40b5c",
+      "candidate_sha256": "6297795299498cbc78c55c115a5b7c31a72ce88292d43869a60bfd950ba40b5c",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/google-fonts.md",
+      "repo_sha256": "57418341b6d8d8ef36d07cf36809c933615ff52c1d48e54ca8e3bb50be248413",
+      "candidate_sha256": "57418341b6d8d8ef36d07cf36809c933615ff52c1d48e54ca8e3bb50be248413",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/html-in-canvas.md",
+      "repo_sha256": "9348adcf4cf2c8614a3c8a560856b01fed1806b5759cea89f375a06cece265b9",
+      "candidate_sha256": "9348adcf4cf2c8614a3c8a560856b01fed1806b5759cea89f375a06cece265b9",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/images.md",
+      "repo_sha256": "5165e43eaf340b20bb15de2a4edb5a741411e52f3aeb2cec9b5a1d41b96f88e8",
+      "candidate_sha256": "5165e43eaf340b20bb15de2a4edb5a741411e52f3aeb2cec9b5a1d41b96f88e8",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/import-srt-captions.md",
+      "repo_sha256": "6a3bb73fd1f65900cff1adaeabe8d2f8202a68d1abfbe6a912d73d73b7323f76",
+      "candidate_sha256": "6a3bb73fd1f65900cff1adaeabe8d2f8202a68d1abfbe6a912d73d73b7323f76",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/light-leaks.md",
+      "repo_sha256": "8d8ed12c79756a67466c5367789b0a509a3400bd7fcf3805dd36953eb7687c0c",
+      "candidate_sha256": "8d8ed12c79756a67466c5367789b0a509a3400bd7fcf3805dd36953eb7687c0c",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/local-fonts.md",
+      "repo_sha256": "48b9b81735ce8c3a5d76e7544706519cfb654272899defefdf9d31050b114211",
+      "candidate_sha256": "48b9b81735ce8c3a5d76e7544706519cfb654272899defefdf9d31050b114211",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/lottie.md",
+      "repo_sha256": "6c8bed9ac8ce8474622fbfc20f2245e66cc6736f4e7965e312a258109dc2c9a6",
+      "candidate_sha256": "6c8bed9ac8ce8474622fbfc20f2245e66cc6736f4e7965e312a258109dc2c9a6",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/maplibre.md",
+      "repo_sha256": "b9455aa4095ccbc770c19f4b24b9ed7ab7ae172101f067c8a48db471b0b7263a",
+      "candidate_sha256": "b9455aa4095ccbc770c19f4b24b9ed7ab7ae172101f067c8a48db471b0b7263a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/measuring-dom-nodes.md",
+      "repo_sha256": "142d1ea3b493d643a6344c939bfdd1c5ff38a8c600dff016cde63fca99e12658",
+      "candidate_sha256": "142d1ea3b493d643a6344c939bfdd1c5ff38a8c600dff016cde63fca99e12658",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/measuring-text.md",
+      "repo_sha256": "840e3c76e3ec966382935e5033cd5b0798f42602252a47d3603b77a4545b2c72",
+      "candidate_sha256": "840e3c76e3ec966382935e5033cd5b0798f42602252a47d3603b77a4545b2c72",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/parameters.md",
+      "repo_sha256": "5736f189ac1e9e126f012d4971f62b02068b47994bdb6eef072b968e03dc4dd3",
+      "candidate_sha256": "5736f189ac1e9e126f012d4971f62b02068b47994bdb6eef072b968e03dc4dd3",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/sequencing.md",
+      "repo_sha256": "93c0a99bbe0d07db93ae6ddf86e42388c6aa79cf3eb51f6e7f1be252210d2fe3",
+      "candidate_sha256": "93c0a99bbe0d07db93ae6ddf86e42388c6aa79cf3eb51f6e7f1be252210d2fe3",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/sfx.md",
+      "repo_sha256": "f1da32a162c72a275ebe93c3345d617ca67d94082196929d9c7b7881fc06bade",
+      "candidate_sha256": "f1da32a162c72a275ebe93c3345d617ca67d94082196929d9c7b7881fc06bade",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/silence-detection.md",
+      "repo_sha256": "d772d5f2e1e4030da52b7b8f258219ba3523d9fcf2d3cc0968e09fa9dce88c4f",
+      "candidate_sha256": "d772d5f2e1e4030da52b7b8f258219ba3523d9fcf2d3cc0968e09fa9dce88c4f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/subtitles.md",
+      "repo_sha256": "e413eb817fc9e041dfb2e95bb3ed1306f661f503280fd49b591df24a2bee54d4",
+      "candidate_sha256": "e413eb817fc9e041dfb2e95bb3ed1306f661f503280fd49b591df24a2bee54d4",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/tailwind.md",
+      "repo_sha256": "a208ad650fe0291057dc56ff6f98b62f5260a442b25b8b9fd9500d6d302da7c0",
+      "candidate_sha256": "a208ad650fe0291057dc56ff6f98b62f5260a442b25b8b9fd9500d6d302da7c0",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/text-animations.md",
+      "repo_sha256": "06c71f3928e0cde4d047d4ee10f99a8d0cb9b10160924a89c866ebbd9436667e",
+      "candidate_sha256": "06c71f3928e0cde4d047d4ee10f99a8d0cb9b10160924a89c866ebbd9436667e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/timing.md",
+      "repo_sha256": "df2cb985221bb554aaf9e3d70f977a1756d5abbb3271beec88c3db3735d8e9f2",
+      "candidate_sha256": "df2cb985221bb554aaf9e3d70f977a1756d5abbb3271beec88c3db3735d8e9f2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/transcribe-captions.md",
+      "repo_sha256": "c28bc6bb42ea61e8021019839df8f9eabaab91da85950f098c9bf3f2f4b65505",
+      "candidate_sha256": "c28bc6bb42ea61e8021019839df8f9eabaab91da85950f098c9bf3f2f4b65505",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/transitions.md",
+      "repo_sha256": "511559fabab48f72fb33fcc7fe2c530620d70346edcf54ed669d95493f0e3c9a",
+      "candidate_sha256": "511559fabab48f72fb33fcc7fe2c530620d70346edcf54ed669d95493f0e3c9a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/transparent-videos.md",
+      "repo_sha256": "605d2e7ec91d17eec7ccdc9630edd0cae694b11494e6ecdddc9bec6ab3ae841a",
+      "candidate_sha256": "605d2e7ec91d17eec7ccdc9630edd0cae694b11494e6ecdddc9bec6ab3ae841a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/trimming.md",
+      "repo_sha256": "d4b1717223cba2cae928f2c0031f260fafae1b8d27e05c1ee9f903857d65383f",
+      "candidate_sha256": "d4b1717223cba2cae928f2c0031f260fafae1b8d27e05c1ee9f903857d65383f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/video-layout.md",
+      "repo_sha256": "c690c7762b33e904fef6b074278a435d6e764d48b300d0a01f0abb0374a09731",
+      "candidate_sha256": "c690c7762b33e904fef6b074278a435d6e764d48b300d0a01f0abb0374a09731",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/videos.md",
+      "repo_sha256": "87fb8d447918f9ae59797ff93d33ae7c68382b9d098deedab82d07caa6344c56",
+      "candidate_sha256": "87fb8d447918f9ae59797ff93d33ae7c68382b9d098deedab82d07caa6344c56",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/official/remotion/rules/voiceover.md",
+      "repo_sha256": "101e749639b7fe50c13192dceee2f0c6bd73ed0886f607e71db85996750826c2",
+      "candidate_sha256": "101e749639b7fe50c13192dceee2f0c6bd73ed0886f607e71db85996750826c2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/skill_loader.py",
+      "repo_sha256": "3ed5c6429f168576308f5f02876a6d6e125561061a426bc9f8dcd9db30f78b08",
+      "candidate_sha256": "3ed5c6429f168576308f5f02876a6d6e125561061a426bc9f8dcd9db30f78b08",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/skills/hyperframes.md",
+      "repo_sha256": "df2c6b2e8134df77559ae02d39e2a837b8e296e2cd3504c99fe8749df33d8cea",
+      "candidate_sha256": "df2c6b2e8134df77559ae02d39e2a837b8e296e2cd3504c99fe8749df33d8cea",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/skills/manim.md",
+      "repo_sha256": "2be0dbfb1cf4348706ef59615a9ad05a1eebe9dfdb4d4b33266d5df8a2ea6dde",
+      "candidate_sha256": "2be0dbfb1cf4348706ef59615a9ad05a1eebe9dfdb4d4b33266d5df8a2ea6dde",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/skills/remotion.md",
+      "repo_sha256": "be5b79c75c5ff70329f32a1bec2695776a2192efd746e0f408a423dacdb5a24e",
+      "candidate_sha256": "be5b79c75c5ff70329f32a1bec2695776a2192efd746e0f408a423dacdb5a24e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/source_utils.py",
+      "repo_sha256": "0d312fa2050adbeac6206d828a4f8de5cc0a9354aae31b9b298fc0112af4f3d5",
+      "candidate_sha256": "0d312fa2050adbeac6206d828a4f8de5cc0a9354aae31b9b298fc0112af4f3d5",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/animation_agent/web_agent.py",
+      "repo_sha256": "bcded50b5b75793eecb7b5aa7a1901207aab95669644593974b2c2969313fa55",
+      "candidate_sha256": "bcded50b5b75793eecb7b5aa7a1901207aab95669644593974b2c2969313fa55",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/bullet_card.py",
+      "repo_sha256": "dd50d60ee1076ed452ab02ff072a08cec5f99552fe4daa6e2a6d5f9876848297",
+      "candidate_sha256": "dd50d60ee1076ed452ab02ff072a08cec5f99552fe4daa6e2a6d5f9876848297",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/choose_card.py",
+      "repo_sha256": "ab89edfced95b6945370eda1f422482f8c7005819a2955bebe546188fe3fdd44",
+      "candidate_sha256": "ab89edfced95b6945370eda1f422482f8c7005819a2955bebe546188fe3fdd44",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/common.py",
+      "repo_sha256": "66b0d87532493d5b287d4839f13165576c29590c19ad661ebf2b1dbed530790b",
+      "candidate_sha256": "66b0d87532493d5b287d4839f13165576c29590c19ad661ebf2b1dbed530790b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/logo_watermark.py",
+      "repo_sha256": "c31d3a76aa00f2fe56ea1747f465a6793a93cb6a09d16b5c1923468a63cdea5e",
+      "candidate_sha256": "c31d3a76aa00f2fe56ea1747f465a6793a93cb6a09d16b5c1923468a63cdea5e",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/lower_third.py",
+      "repo_sha256": "d700abc553d69830cae5260681a2a73f1dd904b0035667c61b38c60ac094bc30",
+      "candidate_sha256": "d700abc553d69830cae5260681a2a73f1dd904b0035667c61b38c60ac094bc30",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/quote_card.py",
+      "repo_sha256": "caeef67060919a74aae8590e481312e700e99623e921801038e422b003d5064f",
+      "candidate_sha256": "caeef67060919a74aae8590e481312e700e99623e921801038e422b003d5064f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/cards/title_card.py",
+      "repo_sha256": "8c16eb65c14a28c9ad827a3a3fccb92b7b23923fffea47ab3ffd67d641703439",
+      "candidate_sha256": "8c16eb65c14a28c9ad827a3a3fccb92b7b23923fffea47ab3ffd67d641703439",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/common.py",
+      "repo_sha256": "9d527dc28bc4f22f32ab758ad46102b8ff5146e89b63eb8858a91986c4f3746d",
+      "candidate_sha256": "9d527dc28bc4f22f32ab758ad46102b8ff5146e89b63eb8858a91986c4f3746d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/json_io.py",
+      "repo_sha256": "3916b2c8d4e2911e2ad5f25815d961d02dcce46456afd948bb932d8d37f99e2b",
+      "candidate_sha256": "3916b2c8d4e2911e2ad5f25815d961d02dcce46456afd948bb932d8d37f99e2b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_agent_select.py",
+      "repo_sha256": "63ff4f5e95b2bfaaa5d14a9619b99c64b77fa600435202ee5a31808b45dc2cc8",
+      "candidate_sha256": "63ff4f5e95b2bfaaa5d14a9619b99c64b77fa600435202ee5a31808b45dc2cc8",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_audio_provider.py",
+      "repo_sha256": "dfe35e07c9bd356ea2427c772832622b1a1f124c96abebdef010c88131ab41e7",
+      "candidate_sha256": "dfe35e07c9bd356ea2427c772832622b1a1f124c96abebdef010c88131ab41e7",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/generate_material.py",
+      "repo_sha256": "5bb509f4cdb87573ebc609288f0c16c829c84a3249009357767f5c269aa250bb",
+      "candidate_sha256": "5bb509f4cdb87573ebc609288f0c16c829c84a3249009357767f5c269aa250bb",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/hyperframes/.gitignore",
+      "repo_sha256": "94ff33e9f185f67f05f565ec08f09bcd4609d15928ec42ee5a603e48304348c5",
+      "candidate_sha256": "94ff33e9f185f67f05f565ec08f09bcd4609d15928ec42ee5a603e48304348c5",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/hyperframes/README.md",
+      "repo_sha256": "a128dd28c72f36aa23ed0514808aec9e1a37bb075e4960cfb89c90cef252c60a",
+      "candidate_sha256": "a128dd28c72f36aa23ed0514808aec9e1a37bb075e4960cfb89c90cef252c60a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/hyperframes/install_hyperframes.py",
+      "repo_sha256": "3fb3a680af7574c34bc266480b490f1869348a14a47d01097873b32d96b7f738",
+      "candidate_sha256": "3fb3a680af7574c34bc266480b490f1869348a14a47d01097873b32d96b7f738",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/hyperframes/package-lock.json",
+      "repo_sha256": "bbb0bd71229851f2313524c0020de446d13f69e706f034f3daa82b6da4e42ea3",
+      "candidate_sha256": "bbb0bd71229851f2313524c0020de446d13f69e706f034f3daa82b6da4e42ea3",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/hyperframes/package.json",
+      "repo_sha256": "629f2b5186b368d418b2599981c00d96a03f0de659337c0f2de675a4ceee1c25",
+      "candidate_sha256": "629f2b5186b368d418b2599981c00d96a03f0de659337c0f2de675a4ceee1c25",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/pi/.gitignore",
+      "repo_sha256": "d1e63786d673aca63b49d41fac10045400484bfe60f3af4013f833e13e130a0a",
+      "candidate_sha256": "d1e63786d673aca63b49d41fac10045400484bfe60f3af4013f833e13e130a0a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/pi/.gitkeep",
+      "repo_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/pi/README.md",
+      "repo_sha256": "3546e3a626d176c3bca2ecfa4d7d79a7cda634807190369ddb315926164d1dcf",
+      "candidate_sha256": "3546e3a626d176c3bca2ecfa4d7d79a7cda634807190369ddb315926164d1dcf",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/pi/install_pi.py",
+      "repo_sha256": "b4633a3028975956ab09379a6f40bb28a43fb47e2cdf54ad7c18b3634bacc205",
+      "candidate_sha256": "b4633a3028975956ab09379a6f40bb28a43fb47e2cdf54ad7c18b3634bacc205",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/pi/models.evst-gateway.json",
+      "repo_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "candidate_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/remotion/package-lock.json",
+      "repo_sha256": "1537336c5c8c421b12103423fcd0a821ef0db511123c27c4e723d683ece2cd20",
+      "candidate_sha256": "1537336c5c8c421b12103423fcd0a821ef0db511123c27c4e723d683ece2cd20",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/remotion/package.json",
+      "repo_sha256": "c635f0ee9842091b3e06a5134c7be5f2311e1799b4606858f59a9b12cc42073c",
+      "candidate_sha256": "c635f0ee9842091b3e06a5134c7be5f2311e1799b4606858f59a9b12cc42073c",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/remotion/render.mjs",
+      "repo_sha256": "036aed387fb7c737c27410d4389c3dc6f6e75a80cbea51e326a03c9b673b10b3",
+      "candidate_sha256": "036aed387fb7c737c27410d4389c3dc6f6e75a80cbea51e326a03c9b673b10b3",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/remotion/src/Root.jsx",
+      "repo_sha256": "1660633238a88e3fb872ed9ac9557a1c340565413265ab17e1cd2b6b0220049b",
+      "candidate_sha256": "1660633238a88e3fb872ed9ac9557a1c340565413265ab17e1cd2b6b0220049b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen/remotion/src/index.jsx",
+      "repo_sha256": "737a5d3b268873c6c7fd9984ac50b5aec225cf030e78deb50e7fc663b5a1cf4d",
+      "candidate_sha256": "737a5d3b268873c6c7fd9984ac50b5aec225cf030e78deb50e7fc663b5a1cf4d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_gen_manim_safety.py",
+      "repo_sha256": "68850a57d7498ee7f39e271cb9dc813709bdff0349bf24bd89a366f07381668f",
+      "candidate_sha256": "68850a57d7498ee7f39e271cb9dc813709bdff0349bf24bd89a366f07381668f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_normalization.py",
+      "repo_sha256": "887791afddc39c39fc95ac62c71d1dc9b94a6216c7ff51d45f5ad7f48bd65a1b",
+      "candidate_sha256": "887791afddc39c39fc95ac62c71d1dc9b94a6216c7ff51d45f5ad7f48bd65a1b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_provider.py",
+      "repo_sha256": "18b7f71193231764d0c9b972ff45f8c8d1b8276840814617d54a0a6b1b43a66f",
+      "candidate_sha256": "18b7f71193231764d0c9b972ff45f8c8d1b8276840814617d54a0a6b1b43a66f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_provider_contract.py",
+      "repo_sha256": "29c2b823be049a8389d5e6d883eade44b823eed3193b1332208eb7d69854d1cc",
+      "candidate_sha256": "29c2b823be049a8389d5e6d883eade44b823eed3193b1332208eb7d69854d1cc",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_selection_policy.py",
+      "repo_sha256": "930743d1e7daca73f674b8782667e4a03012d2a1f47b13df7d58cd797f6802d5",
+      "candidate_sha256": "930743d1e7daca73f674b8782667e4a03012d2a1f47b13df7d58cd797f6802d5",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/material_video_provider.py",
+      "repo_sha256": "aa6e793857166d27f40fee60c9a536f126ad081ac6bac0e2e106599053828e5b",
+      "candidate_sha256": "aa6e793857166d27f40fee60c9a536f126ad081ac6bac0e2e106599053828e5b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/normalize_script.py",
+      "repo_sha256": "b027fd6cd5c0a901f817524bc02ba4aff2ae1332af56a7eadd90ace8bf4598ee",
+      "candidate_sha256": "b027fd6cd5c0a901f817524bc02ba4aff2ae1332af56a7eadd90ace8bf4598ee",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/optimize_queries.py",
+      "repo_sha256": "b4afff88b2333b00b56618584f78818c8215a32ff65abb97033659ca3d57bae6",
+      "candidate_sha256": "b4afff88b2333b00b56618584f78818c8215a32ff65abb97033659ca3d57bae6",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/output_format.py",
+      "repo_sha256": "f65282bf033726656e19c055e05710724c60cf866371eb145fddfcde3d77d685",
+      "candidate_sha256": "f65282bf033726656e19c055e05710724c60cf866371eb145fddfcde3d77d685",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/packaging_agent.py",
+      "repo_sha256": "2fc996fdaf5ae5a0f8d248ad8c86c7b46e3d03555b8f3bb6ca3d88bca9581047",
+      "candidate_sha256": "2fc996fdaf5ae5a0f8d248ad8c86c7b46e3d03555b8f3bb6ca3d88bca9581047",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prepare_cards.py",
+      "repo_sha256": "0bbc82daec666b32e053f7cbeb627728e3ae681742ed4cf7dc25e80478032284",
+      "candidate_sha256": "0bbc82daec666b32e053f7cbeb627728e3ae681742ed4cf7dc25e80478032284",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prepare_voice.py",
+      "repo_sha256": "62ff9f2fc2a51a0bfe009e7db3adb4e053e20a516755dbcac43f52742e0aa42d",
+      "candidate_sha256": "62ff9f2fc2a51a0bfe009e7db3adb4e053e20a516755dbcac43f52742e0aa42d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/progress_labels.py",
+      "repo_sha256": "f975b0706a12dc92fabdd9b7c5e65df9c31bdc06395504f2d495fb371bd08f06",
+      "candidate_sha256": "f975b0706a12dc92fabdd9b7c5e65df9c31bdc06395504f2d495fb371bd08f06",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/agent_candidate_judge.md",
+      "repo_sha256": "0543cfd86f16cf0f14488940a769b6543d2be54522699c1a881173c6a865f4c0",
+      "candidate_sha256": "0543cfd86f16cf0f14488940a769b6543d2be54522699c1a881173c6a865f4c0",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/agent_orientation_check.md",
+      "repo_sha256": "25a41ab0e9cff04eaa279ea79fce2779a600a73ccfd3e4af76f932afb576ad83",
+      "candidate_sha256": "25a41ab0e9cff04eaa279ea79fce2779a600a73ccfd3e4af76f932afb576ad83",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/agent_packaging_plan.md",
+      "repo_sha256": "0cb811b544a5f99ecd68385f72b18d18f52710a50fab09c044f28d499563f788",
+      "candidate_sha256": "0cb811b544a5f99ecd68385f72b18d18f52710a50fab09c044f28d499563f788",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/agent_query_rewrite.md",
+      "repo_sha256": "3174c660cc93ff3dd5ebe2eb3c4c5cf3b4217798050961c5dff92edf4462f105",
+      "candidate_sha256": "3174c660cc93ff3dd5ebe2eb3c4c5cf3b4217798050961c5dff92edf4462f105",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/card_choose.md",
+      "repo_sha256": "ab234060e43dcd50764deb7fb32bf80482ddecf15bbee81f035dd3c083212687",
+      "candidate_sha256": "ab234060e43dcd50764deb7fb32bf80482ddecf15bbee81f035dd3c083212687",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/hyperframes_source_review.md",
+      "repo_sha256": "b07d87070d51ebc4845b993e69b39c2830cd20f1cc2c5cb3bf67d483757243bd",
+      "candidate_sha256": "b07d87070d51ebc4845b993e69b39c2830cd20f1cc2c5cb3bf67d483757243bd",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/manim_agent_generate.md",
+      "repo_sha256": "03f054adf7091d7df936d331a3dc7a2db890dc34f3fafff4e1dc1cb8635cc6dc",
+      "candidate_sha256": "03f054adf7091d7df936d331a3dc7a2db890dc34f3fafff4e1dc1cb8635cc6dc",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/manim_agent_repair.md",
+      "repo_sha256": "cc70719ed62424792b2f3a0a07bd95e9f18f691c9397f711f20eb53d71efd535",
+      "candidate_sha256": "cc70719ed62424792b2f3a0a07bd95e9f18f691c9397f711f20eb53d71efd535",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/material_plan.md",
+      "repo_sha256": "a69f0135529b826bde3496d5aea37f4800f118a673146749abcdd9c61bfb9aba",
+      "candidate_sha256": "a69f0135529b826bde3496d5aea37f4800f118a673146749abcdd9c61bfb9aba",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/query_optimize.md",
+      "repo_sha256": "d91b6564b60fae72029a162915efd6a700981660b5e8cf53d0aa33b74461188b",
+      "candidate_sha256": "d91b6564b60fae72029a162915efd6a700981660b5e8cf53d0aa33b74461188b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/script_parse.md",
+      "repo_sha256": "988c65f89c45f91ddfd9c108d2bce3021232368c434496b5c9f5ef6f9c674893",
+      "candidate_sha256": "988c65f89c45f91ddfd9c108d2bce3021232368c434496b5c9f5ef6f9c674893",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/script_parse_review.md",
+      "repo_sha256": "a5a6f149ebc8192b174e3100940c49aab31f6351d95be558398a60c694c1c7f7",
+      "candidate_sha256": "a5a6f149ebc8192b174e3100940c49aab31f6351d95be558398a60c694c1c7f7",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/subtitle_split.md",
+      "repo_sha256": "2e8c850ad17dba490f749d6b5f133f1ccf562a2bb1d86842aa7e08ddfb4abdcc",
+      "candidate_sha256": "2e8c850ad17dba490f749d6b5f133f1ccf562a2bb1d86842aa7e08ddfb4abdcc",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/subtitle_timing_map.md",
+      "repo_sha256": "9c2707b87b42ded5b0d83b0fb944cb7b35d3158e588d6627102578dab9c76c6b",
+      "candidate_sha256": "9c2707b87b42ded5b0d83b0fb944cb7b35d3158e588d6627102578dab9c76c6b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/tts_read_text.md",
+      "repo_sha256": "a3313d48853662e8932ee6e67dc47b8cbe0e9aa305b887f1948c7baeceaa536d",
+      "candidate_sha256": "a3313d48853662e8932ee6e67dc47b8cbe0e9aa305b887f1948c7baeceaa536d",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/tts_term_readings.md",
+      "repo_sha256": "69cd110d91d40df58b2aa39f1561a16d1f6424ba44e74df5514c8719bff697c2",
+      "candidate_sha256": "69cd110d91d40df58b2aa39f1561a16d1f6424ba44e74df5514c8719bff697c2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/web_agent_generate.md",
+      "repo_sha256": "a22b9521a25cb85625af5e11d68795fe099a8542653ebdaac8df716501b542d9",
+      "candidate_sha256": "a22b9521a25cb85625af5e11d68795fe099a8542653ebdaac8df716501b542d9",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/prompts/web_agent_repair.md",
+      "repo_sha256": "628d6f4e122abf6f828e6d94e467a0f05531de544b82336c8466d48480e4fbab",
+      "candidate_sha256": "628d6f4e122abf6f828e6d94e467a0f05531de544b82336c8466d48480e4fbab",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/register_voice_template.py",
+      "repo_sha256": "2bec65ee43bcaa17f3affa332deddb6e5b6aa94f9d6fd2f40c3a718404a442e7",
+      "candidate_sha256": "2bec65ee43bcaa17f3affa332deddb6e5b6aa94f9d6fd2f40c3a718404a442e7",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/render_segment.py",
+      "repo_sha256": "8df6cd6de589beedb321e6c097399a1fdd4245703c97b36738b8ec8f3358ce1b",
+      "candidate_sha256": "8df6cd6de589beedb321e6c097399a1fdd4245703c97b36738b8ec8f3358ce1b",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/script_card_fields.py",
+      "repo_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+      "candidate_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/script_tabular.py",
+      "repo_sha256": "c59b88896d8ab4409057b1cad52a15c2a7720bd1a2164a265d2119b0de4ebb15",
+      "candidate_sha256": "c59b88896d8ab4409057b1cad52a15c2a7720bd1a2164a265d2119b0de4ebb15",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/script_template.py",
+      "repo_sha256": "fe005b358c44616eee17a322c5848807710fcead01d8fdbf85dc250d62b816e2",
+      "candidate_sha256": "fe005b358c44616eee17a322c5848807710fcead01d8fdbf85dc250d62b816e2",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/shot_plan_schema.py",
+      "repo_sha256": "c7f5b74136076e16e8b5e16756957ee507f15c397cfa909711fdc4835f74549a",
+      "candidate_sha256": "c7f5b74136076e16e8b5e16756957ee507f15c397cfa909711fdc4835f74549a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/subtitle_alignment.py",
+      "repo_sha256": "8c18d1a178279046117bbc0f516ea9dd5f8578d91cefc628740c830bf6de134a",
+      "candidate_sha256": "8c18d1a178279046117bbc0f516ea9dd5f8578d91cefc628740c830bf6de134a",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/subtitle_safe_area.py",
+      "repo_sha256": "87027279b0e65bbf6c4de32ea41728b86bdc39e94dbf5b7b3804b6a849d97626",
+      "candidate_sha256": "87027279b0e65bbf6c4de32ea41728b86bdc39e94dbf5b7b3804b6a849d97626",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/template_packaging.py",
+      "repo_sha256": "c811809a00f0b888b4f024207a1348b11c0e71266cb08ece784d617ddf65d429",
+      "candidate_sha256": "c811809a00f0b888b4f024207a1348b11c0e71266cb08ece784d617ddf65d429",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/text_layout.py",
+      "repo_sha256": "88c63300ce617475370efe52e28ac97a9d92d6520f0c20786c558eae1ab412bb",
+      "candidate_sha256": "88c63300ce617475370efe52e28ac97a9d92d6520f0c20786c558eae1ab412bb",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/tts_dashscope.py",
+      "repo_sha256": "4e936dae584c65a2309852ae1ca12ca029962610bf8d5bcf044399e8584dbb45",
+      "candidate_sha256": "4e936dae584c65a2309852ae1ca12ca029962610bf8d5bcf044399e8584dbb45",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/tts_term_rules.py",
+      "repo_sha256": "01162b7287f3701a3d952321982ef0cd8da96a1807b4bca01781173961cc341f",
+      "candidate_sha256": "01162b7287f3701a3d952321982ef0cd8da96a1807b4bca01781173961cc341f",
+      "match": true
+    },
+    {
+      "path": "VideoAutoCut/tools/video_encoder.py",
+      "repo_sha256": "daa6c5d7f922a588ab377251550b0357bb8de03fe6840cf16e081334e956c856",
+      "candidate_sha256": "daa6c5d7f922a588ab377251550b0357bb8de03fe6840cf16e081334e956c856",
+      "match": true
+    }
+  ]
+}

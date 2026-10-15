@@ -1,0 +1,319 @@
+{
+  "schema": "w6-engine-pe-diff/v1",
+  "old": {
+    "path": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+    "bytes": 8308224,
+    "sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "pe_offset": 256,
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 5652558,
+        "virtual_address": 4096,
+        "raw_size": 5652992,
+        "raw_offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 2347888,
+        "virtual_address": 5660672,
+        "raw_size": 2348032,
+        "raw_offset": 5654016
+      },
+      {
+        "name": ".data",
+        "virtual_size": 12264,
+        "virtual_address": 8011776,
+        "raw_size": 10752,
+        "raw_offset": 8002048
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 250932,
+        "virtual_address": 8024064,
+        "raw_size": 251392,
+        "raw_offset": 8012800
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 43896,
+        "virtual_address": 8278016,
+        "raw_size": 44032,
+        "raw_offset": 8264192
+      }
+    ],
+    "debug_directory": {
+      "rva": 7125312,
+      "size": 84,
+      "file_offset": 7118656,
+      "entries": [
+        {
+          "entry_file_offset": 7118656,
+          "characteristics": 0,
+          "timestamp_u32": 1790220913,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 2,
+          "size_of_data": 47,
+          "address_of_raw_data": 7125768,
+          "pointer_to_raw_data": 7119112
+        },
+        {
+          "entry_file_offset": 7118684,
+          "characteristics": 0,
+          "timestamp_u32": 1790220913,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 12,
+          "size_of_data": 20,
+          "address_of_raw_data": 7125816,
+          "pointer_to_raw_data": 7119160
+        },
+        {
+          "entry_file_offset": 7118712,
+          "characteristics": 0,
+          "timestamp_u32": 1790220913,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 13,
+          "size_of_data": 796,
+          "address_of_raw_data": 7125836,
+          "pointer_to_raw_data": 7119180
+        }
+      ]
+    },
+    "build_metadata": {
+      "coff_timestamp_u32": 1790220913,
+      "coff_timestamp_utc": "2026-09-24T03:35:13+00:00",
+      "codeview_rsds_offset": 7119112,
+      "pdb_guid": "d04d3d96-357b-4f09-9f1f-1c3db870c470",
+      "pdb_age": 1,
+      "pdb_path": "VideoAutoCutEngine.pdb"
+    }
+  },
+  "new": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutApp\\target\\release\\VideoAutoCutEngine.exe",
+    "bytes": 8308224,
+    "sha256": "eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085",
+    "pe_offset": 256,
+    "sections": [
+      {
+        "name": ".text",
+        "virtual_size": 5652558,
+        "virtual_address": 4096,
+        "raw_size": 5652992,
+        "raw_offset": 1024
+      },
+      {
+        "name": ".rdata",
+        "virtual_size": 2347888,
+        "virtual_address": 5660672,
+        "raw_size": 2348032,
+        "raw_offset": 5654016
+      },
+      {
+        "name": ".data",
+        "virtual_size": 12264,
+        "virtual_address": 8011776,
+        "raw_size": 10752,
+        "raw_offset": 8002048
+      },
+      {
+        "name": ".pdata",
+        "virtual_size": 250932,
+        "virtual_address": 8024064,
+        "raw_size": 251392,
+        "raw_offset": 8012800
+      },
+      {
+        "name": ".reloc",
+        "virtual_size": 43896,
+        "virtual_address": 8278016,
+        "raw_size": 44032,
+        "raw_offset": 8264192
+      }
+    ],
+    "debug_directory": {
+      "rva": 7125312,
+      "size": 84,
+      "file_offset": 7118656,
+      "entries": [
+        {
+          "entry_file_offset": 7118656,
+          "characteristics": 0,
+          "timestamp_u32": 1790732091,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 2,
+          "size_of_data": 47,
+          "address_of_raw_data": 7125768,
+          "pointer_to_raw_data": 7119112
+        },
+        {
+          "entry_file_offset": 7118684,
+          "characteristics": 0,
+          "timestamp_u32": 1790732091,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 12,
+          "size_of_data": 20,
+          "address_of_raw_data": 7125816,
+          "pointer_to_raw_data": 7119160
+        },
+        {
+          "entry_file_offset": 7118712,
+          "characteristics": 0,
+          "timestamp_u32": 1790732091,
+          "major_version": 0,
+          "minor_version": 0,
+          "type": 13,
+          "size_of_data": 796,
+          "address_of_raw_data": 7125836,
+          "pointer_to_raw_data": 7119180
+        }
+      ]
+    },
+    "build_metadata": {
+      "coff_timestamp_u32": 1790732091,
+      "coff_timestamp_utc": "2026-09-30T01:34:51+00:00",
+      "codeview_rsds_offset": 7119112,
+      "pdb_guid": "81bf01a6-a9a0-4f2c-aaad-2c04bc7d6d27",
+      "pdb_age": 1,
+      "pdb_path": "VideoAutoCutEngine.pdb"
+    }
+  },
+  "same_size": true,
+  "differing_byte_count": 27,
+  "difference_run_count": 6,
+  "first_difference_runs": [
+    {
+      "start": 264,
+      "end": 266,
+      "bytes": 3
+    },
+    {
+      "start": 7118660,
+      "end": 7118662,
+      "bytes": 3
+    },
+    {
+      "start": 7118688,
+      "end": 7118690,
+      "bytes": 3
+    },
+    {
+      "start": 7118716,
+      "end": 7118718,
+      "bytes": 3
+    },
+    {
+      "start": 7119116,
+      "end": 7119122,
+      "bytes": 7
+    },
+    {
+      "start": 7119124,
+      "end": 7119131,
+      "bytes": 8
+    }
+  ],
+  "section_differences": [
+    {
+      "name": ".text",
+      "differing_bytes": 0,
+      "old_sha256": "da70aca34a2c2c36cce98a7b9dae31bf061a7fafcbb73e6325fda0a03e268005",
+      "new_sha256": "da70aca34a2c2c36cce98a7b9dae31bf061a7fafcbb73e6325fda0a03e268005"
+    },
+    {
+      "name": ".rdata",
+      "differing_bytes": 24,
+      "old_sha256": "6cdc076b3a9841e1bc8add99acaa355f6348e1b60116c5e8cfce3e01e32952e8",
+      "new_sha256": "984e50da78882c4b6b38787a1eed11b2101028e4fbda92e42dcc6c7fa5178827"
+    },
+    {
+      "name": ".data",
+      "differing_bytes": 0,
+      "old_sha256": "32b94370bc6764716288927e1bf0c6e883903c7a3112eada4b046449cfc9d7e7",
+      "new_sha256": "32b94370bc6764716288927e1bf0c6e883903c7a3112eada4b046449cfc9d7e7"
+    },
+    {
+      "name": ".pdata",
+      "differing_bytes": 0,
+      "old_sha256": "51c99a504cb429c3915fa21f937ecf2fec318c8d7856e02c96301d81a6d55e95",
+      "new_sha256": "51c99a504cb429c3915fa21f937ecf2fec318c8d7856e02c96301d81a6d55e95"
+    },
+    {
+      "name": ".reloc",
+      "differing_bytes": 0,
+      "old_sha256": "9de91aceeabfcee4370885a869ac9cc898359eb7f961fe9bba407c05da702856",
+      "new_sha256": "9de91aceeabfcee4370885a869ac9cc898359eb7f961fe9bba407c05da702856"
+    }
+  ],
+  "old_path_strings": [
+    "%Y%m%d.videoautocut",
+    ".videoautocut-shot.json",
+    "VIDEOAUTO_RUST_PROMPT_DIRpromptsrustVideoAutoCutApp``````jsondownload_review.jsonitemssrc\\material_review.rs",
+    "VideoAutoCut/0.1 bgm-downloaderBGM ",
+    "VideoAutoCutEngine.pdb"
+  ],
+  "new_path_strings": [
+    "%Y%m%d.videoautocut",
+    ".videoautocut-shot.json",
+    "VIDEOAUTO_RUST_PROMPT_DIRpromptsrustVideoAutoCutApp``````jsondownload_review.jsonitemssrc\\material_review.rs",
+    "VideoAutoCut/0.1 bgm-downloaderBGM ",
+    "VideoAutoCutEngine.pdb"
+  ],
+  "old_unique_ascii_count": 0,
+  "new_unique_ascii_count": 0,
+  "difference_classification": {
+    "coff_timestamp_location": 264,
+    "debug_entry_timestamp_locations": [
+      7118660,
+      7118688,
+      7118716
+    ],
+    "debug_entry_types": [
+      2,
+      12,
+      13
+    ],
+    "codeview_entry_pointer_to_raw_data": 7119112,
+    "codeview_signature": "RSDS",
+    "codeview_pdb_guid_location": 7119116,
+    "identical_sections": [
+      ".text",
+      ".data",
+      ".pdata",
+      ".reloc"
+    ],
+    "path_difference_found": false,
+    "only_build_path_proven": false,
+    "all_binary_differences_explained_by_build_metadata": true,
+    "masked_metadata_ranges": [
+      {
+        "offset": 264,
+        "bytes": 4
+      },
+      {
+        "offset": 7118660,
+        "bytes": 4
+      },
+      {
+        "offset": 7118688,
+        "bytes": 4
+      },
+      {
+        "offset": 7118716,
+        "bytes": 4
+      },
+      {
+        "offset": 7119116,
+        "bytes": 16
+      }
+    ],
+    "equal_after_masking_structural_metadata": true,
+    "all_difference_runs_classified": true,
+    "normalized_sha256": "4425d7574e226fdf96a6023ae2f0bd28d71585307c4a2fb5357c5900f884413b"
+  },
+  "limitation": "This proves the two retained binaries differ only in COFF/debug build metadata bytes. It does not prove that a build directory path caused the metadata values; no differing embedded path was found."
+}

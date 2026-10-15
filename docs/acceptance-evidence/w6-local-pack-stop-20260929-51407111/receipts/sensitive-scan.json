@@ -1,0 +1,8 @@
+{
+  "schema": "sensitive-scan/v1",
+  "scanned_at": "2026-09-29T18:25:02.6131159+08:00",
+  "files": 35,
+  "credential_pattern_hits": [],
+  "forbidden_sensitive_files": [],
+  "result": "pass"
+}

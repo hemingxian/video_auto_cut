@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-28T09:17:34.9454361Z",
+  "current_sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+  "current_expected": true,
+  "reveal_error_matches": [],
+  "launcher_secret_marker_matches": [],
+  "electron": {
+    "pid": 34724,
+    "exists": true,
+    "executable_basename": "electron.exe",
+    "executable_path_matches": true,
+    "commandline_sha256": "e4403e9718acf44f93ce9c768d36d2684e5538151bf745b5f4c27798a99778df"
+  },
+  "launcher": {
+    "pid": 39252,
+    "exists": true,
+    "executable_basename": "pwsh.exe",
+    "commandline_contains_start_script": true,
+    "commandline_sha256": "570b28ad24cfc1695834bb04c68eeb054c41e436482bf7731b520597562f1639"
+  }
+}

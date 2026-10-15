@@ -1,0 +1,1562 @@
+/* Software updates */
+.update-grid {
+  grid-template-columns: minmax(320px, 0.8fr) minmax(420px, 1.2fr);
+  align-items: start;
+}
+
+.update-hero-panel,
+.update-detail-panel {
+  display: grid;
+  gap: 16px;
+}
+
+.update-hero {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.update-mark {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 18px;
+  color: #bfdbfe;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(14, 165, 233, 0.55));
+  box-shadow: 0 16px 38px rgba(37, 99, 235, 0.18);
+}
+
+.update-mark .icon {
+  width: 26px;
+  height: 26px;
+}
+
+.update-hero span,
+.update-info-list span,
+.update-release-head span {
+  color: #8792a4;
+  font-size: 12px;
+}
+
+.update-hero strong {
+  display: block;
+  margin-top: 4px;
+  color: #f8fafc;
+  font-size: 24px;
+}
+
+.update-status-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid #263143;
+  border-radius: 16px;
+  background: #0d1118;
+}
+
+.update-status-card strong {
+  color: #edf2f8;
+  font-size: 16px;
+}
+
+.update-status-card p,
+.update-help p {
+  margin: 6px 0 0;
+  color: #9aa6b6;
+  line-height: 1.6;
+}
+
+.update-status-card.is-available,
+.update-status-card.is-downloaded {
+  border-color: rgba(34, 197, 94, 0.32);
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.update-status-card.is-error {
+  border-color: rgba(248, 113, 113, 0.38);
+  background: rgba(127, 29, 29, 0.16);
+}
+
+.status-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+}
+
+.status-icon.ok {
+  color: #86efac;
+}
+
+.status-icon.warn {
+  color: #fbbf24;
+}
+
+.update-progress {
+  display: grid;
+  gap: 8px;
+}
+
+.update-progress-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #9aa6b6;
+  font-size: 12px;
+}
+
+.update-progress-head strong {
+  color: #dbeafe;
+  font-weight: 600;
+}
+
+.update-actions .button:disabled,
+.updates-page .page-action .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.update-info-list {
+  display: grid;
+  gap: 10px;
+}
+
+.update-info-list div {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #222936;
+  border-radius: 14px;
+  background: #0d1118;
+}
+
+.update-info-list strong,
+.update-info-list code {
+  min-width: 0;
+  overflow: hidden;
+  color: #e8edf6;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.update-info-list code {
+  padding: 4px 0;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace;
+  font-size: 12px;
+}
+
+.update-release,
+.update-help {
+  border: 1px solid #222936;
+  border-radius: 16px;
+  background: #0d1118;
+}
+
+.update-release-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 14px;
+  border-bottom: 1px solid #202631;
+}
+
+.update-release-head strong,
+.update-help strong {
+  color: #edf2f8;
+}
+
+.update-release pre {
+  max-height: 260px;
+  overflow: auto;
+  margin: 0;
+  padding: 14px;
+  color: #b8c0cd;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.update-help {
+  padding: 14px;
+}
+
+@media (max-width: 1180px) {
+  .update-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.runtime-logo {
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  color: #bfdbfe;
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+}
+
+.runtime-subtitle,
+.runtime-hint {
+  margin: 0;
+  color: #9aa6b6;
+  line-height: 1.7;
+}
+
+.runtime-status-box {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 16px;
+  border: 1px solid #263142;
+  border-radius: 18px;
+  background: #0d121a;
+}
+
+.runtime-status-box svg {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+}
+
+.runtime-status-box strong {
+  color: #edf2f8;
+}
+
+.runtime-ok { color: #86efac; }
+.runtime-warn { color: #fbbf24; }
+.runtime-info { color: #93c5fd; }
+
+.runtime-error {
+  margin: 8px 0 0;
+  color: #fca5a5;
+  white-space: pre-wrap;
+}
+
+.runtime-progress {
+  display: grid;
+  gap: 9px;
+}
+
+.runtime-progress-head {
+  display: flex;
+  justify-content: space-between;
+  color: #9aa6b6;
+  font-size: 13px;
+}
+
+.runtime-progress-head strong {
+  color: #dbeafe;
+}
+
+.runtime-progress-bar {
+  --vacut-progress-gradient: linear-gradient(90deg, #5b91ff 0%, #55ddec 52%, #a6ef78 100%);
+  height: 12px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #06090f;
+}
+
+.runtime-progress-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--vacut-progress-gradient);
+  transition: width 0.18s ease;
+}
+
+.runtime-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.runtime-actions .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.runtime-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 7, 18, 0.54);
+  backdrop-filter: blur(5px);
+}
+
+.runtime-dialog-card {
+  width: min(520px, 100%);
+}
+
+.runtime-error {
+  margin: 6px 0 0;
+  color: #fca5a5;
+  white-space: pre-wrap;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.runtime-hint,
+.update-dialog-note {
+  margin: 0;
+  color: #9aa6b6;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.product-update-grid {
+  align-items: stretch;
+}
+
+.settings-update-section {
+  display: grid;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.settings-section-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 4px;
+}
+
+.settings-section-title h2 {
+  margin: 0;
+  color: #f8fafc;
+  font-size: 18px;
+}
+
+.settings-section-title p {
+  margin: 6px 0 0;
+  color: #8ea0b8;
+  font-size: 13px;
+}
+
+.settings-section-title.compact {
+  align-items: flex-start;
+}
+
+.simple-update-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+}
+
+.simple-update-main {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.simple-update-icon {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 17px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.2);
+}
+
+.simple-update-card.is-ready .simple-update-icon {
+  color: #86efac;
+  background: rgba(22, 163, 74, 0.16);
+}
+
+.simple-update-card.is-available .simple-update-icon,
+.simple-update-card.is-downloaded .simple-update-icon {
+  color: #dbeafe;
+  background: #1d4ed8;
+}
+
+.simple-update-card.is-error .simple-update-icon {
+  color: #fbbf24;
+  background: rgba(127, 29, 29, 0.18);
+}
+
+.simple-update-copy {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.simple-update-copy span,
+.simple-update-copy small {
+  color: #8ea0b8;
+  font-size: 12px;
+}
+
+.simple-update-copy strong {
+  color: #f8fafc;
+  font-size: 18px;
+}
+
+.simple-update-copy p {
+  margin: 0;
+  color: #a8b3c4;
+  line-height: 1.5;
+}
+
+.simple-update-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.simple-update-actions .button {
+  min-width: 118px;
+}
+
+.simple-update-progress {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 8px;
+}
+
+.product-about-card {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  padding: 18px;
+  overflow: visible;
+}
+
+.about-product-main {
+  min-width: 0;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+}
+
+.about-product-mark {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 19px;
+  background: transparent;
+}
+
+.about-product-mark img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.about-product-copy {
+  min-width: 0;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+}
+
+.about-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #93c5fd;
+  font-size: 12px;
+}
+
+.mini-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.about-product-copy strong {
+  color: #f8fafc;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.about-product-copy p {
+  max-width: 680px;
+  margin: 0;
+  color: #a8b3c4;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.about-version-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.about-version-row span {
+  min-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  border-radius: 999px;
+  color: #b8c7dc;
+  background: rgba(59, 130, 246, 0.08);
+  font-size: 12px;
+}
+
+.about-update-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  background: transparent;
+}
+
+.about-update-status {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.about-update-status .simple-update-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+}
+
+.about-update-status strong {
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.about-update-status p {
+  margin: 5px 0 0;
+  color: #a8b3c4;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.about-update-status small {
+  display: block;
+  margin-top: 6px;
+  color: #93c5fd;
+  font-size: 12px;
+}
+
+.about-update-side .button {
+  min-width: 118px;
+}
+
+@media (max-width: 980px) {
+  .simple-update-card,
+  .product-about-card {
+    grid-template-columns: 1fr;
+  }
+
+  .simple-update-actions {
+    justify-content: flex-start;
+  }
+
+  .about-update-side {
+    border: 0;
+  }
+}
+
+/* History list row stability */
+.runs-page .run-list {
+  gap: 8px;
+  grid-auto-rows: 64px;
+  align-content: start;
+}
+
+.runs-page .run-item {
+  height: 64px;
+  min-height: 64px;
+  max-height: 64px;
+  align-content: center;
+  gap: 4px;
+  overflow: hidden;
+  padding: 9px 88px 9px 12px;
+  border-radius: 12px;
+}
+
+.runs-page .run-item strong,
+.runs-page .run-item > span:not(.run-done-badge) {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runs-page .run-done-badge {
+  top: 9px;
+  right: 10px;
+}
+
+.runtime-version-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.runtime-version-row div {
+  padding: 14px;
+  border: 1px solid #202938;
+  border-radius: 16px;
+  background: #0a0f16;
+}
+
+.runtime-version-row span {
+  display: block;
+  color: #788499;
+  font-size: 12px;
+}
+
+.runtime-version-row strong {
+  display: block;
+  margin-top: 6px;
+  color: #eef4ff;
+  font-size: 17px;
+}
+
+.update-prompt-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1250;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 7, 18, 0.46);
+  backdrop-filter: blur(5px);
+}
+
+.update-prompt-card {
+  width: min(520px, 100%);
+}
+
+.update-dialog-card {
+  position: relative;
+  display: grid;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid #252b36;
+  border-radius: 20px;
+  background: #111418;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+}
+
+.update-dialog-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.update-dialog-brand {
+  min-width: 0;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding-right: 34px;
+}
+
+.update-dialog-logo {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 18px;
+  background: transparent;
+}
+
+.update-dialog-logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.update-dialog-title-wrap {
+  min-width: 0;
+  display: grid;
+  gap: 5px;
+}
+
+.update-dialog-title-wrap span {
+  color: #8ea0b8;
+  font-size: 12px;
+}
+
+.update-dialog-title-wrap strong {
+  color: #f8fafc;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.update-dialog-title-wrap p {
+  max-width: 390px;
+  margin: 0;
+  color: #a8b3c4;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.update-dialog-content {
+  display: grid;
+  gap: 12px;
+}
+
+.update-dialog-status {
+  min-width: 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 13px 14px;
+  border: 1px solid #202938;
+  border-radius: 16px;
+  background: #0a0f16;
+}
+
+.update-dialog-status-icon {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.18);
+}
+
+.update-dialog-status-icon.is-ready,
+.update-dialog-status-icon.is-ready,
+.update-dialog-status-icon.is-downloaded,
+.update-dialog-status-icon.is-ready {
+  color: #86efac;
+  background: rgba(22, 163, 74, 0.16);
+}
+
+.update-dialog-status-icon.is-error {
+  color: #fbbf24;
+  background: rgba(127, 29, 29, 0.18);
+}
+
+.update-dialog-status-icon .status-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.update-dialog-status > div:last-child {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+.update-dialog-status span,
+.update-dialog-meta span,
+.update-dialog-progress-head span {
+  color: #788499;
+  font-size: 12px;
+}
+
+.update-dialog-status strong,
+.update-dialog-meta strong {
+  min-width: 0;
+  overflow: hidden;
+  color: #eef4ff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.update-dialog-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.update-dialog-meta {
+  min-width: 0;
+  display: grid;
+  gap: 5px;
+  padding: 11px 12px;
+  border: 1px solid #202938;
+  border-radius: 14px;
+  background: #0a0f16;
+}
+
+.update-dialog-progress {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid #202938;
+  border-radius: 14px;
+  background: #0a0f16;
+}
+
+.update-dialog-progress-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.update-dialog-progress-head strong {
+  color: #dbeafe;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.update-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.update-dialog-actions .button {
+  min-width: 96px;
+}
+
+.update-dialog-actions .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+
+/* Update and install modals */
+.update-prompt-overlay,
+.runtime-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 7, 18, 0.52);
+  backdrop-filter: blur(5px);
+}
+
+.update-prompt-overlay { z-index: 1250; }
+.runtime-dialog-overlay { z-index: 1300; }
+
+.shell-update-modal,
+.runtime-install-modal {
+  position: relative;
+  width: min(480px, 100%);
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid #252b36;
+  border-radius: 22px;
+  background: #111418;
+  box-shadow: 0 26px 78px rgba(0, 0, 0, 0.42);
+}
+
+.runtime-install-modal {
+  width: min(560px, 100%);
+  gap: 20px;
+}
+
+.shell-update-head,
+.runtime-install-head {
+  min-width: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding-right: 34px;
+}
+
+.shell-update-icon,
+.runtime-install-icon {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #0d1118;
+}
+
+.runtime-install-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.shell-update-icon img,
+.runtime-install-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.shell-update-copy,
+.runtime-install-copy {
+  min-width: 0;
+  display: grid;
+  gap: 5px;
+}
+
+.shell-update-copy span,
+.runtime-install-copy span {
+  color: #8ea0b8;
+  font-size: 12px;
+}
+
+.shell-update-copy strong,
+.runtime-install-copy strong {
+  color: #f8fafc;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.runtime-install-copy strong {
+  font-size: 22px;
+}
+
+.shell-update-copy p,
+.runtime-install-copy p {
+  max-width: 430px;
+  margin: 0;
+  color: #a8b3c4;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.shell-update-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 2px 0 0;
+}
+
+.shell-update-summary span,
+.runtime-install-version-line span,
+.modal-progress-head span {
+  color: #8b95a7;
+  font-size: 12px;
+}
+
+.shell-update-summary strong {
+  min-width: 0;
+  overflow: hidden;
+  color: #e8edf6;
+  font-size: 14px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.runtime-install-body {
+  display: grid;
+  gap: 14px;
+}
+
+.runtime-install-version-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  padding-left: 52px;
+}
+
+.modal-progress {
+  display: grid;
+  gap: 8px;
+}
+
+.modal-progress-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-progress-head strong {
+  color: #dbeafe;
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.runtime-install-progress {
+  padding-left: 52px;
+}
+
+.runtime-install-error {
+  margin: 0;
+  padding-left: 52px;
+  color: #fca5a5;
+  white-space: pre-wrap;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.runtime-install-note {
+  margin: 0;
+  padding-left: 52px;
+  color: #9aa6b6;
+  font-size: 12px;
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.runtime-install-action-hint {
+  min-width: 0;
+  margin-right: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #8ea0b8;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.runtime-install-action-hint strong,
+.runtime-install-action-hint span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.runtime-install-action-hint strong {
+  flex: 0 0 auto;
+  color: #c7d2e1;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.runtime-install-action-hint span {
+  color: #8ea0b8;
+}
+
+.modal-actions .button {
+  min-width: 96px;
+}
+
+.modal-actions .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+@media (max-width: 560px) {
+  .shell-update-modal,
+  .runtime-install-modal {
+    padding: 20px;
+  }
+
+  .runtime-install-version-line,
+  .runtime-install-progress,
+  .runtime-install-error,
+  .runtime-install-note {
+    padding-left: 0;
+  }
+
+  .modal-actions {
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
+
+  .modal-actions .button {
+    flex: 1;
+  }
+}
+
+/* Update prompt layout */
+.shell-update-modal-v2 {
+  width: min(500px, 100%);
+  gap: 18px;
+  padding: 24px 24px 22px;
+}
+
+.shell-update-modal-v2 .shell-update-head {
+  padding-right: 36px;
+}
+
+.shell-update-modal-v2 .shell-update-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.12);
+}
+
+.shell-update-modal-v2 .shell-update-copy span {
+  color: #93c5fd;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+.shell-update-modal-v2 .shell-update-copy strong {
+  font-size: 22px;
+}
+
+.shell-update-version-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 0 0 75px;
+}
+
+.shell-update-version-pill {
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  border-radius: 999px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.14);
+  font-size: 12px;
+}
+
+.shell-update-version-line strong {
+  color: #eef4ff;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+.shell-update-benefits {
+  display: grid;
+  gap: 9px;
+  padding-left: 75px;
+}
+
+.shell-update-benefit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #a8b3c4;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.shell-update-benefit .mini-icon {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+  color: #60a5fa;
+}
+
+.shell-update-working {
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 75px;
+  color: #b8c7dc;
+  font-size: 13px;
+}
+
+.shell-update-working .status-icon {
+  width: 18px;
+  height: 18px;
+  color: #93c5fd;
+}
+
+.shell-update-modal-v2 .shell-update-progress {
+  padding-left: 75px;
+}
+
+@media (max-width: 560px) {
+  .shell-update-version-line,
+  .shell-update-benefits,
+  .shell-update-working,
+  .shell-update-modal-v2 .shell-update-progress {
+    padding-left: 0;
+  }
+}
+
+/* Modal layout hierarchy */
+.update-prompt-card.shell-update-modal-v3,
+.runtime-dialog-card.runtime-install-modal-v2,
+.shell-update-modal-v3,
+.runtime-install-modal-v2 {
+  width: min(520px, calc(100vw - 48px));
+  box-sizing: border-box;
+  gap: 16px;
+  padding: 24px 24px 22px;
+  border-radius: 18px;
+}
+
+.shell-update-v3-head,
+.runtime-install-modal-v2 .runtime-install-head {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  align-items: start;
+  gap: 14px;
+  padding-right: 34px;
+}
+
+.shell-update-modal-v3 .shell-update-icon,
+.runtime-install-modal-v2 .runtime-install-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+}
+
+.shell-update-modal-v3 .shell-update-copy,
+.runtime-install-modal-v2 .runtime-install-copy {
+  gap: 8px;
+}
+
+.shell-update-modal-v3 .shell-update-eyebrow,
+.shell-update-modal-v3 .shell-update-product,
+.runtime-install-modal-v2 .runtime-install-copy span {
+  color: #8ea0b8;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.shell-update-modal-v3 .shell-update-product {
+  color: #93c5fd;
+  font-weight: 650;
+}
+
+.shell-update-title-row {
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+}
+
+.shell-update-modal-v3 .shell-update-title-row strong,
+.runtime-install-modal-v2 .runtime-install-copy strong {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.shell-update-version-inline {
+  flex: 0 0 auto;
+  color: #8ea0b8;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.shell-update-modal-v3 .shell-update-copy p,
+.runtime-install-modal-v2 .runtime-install-copy p {
+  max-width: none;
+  color: #a8b3c4;
+  font-size: 13px;
+  line-height: 1.45;
+  margin-top: 0;
+}
+
+.shell-update-version-line {
+  display: block;
+  color: #dbe6f5;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.35;
+  margin-top: 4px;
+}
+
+.shell-update-note {
+  display: block;
+  color: #7f8ca1;
+  font-size: 12px;
+  line-height: 1.45;
+  margin-top: 0;
+}
+
+.runtime-install-modal-v2 .runtime-install-version-text {
+  width: auto;
+  min-height: 0;
+  display: block;
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: #8ea0b8;
+  background: transparent;
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+.shell-update-modal-v3 > .shell-update-progress,
+.shell-update-modal-v3 > .shell-update-working,
+.runtime-install-modal-v2 .runtime-install-body,
+.runtime-install-modal-v2 .runtime-install-progress,
+.runtime-install-modal-v2 .runtime-install-error,
+.runtime-install-modal-v2 .runtime-install-note {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.shell-update-modal-v3 .shell-update-progress,
+.shell-update-modal-v3 .shell-update-working,
+.runtime-install-modal-v2 .runtime-install-progress {
+  margin: 2px 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.runtime-install-modal-v2 .runtime-install-body {
+  gap: 14px;
+}
+
+.runtime-install-modal-v2 .runtime-install-version-line,
+.runtime-install-modal-v2 .runtime-install-progress,
+.runtime-install-modal-v2 .runtime-install-error,
+.runtime-install-modal-v2 .runtime-install-note {
+  margin-left: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.runtime-install-modal-v2 .runtime-install-version-line {
+  gap: 8px 16px;
+}
+
+.runtime-install-modal-v2 .runtime-install-error {
+  padding: 10px 12px;
+  border: 1px solid rgba(248, 113, 113, 0.26);
+  border-radius: 12px;
+  background: rgba(127, 29, 29, 0.14);
+}
+
+.runtime-install-modal-v2 .runtime-install-note {
+  color: #9aa6b6;
+  line-height: 1.6;
+}
+
+.runtime-install-modal-v2 .modal-actions,
+.shell-update-modal-v3 .modal-actions {
+  width: 100%;
+  margin-top: 2px;
+}
+
+.shell-update-modal-v3 .progress-bar,
+.runtime-install-modal-v2 .progress-bar {
+  width: 100%;
+}
+
+@media (max-width: 560px) {
+  .update-prompt-card.shell-update-modal-v3,
+  .runtime-dialog-card.runtime-install-modal-v2,
+  .shell-update-modal-v3,
+  .runtime-install-modal-v2 {
+    width: min(100%, calc(100vw - 24px));
+    padding: 20px;
+  }
+
+  .shell-update-v3-head,
+  .runtime-install-modal-v2 .runtime-install-head {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .shell-update-modal-v3 .shell-update-icon,
+  .runtime-install-modal-v2 .runtime-install-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+  }
+
+  .runtime-install-modal-v2 .runtime-install-version-line,
+  .runtime-install-modal-v2 .runtime-install-progress,
+  .runtime-install-modal-v2 .runtime-install-error,
+  .runtime-install-modal-v2 .runtime-install-note {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .runtime-install-modal-v2 .runtime-install-error {
+    padding: 10px 12px;
+  }
+}
+
+/* About and update layout */
+.product-about-card-v3 {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(420px, 1.1fr);
+  gap: 22px;
+  align-items: start;
+}
+
+.about-update-list-v3 {
+  min-width: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.about-update-line-v3 {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+}
+
+.about-update-line-v3 + .about-update-line-v3 {
+  padding-top: 12px;
+  border-top: 1px solid #202631;
+}
+
+.about-update-line-v3 .simple-update-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+}
+
+.about-update-line-copy {
+  min-width: 0;
+  display: grid;
+  gap: 4px;
+}
+
+.about-update-line-copy strong {
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+.about-update-line-copy p {
+  margin: 0;
+  color: #a8b3c4;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.about-update-line-v3 .button {
+  min-width: 104px;
+}
+
+.simple-update-progress.compact {
+  margin-top: 6px;
+  gap: 6px;
+}
+
+.simple-update-progress.compact .progress-bar {
+  height: 8px;
+}
+
+@media (max-width: 1180px) {
+  .product-about-card-v3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .about-update-line-v3 {
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .about-update-line-v3 .button {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+.runtime-install-version-text {
+  margin-top: 2px;
+  color: #8ea0b8;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.runtime-install-version-text {
+  width: fit-content;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  border-radius: 999px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.14);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.runtime-install-version-text {
+  width: fit-content;
+  min-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 9px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  border-radius: 999px;
+  color: #b8c7dc;
+  background: rgba(59, 130, 246, 0.08);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.about-update-dialog-icon {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 14px;
+  background: transparent;
+}
+
+.about-update-dialog-icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* About update icon tone */
+.about-update-status .simple-update-icon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  border-radius: 14px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.14);
+}
+
+.product-about-card.is-ready .about-update-status .simple-update-icon {
+  color: #86efac;
+  border-color: rgba(34, 197, 94, 0.18);
+  background: rgba(22, 163, 74, 0.12);
+}
+
+.product-about-card.is-error .about-update-status .simple-update-icon {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.18);
+  background: rgba(127, 29, 29, 0.16);
+}
+
+/* About update status icon states */
+.product-about-card .about-update-status .simple-update-icon,
+.simple-update-card.product-about-card.is-available .about-update-status .simple-update-icon,
+.simple-update-card.product-about-card.is-downloading .about-update-status .simple-update-icon,
+.simple-update-card.product-about-card.is-installing .about-update-status .simple-update-icon,
+.simple-update-card.product-about-card.is-downloaded .about-update-status .simple-update-icon {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  border-radius: 14px;
+  color: #bfdbfe;
+  background: rgba(37, 99, 235, 0.14);
+}
+
+.simple-update-card.product-about-card.is-ready .about-update-status .simple-update-icon {
+  color: #86efac;
+  border-color: rgba(34, 197, 94, 0.18);
+  background: rgba(22, 163, 74, 0.12);
+}
+
+.simple-update-card.product-about-card.is-error .about-update-status .simple-update-icon {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.18);
+  background: rgba(127, 29, 29, 0.16);
+}

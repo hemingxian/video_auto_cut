@@ -1,0 +1,13 @@
+{
+  "schema": "private-raw-ledger/v1",
+  "formal_stdout": {
+    "bytes": 584965,
+    "sha256": "dac51d8b5be5f0508c58aee2c21c64a36172a469308cebbf683645834d2684aa"
+  },
+  "formal_stderr": {
+    "bytes": 51038,
+    "sha256": "652d0cc1fad3676507f2835e3df06ee61e1c96dfc6aee86a02bed6b24058e95e"
+  },
+  "public_copy": false,
+  "reason": "formal streams may contain temporary URLs; only hashes and mechanically safe derived receipts are public"
+}

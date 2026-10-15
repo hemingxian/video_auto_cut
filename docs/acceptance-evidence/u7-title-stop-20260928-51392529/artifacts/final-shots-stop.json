@@ -1,0 +1,159 @@
+{
+  "schema_version": 2,
+  "task_revision": 0,
+  "topic": "食品码垛工位观察（混合上屏）",
+  "background_music": {
+    "enabled": false,
+    "description": null,
+    "query": null
+  },
+  "content_blocks": [
+    {
+      "content": "视频标题: 食品码垛工位观察（混合上屏） 全片副标题: 袋装与箱装同线码垛的现场核对要点",
+      "purpose": "provide video title and subtitle for opening display",
+      "role": "video metadata",
+      "source": "Sheet1, Row 1-2",
+      "target_fields": [
+        "opening_title",
+        "opening_subtitle"
+      ]
+    },
+    {
+      "content": "7-shot breakdown with columns: 分镜, 分镜标题, 时长, 章节标签, 画面, 口播, 字幕, 上屏文字, 卡片样式",
+      "purpose": "define timeline of video segments with visual, voice, subtitle, and on-screen text instructions",
+      "role": "structured shot script",
+      "source": "Sheet1, Row 4-11",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "content": "模块二：视频分镜脚本（7 段）",
+      "purpose": "indicate start of shot scripting section",
+      "role": "section header",
+      "source": "Sheet1, Row 5, Column A"
+    },
+    {
+      "content": "模块一：封面文案部分",
+      "purpose": "indicate start of cover文案 section",
+      "role": "section header",
+      "source": "Sheet1, Row 4, Column A"
+    }
+  ],
+  "extra_requirements": [
+    "原始文件中'上屏文字'和'卡片样式'列可能存在占位符如'（不填）'，需按规则处理为空字符串",
+    "分镜3标题为'镜头B'，非语义命名，应根据上下文重命名为有意义的标题",
+    "分镜间存在逻辑顺序：从物料进入→分类核对→动作检查→落盘确认→换型准备→全局视角→行动号召"
+  ],
+  "shots": [
+    {
+      "shot_id": "shot_d0dee43aa2d544f8b4cc9a0dd735a855",
+      "shot": 1,
+      "title": "来料到位是第一道关",
+      "module_label": "来料到位",
+      "download_query": "white packaged bags on conveyor belt",
+      "visual_query": "white packaging bags queuing on a conveyor belt, medium shot showing conveyor and guardrails",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 7,
+      "voice_text": "袋装物料码垛，先看来料怎样到位，再看机械臂如何抓取和落放。",
+      "voiceover": true,
+      "subtitle": "先看来料到位，再看抓取落放",
+      "card_content": "来料到位是码垛稳定的第一道关",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_20e3a5c6889140bd95815dfd4902a9e9",
+      "shot": 2,
+      "title": "袋料和箱体要分开核对",
+      "module_label": "来料核对项",
+      "download_query": "packaging bags and boxed drinks on separate conveyors",
+      "visual_query": "packaging bags and boxed beverage cases moving on two parallel conveyors, contrast shot",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "袋料和箱体的外形不同，来料朝向、抓取位置和支撑方式要分别核对。",
+      "voiceover": true,
+      "subtitle": "袋料与箱体分别核对",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_a8bdd8e8d281460aa2b4ad024f6b9188",
+      "shot": 3,
+      "title": "镜头B",
+      "module_label": "抬升与转向",
+      "download_query": "robot arm lifting and rotating package",
+      "visual_query": "robot arm lifting material with full view of package and gripper outline, checking clearance from conveyor guardrail",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 7,
+      "voice_text": "抓具带料抬起、转向时，要检查包装与工具有没有碰到输送带护栏。",
+      "voiceover": true,
+      "subtitle": "抬升转向不碰护栏",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_8399ab7207d94b3ab2853d68b950cb7f",
+      "shot": 4,
+      "title": "落盘确认",
+      "module_label": "落盘确认",
+      "download_query": "boxed drinks placed on pallet with existing layers",
+      "visual_query": "boxed beverage case being placed on plastic pallet with already stacked lower layer visible",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 7,
+      "voice_text": "包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。",
+      "voiceover": true,
+      "subtitle": "核对方向与退出路径",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_d4f4a0e3dcc24aa7ab7625bcf7c6b00c",
+      "shot": 5,
+      "title": "换型准备",
+      "module_label": "换型准备",
+      "download_query": "worker checking new packaging sample at palletizing station",
+      "visual_query": "worker examining new packaging sample beside palletizing station, background shows finished pallet area",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "换包装之前，先备好新包装样件、目标垛型和现场布局，再逐项确认要调整的抓具与路径。",
+      "voiceover": true,
+      "subtitle": "换型前先备齐三样",
+      "card_content": "占位卡 05",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_da3834b2904d4433a8b7761c6cc3151c",
+      "shot": 6,
+      "title": "工位衔接",
+      "module_label": "工位衔接",
+      "download_query": "palletizing robots operating simultaneously in workshop",
+      "visual_query": "workshop interior showing pickup point, conveyor line, and pallet position in one frame, multiple palletizing robots working",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "把取料端、输送线和托盘位置放在一起看，更容易看清工位之间的衔接。",
+      "voiceover": true,
+      "subtitle": "整合视图看工位衔接",
+      "download_material": true
+    },
+    {
+      "shot_id": "shot_de1ba0b8e6524e01a5c17070c9204470",
+      "shot": 7,
+      "title": "欢迎带着包装形态来试",
+      "module_label": "现场复核",
+      "download_query": "robot placing boxed drinks on pallet revealing finished pallet area",
+      "visual_query": "robot arm placing boxed beverage case onto pallet, camera pulls back to reveal completed pallet storage area",
+      "visual_mode": "stock_video",
+      "query_optimized": false,
+      "duration": 8,
+      "voice_text": "动态画面只能帮着理解工位配置，破包、滑移和满垛稳定性还是要在现场试。",
+      "voiceover": true,
+      "subtitle": "稳定性要在现场试",
+      "card_content": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "card_hint": "CTA 行动号召",
+      "download_material": true
+    }
+  ]
+}

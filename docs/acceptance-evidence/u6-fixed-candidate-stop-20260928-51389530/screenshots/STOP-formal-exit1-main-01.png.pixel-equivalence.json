@@ -1,0 +1,17 @@
+{
+  "source_jpeg_relative_path": "source-jpegs/STOP-formal-exit1-main-01.jpg",
+  "source_jpeg_retained_locally": true,
+  "source_jpeg_bytes": 73225,
+  "source_jpeg_sha256": "0cfac72c671269139eab3a5348be0377ff87ed94fd50b1f8bdd28bce46d5ae80",
+  "png_relative_path": "screenshots/STOP-formal-exit1-main-01.png",
+  "png_bytes": 230517,
+  "png_sha256": "9a7ca1c88a73ff7d2bf8e53495bac176ad921ecc8c24b471dcea35aafdd803e2",
+  "width": 1306,
+  "height": 853,
+  "channels": 3,
+  "png_width": 1306,
+  "png_height": 853,
+  "png_channels": 3,
+  "decoded_pixel_sha256": "7c1d7628c71d16434e8af56143f74b9aed30c83ae571462dae95b4ac244a3d04",
+  "pixel_equal": true
+}

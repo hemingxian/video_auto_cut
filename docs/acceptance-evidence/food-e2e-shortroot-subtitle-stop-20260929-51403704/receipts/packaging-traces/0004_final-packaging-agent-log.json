@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "policy": "packaging-agent-step1",
+  "backend": "pi",
+  "shot_id": "template-0004",
+  "shot_index": 4,
+  "started_at": "2026-09-29 15:11:50",
+  "template_version": 1,
+  "input": {
+    "title": "逐层码放",
+    "card_content": "一层码满\n再码下一层",
+    "card_hint": "流程条",
+    "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+    "clip_requirements": "托盘和已码好的层要同时入画；静态段可由渲染层做慢推",
+    "duration": 8.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "deterministic": {
+    "template": "parameters",
+    "show": true
+  },
+  "response_raw": null,
+  "decision": {
+    "template": "parameters",
+    "show": true,
+    "source": "script_label",
+    "reason": "脚本版式标签 equal_lines",
+    "overridden": "script_layout",
+    "cache_key": "sha256:9a5a98ae3b37db7ec69825fbec60a679425f2039b07dc9bc51394549ca3c4d09"
+  },
+  "agreed_with_deterministic": true,
+  "show_agreed_with_deterministic": true,
+  "decision_changed": false,
+  "cache": {
+    "hit": false,
+    "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\_agent_cache\\packaging.json"
+  },
+  "budget": {
+    "seconds": 90,
+    "call_timeout_seconds": null,
+    "overran": false,
+    "internal_attempts": 2
+  },
+  "timings": {
+    "model_seconds": 0.0
+  },
+  "errors": [],
+  "fallback_used": false,
+  "ok": true,
+  "script_layout": "equal_lines",
+  "elapsed_seconds": 0.0,
+  "final_check": {
+    "width": 1920,
+    "height": 1080,
+    "sar": "1:1",
+    "audio": {
+      "codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "duration": 8.0,
+    "duration_delta": 0.0,
+    "duration_warned": false
+  }
+}

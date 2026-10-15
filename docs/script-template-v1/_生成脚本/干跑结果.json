@@ -1,0 +1,2303 @@
+{
+ "分镜脚本模板_v1.xlsx": {
+  "file": "分镜脚本模板_v1.xlsx",
+  "label": "",
+  "status": "skipped:table",
+  "tier": "skipped",
+  "route": "table",
+  "header_row": null,
+  "roles": [],
+  "uncertain": null,
+  "sheets": [],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ]
+ },
+ "分镜脚本示例_上下料_v1.xlsx": {
+  "file": "分镜脚本示例_上下料_v1.xlsx",
+  "label": "",
+  "status": "ok",
+  "tier": "certain",
+  "route": "table",
+  "header_row": 1,
+  "roles": [
+   "card_content",
+   "card_hint",
+   "duration",
+   "shot_no",
+   "subtitle",
+   "title",
+   "visual",
+   "voice_text"
+  ],
+  "uncertain": null,
+  "sheets": [
+   "分镜脚本"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ],
+  "blocks": [
+   {
+    "shot": 1,
+    "card_content": "抓起来、放进去？\n决定成败的其实是三件事",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "标题卡",
+    "title": "开场钩子",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 2,
+    "card_content": "01 料的呈现\n料盘 / 旋转料仓 · 人工预放 · 位置固定",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "编号卡",
+    "title": "第一件事",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 3,
+    "card_content": "",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 4,
+    "card_content": "02 二次定位\n取出 → 转台 / 吸盘 / 夹爪 → 重新定位 → 装夹",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条",
+    "title": "第二件事",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 5,
+    "card_content": "03 取放 · 叠放\n毛坯盘 → 卡盘 → 成品盘",
+    "card_layout": "equal_lines",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条",
+    "title": "第三件事",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 6,
+    "card_content": "1 台供料专机 → 2 台 CNC",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条",
+    "title": "一台喂两台",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 7,
+    "card_content": "总功率 <3 kW\n电源 单相 220V 50Hz\n气源 0.4–0.6 MPa\n重复定位精度 ±0.03 mm",
+    "card_layout": "equal_lines",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "参数列表",
+    "title": "接入条件",
+    "anchors": [
+     "subtitle",
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 8,
+    "card_content": "缓存 → 上下料 → 在线检测\n对接 AGV · AMR · 皮带机 · 理料机",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条",
+    "title": "成线",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 9,
+    "card_content": "核心不在手臂，在料\n下一期：什么样的机床适合上",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "标题卡",
+    "title": "收束",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   }
+  ],
+  "reconcile_ideal": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 9,
+   "corrections": [],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 2,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 5,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 7,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 8,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 9,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "抓起来、放进去？\n决定成败的其实是三件事",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 2,
+     "card_content": "01 料的呈现\n料盘 / 旋转料仓 · 人工预放 · 位置固定",
+     "card_layout": "headline_sub",
+     "card_hint": "编号卡"
+    },
+    {
+     "shot": 3,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 4,
+     "card_content": "02 二次定位\n取出 → 转台 / 吸盘 / 夹爪 → 重新定位 → 装夹",
+     "card_layout": null,
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 5,
+     "card_content": "03 取放 · 叠放\n毛坯盘 → 卡盘 → 成品盘",
+     "card_layout": "equal_lines",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 6,
+     "card_content": "1 台供料专机 → 2 台 CNC",
+     "card_layout": null,
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 7,
+     "card_content": "总功率 <3 kW\n电源 单相 220V 50Hz\n气源 0.4–0.6 MPa\n重复定位精度 ±0.03 mm",
+     "card_layout": "equal_lines",
+     "card_hint": "参数列表"
+    },
+    {
+     "shot": 8,
+     "card_content": "缓存 → 上下料 → 在线检测\n对接 AGV · AMR · 皮带机 · 理料机",
+     "card_layout": "headline_sub",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 9,
+     "card_content": "核心不在手臂，在料\n下一期：什么样的机床适合上",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    }
+   ]
+  },
+  "reconcile_buggy": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 9,
+   "corrections": [
+    {
+     "shot": 1,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 2,
+     "field": "card_content",
+     "kind": "missing",
+     "applied": true
+    },
+    {
+     "shot": 3,
+     "field": "card_content",
+     "kind": "invented",
+     "applied": true
+    },
+    {
+     "shot": 4,
+     "field": "card_hint",
+     "kind": "rewritten",
+     "applied": true
+    }
+   ],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 2,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 5,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 7,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 8,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 9,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "抓起来、放进去？\n决定成败的其实是三件事",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 2,
+     "card_content": "01 料的呈现\n料盘 / 旋转料仓 · 人工预放 · 位置固定",
+     "card_layout": "headline_sub",
+     "card_hint": "编号卡"
+    },
+    {
+     "shot": 3,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 4,
+     "card_content": "02 二次定位\n取出 → 转台 / 吸盘 / 夹爪 → 重新定位 → 装夹",
+     "card_layout": null,
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 5,
+     "card_content": "03 取放 · 叠放\n毛坯盘 → 卡盘 → 成品盘",
+     "card_layout": "equal_lines",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 6,
+     "card_content": "1 台供料专机 → 2 台 CNC",
+     "card_layout": null,
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 7,
+     "card_content": "总功率 <3 kW\n电源 单相 220V 50Hz\n气源 0.4–0.6 MPa\n重复定位精度 ±0.03 mm",
+     "card_layout": "equal_lines",
+     "card_hint": "参数列表"
+    },
+    {
+     "shot": 8,
+     "card_content": "缓存 → 上下料 → 在线检测\n对接 AGV · AMR · 皮带机 · 理料机",
+     "card_layout": "headline_sub",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 9,
+     "card_content": "核心不在手臂，在料\n下一期：什么样的机床适合上",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    }
+   ]
+  }
+ },
+ "转换演示_v1表格.xlsx": {
+  "file": "转换演示_v1表格.xlsx",
+  "label": "",
+  "status": "ok",
+  "tier": "certain",
+  "route": "table",
+  "header_row": 1,
+  "roles": [
+   "card_content",
+   "card_hint",
+   "duration",
+   "shot_no",
+   "subtitle",
+   "title",
+   "visual",
+   "voice_text"
+  ],
+  "uncertain": null,
+  "sheets": [
+   "分镜脚本"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ],
+  "blocks": [
+   {
+    "shot": 1,
+    "card_content": "机床在等人？\nCNC 上下料自动化怎么选",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "大字钩子(描边/halo，不压深色底带)",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 2,
+    "card_content": "1 台供料专机 → 2 台 CNC\n上料 · 取件 · 叠放 一次完成",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "1→2 单元示意：专机居中，两台 CNC 左右，双向箭头",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 3,
+    "card_content": "01 料仓预放料 → 02 吸盘供料 + 二次定位 → 03 机械臂取放料",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "三步卡片 01/02/03 依次弹出",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 4,
+    "card_content": "上下料 → 缓存 → 在线检测\nAGV / AMR · 皮带机 · 理料机 对接",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条 + 对接小字",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 5,
+    "card_content": "总功率 <3 kW ｜ 电源 单相 220V 50Hz ｜ 气源 0.4–0.6 MPa ｜ 重复定位精度 ±0.03 mm",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "紧凑参数卡(半透局部底，叠右侧，不全屏)",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 6,
+    "card_content": "节拍<60s + 小件 + 850及以下立加 → 料盘式单元 ｜ 节拍长/工件重/多机 → 机器人一拖多守机",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "二叉决策树",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 7,
+    "card_content": "行业 chip ×4：汽摩配 · 家电数码 · 3C · 零部件加工",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "行业 chip",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 8,
+    "card_content": "国内：看主页 · 更多上下料产线案例（零联系方式、零外链）\n海外：Contact us ｜ sales@evsrobot.com ｜ Tel/WhatsApp/WeChat +86 19381626253 ｜ evsint.com/contact/",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "CTA 卡(国内/海外两版) + EVST 右上角标常驻",
+    "title": "",
+    "anchors": [
+     "voice_text"
+    ]
+   }
+  ],
+  "reconcile_ideal": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 8,
+   "corrections": [],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 4,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "机床在等人？\nCNC 上下料自动化怎么选",
+     "card_layout": "headline_sub",
+     "card_hint": "大字钩子(描边/halo，不压深色底带)"
+    },
+    {
+     "shot": 2,
+     "card_content": "1 台供料专机 → 2 台 CNC\n上料 · 取件 · 叠放 一次完成",
+     "card_layout": null,
+     "card_hint": "1→2 单元示意：专机居中，两台 CNC 左右，双向箭头"
+    },
+    {
+     "shot": 3,
+     "card_content": "01 料仓预放料 → 02 吸盘供料 + 二次定位 → 03 机械臂取放料",
+     "card_layout": null,
+     "card_hint": "三步卡片 01/02/03 依次弹出"
+    },
+    {
+     "shot": 4,
+     "card_content": "上下料 → 缓存 → 在线检测\nAGV / AMR · 皮带机 · 理料机 对接",
+     "card_layout": "headline_sub",
+     "card_hint": "流程条 + 对接小字"
+    },
+    {
+     "shot": 5,
+     "card_content": "总功率 <3 kW ｜ 电源 单相 220V 50Hz ｜ 气源 0.4–0.6 MPa ｜ 重复定位精度 ±0.03 mm",
+     "card_layout": null,
+     "card_hint": "紧凑参数卡(半透局部底，叠右侧，不全屏)"
+    },
+    {
+     "shot": 6,
+     "card_content": "节拍<60s + 小件 + 850及以下立加 → 料盘式单元 ｜ 节拍长/工件重/多机 → 机器人一拖多守机",
+     "card_layout": null,
+     "card_hint": "二叉决策树"
+    },
+    {
+     "shot": 7,
+     "card_content": "行业 chip ×4：汽摩配 · 家电数码 · 3C · 零部件加工",
+     "card_layout": null,
+     "card_hint": "行业 chip"
+    },
+    {
+     "shot": 8,
+     "card_content": "国内：看主页 · 更多上下料产线案例（零联系方式、零外链）\n海外：Contact us ｜ sales@evsrobot.com ｜ Tel/WhatsApp/WeChat +86 19381626253 ｜ evsint.com/contact/",
+     "card_layout": null,
+     "card_hint": "CTA 卡(国内/海外两版) + EVST 右上角标常驻"
+    }
+   ]
+  },
+  "reconcile_buggy": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 8,
+   "corrections": [
+    {
+     "shot": 1,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 2,
+     "field": "card_content",
+     "kind": "missing",
+     "applied": true
+    },
+    {
+     "shot": 3,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 4,
+     "field": "card_hint",
+     "kind": "rewritten",
+     "applied": true
+    }
+   ],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 4,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "机床在等人？\nCNC 上下料自动化怎么选",
+     "card_layout": "headline_sub",
+     "card_hint": "大字钩子(描边/halo，不压深色底带)"
+    },
+    {
+     "shot": 2,
+     "card_content": "1 台供料专机 → 2 台 CNC\n上料 · 取件 · 叠放 一次完成",
+     "card_layout": null,
+     "card_hint": "1→2 单元示意：专机居中，两台 CNC 左右，双向箭头"
+    },
+    {
+     "shot": 3,
+     "card_content": "01 料仓预放料 → 02 吸盘供料 + 二次定位 → 03 机械臂取放料",
+     "card_layout": null,
+     "card_hint": "三步卡片 01/02/03 依次弹出"
+    },
+    {
+     "shot": 4,
+     "card_content": "上下料 → 缓存 → 在线检测\nAGV / AMR · 皮带机 · 理料机 对接",
+     "card_layout": "headline_sub",
+     "card_hint": "流程条 + 对接小字"
+    },
+    {
+     "shot": 5,
+     "card_content": "总功率 <3 kW ｜ 电源 单相 220V 50Hz ｜ 气源 0.4–0.6 MPa ｜ 重复定位精度 ±0.03 mm",
+     "card_layout": null,
+     "card_hint": "紧凑参数卡(半透局部底，叠右侧，不全屏)"
+    },
+    {
+     "shot": 6,
+     "card_content": "节拍<60s + 小件 + 850及以下立加 → 料盘式单元 ｜ 节拍长/工件重/多机 → 机器人一拖多守机",
+     "card_layout": null,
+     "card_hint": "二叉决策树"
+    },
+    {
+     "shot": 7,
+     "card_content": "行业 chip ×4：汽摩配 · 家电数码 · 3C · 零部件加工",
+     "card_layout": null,
+     "card_hint": "行业 chip"
+    },
+    {
+     "shot": 8,
+     "card_content": "国内：看主页 · 更多上下料产线案例（零联系方式、零外链）\n海外：Contact us ｜ sales@evsrobot.com ｜ Tel/WhatsApp/WeChat +86 19381626253 ｜ evsint.com/contact/",
+     "card_layout": null,
+     "card_hint": "CTA 卡(国内/海外两版) + EVST 右上角标常驻"
+    }
+   ]
+  }
+ },
+ "转换演示_md文本.xlsx": {
+  "file": "转换演示_md文本.xlsx",
+  "label": "",
+  "status": "ok",
+  "tier": "certain",
+  "route": "table",
+  "header_row": 1,
+  "roles": [
+   "card_content",
+   "card_hint",
+   "duration",
+   "shot_no",
+   "subtitle",
+   "title",
+   "visual",
+   "voice_text"
+  ],
+  "uncertain": null,
+  "sheets": [
+   "分镜脚本"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ],
+  "blocks": [
+   {
+    "shot": 1,
+    "card_content": "5 个误区",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "大字 + 数字 5 弹出",
+    "title": "钩子",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 2,
+    "card_content": "误区 1 ✗ 关键在机器人 ／ ✓ 关键在料的呈现 + 二次定位",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "✗/✓ 对照卡",
+    "title": "误区 1 · 关键在机器人",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 3,
+    "card_content": "误区 2 ✗ 一台守一台 ／ ✓ 1 台专机 → 2 台 CNC",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "✗/✓ 对照卡；1→2 小图",
+    "title": "误区 2 · 一台只能守一台",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 4,
+    "card_content": "误区 3 ✗ 什么节拍都能上 ／ ✓ 料盘式单元：CNC 加工节拍 < 60s",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "✗/✓ 对照卡；秒表图标 60s",
+    "title": "误区 3 · 什么节拍都能上",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 5,
+    "card_content": "误区 4 ✗ 任何机床都通用 ／ ✓ 850 及以下小型立式加工中心 · 其它按实际设计",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "✗/✓ 对照卡",
+    "title": "误区 4 · 任何机床都通用",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 6,
+    "card_content": "误区 5 ✗ 上下料 = 一台机器人 ／ ✓ 上下料 + 缓存 + 在线检测 + AGV 对接",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "✗/✓ 对照卡；流程条",
+    "title": "误区 5 · 上下料等于一台机器人",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 7,
+    "card_content": "选的是一套单元，不是一条手臂",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "收束大字",
+    "title": "收束",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   }
+  ],
+  "reconcile_ideal": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 7,
+   "corrections": [],
+   "layouts": [],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "5 个误区",
+     "card_layout": null,
+     "card_hint": "大字 + 数字 5 弹出"
+    },
+    {
+     "shot": 2,
+     "card_content": "误区 1 ✗ 关键在机器人 ／ ✓ 关键在料的呈现 + 二次定位",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡"
+    },
+    {
+     "shot": 3,
+     "card_content": "误区 2 ✗ 一台守一台 ／ ✓ 1 台专机 → 2 台 CNC",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；1→2 小图"
+    },
+    {
+     "shot": 4,
+     "card_content": "误区 3 ✗ 什么节拍都能上 ／ ✓ 料盘式单元：CNC 加工节拍 < 60s",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；秒表图标 60s"
+    },
+    {
+     "shot": 5,
+     "card_content": "误区 4 ✗ 任何机床都通用 ／ ✓ 850 及以下小型立式加工中心 · 其它按实际设计",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡"
+    },
+    {
+     "shot": 6,
+     "card_content": "误区 5 ✗ 上下料 = 一台机器人 ／ ✓ 上下料 + 缓存 + 在线检测 + AGV 对接",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；流程条"
+    },
+    {
+     "shot": 7,
+     "card_content": "选的是一套单元，不是一条手臂",
+     "card_layout": null,
+     "card_hint": "收束大字"
+    }
+   ]
+  },
+  "reconcile_buggy": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 7,
+   "corrections": [
+    {
+     "shot": 1,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 2,
+     "field": "card_content",
+     "kind": "missing",
+     "applied": true
+    },
+    {
+     "shot": 3,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 4,
+     "field": "card_hint",
+     "kind": "rewritten",
+     "applied": true
+    }
+   ],
+   "layouts": [],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "5 个误区",
+     "card_layout": null,
+     "card_hint": "大字 + 数字 5 弹出"
+    },
+    {
+     "shot": 2,
+     "card_content": "误区 1 ✗ 关键在机器人 ／ ✓ 关键在料的呈现 + 二次定位",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡"
+    },
+    {
+     "shot": 3,
+     "card_content": "误区 2 ✗ 一台守一台 ／ ✓ 1 台专机 → 2 台 CNC",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；1→2 小图"
+    },
+    {
+     "shot": 4,
+     "card_content": "误区 3 ✗ 什么节拍都能上 ／ ✓ 料盘式单元：CNC 加工节拍 < 60s",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；秒表图标 60s"
+    },
+    {
+     "shot": 5,
+     "card_content": "误区 4 ✗ 任何机床都通用 ／ ✓ 850 及以下小型立式加工中心 · 其它按实际设计",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡"
+    },
+    {
+     "shot": 6,
+     "card_content": "误区 5 ✗ 上下料 = 一台机器人 ／ ✓ 上下料 + 缓存 + 在线检测 + AGV 对接",
+     "card_layout": null,
+     "card_hint": "✗/✓ 对照卡；流程条"
+    },
+    {
+     "shot": 7,
+     "card_content": "选的是一套单元，不是一条手臂",
+     "card_layout": null,
+     "card_hint": "收束大字"
+    }
+   ]
+  }
+ },
+ "对照_模板内含示例sheet(未填)": {
+  "status": "skipped:uncertain",
+  "tier": "warn_only",
+  "uncertain": [
+   "除「示例」第 1 行外，「分镜脚本」第 1 行也像带上屏/标题列的表头（图例、填写示例或另一张小表），无法确定解析器读的是哪一张"
+  ],
+  "sheets": [
+   "示例"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1",
+   "示例!1"
+  ]
+ },
+ "对照_模板内含示例sheet(已填)": {
+  "status": "skipped:sheets",
+  "tier": "warn_only",
+  "uncertain": null,
+  "sheets": [
+   "分镜脚本",
+   "示例"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1",
+   "示例!1"
+  ]
+ },
+ "对照_分镜表多加一列音效": {
+  "status": "skipped:table",
+  "tier": "skipped",
+  "uncertain": null,
+  "sheets": [],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ]
+ },
+ "逐字出处校验_v1": [
+  {
+   "row": 0,
+   "shot": 1,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F2",
+   "partial": false
+  },
+  {
+   "row": 0,
+   "shot": 1,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H2",
+   "partial": false
+  },
+  {
+   "row": 1,
+   "shot": 2,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F3",
+   "partial": false
+  },
+  {
+   "row": 1,
+   "shot": 2,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H3",
+   "partial": false
+  },
+  {
+   "row": 2,
+   "shot": 3,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F4",
+   "partial": false
+  },
+  {
+   "row": 2,
+   "shot": 3,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H4",
+   "partial": false
+  },
+  {
+   "row": 3,
+   "shot": 4,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F5",
+   "partial": false
+  },
+  {
+   "row": 3,
+   "shot": 4,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H5",
+   "partial": false
+  },
+  {
+   "row": 4,
+   "shot": 5,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F6",
+   "partial": false
+  },
+  {
+   "row": 4,
+   "shot": 5,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H6",
+   "partial": false
+  },
+  {
+   "row": 5,
+   "shot": 6,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F7",
+   "partial": false
+  },
+  {
+   "row": 5,
+   "shot": 6,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H7",
+   "partial": false
+  },
+  {
+   "row": 6,
+   "shot": 7,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F8",
+   "partial": false
+  },
+  {
+   "row": 6,
+   "shot": 7,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H8",
+   "partial": false
+  },
+  {
+   "row": 7,
+   "shot": 8,
+   "field": "口播",
+   "ok": true,
+   "where": "分镜脚本!F9",
+   "partial": false
+  },
+  {
+   "row": 7,
+   "shot": 8,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "分镜脚本!H9",
+   "partial": false
+  }
+ ],
+ "逐字出处校验_md": [
+  {
+   "row": 0,
+   "shot": 1,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 39 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 0,
+   "shot": 1,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 40 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 0,
+   "shot": 1,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 35 行 标题",
+   "partial": false
+  },
+  {
+   "row": 1,
+   "shot": 2,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 51 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 1,
+   "shot": 2,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 52 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 1,
+   "shot": 2,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 47 行 标题",
+   "partial": false
+  },
+  {
+   "row": 2,
+   "shot": 3,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 63 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 2,
+   "shot": 3,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 64 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 2,
+   "shot": 3,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 59 行 标题",
+   "partial": false
+  },
+  {
+   "row": 3,
+   "shot": 4,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 76 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 3,
+   "shot": 4,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 77 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 3,
+   "shot": 4,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 72 行 标题",
+   "partial": false
+  },
+  {
+   "row": 4,
+   "shot": 5,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 89 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 4,
+   "shot": 5,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 90 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 4,
+   "shot": 5,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 85 行 标题",
+   "partial": false
+  },
+  {
+   "row": 5,
+   "shot": 6,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 101 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 5,
+   "shot": 6,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 102 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 5,
+   "shot": 6,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 97 行 标题",
+   "partial": false
+  },
+  {
+   "row": 6,
+   "shot": 7,
+   "field": "口播",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 113 行「旁白」格",
+   "partial": false
+  },
+  {
+   "row": 6,
+   "shot": 7,
+   "field": "上屏文字",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 114 行「屏字」格",
+   "partial": false
+  },
+  {
+   "row": 6,
+   "shot": 7,
+   "field": "分镜标题",
+   "ok": true,
+   "where": "上下料科普脚本_v2C_机床上下料自动化_5个最常见的误区.md 第 109 行 标题",
+   "partial": false
+  }
+ ],
+ "闸门预检_方案§3.5": {
+  "分镜脚本模板_v1.xlsx": {
+   "shots": 0,
+   "blocked": true,
+   "blocks": [
+    {
+     "code": "no_shots"
+    }
+   ],
+   "warnings": []
+  },
+  "分镜脚本示例_上下料_v1.xlsx": {
+   "shots": 9,
+   "blocked": false,
+   "blocks": [],
+   "warnings": []
+  },
+  "转换演示_v1表格.xlsx": {
+   "shots": 8,
+   "blocked": true,
+   "blocks": [
+    {
+     "shot": 8,
+     "cell": "I9",
+     "field": "口播",
+     "code": "text_cell_pending"
+    },
+    {
+     "shot": 8,
+     "cell": "K9",
+     "field": "上屏文字",
+     "code": "text_cell_pending"
+    }
+   ],
+   "warnings": [
+    {
+     "shot": 1,
+     "cell": "E2",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "F2",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "G2",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "H2",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "O2",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "P2",
+     "field": "转场",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "R2",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 2,
+     "cell": "E3",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "F3",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "G3",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "H3",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "O3",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "R3",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 3,
+     "cell": "E4",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "F4",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "G4",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "H4",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "O4",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "R4",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 4,
+     "cell": "E5",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "F5",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "G5",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "H5",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "O5",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "R5",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 5,
+     "cell": "E6",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "F6",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "G6",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "H6",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "O6",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "R6",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 6,
+     "cell": "E7",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "F7",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "G7",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "H7",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "O7",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "R7",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 7,
+     "cell": "E8",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "F8",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "G8",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "H8",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "O8",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "P8",
+     "field": "转场",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "R8",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 8,
+     "cell": "E9",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "F9",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "G9",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "H9",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "O9",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "P9",
+     "field": "转场",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 8,
+     "cell": "R9",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 8,
+     "cell": "R9",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "原文含国内/海外两个版本，请删掉本片不用的版本（只能删，不能改字）"
+    },
+    {
+     "shot": 8,
+     "cell": "R9",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "待确认原因：口播、上屏文字 已标黄——原文同时写了国内版和海外版，直接导入会两版一起上屏；删掉不用的版本、清掉黄色、状态改为「已确认」后才能导入"
+    }
+   ]
+  },
+  "转换演示_md文本.xlsx": {
+   "shots": 7,
+   "blocked": false,
+   "blocks": [],
+   "warnings": [
+    {
+     "shot": 1,
+     "cell": "B2",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "E2",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "F2",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "G2",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "H2",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "O2",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "P2",
+     "field": "转场",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 1,
+     "cell": "R2",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 2,
+     "cell": "B3",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "E3",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "F3",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "G3",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "H3",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "O3",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 2,
+     "cell": "R3",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 3,
+     "cell": "B4",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "E4",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "F4",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "G4",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "H4",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "O4",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 3,
+     "cell": "R4",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 4,
+     "cell": "B5",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "E5",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "F5",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "G5",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "H5",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "O5",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 4,
+     "cell": "R5",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 5,
+     "cell": "B6",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "E6",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "F6",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "G6",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "H6",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "O6",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 5,
+     "cell": "R6",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 6,
+     "cell": "B7",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "E7",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "F7",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "G7",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "H7",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "O7",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 6,
+     "cell": "R7",
+     "field": "来源/核对",
+     "code": "status_pending"
+    },
+    {
+     "shot": 7,
+     "cell": "B8",
+     "field": "段落",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "E8",
+     "field": "景别",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "F8",
+     "field": "运镜",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "G8",
+     "field": "拍摄角度",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "H8",
+     "field": "画面内容",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "O8",
+     "field": "搜索关键词",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "P8",
+     "field": "转场",
+     "code": "ai_suggested"
+    },
+    {
+     "shot": 7,
+     "cell": "R8",
+     "field": "来源/核对",
+     "code": "status_pending"
+    }
+   ]
+  },
+  "示例_食品码垛_v1.xlsx": {
+   "shots": 9,
+   "blocked": false,
+   "blocks": [],
+   "warnings": [
+    {
+     "shot": 1,
+     "cell": "R2",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 2,
+     "cell": "R3",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 3,
+     "cell": "R4",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 4,
+     "cell": "R5",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 5,
+     "cell": "R6",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 6,
+     "cell": "R7",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 7,
+     "cell": "R8",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 8,
+     "cell": "R9",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    },
+    {
+     "shot": 9,
+     "cell": "R10",
+     "field": "来源/核对",
+     "code": "status_note",
+     "text": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+    }
+   ]
+  }
+ },
+ "示例_食品码垛_v1.xlsx": {
+  "file": "示例_食品码垛_v1.xlsx",
+  "label": "",
+  "status": "ok",
+  "tier": "certain",
+  "route": "table",
+  "header_row": 1,
+  "roles": [
+   "card_content",
+   "card_hint",
+   "duration",
+   "shot_no",
+   "subtitle",
+   "title",
+   "visual",
+   "voice_text"
+  ],
+  "uncertain": null,
+  "sheets": [
+   "分镜脚本"
+  ],
+  "field_header_rows": [
+   "分镜脚本!1"
+  ],
+  "blocks": [
+   {
+    "shot": 1,
+    "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "标题卡",
+    "title": "包装线末端",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 2,
+    "card_content": "",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "",
+    "title": "来料排队",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 3,
+    "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "标题卡",
+    "title": "抓稳转快",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 4,
+    "card_content": "一层码满\n再码下一层",
+    "card_layout": "equal_lines",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "流程条",
+    "title": "逐层码放",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 5,
+    "card_content": "",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "",
+    "title": "整垛稳",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 6,
+    "card_content": "箱型变了，改程序不改线",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "标题卡",
+    "title": "换箱型",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 7,
+    "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+    "card_layout": null,
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "对照卡",
+    "title": "一人巡线",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 8,
+    "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+    "card_layout": "equal_lines",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "参数列表",
+    "title": "先备四样",
+    "anchors": [
+     "subtitle",
+     "title",
+     "voice_text"
+    ]
+   },
+   {
+    "shot": 9,
+    "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+    "card_layout": "headline_sub",
+    "card_reliable": true,
+    "card_notice": null,
+    "card_hint": "行动号召",
+    "title": "发来箱型",
+    "anchors": [
+     "title",
+     "voice_text"
+    ]
+   }
+  ],
+  "reconcile_ideal": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 9,
+   "corrections": [],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 3,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 4,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 8,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 9,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 2,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 3,
+     "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 4,
+     "card_content": "一层码满\n再码下一层",
+     "card_layout": "equal_lines",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 5,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 6,
+     "card_content": "箱型变了，改程序不改线",
+     "card_layout": null,
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 7,
+     "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+     "card_layout": null,
+     "card_hint": "对照卡"
+    },
+    {
+     "shot": 8,
+     "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+     "card_layout": "equal_lines",
+     "card_hint": "参数列表"
+    },
+    {
+     "shot": 9,
+     "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+     "card_layout": "headline_sub",
+     "card_hint": "行动号召"
+    }
+   ]
+  },
+  "reconcile_buggy": {
+   "status": "ok",
+   "tier": "certain",
+   "checked": 9,
+   "corrections": [
+    {
+     "shot": 1,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 3,
+     "field": "card_content",
+     "kind": "rewritten",
+     "applied": true
+    },
+    {
+     "shot": 4,
+     "field": "card_hint",
+     "kind": "rewritten",
+     "applied": true
+    }
+   ],
+   "layouts": [
+    {
+     "shot": 1,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 3,
+     "card_layout": "headline_sub"
+    },
+    {
+     "shot": 4,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 8,
+     "card_layout": "equal_lines"
+    },
+    {
+     "shot": 9,
+     "card_layout": "headline_sub"
+    }
+   ],
+   "warnings": [],
+   "final": [
+    {
+     "shot": 1,
+     "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 2,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 3,
+     "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+     "card_layout": "headline_sub",
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 4,
+     "card_content": "一层码满\n再码下一层",
+     "card_layout": "equal_lines",
+     "card_hint": "流程条"
+    },
+    {
+     "shot": 5,
+     "card_content": "",
+     "card_layout": null,
+     "card_hint": ""
+    },
+    {
+     "shot": 6,
+     "card_content": "箱型变了，改程序不改线",
+     "card_layout": null,
+     "card_hint": "标题卡"
+    },
+    {
+     "shot": 7,
+     "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+     "card_layout": null,
+     "card_hint": "对照卡"
+    },
+    {
+     "shot": 8,
+     "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+     "card_layout": "equal_lines",
+     "card_hint": "参数列表"
+    },
+    {
+     "shot": 9,
+     "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+     "card_layout": "headline_sub",
+     "card_hint": "行动号召"
+    }
+   ]
+  }
+ }
+}

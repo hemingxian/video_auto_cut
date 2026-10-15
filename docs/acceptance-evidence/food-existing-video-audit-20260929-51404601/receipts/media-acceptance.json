@@ -1,0 +1,192 @@
+{
+  "schema": "food-media-51404601/v1",
+  "read_only": true,
+  "engine_or_model_calls": 0,
+  "rerender": false,
+  "final": {
+    "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+    "bytes": 28185133,
+    "sha256": "a465f2d3da209939a5bbb2eaae6cd7074ce1b4197b1a3ba4a95a989abb822bce",
+    "baseline_sha256": "a465f2d3da209939a5bbb2eaae6cd7074ce1b4197b1a3ba4a95a989abb822bce",
+    "unchanged": true,
+    "format_duration": 80.021029,
+    "video": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "duration": 80.0
+    },
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration": 80.01
+    }
+  },
+  "clips": [
+    {
+      "shot": 1,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0001_final.mp4",
+      "sha256": "949163c65b60cbbd73d57ed0e1065917e9ad85d158be4a05e5dc9c1eb77d805d",
+      "baseline_sha256": "949163c65b60cbbd73d57ed0e1065917e9ad85d158be4a05e5dc9c1eb77d805d",
+      "unchanged": true,
+      "duration": 8.0,
+      "video_duration": 8.0,
+      "global_start": 0.0,
+      "global_end": 8.0
+    },
+    {
+      "shot": 2,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0002_final.mp4",
+      "sha256": "ced973769e8059127cc02293ba077aaf79ee1327698cbda95fa53de3886cf63a",
+      "baseline_sha256": "ced973769e8059127cc02293ba077aaf79ee1327698cbda95fa53de3886cf63a",
+      "unchanged": true,
+      "duration": 9.0,
+      "video_duration": 9.0,
+      "global_start": 8.0,
+      "global_end": 17.0
+    },
+    {
+      "shot": 3,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0003_final.mp4",
+      "sha256": "55d08091cb9124e19f7b1fb6937f92ed7725af5b458267a6217c7ce8fd73317d",
+      "baseline_sha256": "55d08091cb9124e19f7b1fb6937f92ed7725af5b458267a6217c7ce8fd73317d",
+      "unchanged": true,
+      "duration": 11.0,
+      "video_duration": 11.0,
+      "global_start": 17.0,
+      "global_end": 28.0
+    },
+    {
+      "shot": 4,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0004_final.mp4",
+      "sha256": "ed0518e561ce3dacc843c1a071208624462911e18c21421db2fa335b8c52dec0",
+      "baseline_sha256": "ed0518e561ce3dacc843c1a071208624462911e18c21421db2fa335b8c52dec0",
+      "unchanged": true,
+      "duration": 8.0,
+      "video_duration": 8.0,
+      "global_start": 28.0,
+      "global_end": 36.0
+    },
+    {
+      "shot": 5,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0005_final.mp4",
+      "sha256": "8a9d8760c08d9e0615877d99123c3190887332253b563ea232ccd43ee1c492dc",
+      "baseline_sha256": "8a9d8760c08d9e0615877d99123c3190887332253b563ea232ccd43ee1c492dc",
+      "unchanged": true,
+      "duration": 8.0,
+      "video_duration": 8.0,
+      "global_start": 36.0,
+      "global_end": 44.0
+    },
+    {
+      "shot": 6,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0006_final.mp4",
+      "sha256": "43860d7d7f23f421c9e80180a373bbf1e54dadfe3155b95039eead168d85cb87",
+      "baseline_sha256": "43860d7d7f23f421c9e80180a373bbf1e54dadfe3155b95039eead168d85cb87",
+      "unchanged": true,
+      "duration": 10.0,
+      "video_duration": 10.0,
+      "global_start": 44.0,
+      "global_end": 54.0
+    },
+    {
+      "shot": 7,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0007_final.mp4",
+      "sha256": "9018f836b7b5a3912cb19f9b46b026b4628180326e782b1a9986742c0e927c5b",
+      "baseline_sha256": "9018f836b7b5a3912cb19f9b46b026b4628180326e782b1a9986742c0e927c5b",
+      "unchanged": true,
+      "duration": 8.0,
+      "video_duration": 8.0,
+      "global_start": 54.0,
+      "global_end": 62.0
+    },
+    {
+      "shot": 8,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0008_final.mp4",
+      "sha256": "7fd7ef9bce31ce80c3100ce68288f40d08b53f1f36c67cc4ca8858c5811d3231",
+      "baseline_sha256": "7fd7ef9bce31ce80c3100ce68288f40d08b53f1f36c67cc4ca8858c5811d3231",
+      "unchanged": true,
+      "duration": 10.0,
+      "video_duration": 10.0,
+      "global_start": 62.0,
+      "global_end": 72.0
+    },
+    {
+      "shot": 9,
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0009_final.mp4",
+      "sha256": "2f4dc1a83fade4d6f277d4c3f1e16d8df9edf1509aef0af4ca689bae6fe5ad78",
+      "baseline_sha256": "2f4dc1a83fade4d6f277d4c3f1e16d8df9edf1509aef0af4ca689bae6fe5ad78",
+      "unchanged": true,
+      "duration": 8.0,
+      "video_duration": 8.0,
+      "global_start": 72.0,
+      "global_end": 80.0
+    }
+  ],
+  "clip_duration_sum": 80.0,
+  "concat": {
+    "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\concat\\f3_v001_6464_concat_list.txt",
+    "sha256": "39100516bfa1aec2f089dfe9a4743c64e76cf03fe13c58ede618520649999a2f",
+    "entries": 9,
+    "order_matches_0001_through_0009": true
+  },
+  "requested_frame_mapping": [
+    {
+      "shot": 1,
+      "local": 4.0,
+      "global": 4.0
+    },
+    {
+      "shot": 2,
+      "local": 2.0,
+      "global": 10.0
+    },
+    {
+      "shot": 2,
+      "local": 6.0,
+      "global": 14.0
+    },
+    {
+      "shot": 5,
+      "local": 4.8,
+      "global": 40.8
+    },
+    {
+      "shot": 8,
+      "local": 4.0,
+      "global": 66.0
+    }
+  ],
+  "frame_filename_mapping_asserted": true,
+  "frames": [
+    {
+      "name": "final-shot01-local-4.0s-global-4.000s.png",
+      "bytes": 591464,
+      "sha256": "b6bc0ef34a1a1c041761ce4bd8c02f35dfe961fa9fbb0c449cdc0b19c58d9b4e"
+    },
+    {
+      "name": "final-shot02-local-2.0s-global-10.000s.png",
+      "bytes": 657403,
+      "sha256": "7564974f6f7cb64abc0caa4b74eba6e4590128c41da058c4bde5b53f0158ec85"
+    },
+    {
+      "name": "final-shot02-local-6.0s-global-14.000s.png",
+      "bytes": 699652,
+      "sha256": "3403faae2a808229496e3eb4fb3fa089e7de327ce5ecc5e0e686c314c7feb4b7"
+    },
+    {
+      "name": "final-shot05-local-4.8s-global-40.800s.png",
+      "bytes": 711676,
+      "sha256": "49b65f7e4413c305f890aca2c0d9d92dd8ec7b2e926f201424377f3af4496d7b"
+    },
+    {
+      "name": "final-shot08-local-4.0s-global-66.000s.png",
+      "bytes": 610513,
+      "sha256": "20478b6f685589e655a52ca5d1a061df3d32b04b6511d5d9df79e1bf7ef40702"
+    }
+  ],
+  "scope": "Media specification, exact concat offsets, and specified frame evidence only. Human visual review is a separate receipt. Nine-ASS corrected-oracle validation is owned by source_facts."
+}

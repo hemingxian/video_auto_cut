@@ -1,0 +1,10 @@
+extraction failed; partial evidence preserved at: D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\w6-51412327-pkg5-verify-20260930\extracted
+Traceback (most recent call last):
+  File "D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\w6-51412327-pkg5-verify-20260930\w6_extract_zip_isolated.py", line 62, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\w6-51412327-pkg5-verify-20260930\w6_extract_zip_isolated.py", line 51, in main
+    with package.open(info) as source, target.open("wb") as output:
+                                       ^^^^^^^^^^^^^^^^^
+  File "pathlib.py", line 1044, in open
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\w6-51412327-pkg5-verify-20260930\\extracted\\VideoAutoCut\\tools\\material_gen\\pi\\node_modules\\@earendil-works\\pi-coding-agent\\node_modules\\@anthropic-ai\\sdk\\_vendor\\partial-json-parser\\parser.d.mts.map'

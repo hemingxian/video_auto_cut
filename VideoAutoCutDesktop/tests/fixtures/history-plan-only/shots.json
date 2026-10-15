@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "task_revision": 11,
+  "topic": "已保存的表格任务",
+  "shots": [
+    { "shot_id": "fixture-shot-1", "shot": 1, "title": "公开测试分镜 1", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-1.mp4" }] },
+    { "shot_id": "fixture-shot-2", "shot": 2, "title": "公开测试分镜 2", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-2.mp4" }] },
+    { "shot_id": "fixture-shot-3", "shot": 3, "title": "公开测试分镜 3", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-3.mp4" }] },
+    { "shot_id": "fixture-shot-4", "shot": 4, "title": "公开测试分镜 4", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-4.mp4" }] },
+    { "shot_id": "fixture-shot-5", "shot": 5, "title": "公开测试分镜 5", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-5.mp4" }] },
+    { "shot_id": "fixture-shot-6", "shot": 6, "title": "公开测试分镜 6", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-6.mp4" }] },
+    { "shot_id": "fixture-shot-7", "shot": 7, "title": "公开测试分镜 7", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-7.mp4" }] },
+    { "shot_id": "fixture-shot-8", "shot": 8, "title": "公开测试分镜 8", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-8.mp4" }] },
+    { "shot_id": "fixture-shot-9", "shot": 9, "title": "公开测试分镜 9", "download_material": false, "material_bindings": [{ "path": "fixtures/media/example-9.mp4" }] }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema": "vacut-u6-isolated-shutdown/v1",
+  "closed_at": "2026-09-28T07:23:22.0574763Z",
+  "electron": {
+    "pid": 38016,
+    "activation_executable": "electron.exe",
+    "expected_executable_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\electron\\dist\\electron.exe",
+    "start_time_utc": "2026-09-28T07:15:50.3455349Z",
+    "identity_verified_before_close": true,
+    "running_after": false
+  },
+  "launcher": {
+    "pid": 40088,
+    "running_after": false
+  },
+  "method": "official native Computer Use Alt+F4 to isolated target window id 19467914",
+  "forced_termination": false,
+  "port4173_listeners_after": 0,
+  "port9_listeners_after": 0,
+  "production_studio_untouched": true,
+  "audit_deleted": false,
+  "formal_import_invocations": 1,
+  "badshot_import_invocations": 0,
+  "folder_button_clicks": 0,
+  "model_invocations": 0,
+  "source_head": "314c52f0e77475d8d737e749936084e76ff0c520",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "protected": [
+    {
+      "path": "VideoAutoCutDesktop/package.json",
+      "expected": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/package-lock.json",
+      "expected": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/runtime-release/manifest.json",
+      "expected": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/release-upload.local.json",
+      "expected": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ]
+}

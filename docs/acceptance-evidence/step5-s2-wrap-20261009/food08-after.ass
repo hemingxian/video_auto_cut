@@ -1,0 +1,13 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.00,0:00:09.50,Subtitle,,0,0,0,,{\an2\fs68\pos(960,993)}先备好四样：箱体尺寸和重量、每小时箱数、托盘
+Dialogue: 5,0:00:00.00,0:00:09.50,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}规格、目标垛型

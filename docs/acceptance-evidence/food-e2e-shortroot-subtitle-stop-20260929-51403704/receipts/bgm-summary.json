@@ -1,0 +1,12 @@
+{
+  "schema": "bgm-summary/v1",
+  "provider": "openverse-audio",
+  "selected_title": "Soundscape - Last 31 - Cinematic Piano",
+  "license": "CC BY 4.0",
+  "search_attempts_observed": 3,
+  "download_candidates_attempted_observed": 1,
+  "model_calls": 0,
+  "mix_completed": true,
+  "source": "safe redacted formal log lines 3176-3206 and 3261",
+  "temporary_urls_included": false
+}

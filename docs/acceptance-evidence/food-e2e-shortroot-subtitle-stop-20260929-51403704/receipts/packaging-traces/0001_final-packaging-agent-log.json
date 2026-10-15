@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "policy": "packaging-agent-step1",
+  "backend": "pi",
+  "shot_id": "template-0001",
+  "shot_index": 1,
+  "started_at": "2026-09-29 15:10:01",
+  "template_version": 1,
+  "input": {
+    "title": "包装线末端",
+    "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+    "card_hint": "标题卡",
+    "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+    "clip_requirements": "横屏、方向正常（不能横倒）；固定机位整段可用；产品标签不做特写",
+    "duration": 8.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "deterministic": {
+    "template": "headline",
+    "show": true
+  },
+  "response_raw": null,
+  "decision": {
+    "template": "headline",
+    "show": true,
+    "source": "script_label",
+    "reason": "脚本版式标签 headline_sub",
+    "overridden": "script_layout",
+    "cache_key": "sha256:2763ec88a3ee9e479b828ef8d1aab9385044a8a6aef7bf2ef0e2cb69b29a2fde"
+  },
+  "agreed_with_deterministic": true,
+  "show_agreed_with_deterministic": true,
+  "decision_changed": false,
+  "cache": {
+    "hit": false,
+    "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\_agent_cache\\packaging.json"
+  },
+  "budget": {
+    "seconds": 90,
+    "call_timeout_seconds": null,
+    "overran": false,
+    "internal_attempts": 2
+  },
+  "timings": {
+    "model_seconds": 0.0
+  },
+  "errors": [],
+  "fallback_used": false,
+  "ok": true,
+  "script_layout": "headline_sub",
+  "elapsed_seconds": 0.0,
+  "final_check": {
+    "width": 1920,
+    "height": 1080,
+    "sar": "1:1",
+    "audio": {
+      "codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "duration": 8.0,
+    "duration_delta": 0.0,
+    "duration_warned": false
+  }
+}

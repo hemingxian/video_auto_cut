@@ -1,0 +1,41 @@
+{
+  "schema": "vacut-u7-phase-51391241-preimport/v1",
+  "checked_at": "2026-09-28T09:48:17.9926606Z",
+  "pass": true,
+  "source_head": "1c307c384a2ffaeed02bf29d5da55b671d3b59ab",
+  "current": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "copied_to": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\current-before-u7.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "last_write_utc": "2026-09-28T07:11:06.9072789Z",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut"
+  },
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "input": {
+    "path": "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+    "sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e"
+  },
+  "safe_effective_defaults": {
+    "parse_model": "qwen-long",
+    "review_model": "qwen-long",
+    "script_review": true,
+    "http_attempt_limit": 5
+  },
+  "downloaded_engine_count_under_audit_runtime": 0,
+  "manifest_isolation_listener_present": false,
+  "electron_owner": {
+    "pid": 38288,
+    "executable_basename": "electron.exe",
+    "observer_sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc",
+    "patched": true
+  },
+  "preflight": {
+    "exit_code": 0,
+    "esm_spawn_matches_patch": true,
+    "import_or_model_invocation": false
+  },
+  "captured_children_before_click": 1,
+  "gui_import_clicks_before": 0,
+  "model_attempts_before": 0
+}

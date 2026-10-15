@@ -1,0 +1,9 @@
+{
+  "schema": "vacut-public-evidence-secret-scan/v1",
+  "files_scanned": 16,
+  "known_secret_candidates": 1,
+  "known_secret_value_hits": 0,
+  "signed_url_marker_file_hits": 0,
+  "jwt_file_hits": 0,
+  "pass": true
+}

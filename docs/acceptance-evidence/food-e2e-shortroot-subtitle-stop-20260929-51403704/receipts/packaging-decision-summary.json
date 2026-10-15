@@ -1,0 +1,141 @@
+{
+  "schema": "packaging-summary/v1",
+  "logs": [
+    {
+      "shot_dir": "0001_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:2763ec88a3ee9e479b828ef8d1aab9385044a8a6aef7bf2ef0e2cb69b29a2fde"
+      },
+      "source_sha256": "7d0436292466cfa3c4a527f85240308bad61917276b09992f4811d42a9e49e4d"
+    },
+    {
+      "shot_dir": "0003_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:798bad9fd3122b0b3a1ef121080212eeedbbb7fa2b773e1db5579fa87027653f"
+      },
+      "source_sha256": "bb2dec873fd62ab70c36b7436bb7a103339ac5c80a9103a6d4911293063d3f77"
+    },
+    {
+      "shot_dir": "0004_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 equal_lines",
+        "overridden": "script_layout",
+        "cache_key": "sha256:9a5a98ae3b37db7ec69825fbec60a679425f2039b07dc9bc51394549ca3c4d09"
+      },
+      "source_sha256": "56b9cd4229d83149c6677b2b91ef4881feb4190348a80045ecf0eef90f8bfb43"
+    },
+    {
+      "shot_dir": "0006_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": false,
+      "deterministic": {
+        "template": "title",
+        "show": true
+      },
+      "decision": {
+        "template": "title",
+        "show": true,
+        "reason": "card_content 单句主张",
+        "overridden": null,
+        "source": "agent",
+        "cache_key": "sha256:14e0edba190884c2025988042ef976e1d1eeeb05675743d21aa47e866263be64"
+      },
+      "source_sha256": "c5f6798de7c166d39f089301a4d848338856781f3895a0d6f24c6ea3a2b0c6ff"
+    },
+    {
+      "shot_dir": "0007_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": false,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "reason": "card_content 两行换行",
+        "overridden": null,
+        "source": "agent",
+        "cache_key": "sha256:9d8bfa738a7fe73465c2c0eb7260381c2e23ac5ccf554cdc273f8f3c212f83ff"
+      },
+      "source_sha256": "48e30b972edb9637e71b0f409c3c90a31c3281a1c34ef4ce2b8ca5fd78fce6e2"
+    },
+    {
+      "shot_dir": "0008_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 equal_lines",
+        "overridden": "script_layout",
+        "cache_key": "sha256:966f14819de13917b05bf52c7077c580432edf9a2bb29e2bacca2dfa6366e656"
+      },
+      "source_sha256": "407e8f6ee0b1980bb7cef09a18fa2b5a6d56be125d6ce408e6adabdb40cc8170"
+    },
+    {
+      "shot_dir": "0009_final",
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:7193e82058ffaabb9adf88be4079809dd053793aee13231386857c6976a5de1d"
+      },
+      "source_sha256": "8b521fa43e9b7a619017b11ad9d1e06af8a8204172deea5c0dce41d1c5b4261b"
+    }
+  ],
+  "count": 7,
+  "model_calls_observed": 0,
+  "basis": "all 7 card-bearing shot logs have response_raw=null and deterministic script-label decisions; shots 2 and 5 have no packaging log"
+}

@@ -1,0 +1,121 @@
+成片比例: 16:9，分辨率: 1080p，输出尺寸: 1920x1080，等比例居中、纯黑填充
+
+========== VideoAuto ==========
+主题: 示例_食品码垛_v1
+运行目录: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-51400401-2cad82d-20260929\plan-workspace\video\runs\20260929\food_route_a_51400401_plan\.videoautocut\runs\run_20260929_112743_695_17248
+脚本文档: D:\autocut\video-auto-cut\docs\script-template-v1\示例_食品码垛_v1.xlsx
+分镜数: 6
+素材来源: Pexels
+每分镜下载: 2
+每分镜剪出: 1
+匹配接受阈值: 0.00
+================================
+
+
+>>> python normalize_script
+"D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe" "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\tools\\normalize_script.py" "--input" "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx" "--output" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\plan-workspace\\temp\\normalized_script_shots.json" "--topic" "示例_食品码垛_v1"
+[script] 标准模板导入 status_note: R2 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R3 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R4 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R5 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R6 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R7 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R8 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R9 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+[script] 标准模板导入 status_note: R10 Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"running","workflowProgress":{"stage":"script","status":"running","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\uff1a9 \u955c\uff0c9 \u6761\u63d0\u9192"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"\u793a\u4f8b_\u98df\u54c1\u7801\u579b_v1.xlsx","shots":9,"blocked":[],"warnings":[{"shot":1,"cell":"R2","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":2,"cell":"R3","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":3,"cell":"R4","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":4,"cell":"R5","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":5,"cell":"R6","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":6,"cell":"R7","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":7,"cell":"R8","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":8,"cell":"R9","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"},{"shot":9,"cell":"R10","column":"\u6765\u6e90/\u6838\u5bf9","code":"status_note","message":"Mac \u539f\u521b\uff082026-09-23\uff09\uff0c\u975e\u5ba2\u6237\u7a3f\u8f6c\u6362\uff1b\u753b\u9762\u6309 9/17 \u51bb\u7ed3\u98df\u54c1\u7801\u579b\u7d20\u6750\u6838\u5bf9","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"review","level":"warn"}]}}
+[script] 标准模板导入完成: 9 镜，9 条提醒
+任务编排说明: plan only requested
+任务编排置信度: 1.00
+
+========== 任务步骤 ==========
+#01 解析脚本 (ParseScript)
+#02 整理分镜 (PlanStoryboard)
+============================
+
+VACUT_EVENT:{"kind":"workflow_plan","workflowPlan":{"stages":["script","plan"]}}
+已生成分镜: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-51400401-2cad82d-20260929\plan-workspace\video\runs\20260929\food_route_a_51400401_plan\.videoautocut\runs\run_20260929_112743_695_17248\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"script","status":"running","total":null},"workflowStage":"script","workflowStatus":"running"}
+
+>>> 执行能力步骤 #01: 解析脚本 (ParseScript)
+脚本文档已解析: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-51400401-2cad82d-20260929\plan-workspace\video\runs\20260929\food_route_a_51400401_plan\.videoautocut\runs\run_20260929_112743_695_17248\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"plan","status":"running","total":null},"workflowStage":"plan","workflowStatus":"running"}
+
+>>> 执行能力步骤 #02: 整理分镜 (PlanStoryboard)
+
+========== 分镜 ==========
+#01 包装线末端
+  视觉模式: stock_video
+  下载关键词: 多台码垛机器人 同时作业 输送线 托盘, multiple palletizing robots working at end of packaging line
+  画面搜索描述: 食品包装线末端的码垛区，多台橙色码垛机器人同时作业，输送线和托盘位同框，固定机位
+  时长: 8 秒
+  口播: 食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。
+  卡片: 包装线末端，最重复的一道活
+箱装食品码垛工作站
+#02 来料排队
+  视觉模式: stock_video
+  下载关键词: 整箱瓶装水 输送带 排队 线间转接, boxed bottled water moving on conveyor toward robot pick position
+  画面搜索描述: 整箱瓶装水沿输送带排队前进，经过线间转接，一箱一箱送进机器人的抓取位
+  时长: 10 秒
+  口播: 整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。
+#03 抓稳转快
+  视觉模式: stock_video
+  下载关键词: 红色机械臂 抓取 纸箱牛奶 抬起转身, red robot arm picks carton from conveyor and rotates
+  画面搜索描述: 红色机械臂从输送带上抓起一箱牛奶，抬起、转身，把纸箱送到托盘上方
+  时长: 9 秒
+  口播: 机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。
+  卡片: 抓得稳 · 转得快
+节拍才跟得上产线
+#04 逐层码放
+  视觉模式: stock_video
+  下载关键词: 机械臂 纸箱 放到托盘 多层, robot places carton onto pallet with stacked layers
+  画面搜索描述: 机械臂把一箱牛奶放到红色托盘上，托盘上已经码好几层纸箱，镜头慢慢推近落箱位置
+  时长: 9 秒
+  口播: 落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。
+  卡片: 一层码满
+再码下一层
+#05 整垛稳
+  视觉模式: stock_video
+  下载关键词: 托盘 多层 整箱 码齐 码垛工位全景, pallet stacked with layers of cartons wide shot
+  画面搜索描述: 托盘上多层整箱已经码齐，机械臂继续往上码，镜头拉开露出输送带和整个码垛工位
+  时长: 9 秒
+  口播: 箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。
+#06 换箱型
+  视觉模式: stock_video
+  下载关键词: 多条输送带 机械臂 搬运整箱 瓶装水车间, robot moves cases between parallel conveyors and pallet
+  画面搜索描述: 瓶装水车间里多条输送带并行，机械臂在输送带和托盘之间来回搬运整箱，镜头缓慢右摇扫过整条线
+  时长: 10 秒
+  口播: 同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。
+  卡片: 箱型变了，改程序不改线
+#07 一人巡线
+  视觉模式: stock_video
+  下载关键词: 工人 码垛工位 巡视 机器人 码放整箱, worker monitoring palletizing robot stacking cases
+  画面搜索描述: 工人在码垛工位旁巡视、操作设备，身后机器人连续把整箱码到托盘上
+  时长: 8 秒
+  口播: 现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。
+  卡片: 搬箱子交给机器人
+人只管巡线、换托盘
+#08 先备四样
+  视觉模式: stock_video
+  下载关键词: 机械臂 连续码放 整箱瓶装水 托盘, robot continuously stacking cases of bottled water on pallet
+  画面搜索描述: 机械臂在托盘旁连续码放整箱瓶装水，托盘逐层码高，参数卡叠在画面右侧
+  时长: 12 秒
+  字幕: 先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。
+  口播: 想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。
+  卡片: 箱体尺寸 · 重量
+产线节拍（箱/小时）
+托盘规格
+目标垛型
+#09 发来箱型
+  视觉模式: stock_video
+  下载关键词: 托盘 码满 纸箱 机器人 继续码垛, fully stacked pallet of cartons robot continues next cycle
+  画面搜索描述: 码好多层纸箱的红色托盘停在工位旁，镜头慢慢拉开，机器人继续下一轮码放
+  时长: 9 秒
+  口播: 把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。
+  卡片: 把箱型、垛型发过来
+照你的现场排一套码垛工位
+===========================
+
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowStage":"done","workflowStatus":"completed"}
+
+全部完成. run: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-51400401-2cad82d-20260929\plan-workspace\video\runs\20260929\food_route_a_51400401_plan\.videoautocut\runs\run_20260929_112743_695_17248

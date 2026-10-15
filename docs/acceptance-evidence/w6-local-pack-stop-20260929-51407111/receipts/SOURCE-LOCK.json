@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "authorized_instruction": 51407111,
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "source_head_full": true,
+  "branch": "feature/material-agent-select",
+  "master": "60b3e3d95ef0cb0fa721d02709aa8f3f8be8cc9c",
+  "runtime_version": "0.5.15-agent-trial-pkg5",
+  "runtime_base": "D:\\Video Edit\\VideoAutoCut\\workspace\\runtime\\0.5.14\\VideoAutoCut",
+  "worktree": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737",
+  "worktree_zip": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\VideoAutoCut-runtime-0.5.15-agent-trial-pkg5.zip",
+  "worktree_manifest": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+  "main_manifest": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+  "main_manifest_sha256_must_remain": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+  "committed_package_only": true,
+  "copy_user_dirty_package_files": false,
+  "desktop_node_modules_strategy": "junction_read_only_to_main_Desktop_node_modules; tool node_modules remain physical and isolated inside worktree",
+  "worktree_created": false,
+  "pack_executed": false
+}

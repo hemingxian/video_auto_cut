@@ -1,0 +1,17 @@
+{
+  "raw_streams": [
+    {
+      "name": "formal-stdout.private.bin",
+      "bytes": 669000,
+      "sha256": "2772321d0a60e93328701e40d83910dd2746471cdb1e7474e4f7d9c326dc8466",
+      "published": false
+    },
+    {
+      "name": "formal-stderr.private.bin",
+      "bytes": 44789,
+      "sha256": "b5bd16bb9243a9613310de3b26ff6e7596ec68437b1eac33c6a036f8f8cb3e25",
+      "published": false
+    }
+  ],
+  "reason": "temporary service URLs; local ignored only"
+}

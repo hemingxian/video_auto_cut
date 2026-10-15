@@ -1,0 +1,18 @@
+{
+  "schema": "u6-stop-root-independent-verification/v1",
+  "fix_source_head": "d34557036205c36e97e6e2f006d2cede329a7e2c",
+  "screenshot": {
+    "original_sha256": "c11283988df5181a3efc2668b9eb0a3b3a6ad5a9434ba21f491ec5ca92dd7074",
+    "png_sha256": "f371af9642cbda14dc1af653f4ba4a802bfd486502441b07a42981ecaf20130d",
+    "size": [
+      1306,
+      853
+    ],
+    "RGB_equal": true
+  },
+  "actual_Electron_raw_copies_byte_equal": 3,
+  "actual_Electron_exit_code": 0,
+  "workflow_events": 4,
+  "template_script_import_events": 0,
+  "UI_acceptance_pass": false
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "vacut-sky-jpeg-to-png-pixel-equivalence/v1",
+  "source_original_jpeg": {
+    "basename": "U6-folder-click-existing-explorer-video-auto-cut.jpg",
+    "bytes": 88431,
+    "sha256": "f1e1ad1a98e9bdfff608cdc97ed81bcd28bc24b5db10c4bba90444d10d78b898",
+    "retained": "private audit source; not copied to public evidence"
+  },
+  "public_png": {
+    "basename": "U6-folder-click-existing-explorer-video-auto-cut.png",
+    "bytes": 317646,
+    "sha256": "931ef720873e67e948c3c41de237fff264b0133a9fa0e1a20f557f067b7ab7a2"
+  },
+  "decoded": {
+    "mode": "RGB",
+    "width": 1489,
+    "height": 634,
+    "source_pixel_sha256": "6349232b61e20a674d44a19819a8b64c539888afece9d3b446e7603808c07428",
+    "png_pixel_sha256": "6349232b61e20a674d44a19819a8b64c539888afece9d3b446e7603808c07428",
+    "pixel_equal": true
+  }
+}

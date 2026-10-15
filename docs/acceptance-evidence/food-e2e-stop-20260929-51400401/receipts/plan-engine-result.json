@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "signal": null,
+  "started_at": "2026-09-29T03:27:43.678Z",
+  "ended_at": "2026-09-29T03:27:43.935Z",
+  "elapsed_seconds": 0.257,
+  "run_dir": "\\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\plan-workspace\\video\\runs\\20260929\\food_route_a_51400401_plan\\.videoautocut\\runs\\run_20260929_112743_695_17248",
+  "log": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\engine-full.log",
+  "executable_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "stdout": {
+    "bytes": 12455,
+    "sha256": "376a2bd9e2c629b47a27bc1c3173e8219f9dd4628ca084cefe0cc8830b96489d"
+  },
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

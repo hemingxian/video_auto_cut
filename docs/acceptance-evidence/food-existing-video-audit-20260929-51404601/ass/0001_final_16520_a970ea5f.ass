@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.24,0:00:01.76,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}食品包装线的末端
+Dialogue: 5,0:00:02.08,0:00:03.60,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}一箱箱成品下线以后
+Dialogue: 5,0:00:03.60,0:00:06.08,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}最重复、最累人的一道活
+Dialogue: 5,0:00:06.08,0:00:07.36,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}就是码垛

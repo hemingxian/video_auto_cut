@@ -1,0 +1,7 @@
+{
+  "temp": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\w6-51407111-isolated-pkg5-20260929-v2\\process-temp",
+  "tmp": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\w6-51407111-isolated-pkg5-20260929-v2\\process-temp",
+  "under_audit": true,
+  "existed_before": false,
+  "purpose": "Confine pack-runtime runtime-stage-PID creation and cleanup to this W6 audit root."
+}

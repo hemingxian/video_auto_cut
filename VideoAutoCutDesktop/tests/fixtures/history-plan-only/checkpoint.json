@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "signature": "public-fixture-signature-with-private-configuration-removed",
+  "plan_hash": "a289660f5a1d48b212f7e94e7479bb3c385d930ac2c1069b00a04e29917dcf68",
+  "final_path": null,
+  "steps": [
+    { "name": "ParseScript", "files": {} },
+    { "name": "PlanStoryboard", "files": {} }
+  ]
+}

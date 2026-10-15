@@ -1,0 +1,26 @@
+{
+  "interpreter": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe",
+  "arguments": "-I -B -X utf8",
+  "text_layout": {
+    "tests": 43,
+    "exit": 0,
+    "log": "text-layout.stderr.log"
+  },
+  "template_packaging": {
+    "tests": 17,
+    "exit": 0,
+    "log": "template-packaging.stderr.log"
+  },
+  "script_template": {
+    "tests": 40,
+    "exit": 0,
+    "n1_states": 225,
+    "log": "script-template.stderr.log"
+  },
+  "legacy_oracle": "git show a3e64b4:VideoAutoCut/tools/text_layout.py",
+  "required_comparisons": 14,
+  "matrix_comparisons": 360,
+  "total_comparisons": 374,
+  "supersedes": "../step5-s2-wrap-20261009/card-space-browser-evidence.json",
+  "utc": "2026-10-09T06:19:08.3032860Z"
+}

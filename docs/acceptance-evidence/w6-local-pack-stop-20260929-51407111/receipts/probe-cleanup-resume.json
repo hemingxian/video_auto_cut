@@ -1,0 +1,6 @@
+{
+  "records_probe": "removed_owned_probe",
+  "cache_probe": "removed_owned_probe",
+  "records_dir_initially_existed": false,
+  "cache_dir_initially_existed": false
+}

@@ -1,0 +1,12 @@
+{
+  "derived_from": "render_segment output parent / packaging / output stem",
+  "cwd_extended": "\\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-rerun-51402638-1f86b0b-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_rerun_51402638\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final",
+  "cwd_extended_length": 266,
+  "cwd_without_prefix": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-rerun-51402638-1f86b0b-20260929\\formal-workspace\\video\\runs\\20260929\\food_route_a_rerun_51402638\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final",
+  "cwd_without_prefix_length": 262,
+  "extended_exists": true,
+  "without_prefix_exists": true,
+  "is_directory_without_prefix": true,
+  "render_log_bytes": 0,
+  "root_cause_conclusion": "not established; no reproduction or repair attempted"
+}

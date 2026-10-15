@@ -1,0 +1,185 @@
+{
+  "schema": "vacut-evidence-manifest/v1",
+  "files": [
+    {
+      "path": "helpers/00-freeze-source.ps1",
+      "bytes": 5760,
+      "sha256": "4a1d4e4cf890e08873e0ebcdb70413e059ecca693cbe4d87d00488eae1452a8c"
+    },
+    {
+      "path": "helpers/10-create-worktree.ps1",
+      "bytes": 4557,
+      "sha256": "514fc736da6ece854804bef02610a952e95be4cf400c8a1105eed2e97e99a56e"
+    },
+    {
+      "path": "helpers/10-finalize-worktree-prep.ps1",
+      "bytes": 5316,
+      "sha256": "a7499ead439c84386b2bb5014c4c9abac24a6d16671a61dd6534fa64a883e206"
+    },
+    {
+      "path": "helpers/20-finalize-pack-from-installed.ps1",
+      "bytes": 7508,
+      "sha256": "000ec654117ee51c6009e16729c7b13196ba9a640a1001658d71e785c12cea11"
+    },
+    {
+      "path": "helpers/20-install-pack-isolated.ps1",
+      "bytes": 7938,
+      "sha256": "9cf7f2307d75baf86bfa01b992f5bfd6f5eac1e695cc57bb16a005b1fb7d2839"
+    },
+    {
+      "path": "helpers/30-verify-isolated.ps1",
+      "bytes": 6935,
+      "sha256": "713a8e570f6bfab40faba4a501deab822d9bfdf3ddfc39d80fec7dc4889d9798"
+    },
+    {
+      "path": "helpers/40-hash-report.ps1",
+      "bytes": 3917,
+      "sha256": "40ee12c62ba152110062b31061abfe093625b71a8e7663ca2de6c40fb6a1b656"
+    },
+    {
+      "path": "helpers/cleanup-static-probe.ps1",
+      "bytes": 534,
+      "sha256": "509279c18962cc64c39af2dacfeb4a22ceae5d769f4e70e4f1622d12b7f45ebe"
+    },
+    {
+      "path": "helpers/w6_extract_zip_isolated.py",
+      "bytes": 2816,
+      "sha256": "cdbfe7729715d3f9e882c0f148424930be49e175305d9faf0d1927a5854f76c6"
+    },
+    {
+      "path": "helpers/w6_zip_gate_isolated.py",
+      "bytes": 3436,
+      "sha256": "4b27c232d69e82b8dc3905e52b91a59df8e7dfd853416189c2c3db9c1545bdde"
+    },
+    {
+      "path": "helpers/W6.Isolated.Common.ps1",
+      "bytes": 15179,
+      "sha256": "1e1f108043ab9b2bc137df4b6ff04deccb14b74387231b3d956d742f99c8623c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1063,
+      "sha256": "b1ad9596c641d0c8138ae7a8c2ff80d4bece2a963c619fb2079c258897225153"
+    },
+    {
+      "path": "receipts/FROZEN-INPUTS.json",
+      "bytes": 2498,
+      "sha256": "ac62a4b86c9adb6ead66eb750dcce94aa2b3e3c34bff02f2b300ab2c6acb5c57"
+    },
+    {
+      "path": "receipts/hyperframes-check.log",
+      "bytes": 1027,
+      "sha256": "b1514fdeba6d6139e8c2c2aa1e80347ddbbbbd8bb8fd05edab55d72b93ecb0bf"
+    },
+    {
+      "path": "receipts/hyperframes-install.log",
+      "bytes": 2280,
+      "sha256": "61c0b76f3527e85c07eb8143ea2b02c255e614f06372fba7145915d98b61c8ea"
+    },
+    {
+      "path": "receipts/instruction-51407111.md",
+      "bytes": 2659,
+      "sha256": "1361fcd40ce107001257ec5ab0f14e9b0c4abf06de1bdc5fd9da08ed1359d98f"
+    },
+    {
+      "path": "receipts/pack-runtime.log",
+      "bytes": 351,
+      "sha256": "91d1d51eb80906cc4578f8e192677bc298ac5550e864ee4dd075a330c8bb287e"
+    },
+    {
+      "path": "receipts/pi-check.log",
+      "bytes": 811,
+      "sha256": "ba3821fb422199ea1ed681fa74febb4554dc157bdfee16457fd57bfcfe5025b7"
+    },
+    {
+      "path": "receipts/pi-install.log",
+      "bytes": 1708,
+      "sha256": "a41bfc0b9e5cdb05de1db2e56610545f1e3a75501f87dbbf5d7a93b0ee0542d7"
+    },
+    {
+      "path": "receipts/probe-before-pack-resume.json",
+      "bytes": 745,
+      "sha256": "c6ac9f82d31273e4decb3759238dbcf43b0c6c540c540c9fd8c13505c82ac283"
+    },
+    {
+      "path": "receipts/probe-cleanup-resume.json",
+      "bytes": 172,
+      "sha256": "277298c22029f0abea10f82c89374f171b9b65ff75ac16cddefb006d10b9d53f"
+    },
+    {
+      "path": "receipts/probe-cleanup.json",
+      "bytes": 172,
+      "sha256": "277298c22029f0abea10f82c89374f171b9b65ff75ac16cddefb006d10b9d53f"
+    },
+    {
+      "path": "receipts/process-temp.json",
+      "bytes": 427,
+      "sha256": "3164f6bd826034004da334fa427af651aa2a224920ebc62a37a2107e6b03ad44"
+    },
+    {
+      "path": "receipts/protected-main-after-stop.json",
+      "bytes": 1309,
+      "sha256": "5a5e5ed5285bf9d223fdafc142062a33dcc42818efae69296eb269d38821bfbb"
+    },
+    {
+      "path": "receipts/protected-main-before.json",
+      "bytes": 1346,
+      "sha256": "6dde145f1940536e14a21bc80a7779251d5861adfde1d2b22ae334bcc4d4a46e"
+    },
+    {
+      "path": "receipts/resume-hyperframes-check.log",
+      "bytes": 1027,
+      "sha256": "b1514fdeba6d6139e8c2c2aa1e80347ddbbbbd8bb8fd05edab55d72b93ecb0bf"
+    },
+    {
+      "path": "receipts/resume-pi-check.log",
+      "bytes": 811,
+      "sha256": "ba3821fb422199ea1ed681fa74febb4554dc157bdfee16457fd57bfcfe5025b7"
+    },
+    {
+      "path": "receipts/sensitive-scan.json",
+      "bytes": 192,
+      "sha256": "afbd282e4d0d5e00bf56188267084e889468eed2048849a3ae1040a04b728363"
+    },
+    {
+      "path": "receipts/SOURCE-LOCK.json",
+      "bytes": 1259,
+      "sha256": "9a70c460e58d08d27704b030a3f8e570760ee583abd097463129403c1bc0ea82"
+    },
+    {
+      "path": "receipts/STOP-FACTS.json",
+      "bytes": 2466,
+      "sha256": "955dd28c4c65b313b05b6952e18942f36ffb8c66b9ce545c535de5aa9e9051a9"
+    },
+    {
+      "path": "receipts/v1-FROZEN-INPUTS.json",
+      "bytes": 2498,
+      "sha256": "ac62a4b86c9adb6ead66eb750dcce94aa2b3e3c34bff02f2b300ab2c6acb5c57"
+    },
+    {
+      "path": "receipts/v1-protected-main-before.json",
+      "bytes": 1346,
+      "sha256": "6dde145f1940536e14a21bc80a7779251d5861adfde1d2b22ae334bcc4d4a46e"
+    },
+    {
+      "path": "receipts/W6-ISOLATED-STATE.json",
+      "bytes": 420,
+      "sha256": "693c9b87d4a13bff48d58caa6808f81540c85072384936b35a20c4a7c1769298"
+    },
+    {
+      "path": "receipts/worktree-add.log",
+      "bytes": 104,
+      "sha256": "b9676aad7c3e5ab11a656cfab46f1db88dd62781ec54e4be01e15631a982e1cf"
+    },
+    {
+      "path": "receipts/worktree-created.json",
+      "bytes": 1492,
+      "sha256": "25e4a3f1757c7245ce478569e0cf0895d66a22ebd7d0615d708f42e4f3a90cc8"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 3651,
+      "sha256": "dc55548aef201e532f85bc6a3a62f71cbf8a4b992f10106bd7f092636c216c05"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-09-29T03:30:09.519Z",
+  "executable": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\VideoAutoCutEngine.exe",
+  "executable_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "args": [
+    "--restart-all",
+    "--shots-json",
+    "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\shots.json",
+    "--material-manifest",
+    "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\material_manifest.json",
+    "--project-name",
+    "food_route_a_51400401_formal",
+    "--aspect-ratio",
+    "16:9",
+    "--output-resolution",
+    "1080p",
+    "--source",
+    "pexels"
+  ]
+}

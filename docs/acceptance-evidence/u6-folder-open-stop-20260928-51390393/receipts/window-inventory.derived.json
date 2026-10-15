@@ -1,0 +1,26 @@
+{
+  "schema": "vacut-sky-window-inventory-derived/v1",
+  "derived": true,
+  "source_private_inventory_sha256": "d63a818223922ab8ac6f5d12bdaaea7e5472eacdcacd91a89162112f5e60add8",
+  "source_private_inventory_not_published": true,
+  "filter": "isolated Electron app path plus Windows Explorer entries only",
+  "expected_folder_title": "script-template-v1 - 文件资源管理器",
+  "expected_folder_present": false,
+  "entries": [
+    {
+      "app": "process:D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\electron\\dist\\electron.exe",
+      "id": 265994,
+      "title": "VideoAutoCut Studio"
+    },
+    {
+      "app": "process:C:\\Windows\\explorer.exe",
+      "id": 395496,
+      "title": "review-page - 文件资源管理器"
+    },
+    {
+      "app": "process:C:\\Windows\\explorer.exe",
+      "id": 3604850,
+      "title": "video-auto-cut - 文件资源管理器"
+    }
+  ]
+}

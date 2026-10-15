@@ -1,0 +1,51 @@
+{
+  "schema": "w6-pkg5-verify-stop/v1",
+  "instruction_comment": 51412327,
+  "main_evidence_head": "e82be4c8c38e21847d215f7508c0025862b700c3",
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "archive": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\VideoAutoCut-runtime-0.5.15-agent-trial-pkg5.zip",
+    "bytes": 669984472,
+    "sha256": "662882deedd897b04043b2cb78ff1a40c17fcfd09cfd80885ace3e1dfd5002f5",
+    "unchanged_at_stop": true
+  },
+  "manifest": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+    "bytes": 433,
+    "sha256": "c80642c7370fe4a310a30ab1ea3b8852093b7986dd8cd67f8588ace69c1bda0c",
+    "unchanged_at_stop": true
+  },
+  "engine": {
+    "accepted_frozen_sha256": "eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085",
+    "acceptance_instruction": 51412327,
+    "evidence_commit": "e82be4c8c38e21847d215f7508c0025862b700c3"
+  },
+  "execution": {
+    "archive_state_00_exit_code": 0,
+    "verify_30_calls": 1,
+    "verify_30_exit_code": 1,
+    "failure_stage": "safe isolated pkg5 extract",
+    "extract_log_bytes": 1071,
+    "extract_log_sha256": "5b44d148495b2b3b78a973344f961dd35f8fda6080d620fa3b6c66890e88d342",
+    "hash_40_calls": 0,
+    "cleanup_started": false,
+    "repack_calls_this_instruction": 0
+  },
+  "not_executed": {
+    "complete_file_inventory": true,
+    "package_contents_check": true,
+    "zip_entry_gate": true,
+    "packaged_dependency_checks": true,
+    "credential_scan": true,
+    "engine_in_package_check": true,
+    "delivery_hash_40": true
+  },
+  "partial_extract_tree_exists_locally": true,
+  "partial_extract_tree_in_evidence": false,
+  "root_cause_investigated": false,
+  "package_content_failure_claimed": false,
+  "isolated_config_copy_exists": false,
+  "isolated_normal_git_status_empty": true,
+  "main_only_user_package_dirty": true,
+  "status": "STOP_WAITING_NEW_INSTRUCTION"
+}

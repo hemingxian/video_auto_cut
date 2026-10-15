@@ -1,0 +1,19 @@
+{
+  "embedded_python": "D:\\vac\\u7n\\python-3.11.9-embed-amd64\\python.exe",
+  "python_sha256": "5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec",
+  "pi_check": {
+    "exit": 0,
+    "log_sha256": "809ff86be1291486cb3fabd6789fae73b021442b99c43fa9919290f124e9430b"
+  },
+  "hyperframes_check": {
+    "exit": 0,
+    "log_sha256": "8e4925d07ce313c684c84736f605276aa3339893da8f34241fc2bcebbda78a61"
+  },
+  "engine_help": {
+    "exit": 0,
+    "stdout_sha256": "d6e5b441a7444c0387a13aa7b0ae0f930c03463c81b6da8e8edf4bd01890a49e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "has_material_manifest": true,
+    "has_project_name": true
+  }
+}

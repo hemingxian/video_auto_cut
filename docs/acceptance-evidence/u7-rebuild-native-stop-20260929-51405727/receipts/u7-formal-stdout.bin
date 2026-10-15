@@ -1,0 +1,100 @@
+成片比例: 16:9，分辨率: 1080p，输出尺寸: 1920x1080，等比例居中、纯黑填充
+
+========== VideoAuto ==========
+主题: 07_表格版_混合_show判定_食品码垛_CN
+运行目录: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\u7-rerun-51405727\state\data\video\runs\20260929\07_表格版_混合_show判定_食品码垛_CN\.videoautocut\runs\run_20260929_174706_886_30704
+脚本文档: D:\autocut\video-auto-cut\docs\packaging-test-scripts-2026-09-21\07_表格版_混合_show判定_食品码垛_CN.xlsx
+分镜数: 6
+素材来源: Pexels
+每分镜下载: 2
+每分镜剪出: 1
+匹配接受阈值: 0.00
+================================
+
+
+>>> python normalize_script
+"D:\\vac\\u7n\\python-3.11.9-embed-amd64\\python.exe" "D:\\vac\\u7n\\tools\\normalize_script.py" "--input" "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx" "--output" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-rerun-51405727\\state\\data\\temp\\normalized_script_shots.json" "--topic" "07_表格版_混合_show判定_食品码垛_CN"
+AI 上传脚本文件: D:\autocut\video-auto-cut\docs\packaging-test-scripts-2026-09-21\07_表格版_混合_show判定_食品码垛_CN.xlsx
+AI 脚本文件上传完成: file-fe-85c3ccdbb9c04970a0919455
+AI 解析脚本文件: D:\autocut\video-auto-cut\docs\packaging-test-scripts-2026-09-21\07_表格版_混合_show判定_食品码垛_CN.xlsx
+[script] 脚本字段校验 [!] AI 解析结果与脚本原文有 1 处不一致（上屏内容与分镜标题一律以脚本为准），已按原文纠正 1 处：
+[script] 脚本字段校验 [!] 分镜 1 card_content 丢失：解析得到 （空） -> 脚本原文 来料到位是码垛稳定的第一道关
+VACUT_EVENT:{"kind": "workflow", "workflowStage": "script", "workflowStatus": "running", "workflowProgress": {"stage": "script", "status": "running", "phase": "card_fields", "label": "\u811a\u672c\u5b57\u6bb5\u6821\u6b63 1/1 \u5904"}, "cardFieldCorrections": [{"shot": 1, "field": "card_content", "kind": "missing", "plan": "", "script": "\u6765\u6599\u5230\u4f4d\u662f\u7801\u579b\u7a33\u5b9a\u7684\u7b2c\u4e00\u9053\u5173", "applied": true}]}
+AI 脚本规范化完成: D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\u7-rerun-51405727\state\data\temp\normalized_script_shots.json
+分镜数: 7
+任务编排说明: plan only requested
+任务编排置信度: 1.00
+
+========== 任务步骤 ==========
+#01 解析脚本 (ParseScript)
+#02 整理分镜 (PlanStoryboard)
+============================
+
+VACUT_EVENT:{"kind":"workflow_plan","workflowPlan":{"stages":["script","plan"]}}
+已生成分镜: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\u7-rerun-51405727\state\data\video\runs\20260929\07_表格版_混合_show判定_食品码垛_CN\.videoautocut\runs\run_20260929_174706_886_30704\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"script","status":"running","total":null},"workflowStage":"script","workflowStatus":"running"}
+
+>>> 执行能力步骤 #01: 解析脚本 (ParseScript)
+脚本文档已解析: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\u7-rerun-51405727\state\data\video\runs\20260929\07_表格版_混合_show判定_食品码垛_CN\.videoautocut\runs\run_20260929_174706_886_30704\shots.json
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"plan","status":"running","total":null},"workflowStage":"plan","workflowStatus":"running"}
+
+>>> 执行能力步骤 #02: 整理分镜 (PlanStoryboard)
+
+========== 分镜 ==========
+#01 来料到位是第一道关
+  视觉模式: stock_video
+  下载关键词: white packaged bags on conveyor belt medium shot
+  画面搜索描述: 白色包装袋在输送带上排队进入抓取位，中景，看得到输送带和挡边
+  时长: 7 秒
+  字幕: 先看来料到位，再看抓取落放
+  口播: 袋装物料码垛，先看来料怎样到位，再看机械臂如何抓取和落放。
+  卡片: 来料到位是码垛稳定的第一道关
+#02 袋料和箱体要分开核对
+  视觉模式: stock_video
+  下载关键词: bagged and boxed products on separate conveyors comparison shot
+  画面搜索描述: 包装袋与整箱瓶装饮品分别在两条输送带上前进，对比镜头
+  时长: 8 秒
+  字幕: 袋料与箱体分别核对
+  口播: 袋料和箱体的外形不同，来料朝向、抓取位置和支撑方式要分别核对。
+#03 镜头B
+  视觉模式: stock_video
+  下载关键词: robot arm lifting and turning package clear view of tool and guard rail
+  画面搜索描述: 机械臂带料抬起并转向，画面能看到包装与抓具的完整外廓
+  时长: 7 秒
+  字幕: 抬升转向不碰护栏
+  口播: 抓具带料抬起、转向时，要检查包装与工具有没有碰到输送带护栏。
+#04 包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径
+  视觉模式: stock_video
+  下载关键词: boxed drinks placed on pallet with lower layer already stacked
+  画面搜索描述: 整箱瓶装饮品被放到塑料托盘上，托盘上已有码好的下层
+  时长: 7 秒
+  字幕: 核对方向与退出路径
+  口播: 包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。
+#05 换型准备
+  视觉模式: stock_video
+  下载关键词: worker checking new packaging sample at palletizing station
+  画面搜索描述: 工人在码垛工位旁查看新包装样件，背景是成品托盘区
+  时长: 8 秒
+  字幕: 换型前先备齐三样
+  口播: 换包装之前，先备好新包装样件、目标垛型和现场布局，再逐项确认要调整的抓具与路径。
+  卡片: 占位卡 05
+#06 开场
+  视觉模式: stock_video
+  下载关键词: palletizing robots in workshop showing pickup, conveyor, and pallet positions
+  画面搜索描述: 车间内取料端、输送线和托盘位置同框，能看到多台码垛机器人同时作业
+  时长: 8 秒
+  字幕: 整合视图看工位衔接
+  口播: 把取料端、输送线和托盘位置放在一起看，更容易看清工位之间的衔接。
+#07 欢迎带着包装形态来试
+  视觉模式: stock_video
+  下载关键词: robot placing boxed drinks on pallet wide shot showing finished pallet area
+  画面搜索描述: 机械臂将整箱瓶装饮品码到托盘上，镜头拉远露出成品托盘区
+  时长: 8 秒
+  字幕: 稳定性要在现场试
+  口播: 动态画面只能帮着理解工位配置，破包、滑移和满垛稳定性还是要在现场试。
+  卡片: 带上你的包装形态和目标垛型，一起把这条线试一遍
+===========================
+
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowStage":"done","workflowStatus":"completed"}
+
+全部完成. run: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\u7-rerun-51405727\state\data\video\runs\20260929\07_表格版_混合_show判定_食品码垛_CN\.videoautocut\runs\run_20260929_174706_886_30704

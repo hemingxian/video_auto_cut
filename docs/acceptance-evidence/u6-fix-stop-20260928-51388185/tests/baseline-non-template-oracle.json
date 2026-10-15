@@ -1,0 +1,60 @@
+{
+  "source": "git HEAD b9803b8 baseline hook in isolated audit module",
+  "ownKeys": [
+    "autoContinueToGenerate",
+    "code",
+    "command",
+    "createdAt",
+    "downloadNewMaterials",
+    "finishedAt",
+    "id",
+    "logs",
+    "message",
+    "mode",
+    "pid",
+    "runId",
+    "runPath",
+    "scriptPath",
+    "startedAt",
+    "status",
+    "title",
+    "workflowPlan",
+    "workflowProgress",
+    "workflowStage"
+  ],
+  "undefinedKeys": [
+    "runId",
+    "runPath"
+  ],
+  "values": {
+    "id": "queue-u6",
+    "mode": "plan",
+    "title": "转换演示_v1表格.xlsx",
+    "status": "failed",
+    "createdAt": "2026-09-28T12:39:10.000Z",
+    "downloadNewMaterials": false,
+    "autoContinueToGenerate": false,
+    "scriptPath": "D:\\fixtures\\转换演示_v1表格.xlsx",
+    "pid": 4100,
+    "command": "python normalize_script.py --plan-only",
+    "workflowStage": "script",
+    "workflowPlan": [
+      "script",
+      "plan"
+    ],
+    "workflowProgress": {
+      "stage": "script",
+      "status": "failed",
+      "phase": "normalizing",
+      "label": "执行失败"
+    },
+    "startedAt": "2026-09-28T12:39:10.010Z",
+    "message": "任务执行失败，请查看日志",
+    "logs": [
+      ">>> 任务 导入脚本\n",
+      "\n任务 未命名任务结束，退出码：2\n"
+    ],
+    "code": 2,
+    "finishedAt": "<normalized>"
+  }
+}

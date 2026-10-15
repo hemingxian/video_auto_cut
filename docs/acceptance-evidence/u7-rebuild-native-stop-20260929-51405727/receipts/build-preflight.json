@@ -1,0 +1,11 @@
+{
+  "head": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "branch": "feature/material-agent-select",
+  "cargo_lock": "4f97aabfd4a7f458997c84eb6429787b8c4c0b9f1a86e8858576afac907b482c",
+  "fixture": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+  "script_card_fields": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ]
+}

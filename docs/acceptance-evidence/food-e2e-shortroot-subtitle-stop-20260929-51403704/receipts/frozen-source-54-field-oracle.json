@@ -1,0 +1,460 @@
+{
+  "schema": "food-rerun-51402638-source-54-field-oracle/v1",
+  "method": "read-only openpyxl + frozen JSON comparison; no importer/model/engine",
+  "xlsx": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx",
+  "xlsx_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "prepared_plan": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\shots.json",
+  "prepared_plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "manifest": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\material_manifest.json",
+  "manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+  "shot_count": 9,
+  "fields_per_shot": 6,
+  "checks": 54,
+  "duration_total_seconds": 84,
+  "shot2_authorized_override": "U3字幕验收：整箱来料排队。",
+  "rows": [
+    {
+      "shot": 1,
+      "xlsx_row": 2,
+      "shot_id": "template-0001",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "包装线末端",
+          "prepared": "包装线末端",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 8,
+          "prepared": 8,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+          "prepared": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+          "prepared": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+          "prepared": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "标题卡",
+          "prepared": "标题卡",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 2,
+      "xlsx_row": 3,
+      "shot_id": "template-0002",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "来料排队",
+          "prepared": "来料排队",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 10,
+          "prepared": 10,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+          "prepared": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "U3字幕验收：整箱来料排队。",
+          "prepared": "U3字幕验收：整箱来料排队。",
+          "ok": true,
+          "authorized_override": true
+        },
+        {
+          "field": "card_content",
+          "expected": null,
+          "prepared": null,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": null,
+          "prepared": null,
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "xlsx_row": 4,
+      "shot_id": "template-0003",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "抓稳转快",
+          "prepared": "抓稳转快",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 9,
+          "prepared": 9,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+          "prepared": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+          "prepared": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "抓得稳 · 转得快\n节拍才跟得上产线",
+          "prepared": "抓得稳 · 转得快\n节拍才跟得上产线",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "标题卡",
+          "prepared": "标题卡",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 4,
+      "xlsx_row": 5,
+      "shot_id": "template-0004",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "逐层码放",
+          "prepared": "逐层码放",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 9,
+          "prepared": 9,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+          "prepared": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+          "prepared": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "一层码满\n再码下一层",
+          "prepared": "一层码满\n再码下一层",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "流程条",
+          "prepared": "流程条",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 5,
+      "xlsx_row": 6,
+      "shot_id": "template-0005",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "整垛稳",
+          "prepared": "整垛稳",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 9,
+          "prepared": 9,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+          "prepared": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+          "prepared": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": null,
+          "prepared": null,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": null,
+          "prepared": null,
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 6,
+      "xlsx_row": 7,
+      "shot_id": "template-0006",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "换箱型",
+          "prepared": "换箱型",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 10,
+          "prepared": 10,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+          "prepared": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+          "prepared": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "箱型变了，改程序不改线",
+          "prepared": "箱型变了，改程序不改线",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "标题卡",
+          "prepared": "标题卡",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 7,
+      "xlsx_row": 8,
+      "shot_id": "template-0007",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "一人巡线",
+          "prepared": "一人巡线",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 8,
+          "prepared": 8,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+          "prepared": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+          "prepared": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "搬箱子交给机器人\n人只管巡线、换托盘",
+          "prepared": "搬箱子交给机器人\n人只管巡线、换托盘",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "对照卡",
+          "prepared": "对照卡",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 8,
+      "xlsx_row": 9,
+      "shot_id": "template-0008",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "先备四样",
+          "prepared": "先备四样",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 12,
+          "prepared": 12,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+          "prepared": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+          "prepared": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+          "prepared": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "参数列表",
+          "prepared": "参数列表",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    },
+    {
+      "shot": 9,
+      "xlsx_row": 10,
+      "shot_id": "template-0009",
+      "checks": [
+        {
+          "field": "title",
+          "expected": "发来箱型",
+          "prepared": "发来箱型",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "duration",
+          "expected": 9,
+          "prepared": 9,
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "voice_text",
+          "expected": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+          "prepared": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "subtitle",
+          "expected": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+          "prepared": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_content",
+          "expected": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+          "prepared": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+          "ok": true,
+          "authorized_override": false
+        },
+        {
+          "field": "card_hint",
+          "expected": "行动号召",
+          "prepared": "行动号召",
+          "ok": true,
+          "authorized_override": false
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "ok": true
+}

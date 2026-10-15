@@ -1,0 +1,8 @@
+{
+  "confidence": 1,
+  "reason": "plan only requested",
+  "steps": [
+    { "capability": "parse_script", "id": "parse_script", "label": "解析脚本", "inputs": null, "requires_confirmation": false },
+    { "capability": "plan_storyboard", "id": "plan_storyboard", "label": "整理分镜", "inputs": null, "requires_confirmation": false }
+  ]
+}

@@ -1,0 +1,101 @@
+source: formal-stdout.private.bin
+source_bytes: 584965
+source_sha256: dac51d8b5be5f0508c58aee2c21c64a36172a469308cebbf683645834d2684aa
+selected_lines: 95
+method: UTF-8 decode with replacement, split literal LF, trim at most terminal CR; pattern select; reject URL/signature/token patterns
+
+stdout LF 154: ASR 状态: SUCCEEDED
+stdout LF 156: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc\voice\0001_cues.json
+stdout LF 177: ASR 状态: SUCCEEDED
+stdout LF 179: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d\voice\0001_cues.json
+stdout LF 200: ASR 状态: SUCCEEDED
+stdout LF 202: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa\voice\0001_cues.json
+stdout LF 223: ASR 状态: SUCCEEDED
+stdout LF 225: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2\voice\0001_cues.json
+stdout LF 246: ASR 状态: SUCCEEDED
+stdout LF 248: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c\voice\0001_cues.json
+stdout LF 269: ASR 状态: SUCCEEDED
+stdout LF 271: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033\voice\0001_cues.json
+stdout LF 292: ASR 状态: SUCCEEDED
+stdout LF 294: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c\voice\0001_cues.json
+stdout LF 315: ASR 状态: SUCCEEDED
+stdout LF 317: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb\voice\0001_cues.json
+stdout LF 338: ASR 状态: SUCCEEDED
+stdout LF 340: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\vac\f3\w\video\runs\20260929\f3\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7\voice\0001_cues.json
+stdout LF 458: file complete: 4 new embeddings, 0 cache hits, 0 still chunks; 27.81s
+stdout LF 507: file complete: 3 new embeddings, 0 cache hits, 0 still chunks; 23.81s
+stdout LF 541: file complete: 2 new embeddings, 0 cache hits, 0 still chunks; 11.64s
+stdout LF 630: file complete: 6 new embeddings, 0 cache hits, 0 still chunks; 36.86s
+stdout LF 677: file complete: 3 new embeddings, 0 cache hits, 0 still chunks; 15.27s
+stdout LF 766: file complete: 6 new embeddings, 0 cache hits, 0 still chunks; 42.39s
+stdout LF 805: >>> 素材画面筛选与兜底
+stdout LF 876: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.17s
+stdout LF 890: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 901: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.06s
+stdout LF 924: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.14s
+stdout LF 938: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 961: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.14s
+stdout LF 1000: >>> 素材画面筛选与兜底
+stdout LF 1075: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.19s
+stdout LF 1089: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 1100: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.08s
+stdout LF 1123: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.17s
+stdout LF 1137: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 1160: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.16s
+stdout LF 1199: >>> 素材画面筛选与兜底
+stdout LF 1262: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.20s
+stdout LF 1276: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 1287: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.09s
+stdout LF 1310: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.17s
+stdout LF 1324: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 1347: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.17s
+stdout LF 1386: >>> 素材画面筛选与兜底
+stdout LF 1390: [agent] 评审漏评候选 3、4、6、8（4/8），补充要求逐个评审后重试一次
+stdout LF 1463: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.23s
+stdout LF 1477: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.11s
+stdout LF 1488: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.09s
+stdout LF 1511: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.19s
+stdout LF 1525: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.14s
+stdout LF 1548: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.19s
+stdout LF 1587: >>> 素材画面筛选与兜底
+stdout LF 1661: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.27s
+stdout LF 1675: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.12s
+stdout LF 1686: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.09s
+stdout LF 1709: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.22s
+stdout LF 1723: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.14s
+stdout LF 1746: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.20s
+stdout LF 1785: >>> 素材画面筛选与兜底
+stdout LF 1848: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.27s
+stdout LF 1862: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.14s
+stdout LF 1873: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.11s
+stdout LF 1896: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.23s
+stdout LF 1910: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.16s
+stdout LF 1933: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.22s
+stdout LF 1972: >>> 素材画面筛选与兜底
+stdout LF 2036: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.28s
+stdout LF 2050: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.14s
+stdout LF 2061: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.12s
+stdout LF 2084: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.23s
+stdout LF 2098: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.16s
+stdout LF 2121: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.23s
+stdout LF 2160: >>> 素材画面筛选与兜底
+stdout LF 2224: file complete: 0 new embeddings, 4 cache hits, 0 still chunks; 0.28s
+stdout LF 2238: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.16s
+stdout LF 2249: file complete: 0 new embeddings, 2 cache hits, 0 still chunks; 0.14s
+stdout LF 2272: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.27s
+stdout LF 2286: file complete: 0 new embeddings, 3 cache hits, 0 still chunks; 0.17s
+stdout LF 2309: file complete: 0 new embeddings, 6 cache hits, 0 still chunks; 0.25s
+stdout LF 2348: >>> 素材画面筛选与兜底
+stdout LF 2560: 正在合成最终视频，片段数: 9
+stdout LF 2655: "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\ffmpeg\\bin\\ffmpeg.exe" "-y" "-f" "concat" "-safe" "0" "-i" "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\concat\\f3_v001_6464_concat_list.txt" "-c" "copy" "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4"
+stdout LF 2657: 最终视频: \\?\D:\vac\f3\w\video\runs\20260929\f3\f3最终视频\f3_v001.mp4
+stdout LF 2663: BGM 素材源: openverse-audio
+stdout LF 2664: BGM 搜索: 示例_食品码垛_v1 包装线末端 来料排队 抓稳转快 逐层码放 background music instrumental
+stdout LF 2670: BGM 素材源: openverse-audio
+stdout LF 2671: BGM 搜索: 示例_食品码垛_v1 background music
+stdout LF 2677: BGM 素材源: openverse-audio
+stdout LF 2678: BGM 搜索: background music instrumental
+stdout LF 2684: BGM 下载候选 1/8: Soundscape - Last 31 - Cinematic Piano
+stdout LF 2689: BGM 选中: Soundscape - Last 31 - Cinematic Piano / openverse-audio / CC BY 4.0
+stdout LF 2693: "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\ffmpeg\\bin\\ffmpeg.exe" "-y" "-i" "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4" "-stream_loop" "-1" "-i" "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\bgm\\openverse-audio_Soundscape - Last 31 - Cinematic Piano.mp3" "-filter_complex" "[1:a]volume=0.160,afade=t=in:st=0:d=2[bgm];[bgm][0:a]sidechaincompress=threshold=0.05:ratio=8:attack=20:release=800[ducked];[0:a][ducked]amix=inputs=2:duration=first:dropout_transition=2,alimiter=limit=0.95[aout]" "-map" "0:v:0" "-map" "[aout]" "-c:v" "copy" "-c:a" "aac" "-b:a" "192k" "-shortest" "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001_bgm_tmp.mp4"
+stdout LF 2694: VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":1,"label":"背景音乐已混入","phase":"mixing","stage":"bgm","status":"completed","total":1},"workflowStage":"bgm","workflowStatus":"completed"}

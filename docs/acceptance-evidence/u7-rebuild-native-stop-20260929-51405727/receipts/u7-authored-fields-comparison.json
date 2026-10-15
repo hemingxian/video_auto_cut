@@ -1,0 +1,226 @@
+{
+  "schema": "u7-authored-fields-comparison/v2",
+  "source": "docs/packaging-test-scripts-2026-09-21/07_表格版_混合_show判定_食品码垛_CN.xlsx",
+  "source_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+  "normalized_artifact": "u7-normalized-script-shots.json",
+  "final_artifact": "u7-final-shots.json",
+  "normalized_shots": 7,
+  "final_shots": 7,
+  "fields": 21,
+  "normalized_exact": 21,
+  "final_exact": 21,
+  "normalized_final_equal": 21,
+  "mismatch": 0,
+  "rows": [
+    {
+      "shot": 1,
+      "field": "title",
+      "expected": "来料到位是第一道关",
+      "normalized": "来料到位是第一道关",
+      "final": "来料到位是第一道关",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 1,
+      "field": "card_content",
+      "expected": "来料到位是码垛稳定的第一道关",
+      "normalized": "来料到位是码垛稳定的第一道关",
+      "final": "来料到位是码垛稳定的第一道关",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 1,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 2,
+      "field": "title",
+      "expected": "袋料和箱体要分开核对",
+      "normalized": "袋料和箱体要分开核对",
+      "final": "袋料和箱体要分开核对",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 2,
+      "field": "card_content",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 2,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 3,
+      "field": "title",
+      "expected": "镜头B",
+      "normalized": "镜头B",
+      "final": "镜头B",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 3,
+      "field": "card_content",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 3,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 4,
+      "field": "title",
+      "expected": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "normalized": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "final": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 4,
+      "field": "card_content",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 4,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 5,
+      "field": "title",
+      "expected": "换型准备",
+      "normalized": "换型准备",
+      "final": "换型准备",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 5,
+      "field": "card_content",
+      "expected": "占位卡 05",
+      "normalized": "占位卡 05",
+      "final": "占位卡 05",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 5,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 6,
+      "field": "title",
+      "expected": "开场",
+      "normalized": "开场",
+      "final": "开场",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 6,
+      "field": "card_content",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 6,
+      "field": "card_hint",
+      "expected": "",
+      "normalized": "",
+      "final": "",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 7,
+      "field": "title",
+      "expected": "欢迎带着包装形态来试",
+      "normalized": "欢迎带着包装形态来试",
+      "final": "欢迎带着包装形态来试",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 7,
+      "field": "card_content",
+      "expected": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "normalized": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "final": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    },
+    {
+      "shot": 7,
+      "field": "card_hint",
+      "expected": "CTA 行动号召",
+      "normalized": "CTA 行动号召",
+      "final": "CTA 行动号召",
+      "normalized_exact": true,
+      "final_exact": true,
+      "normalized_equals_final": true
+    }
+  ]
+}

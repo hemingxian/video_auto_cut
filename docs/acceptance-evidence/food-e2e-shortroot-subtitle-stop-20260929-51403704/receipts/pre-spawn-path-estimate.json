@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-29T06:57:15.819Z",
+  "short_root": "D:\\vac\\f3",
+  "short_root_length": 9,
+  "structure": "final_clips\\\\packaging\\\\0009_final",
+  "estimated_cwd_without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+  "estimated_cwd_without_prefix_length": 123,
+  "estimated_cwd_passed_to_subprocess": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+  "estimated_cwd_passed_to_subprocess_length": 127,
+  "limits": {
+    "short_root_max": 20,
+    "packaging_cwd_max": 200
+  },
+  "pass": true
+}

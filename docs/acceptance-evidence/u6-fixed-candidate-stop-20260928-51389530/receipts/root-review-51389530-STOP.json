@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-09-28T07:21:33.923432+00:00",
+  "source_head": "314c52f0e77475d8d737e749936084e76ff0c520",
+  "state": "STOP: captured engine exit1 vs contract exit2; no reinterpretation",
+  "engine_exit": 1,
+  "inner_python_exit_2_observed_in_stderr": true,
+  "raw": {
+    "stdout": {
+      "bytes": 19876,
+      "sha256": "26db386946d5cfac794984dc6c4cdc5b5d85bd56a343afe4dd087313641e1e1a"
+    },
+    "stderr": {
+      "bytes": 180,
+      "sha256": "7a8219e2ecad4ab07728c772ce4aee7d718c24ae458b3a0301484f8843281948"
+    },
+    "vacut_events": {
+      "bytes": 14380,
+      "sha256": "91893d56879180a58dbd8ef72955979f080e0c05877be925f8974981330afae4"
+    }
+  },
+  "report": {
+    "route": "template",
+    "format": "VAC-SB-1",
+    "shots": 8,
+    "blocked": [
+      {
+        "shot": 8,
+        "cell": "I9",
+        "column": "口播",
+        "code": "text_cell_pending",
+        "message": "正文或时长黄格须先在 Excel 核对",
+        "action": "请在 Excel 中核对正文并清除黄色底色"
+      },
+      {
+        "shot": 8,
+        "cell": "K9",
+        "column": "上屏文字",
+        "code": "text_cell_pending",
+        "message": "正文或时长黄格须先在 Excel 核对",
+        "action": "请在 Excel 中核对正文并清除黄色底色"
+      }
+    ],
+    "warning_count": 53,
+    "warning_codes": {
+      "ai_suggested": 43,
+      "status_pending": 8,
+      "status_note": 2
+    }
+  },
+  "AI_stdout_lines": 44,
+  "AI_ordinary_fixed_lines": 43,
+  "AI_event_lines": 1,
+  "AI_event_string_leaves": 43,
+  "model_path_or_API_markers": 0,
+  "model_calls": 0,
+  "formal_imports": 1,
+  "badshot_imports": 0,
+  "retry": 0,
+  "event_identical_to_frozen_fixture_excluding_only_terminal_CRLF": true,
+  "event_without_terminal_line_ending_sha256": "52781ff6dbad77bd7238a86c3612add8863eec06956044c5a62a98526527cd92",
+  "stderr_original": "\n错误: AI 解析脚本文档失败: D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx: 命令执行失败: python normalize_script, 退出码: Some(2)\n",
+  "no_raw_or_gate_edits": true
+}

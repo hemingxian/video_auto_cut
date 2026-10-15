@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "source_plan": "\\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\plan-workspace\\video\\runs\\20260929\\food_route_a_51400401_plan\\.videoautocut\\runs\\run_20260929_112743_695_17248\\shots.json",
+  "source_plan_sha256": "a289660f5a1d48b212f7e94e7479bb3c385d930ac2c1069b00a04e29917dcf68",
+  "edited_plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+  "run_id": "run_175e3315e0624f028eba293d66a9dece",
+  "shots": 9,
+  "folder_id": "fld_8cedce6439804fc4b4e86332ea9e6e9d",
+  "only_authorized_plan_edits": true,
+  "shot2_u3_subtitle": "U3字幕验收：整箱来料排队。",
+  "shot8_preserved": true,
+  "script_source_equal": true,
+  "script_meta_equal_count": 9,
+  "material_checks": [
+    {
+      "material_id": "mat_3da0e2104e894488a75a5887022e26ce",
+      "source_sha256": "59440657e30ec17b131436d5b5c64aa257704c7fcb965bdec9f50c7377b8c6ef",
+      "same": true
+    },
+    {
+      "material_id": "mat_44515e666fa743ef91f93c5bb632f795",
+      "source_sha256": "00f664de57f001c821ea20e4bcc08320f0bd32c0f0b1c83d4470d28303c055db",
+      "same": true
+    },
+    {
+      "material_id": "mat_583a8144c015464fb60fdfcabdbbed1b",
+      "source_sha256": "193f7aee3b3b5ffcad7ee85e556daa17a65c5f1347f373214946e422893e6edf",
+      "same": true
+    },
+    {
+      "material_id": "mat_781dc99bf0d84e19aba40d089db958ca",
+      "source_sha256": "84f1a370dcb4546c02fb03af8a0915eae30eebd6190d4b6be4a4f80ce4e3d23d",
+      "same": true
+    },
+    {
+      "material_id": "mat_9602ed3d52864e259c636a95f76ad3e6",
+      "source_sha256": "acf7e181d1117435336767c1a97f1e972fd64646f4b9ff0876c1bfdeeb446abd",
+      "same": true
+    },
+    {
+      "material_id": "mat_9f2f2498dd1949de839b7111f399a378",
+      "source_sha256": "e80233bdb3ea74f6f73ef74b07a2230122267c43776b008b8fdb5b09e950202b",
+      "same": true
+    }
+  ]
+}

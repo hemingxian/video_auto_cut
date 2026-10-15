@@ -1,0 +1,21 @@
+{
+  "count": 3,
+  "formal_engine_spawns": 0,
+  "model_calls": 0,
+  "failures": [
+    {
+      "stage": "before helper",
+      "reason": "local tsx executable absent"
+    },
+    {
+      "stage": "Node type loader before helper",
+      "reason": "type stripping unsupported under node_modules"
+    },
+    {
+      "stage": "Node module resolution before helper",
+      "reason": "managed-config types.js not found"
+    }
+  ],
+  "formal_runner": "helpers/run-formal-rerun.mjs",
+  "formal_engine_spawn_count": 1
+}

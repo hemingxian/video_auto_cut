@@ -1,0 +1,39 @@
+{
+  "schema": "native-capability-block-51405727/v1",
+  "recorded_at": "2026-09-29T16:51:31.6451508+08:00",
+  "instruction_comment": 51405727,
+  "status": "blocked_before_application_launch",
+  "capability": "Computer Use native pipe",
+  "observed_by": "root",
+  "attempts": [
+    {
+      "ordinal": 1,
+      "action": "mcp__node_repl__js import @oai/sky then sky.list_windows",
+      "result": "error",
+      "error": "Computer Use native pipe is unavailable: failed to connect native pipe: 系统找不到指定的文件。 (os error 2)"
+    },
+    {
+      "ordinal": 2,
+      "action": "same-call retry",
+      "result": "error",
+      "error": "Computer Use native pipe is unavailable: failed to connect native pipe: 系统找不到指定的文件。 (os error 2)"
+    },
+    {
+      "ordinal": 3,
+      "action": "js_reset, re-import @oai/sky, then final retry",
+      "result": "error",
+      "error": "Computer Use native pipe is unavailable: failed to connect native pipe: 系统找不到指定的文件。 (os error 2)"
+    }
+  ],
+  "effects": {
+    "application_launches": 0,
+    "gui_import_clicks": 0,
+    "file_uploads": 0,
+    "model_calls": 0,
+    "manual_retries": 0,
+    "authorized_unique_import_consumed": false
+  },
+  "classification": "environment capability unavailable before product launch; not a product result",
+  "next_state": "keep ACTIVE while engine build and isolated preflight continue; do not attempt GUI import until native capability is available and Root gates it",
+  "evidence_limit": "This receipt records Root-observed tool outcomes supplied to the independent evidence agent; it is not a raw native-pipe transport capture."
+}

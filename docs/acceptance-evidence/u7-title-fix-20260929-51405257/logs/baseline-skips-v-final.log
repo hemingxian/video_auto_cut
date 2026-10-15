@@ -1,0 +1,9 @@
+test_real_hyperframes_lint_accepts_the_paged_composition (test_packaging_agent.PagedCompositionTests.test_real_hyperframes_lint_accepts_the_paged_composition)
+真 lint。四件套齐才跑。 ... skipped '没有 HyperFrames 运行组件，跳过真 lint：模板包装缺少运行组件：内置 Node、HyperFrames 0.7.3、GSAP 3.14.2、Chrome Headless Shell。请修复运行环境，或在画面样式中关闭模板包装后重试。'
+test_real_hyperframes_lint_accepts_the_headline_card (test_script_card_fields.ScriptLayoutRenderTests.test_real_hyperframes_lint_accepts_the_headline_card)
+真 lint（大字+小字卡）。四件套齐才跑，否则 skip——与 ... skipped '没有 HyperFrames 运行组件，跳过真 lint：模板包装缺少运行组件：内置 Node、HyperFrames 0.7.3、GSAP 3.14.2、Chrome Headless Shell。请修复运行环境，或在画面样式中关闭模板包装后重试。'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK (skipped=2)

@@ -1,0 +1,17 @@
+{
+  "repo": "D:\\autocut\\video-auto-cut",
+  "accepted_isolation_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928",
+  "runtime": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+  "env": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\config\\app.env",
+  "workspace": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace",
+  "output": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-output",
+  "temp": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-temp",
+  "pi_agent": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\pi-agent",
+  "appdata": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\appdata",
+  "plan": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\shots.json",
+  "plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "manifest": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\material_manifest.json",
+  "manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+  "run_id": "run_175e3315e0624f028eba293d66a9dece",
+  "project_name": "food_route_a_51400401_formal"
+}

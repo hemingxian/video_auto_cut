@@ -1,0 +1,79 @@
+name: Quality
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    name: Python
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Compile sources
+        run: >-
+          python -m compileall -q
+          -x '(^|[\\/])(animation_agent[\\/]official|material_gen[\\/](hyperframes|remotion))([\\/]|$)'
+          VideoAutoCut/tools
+      - name: Run tests
+        run: python -m unittest discover -s VideoAutoCut/tests -p "test_*.py"
+
+  rust:
+    name: Rust
+    runs-on: windows-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: VideoAutoCutApp
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install quality components
+        run: rustup component add rustfmt clippy
+      - name: Check formatting
+        run: cargo fmt --check
+      - name: Run Clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+      - name: Run tests
+        run: cargo test --all-targets --all-features
+
+  desktop:
+    name: Desktop and website
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: VideoAutoCutDesktop/package-lock.json
+      - name: Install desktop dependencies
+        working-directory: VideoAutoCutDesktop
+        run: npm ci
+      - name: Test desktop
+        working-directory: VideoAutoCutDesktop
+        run: npm test
+      - name: Lint desktop
+        working-directory: VideoAutoCutDesktop
+        run: npm run lint
+      - name: Build desktop
+        working-directory: VideoAutoCutDesktop
+        run: npm run build
+      - name: Type-check packaging scripts
+        working-directory: VideoAutoCutDesktop
+        run: npm run build:scripts
+      - name: Check website JavaScript
+        run: node --check VideoAutoCutWeb/assets/site.js
+      - name: Test website interactions
+        run: node --test VideoAutoCutWeb/tests/site.test.mjs

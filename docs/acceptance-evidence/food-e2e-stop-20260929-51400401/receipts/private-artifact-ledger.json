@@ -1,0 +1,259 @@
+{
+  "schema": "food-stop-private-artifacts/v1",
+  "run_id": "run_175e3315e0624f028eba293d66a9dece",
+  "counts": {
+    "voice": 9,
+    "cue": 9,
+    "asr": 9
+  },
+  "artifacts": [
+    {
+      "kind": "voice",
+      "name": "0001_voice.mp3",
+      "bytes": 151771,
+      "mtime_utc": "2026-09-29T11:30:15.108345+08:00",
+      "sha256": "cd63c46a1ba749ae49d974f0608546f7c21a4b1303962f69d8b4b63a73be7de9",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0002_voice.mp3",
+      "bytes": 173851,
+      "mtime_utc": "2026-09-29T11:30:26.377598+08:00",
+      "sha256": "8be19843580cf40710d4de31c6898e8f1932c9cedf9de2a40d125741dc56ab83",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0003_voice.mp3",
+      "bytes": 197851,
+      "mtime_utc": "2026-09-29T11:30:36.706942+08:00",
+      "sha256": "1ab5cdfe2649c64a28358b8cbdfad8285ab3945a1447c72ce52dd950931a50d9",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0004_voice.mp3",
+      "bytes": 153211,
+      "mtime_utc": "2026-09-29T11:30:48.626538+08:00",
+      "sha256": "306998bd9f87461508cb5f9205b9ca850489ad26fc1c10813f204b51acb8a078",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0005_voice.mp3",
+      "bytes": 149851,
+      "mtime_utc": "2026-09-29T11:30:57.731113+08:00",
+      "sha256": "25c9c1c646940041aa5637db705b7da18286569a5618c6825623bd13ab7580ab",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0006_voice.mp3",
+      "bytes": 190171,
+      "mtime_utc": "2026-09-29T11:31:08.962716+08:00",
+      "sha256": "e1cdb5572134e8cf0a4fc2de698bcad13c3992a1fe33d7f6964b83b66c2d862b",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0007_voice.mp3",
+      "bytes": 140251,
+      "mtime_utc": "2026-09-29T11:31:18.118769+08:00",
+      "sha256": "df5f7247160be0096901c6ed5a68c96a3cf4770d5edc5e74251a70bb573411d4",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0008_voice.mp3",
+      "bytes": 193051,
+      "mtime_utc": "2026-09-29T11:31:26.67979+08:00",
+      "sha256": "9996bb1d71abefa3773d6706426897f8b7afba822bbadcc10a670de84c1e1dde",
+      "published": false
+    },
+    {
+      "kind": "voice",
+      "name": "0009_voice.mp3",
+      "bytes": 142171,
+      "mtime_utc": "2026-09-29T11:31:38.013564+08:00",
+      "sha256": "0c049a8523d588664fdb0c66f647faee976a3dc2ed4974fab80b2b87793123de",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0001_cues.json",
+      "bytes": 700,
+      "mtime_utc": "2026-09-29T11:30:22.983971+08:00",
+      "sha256": "3199e8adacd8e3f376b3ba757ae6d042e4f6854963384f9c910b66f1232c5c38",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0002_cues.json",
+      "bytes": 622,
+      "mtime_utc": "2026-09-29T11:30:33.822613+08:00",
+      "sha256": "10e0616f82fce9da1f444dbb8ae9a35a76c9329dfe4777b602372c4959a94bf5",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0003_cues.json",
+      "bytes": 983,
+      "mtime_utc": "2026-09-29T11:30:46.252854+08:00",
+      "sha256": "8c47d8a09281a1110c48c9e239e57e9bf93520d05ca7839835554ce3fb2fd088",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0004_cues.json",
+      "bytes": 828,
+      "mtime_utc": "2026-09-29T11:30:55.50069+08:00",
+      "sha256": "20754f159431ff094ad13bec891fb78b1d495903cacdf3bbcbd5555bf35cc445",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0005_cues.json",
+      "bytes": 809,
+      "mtime_utc": "2026-09-29T11:31:06.049756+08:00",
+      "sha256": "31b03e49338890dbfeda1e87991dede9bb3874ed0550b78ead3767623ffd16fc",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0006_cues.json",
+      "bytes": 829,
+      "mtime_utc": "2026-09-29T11:31:15.739514+08:00",
+      "sha256": "ced22c96122ae9d4e85bc11b84f46ce379d61cb0dd1c4b6dcbc1fb66d06f7ba1",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0007_cues.json",
+      "bytes": 689,
+      "mtime_utc": "2026-09-29T11:31:23.914507+08:00",
+      "sha256": "63c68cd303cac6628e648763086320d5b188d6d677aba1e4941ef0ddbcce3a7a",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0008_cues.json",
+      "bytes": 1021,
+      "mtime_utc": "2026-09-29T11:31:35.572999+08:00",
+      "sha256": "5012ce92041216229c024853bc6d8dd0d76e1e63f67883cec2014f3a7172e05f",
+      "published": false
+    },
+    {
+      "kind": "cue",
+      "name": "0009_cues.json",
+      "bytes": 575,
+      "mtime_utc": "2026-09-29T11:31:46.052353+08:00",
+      "sha256": "6a04223d8492100199bdf807b4fff73e9a2a97714863f15a473e6b92b35ef44b",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac",
+      "bytes": 15302,
+      "mtime_utc": "2026-09-29T03:30:46.2505747Z",
+      "sha256": "26187df17909c9313b3aa2802eb81fb2a893d3b0342a05d0719c7cc064dbd31f",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b",
+      "bytes": 13007,
+      "mtime_utc": "2026-09-29T03:31:23.9117242Z",
+      "sha256": "af7fa5a81e59a61ef16acd18a026c89b8863f72dadca525fafedcf7e46db0a89",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36",
+      "bytes": 13359,
+      "mtime_utc": "2026-09-29T03:30:22.9823588Z",
+      "sha256": "8fba07131470948bc6b77628d9d14f3049c0aa42d170acc9ebcc1b62cb305a3f",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb",
+      "bytes": 13834,
+      "mtime_utc": "2026-09-29T03:31:15.7383778Z",
+      "sha256": "5e8328f1eaee5f42cb4b25d2537ddb878c514f26553eba844b20527885208d59",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73",
+      "bytes": 15792,
+      "mtime_utc": "2026-09-29T03:30:33.8215341Z",
+      "sha256": "3240c23ec40a234de0ef7d0b1ede947f2e001ff2c3779233dfcbe47cd20a2bf9",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59",
+      "bytes": 12532,
+      "mtime_utc": "2026-09-29T03:31:06.0486991Z",
+      "sha256": "33c6c8023ff9cb085381d05d79132d73cbad7fc4362543363cf8e5f8d5e8f1e3",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22",
+      "bytes": 13793,
+      "mtime_utc": "2026-09-29T03:30:55.4991325Z",
+      "sha256": "01bf0cbdfd24ccfab0512e0c2a9c63f79d465d52852c35270b044c465675309a",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6",
+      "bytes": 13506,
+      "mtime_utc": "2026-09-29T03:31:46.0507483Z",
+      "sha256": "f5188dae7bf39bf05fee26461b736f39698d901a1153a52810e041756e4e0d33",
+      "published": false
+    },
+    {
+      "kind": "asr",
+      "work_unit": "e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393",
+      "bytes": 17536,
+      "mtime_utc": "2026-09-29T03:31:35.5707880Z",
+      "sha256": "62b7d538f0fe1ce744f582334ab2fd9bfdb932802d3425f8708fe0e947dd4062",
+      "published": false
+    }
+  ],
+  "private_streams": [
+    {
+      "name": "plan-stdout.private.bin",
+      "bytes": 12455,
+      "sha256": "376a2bd9e2c629b47a27bc1c3173e8219f9dd4628ca084cefe0cc8830b96489d",
+      "published": false
+    },
+    {
+      "name": "plan-stderr.private.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published": false
+    },
+    {
+      "name": "formal-stdout.private.bin",
+      "bytes": 65989,
+      "sha256": "7de58f8a3294e1e8969a0ad75969d37f4daaac9903e1877cbacd1f202abab3a7",
+      "published": false
+    },
+    {
+      "name": "formal-stderr.private.bin",
+      "bytes": 47550,
+      "sha256": "613d3a42128dce3e5691d4e1a5ba648352cd51c56eac9b8cee5d58c41a78697d",
+      "published": false
+    },
+    {
+      "name": "formal-derived-redacted.log",
+      "bytes": 120902,
+      "sha256": "a9e452c8763d4c600693998129054787bf2771535d708b208ff59d68def63983",
+      "published": false
+    }
+  ]
+}

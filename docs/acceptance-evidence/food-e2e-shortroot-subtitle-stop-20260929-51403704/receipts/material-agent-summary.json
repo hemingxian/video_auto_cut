@@ -1,0 +1,75 @@
+{
+  "schema": "material-agent-summary/v1",
+  "count": 2,
+  "all_ok": true,
+  "sessions": [
+    {
+      "shot_id": "template-0006",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "queries": 4,
+      "candidates": 8,
+      "review": 8,
+      "unreviewed": 0,
+      "errors": [
+        "候选 7 命中方向缓存：这段素材在本次任务里此前已被判 rotated",
+        "候选 1 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（70→50）且判为不可用",
+        "候选 2 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（70→50）且判为不可用",
+        "候选 3 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（70→50）且判为不可用",
+        "候选 7 被方向兜底否决: 画面整体旋转（orientation=rotated），确定性兜底判为不可用；模型分 10 不采信"
+      ],
+      "fallback_used": null,
+      "source_sha256": "99bbfed94198dc4946fa111b8b3efc530f2b344097a706a7e5a73a326a83eb4e"
+    },
+    {
+      "shot_id": "template-0005",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "queries": 4,
+      "candidates": 8,
+      "review": 8,
+      "unreviewed": 0,
+      "errors": [
+        "候选 6 命中方向缓存：这段素材在本次任务里此前已被判 rotated",
+        "候选 8 命中方向缓存：这段素材在本次任务里此前已被判 rotated",
+        "候选 1 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用",
+        "候选 2 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用",
+        "候选 3 被遮挡兜底否决: 主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用",
+        "候选 6 被方向兜底否决: 画面整体旋转（orientation=rotated），确定性兜底判为不可用；模型分 0 不采信",
+        "候选 8 被方向兜底否决: 画面整体旋转（orientation=rotated），确定性兜底判为不可用；模型分 0 不采信",
+        "候选 1 未采用（模型分 78 → 调整后 50）：主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用；缺少：网栏遮挡主体、非整箱是桶装",
+        "候选 4 未采用（模型分 65 → 调整后 65）：模型没有把它写进 pick（没有推荐），不按分数补选；缺少：没有多层整箱、不是码齐状态",
+        "候选 5 未采用（模型分 65 → 调整后 65）：模型没有把它写进 pick（没有推荐），不按分数补选；缺少：没有多层整箱、不是码齐状态",
+        "候选 7 未采用（模型分 65 → 调整后 65）：模型没有把它写进 pick（没有推荐），不按分数补选；缺少：没有多层整箱、不是码齐状态",
+        "候选 2 未采用（模型分 78 → 调整后 50）：主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用；缺少：网栏遮挡主体、非整箱是桶装",
+        "候选 3 未采用（模型分 78 → 调整后 50）：主体被大面积遮挡（obstruction=heavy），分数上限 50（78→50）且判为不可用；缺少：网栏遮挡主体、非整箱是桶装",
+        "候选 6 未采用（模型分 0 → 调整后 0）：画面整体旋转（orientation=rotated），确定性兜底判为不可用；模型分 0 不采信；缺少：画面横倒不可用",
+        "候选 8 未采用（模型分 0 → 调整后 0）：画面整体旋转（orientation=rotated），确定性兜底判为不可用；模型分 0 不采信；缺少：画面横倒不可用",
+        "【占位】全部 8 个候选被拒，用候选 5 占位（调整后 65 分、方向 upright、遮挡 none），缺：没有多层整箱、不是码齐状态"
+      ],
+      "fallback_used": {
+        "candidate": 5,
+        "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\clips\\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\\4d8ea128519b3659459f85a0e185291fa101887520b084d9fe8a7472195627cb\\05 · 整垛稳\\match_005_bound_005_asset_9194697b483a419aac4438ec042c204f_v1_00m50s-01m07s.mp4",
+        "origin": "both",
+        "model_score": 65.0,
+        "adjusted_score": 65.0,
+        "orientation": "upright",
+        "obstruction": "none",
+        "camera_angle": "eye_level",
+        "missing": [
+          "没有多层整箱",
+          "不是码齐状态"
+        ],
+        "agent_hits": 2,
+        "block_kind": null,
+        "reason": "模型没有把它写进 pick（没有推荐），不按分数补选",
+        "mode": "fill",
+        "note": "全部候选被否决，按 MATERIAL_AGENT_FALLBACK=fill 用这一条占位出片；log 的 errors 里留着每个候选的 missing，成片必须人工复核"
+      },
+      "source_sha256": "6d5e98c6bb821834005b643dd8e279619f2293a87762b9f240bb67eb114da576"
+    }
+  ],
+  "note": "One same-formal built-in supplemental review/retry was observed in stdout; manual retry count is zero."
+}

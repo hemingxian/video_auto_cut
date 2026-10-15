@@ -1,0 +1,468 @@
+{
+  "topic": "箱装食品码垛工作站 宣传片脚本（客户稿）",
+  "background_music": {
+    "enabled": false,
+    "description": "",
+    "query": ""
+  },
+  "content_blocks": [
+    {
+      "source": "script.md, 第1段",
+      "role": "视频项目说明",
+      "purpose": "定义视频基本参数：时长、画面方向、配音要求、修改限制",
+      "content": "做一条 80 秒左右的横屏宣传片，讲箱装食品是怎么码上托盘的。全片男声配音，语速稍快，下面每段引号里的话就是配音原文，一个字不要改。不要出现任何客户和设备厂商的名字。",
+      "target_fields": [
+        "voice_requirements",
+        "extra_requirements"
+      ]
+    },
+    {
+      "source": "script.md, 第2段",
+      "role": "开场场景描述",
+      "purpose": "建立视觉背景：食品包装线末端，多台橙色码垛机器人作业",
+      "content": "开头先交代场景：食品包装线的最后一段，好几台橙色码垛机器人同时在干活，输送线和托盘位都在画面里。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第2段",
+      "role": "口播原文",
+      "purpose": "作为第一段 voice_text 使用，不可更改",
+      "content": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第3段",
+      "role": "来料流程描述",
+      "purpose": "展示整箱产品在输送带上的流动过程",
+      "content": "接着看来料。整箱的瓶装水在输送带上排着队往前走，一箱一箱送到机器人能抓的位置。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第3段",
+      "role": "口播原文",
+      "purpose": "作为第二段 voice_text 使用，不可更改",
+      "content": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第4段",
+      "role": "抓取动作描述",
+      "purpose": "聚焦机械臂抓取与转身动作，强调速度与稳定性",
+      "content": "然后是抓取。红色机械臂从输送带上抓起一箱牛奶，抬起来、转过身，送到托盘上方。这一段用特写，让人看清楚抓起和转身的动作。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第4段",
+      "role": "口播原文",
+      "purpose": "作为第三段 voice_text 使用，不可更改",
+      "content": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第5段",
+      "role": "落位流程描述",
+      "purpose": "展示箱子准确放置于托盘，体现程序控制",
+      "content": "再看落位。机械臂把纸箱放到红色托盘上，托盘上已经码好了好几层。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第5段",
+      "role": "上屏文字",
+      "purpose": "作为屏幕上显示的文字内容",
+      "content": "一层码满，再码下一层",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第5段",
+      "role": "口播原文",
+      "purpose": "作为第四段 voice_text 使用，不可更改",
+      "content": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第6段",
+      "role": "整垛成果展示",
+      "purpose": "表现码垛整齐带来的稳定性优势",
+      "content": "码齐以后看整垛：托盘上好几层整箱整整齐齐，机械臂还在继续往上码。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第6段",
+      "role": "口播原文",
+      "purpose": "作为第五段 voice_text 使用，不可更改",
+      "content": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第7段",
+      "role": "换箱型能力说明",
+      "purpose": "说明系统灵活性，适应不同箱型",
+      "content": "讲一下换箱型。瓶装水车间里好几条输送带并排，机械臂在输送带和托盘之间来回搬整箱。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第7段",
+      "role": "口播原文",
+      "purpose": "作为第六段 voice_text 使用，不可更改",
+      "content": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第8段",
+      "role": "人机协作说明",
+      "purpose": "突出人工只需巡检，重复工由机器人承担",
+      "content": "人和机器的分工：工人在码垛工位旁边巡视，身后机器人一直在码箱子。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第8段",
+      "role": "口播原文",
+      "purpose": "作为第七段 voice_text 使用，不可更改",
+      "content": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第9段",
+      "role": "选型准备说明",
+      "purpose": "列出客户需提供的技术参数",
+      "content": "然后讲选型要准备什么，画面还是机械臂码瓶装水。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第9段",
+      "role": "口播原文",
+      "purpose": "作为第八段 voice_text 使用，不可更改",
+      "content": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第10段",
+      "role": "结尾呼吁行动",
+      "purpose": "引导客户提供信息以便定制方案",
+      "content": "最后收尾，码满的红色托盘停在工位旁，机器人开始下一轮。",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "script.md, 第10段",
+      "role": "口播原文",
+      "purpose": "作为第九段 voice_text 使用，不可更改",
+      "content": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+      "target_fields": [
+        "shots"
+      ]
+    }
+  ],
+  "extra_requirements": [
+    "不要出现任何客户和设备厂商的名字"
+  ],
+  "shots": [
+    {
+      "shot": 1,
+      "title": "包装线末端场景",
+      "module_label": "Scene Setup",
+      "duration": 8,
+      "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "food packaging line end multiple orange palletizing robots working conveyor and pallet positions visible",
+      "visual_query": "End of a food packaging line with several orange palletizing robots operating, conveyors moving boxes, pallet stations visible in the frame",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "全片男声配音，语速稍快",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 2,
+      "title": "来料输送过程",
+      "module_label": "Infeed Flow",
+      "duration": 8,
+      "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "bottled water cartons on conveyor belt排队 moving toward robot pickup point",
+      "visual_query": "Cartons of bottled water and milk boxes lined up on a conveyor belt, moving forward one by one to the robot's grabbing position",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 3,
+      "title": "机械臂抓取动作",
+      "module_label": "Pick Action",
+      "duration": 8,
+      "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "特写",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {
+        "shot_size": "这一段用特写，让人看清楚抓起和转身的动作"
+      },
+      "material_source": "",
+      "download_query": "red robotic arm picking up milk carton from conveyor lifting and turning",
+      "visual_query": "Close-up of a red robotic arm gripping a full carton from the conveyor, lifting it up, rotating, and moving toward the pallet area",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 4,
+      "title": "箱子精准落位",
+      "module_label": "Place Accuracy",
+      "duration": 8,
+      "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "robot placing box on red pallet already layered with stacked cartons",
+      "visual_query": "Robotic arm placing a carton precisely onto a red pallet that already has multiple layers of boxes stacked neatly",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "一层码满，再码下一层",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 5,
+      "title": "整齐码垛成果",
+      "module_label": "Stack Stability",
+      "duration": 8,
+      "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "neatly stacked cartons on pallet robotic arm continuing to add more layers",
+      "visual_query": "Multiple layers of cartons neatly stacked on a pallet, robotic arm still in motion adding another layer on top",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 6,
+      "title": "适应多种箱型",
+      "module_label": "Flexibility",
+      "duration": 8,
+      "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "multiple parallel conveyors in bottled water plant robotic arm shuttling between lines",
+      "visual_query": "Several parallel conveyors in a bottled water facility, robotic arm moving back and forth between them handling different box types",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 7,
+      "title": "人机协同作业",
+      "module_label": "Human-Robot Collaboration",
+      "duration": 8,
+      "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "worker walking beside palletizing station robotic arm continuously stacking boxes behind",
+      "visual_query": "A worker walking along the side of a palletizing station, checking operations while a robotic arm stacks boxes continuously in the background",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 8,
+      "title": "选型准备事项",
+      "module_label": "Setup Requirements",
+      "duration": 8,
+      "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "robotic arm palletizing bottled water cartons same scene as before",
+      "visual_query": "Robotic arm continues to stack bottled water cartons on a pallet, same setting as previous shots",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    },
+    {
+      "shot": 9,
+      "title": "收尾与行动号召",
+      "module_label": "Call to Action",
+      "duration": 8,
+      "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+      "voice_source": {
+        "source": "document_quote",
+        "value": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。"
+      },
+      "voiceover": true,
+      "subtitle": "",
+      "shot_size": "不限",
+      "camera_move": "不限",
+      "camera_angle": "不限",
+      "transition": "",
+      "evidence": {},
+      "material_source": "",
+      "download_query": "full red pallet standing beside workstation robotic arm beginning next cycle",
+      "visual_query": "A fully loaded red pallet stationed beside the workstation, robotic arm starting the next palletizing cycle",
+      "visual_mode": "stock_video",
+      "clip_requirements": "",
+      "subtitle_effect": "",
+      "voice_requirements": "",
+      "progress_text": "",
+      "highlight_rule": "",
+      "card_content": "",
+      "card_hint": "",
+      "extra_requirements": []
+    }
+  ]
+}

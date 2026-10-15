@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Noto Sans CJK SC";
+  src: url("../../../VideoAutoCut/fonts/noto-sans-cjk-sc/NotoSansCJKsc-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans CJK SC";
+  src: url("../../../VideoAutoCut/fonts/noto-sans-cjk-sc/NotoSansCJKsc-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,291 @@
+{
+  "schema": "food-route-a-excel-source-oracle/v1",
+  "method": "read-only openpyxl raw-cell oracle; no importer/model",
+  "fixture": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx",
+  "fixture_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "sheet": "分镜脚本",
+  "header_row": 1,
+  "shot_count": 9,
+  "rules": {
+    "empty_subtitle": "semantic subtitle equals voice_text",
+    "card_empty_markers": [
+      "—",
+      "-",
+      null
+    ],
+    "card_line_prefixes_removed_once": [
+      "大字：",
+      "副行：",
+      "参数卡："
+    ],
+    "card_newlines_preserved": true,
+    "all_other_characters_preserved": true,
+    "frozen_U3_override": {
+      "shot": 2,
+      "subtitle": "U3字幕验收：整箱来料排队。"
+    }
+  },
+  "old_plan": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-acceptance-51387186-7298afb-20260928\\data\\video\\runs\\20260928\\示例_食品码垛_v1\\.videoautocut\\runs\\run_20260928_121628_096_36396\\shots.json",
+  "old_plan_sha256": "b3486d6dd95350bddef2ec5bf01d50831d99f45591149cf7c581668b76d7b05f",
+  "rows": [
+    {
+      "shot": 1,
+      "xlsx_row": 2,
+      "raw": {
+        "title": "包装线末端",
+        "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+        "subtitle": null,
+        "card_content": "大字：包装线末端，最重复的一道活\n副行：箱装食品码垛工作站",
+        "card_hint": "标题卡"
+      },
+      "semantic": {
+        "title": "包装线末端",
+        "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+        "subtitle": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+        "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+        "card_hint": "标题卡"
+      },
+      "old_plan_semantic": {
+        "title": "包装线末端",
+        "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+        "subtitle": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+        "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+        "card_hint": "标题卡"
+      },
+      "differences": []
+    },
+    {
+      "shot": 2,
+      "xlsx_row": 3,
+      "raw": {
+        "title": "来料排队",
+        "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+        "subtitle": null,
+        "card_content": "—",
+        "card_hint": "—"
+      },
+      "semantic": {
+        "title": "来料排队",
+        "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+        "subtitle": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+        "card_content": null,
+        "card_hint": null
+      },
+      "old_plan_semantic": {
+        "title": "来料排队",
+        "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+        "subtitle": "U3字幕验收：整箱来料排队。",
+        "card_content": null,
+        "card_hint": null
+      },
+      "differences": [
+        {
+          "shot": 2,
+          "field": "subtitle",
+          "excel_semantic": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+          "old_plan_semantic": "U3字幕验收：整箱来料排队。",
+          "authorized": true,
+          "authorization": "frozen U3 subtitle override"
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "xlsx_row": 4,
+      "raw": {
+        "title": "抓稳转快",
+        "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+        "subtitle": null,
+        "card_content": "大字：抓得稳 · 转得快\n副行：节拍才跟得上产线",
+        "card_hint": "标题卡"
+      },
+      "semantic": {
+        "title": "抓稳转快",
+        "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+        "subtitle": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+        "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+        "card_hint": "标题卡"
+      },
+      "old_plan_semantic": {
+        "title": "抓稳转快",
+        "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+        "subtitle": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+        "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+        "card_hint": "标题卡"
+      },
+      "differences": []
+    },
+    {
+      "shot": 4,
+      "xlsx_row": 5,
+      "raw": {
+        "title": "逐层码放",
+        "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+        "subtitle": null,
+        "card_content": "大字：一层码满\n大字：再码下一层",
+        "card_hint": "流程条"
+      },
+      "semantic": {
+        "title": "逐层码放",
+        "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+        "subtitle": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+        "card_content": "一层码满\n再码下一层",
+        "card_hint": "流程条"
+      },
+      "old_plan_semantic": {
+        "title": "逐层码放",
+        "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+        "subtitle": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+        "card_content": "一层码满\n再码下一层",
+        "card_hint": "流程条"
+      },
+      "differences": []
+    },
+    {
+      "shot": 5,
+      "xlsx_row": 6,
+      "raw": {
+        "title": "整垛稳",
+        "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+        "subtitle": null,
+        "card_content": "—",
+        "card_hint": "—"
+      },
+      "semantic": {
+        "title": "整垛稳",
+        "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+        "subtitle": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+        "card_content": null,
+        "card_hint": null
+      },
+      "old_plan_semantic": {
+        "title": "整垛稳",
+        "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+        "subtitle": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+        "card_content": null,
+        "card_hint": null
+      },
+      "differences": []
+    },
+    {
+      "shot": 6,
+      "xlsx_row": 7,
+      "raw": {
+        "title": "换箱型",
+        "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+        "subtitle": null,
+        "card_content": "箱型变了，改程序不改线",
+        "card_hint": "标题卡"
+      },
+      "semantic": {
+        "title": "换箱型",
+        "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+        "subtitle": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+        "card_content": "箱型变了，改程序不改线",
+        "card_hint": "标题卡"
+      },
+      "old_plan_semantic": {
+        "title": "换箱型",
+        "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+        "subtitle": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+        "card_content": "箱型变了，改程序不改线",
+        "card_hint": "标题卡"
+      },
+      "differences": []
+    },
+    {
+      "shot": 7,
+      "xlsx_row": 8,
+      "raw": {
+        "title": "一人巡线",
+        "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+        "subtitle": null,
+        "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+        "card_hint": "对照卡"
+      },
+      "semantic": {
+        "title": "一人巡线",
+        "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+        "subtitle": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+        "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+        "card_hint": "对照卡"
+      },
+      "old_plan_semantic": {
+        "title": "一人巡线",
+        "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+        "subtitle": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+        "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+        "card_hint": "对照卡"
+      },
+      "differences": []
+    },
+    {
+      "shot": 8,
+      "xlsx_row": 9,
+      "raw": {
+        "title": "先备四样",
+        "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+        "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+        "card_content": "参数卡：箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+        "card_hint": "参数列表"
+      },
+      "semantic": {
+        "title": "先备四样",
+        "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+        "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+        "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+        "card_hint": "参数列表"
+      },
+      "old_plan_semantic": {
+        "title": "先备四样",
+        "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+        "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+        "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+        "card_hint": "参数列表"
+      },
+      "differences": []
+    },
+    {
+      "shot": 9,
+      "xlsx_row": 10,
+      "raw": {
+        "title": "发来箱型",
+        "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+        "subtitle": null,
+        "card_content": "大字：把箱型、垛型发过来\n副行：照你的现场排一套码垛工位",
+        "card_hint": "行动号召"
+      },
+      "semantic": {
+        "title": "发来箱型",
+        "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+        "subtitle": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+        "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+        "card_hint": "行动号召"
+      },
+      "old_plan_semantic": {
+        "title": "发来箱型",
+        "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+        "subtitle": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+        "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+        "card_hint": "行动号召"
+      },
+      "differences": []
+    }
+  ],
+  "comparison": {
+    "difference_count": 1,
+    "authorized_difference_count": 1,
+    "unauthorized_difference_count": 0,
+    "differences": [
+      {
+        "shot": 2,
+        "field": "subtitle",
+        "excel_semantic": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+        "old_plan_semantic": "U3字幕验收：整箱来料排队。",
+        "authorized": true,
+        "authorization": "frozen U3 subtitle override"
+      }
+    ],
+    "only_authorized_U3_difference": true
+  }
+}

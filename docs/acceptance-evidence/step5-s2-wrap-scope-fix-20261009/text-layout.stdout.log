@@ -1,0 +1,12 @@
+[警告] 章节标签复核失败，使用脚本原文标签: offline
+[警告] 部分章节标签未通过语言复核，使用对应语言的脚本原文标签
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmplf9_pxv0\template_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmplf9_pxv0\template_no_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmplf9_pxv0\organized_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmplf9_pxv0\non_template_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmplf9_pxv0\voice_fallback.mp4

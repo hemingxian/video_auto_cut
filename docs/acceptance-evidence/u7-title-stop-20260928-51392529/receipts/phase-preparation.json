@@ -1,0 +1,90 @@
+{
+  "schema": "vacut-u7-phase-51391241-preparation/v1",
+  "prepared_at": "2026-09-28T09:47:51.4388208Z",
+  "source_head": "1c307c384a2ffaeed02bf29d5da55b671d3b59ab",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "audit_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928",
+  "phase_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3",
+  "reused_state": {
+    "user_data": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\user-data",
+    "data": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data",
+    "config": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\config",
+    "modified_during_prepare": false
+  },
+  "current": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut"
+  },
+  "candidate": {
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "tracked_tools": 157,
+    "mismatches": 0
+  },
+  "input": {
+    "path": "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+    "sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e"
+  },
+  "safe_effective_defaults": {
+    "parse_model": "qwen-long",
+    "review_model": "qwen-long",
+    "script_review": true,
+    "http_attempt_limit": 5,
+    "source": "frozen source defaults; isolated app.env has no override"
+  },
+  "manifest_isolation": {
+    "method": "process environment only",
+    "url": "http://127.0.0.1:9/runtime/manifest.json",
+    "aliases": [
+      "VIDEOAUTO_RUNTIME_MANIFEST_URL",
+      "VIDEOAUTOCUT_RUNTIME_MANIFEST_URL"
+    ],
+    "listener_present": false,
+    "app_env_modified": false
+  },
+  "app_started": false,
+  "gui_import_clicks": 0,
+  "model_attempts": 0,
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ]
+}

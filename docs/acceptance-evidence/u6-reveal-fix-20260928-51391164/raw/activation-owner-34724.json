@@ -1,0 +1,11 @@
+{
+  "schema": "vacut-electron-stdout-tap-activation/v1",
+  "activated_at": "2026-09-28T09:07:09.841Z",
+  "owner_pid": 34724,
+  "owner_executable_basename": "electron.exe",
+  "electron_process_type": "browser",
+  "observer_module_basename": "electron-stdout-tap.cjs",
+  "observer_module_sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc",
+  "child_filter_basename": "videoautocutengine.exe",
+  "builtin_spawn_patched": true
+}

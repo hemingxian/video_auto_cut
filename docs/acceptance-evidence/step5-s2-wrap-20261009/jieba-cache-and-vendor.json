@@ -1,0 +1,38 @@
+{
+  "schema": "step5-s2-jieba-cache-evidence-v1",
+  "interpreter": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe",
+  "arguments": "-I -B -X utf8",
+  "method": "Two fresh embedded-Python processes use the same newly-created isolated VIDEOAUTO_WORKSPACE_DIR. Process 1 starts without a cache; process 2 reuses its disk cache. Timings cover importing text_layout and the first subtitle tokenization in each process.",
+  "workspace": "D:\\vac\\s516-s2-jieba-benchmark-20261009-01",
+  "cold_ms": 364.077,
+  "warm_ms": 331.593,
+  "tokens": [
+    "托盘",
+    "规格",
+    "目标",
+    "垛型"
+  ],
+  "warm_tokens": [
+    "托盘",
+    "规格",
+    "目标",
+    "垛型"
+  ],
+  "cache_path": "D:\\vac\\s516-s2-jieba-benchmark-20261009-01\\.videoautocut\\cache\\jieba\\videoautocut-jieba-0.42.1-7197c3211ddd.cache",
+  "cache_within_workspace": true,
+  "cache_bytes": 9254935,
+  "cache_sha256": "7fd51ed16265b9eb13b2aa1ca36fe6a3169b9857850227a04e06d66f91bd4b76",
+  "cold_stderr_bytes": 0,
+  "warm_stderr_bytes": 0,
+  "cache_policy": "Only explicit VIDEOAUTO_DATA_ROOT or VIDEOAUTO_WORKSPACE_DIR may receive .videoautocut/cache/jieba. System temp, VIDEOAUTO_TEMP_DIR, and runtime/install trees are rejected. Missing, unwritable, or runtime-contained targets initialize the fixed dictionary in memory and do not fall back to per-character tokenization.",
+  "coverage": "test_text_layout.py covers no workspace, external TEMP, writable workspace, unwritable workspace, workspace==runtime, runtime child, and workspace parent containing a separate runtime child.",
+  "vendor_manifest": "../../../VideoAutoCut/tools/_vendor/JIEBA-0.42.1.md",
+  "upstream_archive": "https://files.pythonhosted.org/packages/c6/cb/18eeb235f833b726522d7ebed54f2278ce28ba9438e3135ab0278d9792a2/jieba-0.42.1.tar.gz",
+  "upstream_archive_sha256": "055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2",
+  "license": {
+    "type": "MIT",
+    "file": "../../../VideoAutoCut/tools/_vendor/jieba/LICENSE",
+    "bytes": 1076,
+    "sha256": "907635cd4f8ff6bdf64fa2b7d79c0e1859070f247ad0573bb8c834ecdfb66479"
+  }
+}

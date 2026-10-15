@@ -1,0 +1,204 @@
+{
+  "schema": "vacut-u6-51388185-stop/v1",
+  "stopped_at": "2026-09-28T06:17:33.6680974Z",
+  "reason": "actual import runtime did not match required 3715aa4 Candidate; switch trigger unconfirmed",
+  "source_head": "d34557036205c36e97e6e2f006d2cede329a7e2c",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "app_left_running": true,
+  "forbidden_followups_run": false,
+  "counts": {
+    "help_preflight": 1,
+    "formal_gui_imports": 1,
+    "badshot_gui_imports": 0,
+    "generate": 0,
+    "u7": 0,
+    "e2e": 0,
+    "w6": 0
+  },
+  "expected_runtime": {
+    "candidate_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+    "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "expected_behavior": "3715aa4 Candidate, frozen template parser, zero Qwen"
+  },
+  "actual_runtime": {
+    "current_relative_path": "data/runtime/current.json",
+    "current_sha256": "ca44afab8172178af787ff3be135333df27503796d00629417cb24c5beb995f6",
+    "version": "0.5.14",
+    "runtime_relative_path": "data/runtime/0.5.14/VideoAutoCut",
+    "package_sha256": "dd2d8da2e60c3e4dcf252d8846d7d2643b03d94d8a867bb46af43b62febfd73e",
+    "manifest_host": "auto-cut-public-package-1453657051.cos.ap-chengdu.myqcloud.com",
+    "download_host": "auto-cut-public-package-1453657051.cos.ap-chengdu.myqcloud.com",
+    "installed_at": "09/28/2026 06:11:16",
+    "engine_relative_path": "data/runtime/0.5.14/VideoAutoCut/VideoAutoCutEngine.exe",
+    "engine_sha256": "81eaa8b2050a796dfd37d8d3ace3dcf77ab5b5f6ed5f73b7bd6def73034982f6",
+    "normalize_script_relative_path": "data/runtime/0.5.14/VideoAutoCut/tools/normalize_script.py",
+    "normalize_script_sha256": "ee058572e4050093402e39832df916055a99bad5a5825dcfbfdf63fedc59dba5",
+    "switch_trigger": "unconfirmed from persisted evidence",
+    "operator_clicked_install_update_upgrade": false,
+    "operator_confirmed_update_by_key": false
+  },
+  "isolated_config": {
+    "config_root_relative_path": "config",
+    "app_env_relative_path": "config/app.env",
+    "auth_relative_path": "config/auth.json",
+    "auth_values_recorded": false,
+    "production_config_modified": false
+  },
+  "help": {
+    "classification": "engine --help preflight; not an import and not a model call",
+    "metadata_relative_path": "raw-electron-stdout/observer-37812-seq-1-child-5112-metadata.json",
+    "metadata_sha256": "6aad72bfcdbe4b181bf9dddc523a060ed940184854d13ecbe985d8f9daf0102c",
+    "exit_code": 0,
+    "stdout_relative_path": "raw-electron-stdout/observer-37812-seq-1-child-5112-stdout.bin",
+    "stdout_bytes": 1882,
+    "stdout_sha256": "d6e5b441a7444c0387a13aa7b0ae0f930c03463c81b6da8e8edf4bd01890a49e",
+    "stderr_relative_path": "raw-electron-stdout/observer-37812-seq-1-child-5112-stderr.bin",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vacut_event_lines": 0
+  },
+  "formal_import": {
+    "input_path": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx",
+    "input_sha256": "64d23f4889081c0239f396db40a4ef18744779232376eeba90d96c5d1ff48b63",
+    "engine_argv_sha256": "505ab3ca50a0cd4f48e55b6a4be81a3978d005c8f88e0e45f16fe755b96a21f4",
+    "engine_script_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388185-d345570-20260928\\data\\runtime\\0.5.14\\VideoAutoCut\\tools\\normalize_script.py",
+    "engine_script_path_from_run_log": true,
+    "run_id": "run_20260928_141224_534_39716",
+    "run_relative_path": "data/video/runs/20260928/转换演示_v1表格/.videoautocut/runs/run_20260928_141224_534_39716",
+    "run_log_relative_path": "data/video/runs/20260928/转换演示_v1表格/.videoautocut/runs/run_20260928_141224_534_39716/run.log",
+    "run_log_sha256": "3b6b318462bca7f5c5d6d413022bb321bd9186fc464c4fc8ccf97a4fb8ff0d04",
+    "shots_relative_path": "data/video/runs/20260928/转换演示_v1表格/.videoautocut/runs/run_20260928_141224_534_39716/shots.json",
+    "shots_sha256": "03eda461b2a267377926c520c57d6e03dc042bb854cee7784d5fd0a317237dd9",
+    "shot_count": 8,
+    "ui_outcome": "29% plan ready; no red card",
+    "exit_code": 0,
+    "stdout_relative_path": "raw-electron-stdout/observer-37812-seq-2-child-39716-stdout.bin",
+    "stdout_bytes": 8708,
+    "stdout_chunks": 8,
+    "stdout_sha256": "b350a0c83a4da48d195a5199424cefc360df52dd1b71916de1d671bfae07fd05",
+    "stderr_relative_path": "raw-electron-stdout/observer-37812-seq-2-child-39716-stderr.bin",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vacut_events_relative_path": "raw-electron-stdout/observer-37812-seq-2-child-39716-vacut-events.bin",
+    "vacut_event_lines": 4,
+    "vacut_event_bytes": 589,
+    "vacut_events_sha256": "2580e148201b208ffa4e4b37bc2dc8d0cee811319abf23a5a91e57f2f5c81f82",
+    "metadata_relative_path": "raw-electron-stdout/observer-37812-seq-2-child-39716-metadata.json",
+    "metadata_sha256": "ba6b95938ced0fcfbfea5a6e12641b86da4a53429c83ed5da6c344825e854421",
+    "key_ai_log_lines": [
+      "AI 上传脚本文件: <formal frozen workbook path>",
+      "AI 脚本文件上传完成: <remote file id redacted>",
+      "AI 解析脚本文件: <formal frozen workbook path>",
+      "AI 脚本规范化完成: <isolated temp path>",
+      "分镜数: 8"
+    ]
+  },
+  "model_call_boundary": {
+    "file_upload_is_qwen_call": false,
+    "confirmed_qwen_calls_minimum": 1,
+    "possible_qwen_calls_maximum": 3,
+    "confirmed_call": "normalize_with_ai -> call_qwen",
+    "voice_subtitle_review_call": 0,
+    "voice_subtitle_review_evidence": "all 8 voice/subtitle fields present and no AI 复核口播字幕 log marker",
+    "progress_label_review_calls": "0..2 unresolved from persisted artifacts",
+    "http_retry_warnings": 0,
+    "note": "No successful-call log exists in call_qwen; persisted artifacts prove one normalize call, exclude voice/subtitle review, but cannot distinguish zero through two progress-label review calls. File upload is recorded separately and is not counted as Qwen."
+  },
+  "screenshot": {
+    "relative_path": "screenshots/STOP-runtime-drift-formal-ready.jpg",
+    "mime": "image/jpeg",
+    "bytes": 139788,
+    "sha256": "c11283988df5181a3efc2668b9eb0a3b3a6ad5a9434ba21f491ec5ca92dd7074"
+  },
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "operator_timeline": [
+    {
+      "time": "2026-09-28T06:10:27.273Z",
+      "source": "launcher process StartTime",
+      "action": "started approved isolated app with hidden PowerShell launcher"
+    },
+    {
+      "time": "2026-09-28T06:10:30.640Z",
+      "source": "Electron activation receipt",
+      "action": "audit preload activated in electron.exe browser process; no UI input"
+    },
+    {
+      "time": "2026-09-28T06:10:30.663Z..06:10:30.796Z",
+      "source": "help child metadata",
+      "action": "preflight Candidate VideoAutoCutEngine.exe --help; exit 0; not import/model"
+    },
+    {
+      "time": "2026-09-28T06:11:16.305Z",
+      "source": "actual current.json installedAt",
+      "action": "current.json records 0.5.14 runtime; trigger not proven; operator had not clicked any install/update/upgrade control"
+    },
+    {
+      "time": "after activation, before 2026-09-28T06:12:24.522Z",
+      "source": "official sky action order; exact click timestamps not persisted",
+      "action": "activated isolated VideoAutoCut window; clicked 脚本文件; clicked 选择脚本; double-clicked 转换演示_v1表格.xlsx; clicked 导入并整理分镜; no key presses and no install/update/upgrade action"
+    },
+    {
+      "time": "2026-09-28T06:12:24.522Z",
+      "source": "formal child metadata",
+      "action": "single formal GUI import engine child started"
+    },
+    {
+      "time": "2026-09-28T06:14:00.929Z",
+      "source": "formal child metadata",
+      "action": "formal engine exited 0; UI showed 8-shot plan ready instead of required two-issue red card"
+    },
+    {
+      "time": "after 2026-09-28T06:14:00.929Z",
+      "source": "official sky observation",
+      "action": "observed and captured STOP screenshot; no further click, key press, import, Generate, or badshot action"
+    }
+  ],
+  "raw_secret_scan": {
+    "files_scanned": 10,
+    "credential_word_hits": 0,
+    "openai_like_hits": 0,
+    "aliyun_like_hits": 0,
+    "jwt_like_hits": 0,
+    "raw_bytes_modified": false
+  }
+}

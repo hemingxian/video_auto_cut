@@ -1,0 +1,12 @@
+{
+  "schema": "w6-owned-copy-delete-policy-rejection/v1",
+  "attempted_command": "Remove-Item -LiteralPath 'D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\release-upload.local.json' -Force",
+  "tool_result_type": "Script error",
+  "requested_shell_parameter": "C:\\Users\\evstm\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+  "requested_login_parameter": false,
+  "tool_error_rendered_process_path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "path_difference_explanation": "The exec request specified the required runtime pwsh path. The returned CreateProcess error rendered C:\\Program Files\\PowerShell\\7\\pwsh.exe. No reason or mapping explanation was provided by the tool, so none is inferred here.",
+  "tool_error_verbatim": "exec_command failed: CreateProcess { message: \"Rejected(\\\"`\\\"C:\\\\\\\\Program Files\\\\\\\\PowerShell\\\\\\\\7\\\\\\\\pwsh.exe`\\\" -NoProfile -Command \\\\\"Remove-Item -LiteralPath 'D:\\\\\\\\autocut\\\\\\\\video-auto-cut-w6-51407111-4c6fb40ff737\\\\\\\\VideoAutoCutDesktop\\\\\\\\release-upload.local.json' -Force\\\\\"` rejected: blocked by policy\\\")\" }",
+  "executed": false,
+  "alternate_delete_attempted": false
+}

@@ -1,0 +1,9 @@
+{
+  "exit": 0,
+  "log_sha256": "8823a7f5a8708e1bebe9c34666db0300c4a333a2a9859d7c42cc30a06f9383be",
+  "log_bytes": 63,
+  "engine_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutApp\\target\\release\\VideoAutoCutEngine.exe",
+  "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "engine_bytes": 8308224,
+  "cargo_lock_after": "4f97aabfd4a7f458997c84eb6429787b8c4c0b9f1a86e8858576afac907b482c"
+}

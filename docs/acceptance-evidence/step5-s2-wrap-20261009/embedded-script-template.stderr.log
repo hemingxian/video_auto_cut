@@ -1,0 +1,23 @@
+[script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+.........F.............................
+======================================================================
+FAIL: test_step1_template_and_legacy_render_ass_match_a29d74f_byte_for_byte (test_script_template.ScriptTemplateTests.test_step1_template_and_legacy_render_ass_match_a29d74f_byte_for_byte)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\vac\s516-step5\VideoAutoCut\tests\test_script_template.py", line 256, in test_step1_template_and_legacy_render_ass_match_a29d74f_byte_for_byte
+    self.assertEqual(outputs[0], outputs[1])
+AssertionError: Tuples differ: (b'',[5922 chars]\x8d\r\nDialogue: 5,0:00:00.00,0:00:07.85,Subt[186 chars]r\n') != (b'',[5922 chars]\x8d\xe3\x80\x81\r\nDialogue: 5,0:00:00.00,0:0[198 chars]r\n')
+
+First differing element 2:
+b'[Sc[5911 chars]\x8d\r\nDialogue: 5,0:00:00.00,0:00:07.85,Subt[185 chars]\r\n'
+b'[Sc[5911 chars]\x8d\xe3\x80\x81\r\nDialogue: 5,0:00:00.00,0:0[197 chars]\r\n'
+
+Diff is 7382 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 39 tests in 48.766s
+
+FAILED (failures=1)

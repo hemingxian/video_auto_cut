@@ -1,0 +1,51 @@
+{
+  "schema": "w6-pack-retry-stop-facts/v1",
+  "instruction_comment_id": 51411450,
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "main_evidence_head": "dcab57fb7426a546e1a09ac23e3e1ca1e3a9c5f5",
+  "pack": {
+    "formal_retry_calls": 1,
+    "npm_pack_exit_code": 0,
+    "wrapper_exit_code": 1,
+    "archive_completed": true,
+    "zip_path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\VideoAutoCut-runtime-0.5.15-agent-trial-pkg5.zip",
+    "zip_bytes": 669984472,
+      "zip_sha256": "662882deedd897b04043b2cb78ff1a40c17fcfd09cfd80885ace3e1dfd5002f5",
+      "manifest_path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "manifest_bytes": 433,
+      "manifest_sha256": "c80642c7370fe4a310a30ab1ea3b8852093b7986dd8cd67f8588ace69c1bda0c",
+    "engine_actual_sha256": "eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085",
+    "engine_frozen_expected_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "engine_matches_frozen": false
+  },
+  "config_copy": {
+    "bytes": 337,
+    "sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+    "source_same_sha": true,
+    "readonly": true,
+    "attributes": 33,
+    "reparse": false,
+    "file_delete_error": "Access to the path is denied",
+    "authorized_remove_item_force_executed": false,
+    "remove_item_tool_result": "blocked by policy",
+    "still_exists": true,
+    "content_recorded": false
+  },
+  "gates": {
+    "verify_30_executed": false,
+    "verify_30_call_count": 0,
+    "hash_40_executed": false,
+    "hash_40_call_count": 0,
+    "npm_pack_command_completed": true,
+    "pack_wrapper_state_completed": false,
+    "credential_package_scan_completed": false,
+    "package_deliverable_claimed": false,
+    "cleanup_started": false
+  },
+  "workspace": {
+    "isolated_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+    "isolated_normal_status_empty": true,
+    "main_only_user_package_dirty": true
+  },
+  "status": "STOP_WAITING_NEW_INSTRUCTION"
+}

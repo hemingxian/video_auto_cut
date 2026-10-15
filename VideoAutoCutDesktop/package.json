@@ -1,0 +1,138 @@
+{
+  "name": "videoauto-desktop",
+  "private": true,
+  "version": "0.5.16",
+  "description": "Desktop control app for VideoAutoCut.",
+  "author": "VideoAutoCut",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "predev": "node scripts/prepare-dev-engine.mjs",
+    "dev": "concurrently -k \"npm:dev:vite\" \"npm:dev:electron\"",
+    "dev:vite": "vite",
+    "dev:electron": "npm run build:electron && wait-on http://localhost:5173 && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron .",
+    "build": "npm run build:renderer && npm run build:electron",
+    "build:renderer": "tsc -b tsconfig.app.json tsconfig.node.json && vite build",
+    "build:electron": "node -e \"require('node:fs').rmSync('dist-electron',{recursive:true,force:true})\" && tsc -p tsconfig.electron.json && npm run build:preload",
+    "build:preload": "tsc -p tsconfig.preload.json && vite build --config vite.preload.config.ts",
+    "build:scripts": "tsc -p tsconfig.scripts.json",
+    "pack": "npm run build && npm run remote-config:prepare && electron-builder --dir && npm run remote-config:cleanup",
+    "dist": "npm run build && npm run remote-config:prepare && electron-builder --win nsis zip && npm run remote-config:emit && npm run remote-config:cleanup",
+    "dist:win": "npm run build && npm run remote-config:prepare && electron-builder --win nsis zip && npm run remote-config:emit && npm run remote-config:cleanup",
+    "dist:publish": "npm run release:desktop",
+    "remote-config:prepare": "npm run build:scripts && node dist-scripts/pack-remote-config.js --defaults-only",
+    "remote-config:emit": "npm run build:scripts && node dist-scripts/pack-remote-config.js --artifact-only",
+    "remote-config:cleanup": "npm run build:scripts && node dist-scripts/pack-remote-config.js --cleanup",
+    "remote-config:pack": "npm run build:scripts && node dist-scripts/pack-remote-config.js",
+    "runtime:pack": "npm run release:pack:runtime",
+    "release:pack": "npm run build:scripts && node dist-scripts/pack-release.js",
+    "release:pack:desktop": "npm run build:scripts && node dist-scripts/pack-release.js --desktop",
+    "release:pack:runtime": "npm run build:scripts && node dist-scripts/pack-release.js --runtime",
+    "release:upload": "npm run build:scripts && node dist-scripts/upload-release.js",
+    "release:upload:desktop": "npm run build:scripts && node dist-scripts/upload-release.js --desktop",
+    "release:upload:runtime": "npm run build:scripts && node dist-scripts/upload-release.js --runtime",
+    "release:desktop": "npm run release:pack && npm run release:upload",
+    "release:runtime": "npm run release:pack:runtime && npm run release:upload:runtime",
+    "runtime:publish": "npm run release:runtime",
+    "release": "npm run release:pack && npm run release:upload",
+    "preview": "vite preview",
+    "start": "npm run build:electron && electron .",
+    "pretest": "npm run build:electron",
+    "test:startup": "node tests/run-electron-startup-smoke.mjs",
+    "test": "node --experimental-strip-types --test tests/account-session.test.mjs tests/account-session-integration.test.mjs tests/material-account-store.test.mjs tests/active-session-api.test.mjs tests/account-service.test.mjs tests/aliyun-gateway-key.test.mjs tests/installer-update-policy.test.mjs tests/managed-config.test.mjs tests/local-media-protocol.test.mjs tests/material-auto-reuse.test.mjs tests/material-directory.test.mjs tests/material-directory-model.test.mjs tests/material-local-store.test.mjs tests/material-cloud-service.test.mjs tests/material-drag-and-drop-model.test.mjs tests/material-file-operations.test.mjs tests/material-item-actions-model.test.mjs tests/materials-service-folder-operations.test.mjs tests/material-analysis-diagnostics.test.mjs tests/material-analysis-transfer.test.mjs tests/incremental-artifacts.test.mjs tests/resume-material-manifest.test.mjs tests/progress-template-model.test.mjs tests/release-upload-config.test.mjs tests/release-version.test.mjs tests/runtime-release-base.test.mjs tests/task-models.test.mjs tests/shot-material-picker.test.mjs tests/task-event-reducer.test.mjs tests/task-events.test.mjs tests/task-service.test.mjs tests/runtime-archive.test.mjs tests/runtime-install.test.mjs tests/runtime-paths.test.mjs",
+    "lint": "eslint ."
+  },
+  "build": {
+    "appId": "com.videoautocut.studio",
+    "productName": "VideoAutoCut Studio",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "compression": "store",
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https://auto-cut-public-package-1453657051.cos.ap-chengdu.myqcloud.com/updates/"
+      }
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "artifactName": "VideoAutoCutStudioUserSetup-${arch}-${version}.${ext}",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "VideoAutoCut Studio",
+      "include": "build/installer.nsh",
+      "deleteAppDataOnUninstall": false
+    },
+    "artifactName": "VideoAutoCutStudio-${arch}-${version}.${ext}"
+  },
+  "dependencies": {
+    "@atlaskit/pragmatic-drag-and-drop": "^3.1.0",
+    "electron-updater": "^6.8.9",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "media-chrome": "^4.19.2",
+    "qrcode": "^1.5.4",
+    "radix-ui": "^1.6.7",
+    "react": "^19.2.6",
+    "react-arborist": "^3.16.0",
+    "react-dom": "^19.2.6",
+    "react-resizable-panels": "^4.12.3",
+    "sonner": "^2.0.8",
+    "yauzl": "^3.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/node": "^24.12.3",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/yauzl": "^3.4.0",
+    "@types/yazl": "^3.3.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^10.0.3",
+    "cos-nodejs-sdk-v5": "^3.0.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^16.6.1",
+    "electron": "^42.3.2",
+    "electron-builder": "^26.15.0",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12",
+    "wait-on": "^9.0.10",
+    "yazl": "^3.3.1"
+  }
+}

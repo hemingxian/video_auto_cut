@@ -1,0 +1,59 @@
+AI 分镜视频自动化：脚本文档 -> 分镜 -> 下载 -> 搜索素材 -> 合成
+
+Usage: VideoAutoCutEngine.exe [OPTIONS] [COMMAND]
+
+Commands:
+  clean-missing  
+  help           Print this message or the help of the given subcommand(s)
+
+Options:
+  -t, --topic <TOPIC>
+          
+      --project-name <PROJECT_NAME>
+          素材库中的稳定项目显示名称。继续使用分镜 JSON 时由桌面端传回。
+      --shots <SHOTS>
+          [default: 6]
+      --source <SOURCE>
+          [possible values: pexels, pixabay, wikimedia-commons]
+      --downloads-per-shot <DOWNLOADS_PER_SHOT>
+          
+      --clips-per-shot <CLIPS_PER_SHOT>
+          
+      --results-per-shot <RESULTS_PER_SHOT>
+          
+      --chunk-duration <CHUNK_DURATION>
+          
+      --shots-json <SHOTS_JSON>
+          
+      --aspect-ratio <ASPECT_RATIO>
+          Output aspect ratio; unused canvas is filled with black [possible values: 4:3, 3:4, 9:16, 16:9]
+      --output-resolution <OUTPUT_RESOLUTION>
+          Output resolution: 720p for 16:9, or 4k for 16:9 / 9:16 [possible values: 720p, 1080p, 4k]
+      --material-manifest <MATERIAL_MANIFEST>
+          
+      --script-file <SCRIPT_FILE>
+          从脚本文档读取分镜，支持 xlsx/xlsm/xls/docx/doc/pdf/txt/md/csv/json/srt。
+      --job-plan-json <JOB_PLAN_JSON>
+          使用外部已经编排好的 capability steps 任务计划。
+      --resume-run <RESUME_RUN>
+          Continue a run using verified completed-step checkpoints
+      --restart-all
+          Create a fresh run without reusing generated artifacts
+      --plan-only
+          
+      --skip-download
+          
+      --skip-index
+          
+      --skip-concat
+          
+      --no-voiceover
+          
+      --no-subtitles
+          
+      --no-progress-bar
+          
+  -h, --help
+          Print help
+  -V, --version
+          Print version

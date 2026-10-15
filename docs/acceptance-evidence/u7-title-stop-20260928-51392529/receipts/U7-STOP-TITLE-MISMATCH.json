@@ -1,0 +1,192 @@
+{
+  "schema": "vacut-u7-title-mismatch-stop/v1",
+  "recorded_at": "2026-09-28T10:14:45.5028782Z",
+  "result": "STOP",
+  "reason": "authored title mismatch at shots 4 and 6",
+  "source_head": "1c307c384a2ffaeed02bf29d5da55b671d3b59ab",
+  "input": {
+    "path": "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+    "sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e"
+  },
+  "clicks": {
+    "gui_import": 1,
+    "clicked_at": "2026-09-28T10:06:26.305Z",
+    "manual_retry": 0,
+    "legacy": 0,
+    "food": 0,
+    "generate": 0
+  },
+  "capture": {
+    "metadata": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-metadata.json",
+      "sha256": "1f9f35c1395a28472c473cf5cfe1c4ebd0d51997c76f1c2b9fd01587a631baae",
+      "bytes": 1009
+    },
+    "stdout": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-stdout.bin",
+      "sha256": "611ebedcf101eff5678d215160f848b715a6cafdd3a8bcc6c995e7203f4168cc",
+      "bytes": 8077
+    },
+    "stderr": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-stderr.bin",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "events": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-vacut-events.bin",
+      "sha256": "639bfe985851b28342fd37705ff89362b7eeb9cae3ab0de996a7e30cbc2641a3",
+      "bytes": 1191
+    },
+    "child_pid": 39012,
+    "engine_exit": 0,
+    "strict_utf8": true,
+    "selected_lines": [
+      {
+        "line": 17,
+        "text": "AI 上传脚本文件: D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+        "raw_sha256": "99c9b1c301d62157aa1e7503a85fde4738ddc4e290a7168b7f3f7abc9bd42326"
+      },
+      {
+        "line": 18,
+        "text": "AI 脚本文件上传完成: file-fe-a118bed0ee7c48b9ac07aef1",
+        "raw_sha256": "6ae78aec892ac357615e7d43369c58798663d380b3dd217a7c567e9a6357cbea"
+      },
+      {
+        "line": 19,
+        "text": "AI 解析脚本文件: D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+        "raw_sha256": "10024820c8d769555a9aaa7f8a852a48cf6dde3515186a5b9a2c4c255445589a"
+      },
+      {
+        "line": 20,
+        "text": "[script] 脚本字段校验 [!] 分镜 4 的 title 与脚本原文不一致（改写），但plan 里这个值在脚本本镜的其它字段行里出现过，多半是本表不认识的字段名，只提示不纠正",
+        "raw_sha256": "b01028489f9bfb315e2b30dda7f5ee98c2c0af5d724edf00f68f9d79e16ebcfa"
+      },
+      {
+        "line": 21,
+        "text": "[script] 脚本字段校验 [!] 分镜 6 的 title 与脚本原文不一致（改写），但plan 里这个值在脚本本镜的其它字段行里出现过，多半是本表不认识的字段名，只提示不纠正",
+        "raw_sha256": "c06a0846655beb2e7fcc99cce504f73c01f56f1b02a79fb5f83d5d55baef8579"
+      },
+      {
+        "line": 22,
+        "text": "[script] 脚本字段校验 [!] AI 解析结果与脚本原文有 2 处不一致（上屏内容与分镜标题一律以脚本为准），已按原文纠正 2 处：",
+        "raw_sha256": "7a3584eef5e89688dfc689afc43d83a6118e74a09d81638b6824c6b87067066a"
+      },
+      {
+        "line": 37,
+        "text": "已生成分镜: \\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\video\\runs\\20260928\\07_表格版_混合_show判定_食品码垛_CN\\.videoautocut\\runs\\run_20260928_180626_356_39012\\shots.json",
+        "raw_sha256": "7453445c37b8f71ba799709aa84a6d4e2a55762ba09b2bd8a21b463140bd99bb"
+      }
+    ]
+  },
+  "plan": {
+    "source_path": "\\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\video\\runs\\20260928\\07_表格版_混合_show判定_食品码垛_CN\\.videoautocut\\runs\\run_20260928_180626_356_39012\\shots.json",
+    "private_copy": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\artifacts\\final-shots-stop.json",
+    "sha256": "fc4ba10e6948355642ae56e08347906ce52b7b158f19817b0e17e4d795a73815",
+    "bytes": 6899,
+    "shot_count": 7,
+    "actual_titles": [
+      "来料到位是第一道关",
+      "袋料和箱体要分开核对",
+      "镜头B",
+      "落盘确认",
+      "换型准备",
+      "工位衔接",
+      "欢迎带着包装形态来试"
+    ],
+    "expected_authored_titles": [
+      "来料到位是第一道关",
+      "袋料和箱体要分开核对",
+      "镜头B",
+      "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "换型准备",
+      "开场",
+      "欢迎带着包装形态来试"
+    ],
+    "mismatches": [
+      {
+        "shot": 4,
+        "expected": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+        "actual": "落盘确认"
+      },
+      {
+        "shot": 6,
+        "expected": "开场",
+        "actual": "工位衔接"
+      }
+    ]
+  },
+  "calls": {
+    "file_upload_requests": 1,
+    "qwen_logical_calls": 1,
+    "qwen_http_attempts": 1,
+    "parse": {
+      "logical_calls": 1,
+      "model": "qwen-long",
+      "provider": "DashScope",
+      "purpose": "script file parsing",
+      "evidence": "stdout lines 17-19 plus frozen normalize_script.py:334-350"
+    },
+    "voice_review": {
+      "logical_calls": 0,
+      "reason": "actual plan has voice_text and subtitle; no AI review marker; frozen normalize_script.py:237-241,441-448"
+    },
+    "progress_label_review": {
+      "logical_calls": 0,
+      "evidence_kind": "source-derived",
+      "reason": "all seven actual contexts are Chinese and module_label/title candidates match Chinese per frozen progress_labels.py:23-81"
+    },
+    "automatic_retries": 0,
+    "manual_retries": 0
+  },
+  "verifier": {
+    "script": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\verify-u7-capture.ps1",
+    "script_sha256": "56b7ac646d5aa88e795b10162da4c71e7eeda9ffec0cd415292bcbdc3ab763a3",
+    "first_invocation_exit": 1,
+    "first_failure": "STOP: authored title mismatch at shot 4",
+    "note": "Recorded from the first verifier invocation tool result; verifier was not weakened or rerun."
+  },
+  "screenshots": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-drawer-before-import.jpeg",
+      "sha256": "c749ae9d18f27b92250daf3c0991fc5b6f064fabcbb35e858348c48411f023f5",
+      "bytes": 60256
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-after-single-import-stop.jpeg",
+      "sha256": "54739eae2e47dde145fa8e294250bb9f211471b618353ac39ab5bc47c47814f2",
+      "bytes": 131687
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-editor-drawer-title-stop.jpeg",
+      "sha256": "1babbff46db6c5a11480f54a9a9266decd8a45c8d51ee61e2004e018c3e80e3c",
+      "bytes": 131019
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-shot06-title-stop-full.jpeg",
+      "sha256": "9c44e5f2adcacbc9485995c3e40d1c246f707a2506b8fda78cd94cb8d6881f1c",
+      "bytes": 95074
+    }
+  ],
+  "runtime_current": {
+    "private_copy": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\artifacts\\runtime-current-post-stop.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "bytes": 233,
+    "read_at": "2026-09-28T10:14:45.5385535Z"
+  },
+  "protected": [
+    null
+  ],
+  "git": {
+    "branch": "feature/material-agent-select",
+    "status": [
+      " M VideoAutoCutDesktop/package-lock.json",
+      " M VideoAutoCutDesktop/package.json"
+    ]
+  },
+  "next_steps": {
+    "legacy": false,
+    "food": false,
+    "w6": false,
+    "second_import": false
+  }
+}

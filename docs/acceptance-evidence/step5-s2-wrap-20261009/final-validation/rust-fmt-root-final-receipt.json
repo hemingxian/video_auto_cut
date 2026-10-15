@@ -1,0 +1,6 @@
+{
+  "command": "cargo fmt --manifest-path VideoAutoCutApp/Cargo.toml -- --check",
+  "exit_code": 0,
+  "checked_head": "5bcc21f5a4b44a4db953b4fa0e047605f8b6c65d",
+  "at": "2026-10-09T11:38:52.8750987+08:00"
+}

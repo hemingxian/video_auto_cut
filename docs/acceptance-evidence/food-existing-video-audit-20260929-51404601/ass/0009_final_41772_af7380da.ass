@@ -1,0 +1,15 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: Subtitle,Microsoft YaHei,68,&HFFFFFF&,&HFFFFFF&,&H121212&,&H96000000&,1,0,0,0,100,100,0,0,1,4,1,2,120,120,105,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 5,0:00:00.16,0:00:02.24,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}把你的箱型和垛型发过来
+Dialogue: 5,0:00:02.48,0:00:03.92,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}我们照着现场条件
+Dialogue: 5,0:00:04.32,0:00:06.64,Subtitle,,0,0,0,,{\an2\fs68\pos(960,1075)}帮你把这一段码垛工位排出来

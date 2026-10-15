@@ -1,0 +1,106 @@
+{
+  "schema": "vacut-u7-rebuild-native-stop-preflight/v1",
+  "checked_at": "2026-09-29T08:51:59.4872298Z",
+  "result": "STATIC_PASS_GUI_BLOCKED",
+  "source_head": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "build": {
+    "command": "cargo build --release --locked",
+    "exit": 0,
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "engine_bytes": 8308224,
+    "cargo_lock_sha256": "4f97aabfd4a7f458997c84eb6429787b8c4c0b9f1a86e8858576afac907b482c"
+  },
+  "candidate": {
+    "path": "D:\\vac\\u7n",
+    "bundle_identity_sha256": "458ca5b8bf8675be820cdbffafa773770c99cd0836ff0e744e91a591861e3a7b",
+    "tracked_tools": 157,
+    "tool_mismatches": 0,
+    "script_card_fields_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+    "pi_check_exit": 0,
+    "hyperframes_check_exit": 0,
+    "engine_help_exit": 0
+  },
+  "fixture": {
+    "path": "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+    "sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e"
+  },
+  "isolation": {
+    "state_root": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-rerun-51405727\\state",
+    "current_json_sha256": "a313573406886fcf94c56a61b18305591ab142596b3460e87e862cc05e247d87",
+    "fresh_user_data_files": 0,
+    "fresh_generated_data_files": 0,
+    "fresh_temp_files": 0,
+    "fresh_output_files": 0
+  },
+  "observer": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-rerun-51405727\\phase\\scripts\\electron-stdout-tap.cjs",
+    "sha256": "a4686bd134c52aa99119f2311b4940c264007c017b9a4283a87934ea46ab5b91",
+    "prepared_to_record": [
+      "child_pid",
+      "requested_executable_path",
+      "child_spawnfile",
+      "executable_sha256_at_spawn"
+    ],
+    "formal_spawn_observed": false,
+    "actual_formal_executable_path": null,
+    "actual_formal_executable_sha256": null,
+    "reason": "official native UI unavailable before launch; formal GUI not started; direct CLI --help was a separate static check and was not observed by this hook"
+  },
+  "counts": {
+    "gui_launches": 0,
+    "gui_import_clicks": 0,
+    "file_uploads": 0,
+    "model_calls": 0,
+    "manual_retries": 0,
+    "formal_engine_spawns": 0,
+    "direct_cli_engine_help_invocations": 1,
+    "gui_observer_help_spawns": 0
+  },
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "stop": {
+    "reason": "@oai/sky native pipe unavailable after bounded recovery",
+    "formal_quota_consumed": false,
+    "next": "wait for Mac/user direction; do not substitute CLI import"
+  }
+}

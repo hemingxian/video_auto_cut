@@ -1,0 +1,624 @@
+✔ a requested pause survives process exit, even if the process exits with zero (0.4922ms)
+✔ start events create a running task and merge protocol state into its queue item (0.4256ms)
+✔ output and stopping events preserve the existing queue merge semantics (0.1257ms)
+✔ indexing logs reach the selected task without turning indexed files into selected clips (0.0819ms)
+✔ close events resolve successful and failed workflow snapshots deterministically (0.1925ms)
+✔ queue reducer preserves launch identity and gives explicit protocol state precedence (0.0989ms)
+✖ U6 output report survives an immediately following close after a stale ref overwrite (18.62ms)
+✔ non-template close remains field-for-field equal to the captured legacy hook result (0.3463ms)
+✔ workflow event parser normalizes progress and removes terminal plan stages (1.0862ms)
+✔ task output hides valid protocol lines and keeps normal or malformed output (0.1877ms)
+✔ unsupported protocol values do not create phantom events (0.0754ms)
+✔ D7 template import reports are normalized, capped, forwarded and hidden from visible logs (0.9537ms)
+✔ invalid issue shot numbers are omitted without hiding the blocking import report (0.2025ms)
+✔ index file, cache and heartbeat output stays visible without replacing workflow counts (0.1059ms)
+✔ run directory parsing is independent of slash style (0.188ms)
+✔ stream decoder reassembles protocol lines split across process chunks (0.132ms)
+✔ U6 real template report survives every possible decoder chunk boundary (463.9813ms)
+✔ stream decoder emits carriage-return progress without waiting for process close (0.2257ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 17
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 551.0009
+
+✖ failing tests:
+
+test at tests\task-event-reducer.test.mjs:247:1
+✖ U6 output report survives an immediately following close after a stale ref overwrite (18.62ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + undefined
+  - {
+  -   blocked: [
+  -     {
+  -       action: '请在 Excel 中核对正文并清除黄色底色',
+  -       cell: 'I9',
+  -       code: 'text_cell_pending',
+  -       column: '口播',
+  -       message: '正文或时长黄格须先在 Excel 核对',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请在 Excel 中核对正文并清除黄色底色',
+  -       cell: 'K9',
+  -       code: 'text_cell_pending',
+  -       column: '上屏文字',
+  -       message: '正文或时长黄格须先在 Excel 核对',
+  -       shot: 8
+  -     }
+  -   ],
+  -   file: '转换演示_v1表格.xlsx',
+  -   format: 'VAC-SB-1',
+  -   route: 'template',
+  -   shots: 8,
+  -   warnings: [
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E2',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F2',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G2',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H2',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O2',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'P2',
+  -       code: 'ai_suggested',
+  -       column: '转场',
+  -       field: 'transition',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R2',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 1
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E3',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F3',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G3',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H3',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O3',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R3',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 2
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E4',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F4',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G4',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H4',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O4',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R4',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 3
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E5',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F5',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G5',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H5',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O5',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R5',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 4
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E6',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F6',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G6',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H6',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O6',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R6',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 5
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E7',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F7',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G7',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H7',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O7',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R7',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 6
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E8',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F8',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G8',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H8',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O8',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'P8',
+  -       code: 'ai_suggested',
+  -       column: '转场',
+  -       field: 'transition',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R8',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 7
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'E9',
+  -       code: 'ai_suggested',
+  -       column: '景别',
+  -       field: 'shot_size',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'F9',
+  -       code: 'ai_suggested',
+  -       column: '运镜',
+  -       field: 'camera_move',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'G9',
+  -       code: 'ai_suggested',
+  -       column: '拍摄角度',
+  -       field: 'camera_angle',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'H9',
+  -       code: 'ai_suggested',
+  -       column: '画面内容',
+  -       field: 'visual_description',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'O9',
+  -       code: 'ai_suggested',
+  -       column: '搜索关键词',
+  -       field: 'search_keywords',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'P9',
+  -       code: 'ai_suggested',
+  -       column: '转场',
+  -       field: 'transition',
+  -       level: 'warn',
+  -       message: '制作字段为 AI 建议',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R9',
+  -       code: 'status_pending',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '来源/核对状态待确认',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R9',
+  -       code: 'status_note',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '原文含国内/海外两个版本，请删掉本片不用的版本（只能删，不能改字）',
+  -       shot: 8
+  -     },
+  -     {
+  -       action: '请按提示检查 Excel 原文',
+  -       cell: 'R9',
+  -       code: 'status_note',
+  -       column: '来源/核对',
+  -       field: 'review',
+  -       level: 'warn',
+  -       message: '待确认原因：口播、上屏文字 已标黄——原文同时写了国内版和海外版，直接导入会两版一起上屏；删掉不用的版本、清掉黄色、状态改为「已确认」后才能导入',
+  -       shot: 8
+  -     }
+  -   ]
+  - }
+  
+      at TestContext.<anonymous> (file:///D:/autocut/video-auto-cut/VideoAutoCutDesktop/tests/task-event-reducer.test.mjs:261:10)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: {
+      route: 'template',
+      format: 'VAC-SB-1',
+      file: '转换演示_v1表格.xlsx',
+      shots: 8,
+      blocked: [ [Object], [Object] ],
+      warnings: [
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object], [Object], [Object], [Object],
+        [Object]
+      ]
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

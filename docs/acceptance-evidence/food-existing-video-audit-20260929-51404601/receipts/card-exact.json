@@ -1,0 +1,49 @@
+{
+  "schema": "food-card-exact/v1",
+  "xlsx_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "comparisons": [
+    {
+      "shot": 1,
+      "expected": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+      "actual": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+      "exact_codepoint_equal": true,
+      "template": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final\\template.json",
+      "template_sha256": "02989f1b1b12323355b0ad4a53b9b3a093a74a12d5b57622a35d04b48d5c5070",
+      "pages": [
+        [
+          "包装线末端，最重",
+          "复的一道活",
+          "箱装食品码垛工作站"
+        ]
+      ],
+      "template_source": "script_label",
+      "card_layout": "headline_sub"
+    },
+    {
+      "shot": 5,
+      "expected_card": false,
+      "packaging_directory_exists": false,
+      "no_card_exact": true
+    },
+    {
+      "shot": 8,
+      "expected": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+      "actual": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+      "exact_codepoint_equal": true,
+      "template": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0008_final\\template.json",
+      "template_sha256": "ac357a86a1412e6f0ae2a50885a64dc8e24bf6b7460342feb313412d65c8976a",
+      "pages": [
+        [
+          "箱体尺寸 · 重量",
+          "产线节拍（箱/小时）",
+          "托盘规格",
+          "目标垛型"
+        ]
+      ],
+      "template_source": "script_label",
+      "card_layout": "equal_lines"
+    }
+  ],
+  "all_pass": true,
+  "note": "Labels 大字：/副行：/参数卡： are excluded per contract. Card hint 参数列表 is not expected visible content."
+}

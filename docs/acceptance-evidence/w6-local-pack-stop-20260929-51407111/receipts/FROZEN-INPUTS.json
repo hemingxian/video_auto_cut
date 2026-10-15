@@ -1,0 +1,66 @@
+{
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "runtime_production_anchor": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "tracked_tools_count": 157,
+  "pack_and_check_blobs": [
+    {
+      "path": "VideoAutoCutDesktop/scripts/pack-runtime.ts",
+      "blob": "57200406cba02428ef106cdfd8afe069011332cf"
+    },
+    {
+      "path": "VideoAutoCutDesktop/scripts/pack-release.ts",
+      "blob": "07fee2b205724db2a7a1b41ddd3a9e5e3146d423"
+    },
+    {
+      "path": "docs/acceptance-tools/check_pkg_contents.py",
+      "blob": "54c4611b0323c7781b3ce29bb82235d96c5f0416"
+    }
+  ],
+  "forbidden_tracked_sensitive_names": [],
+  "material_oracle_sha256": "c2d18ec367ec69017b71cf2f1f3a2f41e8dc9240b509cf37b6f0197f3b6f0948",
+  "unique_material_count": 6,
+  "materials": [
+    {
+      "material_id": "mat_44515e666fa743ef91f93c5bb632f795",
+      "asset_id": "asset_bf69621a458943a49bd1b72529d9b4e8",
+      "asset_version": 1,
+      "source_sha256": "00f664de57f001c821ea20e4bcc08320f0bd32c0f0b1c83d4470d28303c055db",
+      "bytes": 9151011
+    },
+    {
+      "material_id": "mat_583a8144c015464fb60fdfcabdbbed1b",
+      "asset_id": "asset_118d0186208247498acc520eafcdb532",
+      "asset_version": 1,
+      "source_sha256": "193f7aee3b3b5ffcad7ee85e556daa17a65c5f1347f373214946e422893e6edf",
+      "bytes": 10594177
+    },
+    {
+      "material_id": "mat_3da0e2104e894488a75a5887022e26ce",
+      "asset_id": "asset_15957870fe894ee5887b3a0a5ac33ff7",
+      "asset_version": 1,
+      "source_sha256": "59440657e30ec17b131436d5b5c64aa257704c7fcb965bdec9f50c7377b8c6ef",
+      "bytes": 33474447
+    },
+    {
+      "material_id": "mat_781dc99bf0d84e19aba40d089db958ca",
+      "asset_id": "asset_c2ee7c22ef8b4814abdc564d042962c5",
+      "asset_version": 1,
+      "source_sha256": "84f1a370dcb4546c02fb03af8a0915eae30eebd6190d4b6be4a4f80ce4e3d23d",
+      "bytes": 16770948
+    },
+    {
+      "material_id": "mat_9602ed3d52864e259c636a95f76ad3e6",
+      "asset_id": "asset_9194697b483a419aac4438ec042c204f",
+      "asset_version": 1,
+      "source_sha256": "acf7e181d1117435336767c1a97f1e972fd64646f4b9ff0876c1bfdeeb446abd",
+      "bytes": 13917771
+    },
+    {
+      "material_id": "mat_9f2f2498dd1949de839b7111f399a378",
+      "asset_id": "asset_cefb3f4b89804025af2fe79e37b784e9",
+      "asset_version": 1,
+      "source_sha256": "e80233bdb3ea74f6f73ef74b07a2230122267c43776b008b8fdb5b09e950202b",
+      "bytes": 14387444
+    }
+  ]
+}

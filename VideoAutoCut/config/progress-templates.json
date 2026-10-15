@@ -1,0 +1,17 @@
+[
+  {
+    "key": "classic",
+    "label": "半透明动态",
+    "tone": "中性灰度与动态填充",
+    "settings": {
+      "PROGRESS_HIGHLIGHT_COLOR": "&H99787878&",
+      "PROGRESS_DARK_COLOR": "&HBF181818&",
+      "PROGRESS_SEPARATOR_COLOR": "&HD1A0A0A0&",
+      "PROGRESS_TEXT_COLOR": "#B8B8B8",
+      "PROGRESS_ACTIVE_TEXT_COLOR": "#ECECEC",
+      "PROGRESS_BAR_HEIGHT": "38",
+      "PROGRESS_BOTTOM_MARGIN": "0",
+      "PROGRESS_FONT_SIZE": "21"
+    }
+  }
+]

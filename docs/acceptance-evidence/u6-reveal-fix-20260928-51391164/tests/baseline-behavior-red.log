@@ -1,0 +1,27 @@
+{
+  "sourceHead": "25fcd892e6ada40e2498e28e5aff9b7af26a0f71",
+  "taskStartOk": true,
+  "scriptRevealRegistered": false,
+  "oldBlockedButtonUsesOpenContainingFolder": true,
+  "oldBlockedButtonUsesRevealScript": false,
+  "oldFolderOpenError": "目录不在工作区内，已拒绝删除",
+  "oldFolderOpenRejectedExternalScriptParent": true
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: dedicated script:reveal handler is missing on the original HEAD
+
+false !== true
+
+    at file:///D:/autocut/video-auto-cut/VideoAutoCutDesktop/node_modules/.tmp/script-reveal-51391164-25fcd89-20260928/baseline-script-reveal-harness.mjs:82:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.18.0

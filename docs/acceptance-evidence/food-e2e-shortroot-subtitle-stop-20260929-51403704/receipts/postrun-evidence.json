@@ -1,0 +1,644 @@
+{
+  "schema": "food-shortroot-postrun/v1",
+  "run": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece",
+  "formal_result": {
+    "code": 0,
+    "signal": null,
+    "started_at": "2026-09-29T06:57:15.819Z",
+    "ended_at": "2026-09-29T07:17:07.986Z",
+    "executable": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\VideoAutoCutEngine.exe",
+    "executable_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "args": [
+      "--restart-all",
+      "--shots-json",
+      "D:\\vac\\f3\\shots.json",
+      "--material-manifest",
+      "D:\\vac\\f3\\material_manifest.json",
+      "--project-name",
+      "f3",
+      "--aspect-ratio",
+      "16:9",
+      "--output-resolution",
+      "1080p",
+      "--source",
+      "pexels"
+    ],
+    "stdout": {
+      "bytes": 584965,
+      "sha256": "dac51d8b5be5f0508c58aee2c21c64a36172a469308cebbf683645834d2684aa"
+    },
+    "stderr": {
+      "bytes": 51038,
+      "sha256": "652d0cc1fad3676507f2835e3df06ee61e1c96dfc6aee86a02bed6b24058e95e"
+    },
+    "derived_redacted_sha256": "4acda8700ee9fe4f66872793ff9d74f6981377fc19eedcea3b855f0ed38ea40c",
+    "no_retry": true,
+    "input_plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+    "input_manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+    "run_id": "run_175e3315e0624f028eba293d66a9dece"
+  },
+  "final_video": {
+    "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\f3最终视频\\f3_v001.mp4",
+    "bytes": 28185133,
+    "sha256": "a465f2d3da209939a5bbb2eaae6cd7074ce1b4197b1a3ba4a95a989abb822bce"
+  },
+  "final_clips": [
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0001_final.mp4",
+      "bytes": 1791722,
+      "sha256": "949163c65b60cbbd73d57ed0e1065917e9ad85d158be4a05e5dc9c1eb77d805d"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0002_final.mp4",
+      "bytes": 2236345,
+      "sha256": "ced973769e8059127cc02293ba077aaf79ee1327698cbda95fa53de3886cf63a"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0003_final.mp4",
+      "bytes": 2896347,
+      "sha256": "55d08091cb9124e19f7b1fb6937f92ed7725af5b458267a6217c7ce8fd73317d"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0004_final.mp4",
+      "bytes": 1874107,
+      "sha256": "ed0518e561ce3dacc843c1a071208624462911e18c21421db2fa335b8c52dec0"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0005_final.mp4",
+      "bytes": 2017968,
+      "sha256": "8a9d8760c08d9e0615877d99123c3190887332253b563ea232ccd43ee1c492dc"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0006_final.mp4",
+      "bytes": 7909667,
+      "sha256": "43860d7d7f23f421c9e80180a373bbf1e54dadfe3155b95039eead168d85cb87"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0007_final.mp4",
+      "bytes": 5364899,
+      "sha256": "9018f836b7b5a3912cb19f9b46b026b4628180326e782b1a9986742c0e927c5b"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0008_final.mp4",
+      "bytes": 2199096,
+      "sha256": "7fd7ef9bce31ce80c3100ce68288f40d08b53f1f36c67cc4ca8858c5811d3231"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\0009_final.mp4",
+      "bytes": 1784900,
+      "sha256": "2f4dc1a83fade4d6f277d4c3f1e16d8df9edf1509aef0af4ca689bae6fe5ad78"
+    }
+  ],
+  "ass": [
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0001_final_16520_a970ea5f.ass",
+      "bytes": 945,
+      "sha256": "2fc7a7ee44309e3c8909f424047936eef81e11f4717051f313476179302958bc"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0002_final_2644_044d2ee9.ass",
+      "bytes": 650,
+      "sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0003_final_37516_1d74f6b0.ass",
+      "bytes": 1116,
+      "sha256": "06e00b8e575b2897cab7071cbc883ef5ba060cf3060a6c02e8d8ee64c89af6e3"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0004_final_34068_cd7083cf.ass",
+      "bytes": 1023,
+      "sha256": "620e32345ff253ca0b807788802ab402247161f2a4702f7211aad1f9285c2577"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0005_final_42072_8aa8dec1.ass",
+      "bytes": 1014,
+      "sha256": "60d852108a437dd205535c9acd4741d54fa2a00e9dd8f15e208d2406c2ec2b9a"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0006_final_3596_a3952c05.ass",
+      "bytes": 1023,
+      "sha256": "98ec744dbf078f61757f56059cbb3aef2e38d9bb7c5b49e7a3a56f129e081159"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0007_final_39912_5dc08e8e.ass",
+      "bytes": 939,
+      "sha256": "c6d282fac0e8cbc8ab531c4ef1f24e38e2e806266b02072983132dd8be388158"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0008_final_38468_2f43fbf3.ass",
+      "bytes": 779,
+      "sha256": "5675467a4daf8b5f14c9d60a21e81c2758a54cc9b8b558c22d4f0692adc005ab"
+    },
+    {
+      "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0009_final_41772_af7380da.ass",
+      "bytes": 867,
+      "sha256": "d51081f1cb65c5d963f692a974bd96ddbd06ccafc53575b618ba3b6e81fc55e8"
+    }
+  ],
+  "fresh_artifacts": [
+    {
+      "shot": 1,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0001_voice.mp3",
+        "bytes": 151771,
+        "sha256": "cd63c46a1ba749ae49d974f0608546f7c21a4b1303962f69d8b4b63a73be7de9"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0001_cues.json",
+        "bytes": 700,
+        "sha256": "3199e8adacd8e3f376b3ba757ae6d042e4f6854963384f9c910b66f1232c5c38"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc\\voice\\0001_asr_result.json",
+          "bytes": 13221,
+          "sha256": "2ca1b5a7a2de166345182f7bac97098fa42d5e0142eec256a60ef64707400f7e"
+        }
+      ]
+    },
+    {
+      "shot": 2,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0002_voice.mp3",
+        "bytes": 173851,
+        "sha256": "8be19843580cf40710d4de31c6898e8f1932c9cedf9de2a40d125741dc56ab83"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0002_cues.json",
+        "bytes": 622,
+        "sha256": "10e0616f82fce9da1f444dbb8ae9a35a76c9329dfe4777b602372c4959a94bf5"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d\\voice\\0001_asr_result.json",
+          "bytes": 15652,
+          "sha256": "33206af1bccf7da28b823711a25c22210defeeb7f5855d0e6957b89259b144a6"
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0003_voice.mp3",
+        "bytes": 197851,
+        "sha256": "1ab5cdfe2649c64a28358b8cbdfad8285ab3945a1447c72ce52dd950931a50d9"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0003_cues.json",
+        "bytes": 983,
+        "sha256": "8c47d8a09281a1110c48c9e239e57e9bf93520d05ca7839835554ce3fb2fd088"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa\\voice\\0001_asr_result.json",
+          "bytes": 15166,
+          "sha256": "154170121f08241195b6ac8fa2107b2a4e9b208129bb6b6efa9dd35dd77b57ca"
+        }
+      ]
+    },
+    {
+      "shot": 4,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0004_voice.mp3",
+        "bytes": 153211,
+        "sha256": "306998bd9f87461508cb5f9205b9ca850489ad26fc1c10813f204b51acb8a078"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0004_cues.json",
+        "bytes": 828,
+        "sha256": "20754f159431ff094ad13bec891fb78b1d495903cacdf3bbcbd5555bf35cc445"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2\\voice\\0001_asr_result.json",
+          "bytes": 13655,
+          "sha256": "a8deb34e01e98addcd572d61fd1dbf25471ca6d1edadd061d63555eaa6011f64"
+        }
+      ]
+    },
+    {
+      "shot": 5,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0005_voice.mp3",
+        "bytes": 149851,
+        "sha256": "25c9c1c646940041aa5637db705b7da18286569a5618c6825623bd13ab7580ab"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0005_cues.json",
+        "bytes": 809,
+        "sha256": "31b03e49338890dbfeda1e87991dede9bb3874ed0550b78ead3767623ffd16fc"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c\\voice\\0001_asr_result.json",
+          "bytes": 12394,
+          "sha256": "986887e4319b7a42d47b2eceded770238cc239f7718d246d18a657e0f021216c"
+        }
+      ]
+    },
+    {
+      "shot": 6,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0006_voice.mp3",
+        "bytes": 190171,
+        "sha256": "e1cdb5572134e8cf0a4fc2de698bcad13c3992a1fe33d7f6964b83b66c2d862b"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0006_cues.json",
+        "bytes": 829,
+        "sha256": "ced22c96122ae9d4e85bc11b84f46ce379d61cb0dd1c4b6dcbc1fb66d06f7ba1"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033\\voice\\0001_asr_result.json",
+          "bytes": 13696,
+          "sha256": "8bcf20fb07a9612cd50b1973530ea683a447592c9cb2b8aae7f05b04913ce1c2"
+        }
+      ]
+    },
+    {
+      "shot": 7,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0007_voice.mp3",
+        "bytes": 140251,
+        "sha256": "df5f7247160be0096901c6ed5a68c96a3cf4770d5edc5e74251a70bb573411d4"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0007_cues.json",
+        "bytes": 689,
+        "sha256": "63c68cd303cac6628e648763086320d5b188d6d677aba1e4941ef0ddbcce3a7a"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c\\voice\\0001_asr_result.json",
+          "bytes": 13242,
+          "sha256": "844982c4d3a058eeb6f7605ca135687a986cadaf7b4cf4a418f7243b82b74423"
+        }
+      ]
+    },
+    {
+      "shot": 8,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0008_voice.mp3",
+        "bytes": 193051,
+        "sha256": "9996bb1d71abefa3773d6706426897f8b7afba822bbadcc10a670de84c1e1dde"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0008_cues.json",
+        "bytes": 1021,
+        "sha256": "5012ce92041216229c024853bc6d8dd0d76e1e63f67883cec2014f3a7172e05f"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb\\voice\\0001_asr_result.json",
+          "bytes": 17400,
+          "sha256": "f125445146986f314656fdea38d75ceff4d7b10cdcc9d508ac0f8ffc1e5bbcaf"
+        }
+      ]
+    },
+    {
+      "shot": 9,
+      "voice": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0009_voice.mp3",
+        "bytes": 142171,
+        "sha256": "0c049a8523d588664fdb0c66f647faee976a3dc2ed4974fab80b2b87793123de"
+      },
+      "cue": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\voice\\0009_cues.json",
+        "bytes": 575,
+        "sha256": "6a04223d8492100199bdf807b4fff73e9a2a97714863f15a473e6b92b35ef44b"
+      },
+      "asr_candidates": [
+        {
+          "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7\\voice\\0001_asr_result.json",
+          "bytes": 13368,
+          "sha256": "a8055df7bb2b88b48801e602b3fe172d200cdfa056a014de3b1dc21235847ce2"
+        }
+      ]
+    }
+  ],
+  "packaging_decisions": [
+    {
+      "shot_dir": "0001_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final\\packaging-agent-log.json",
+        "bytes": 1899,
+        "sha256": "7d0436292466cfa3c4a527f85240308bad61917276b09992f4811d42a9e49e4d"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:2763ec88a3ee9e479b828ef8d1aab9385044a8a6aef7bf2ef0e2cb69b29a2fde"
+      }
+    },
+    {
+      "shot_dir": "0003_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0003_final\\packaging-agent-log.json",
+        "bytes": 1917,
+        "sha256": "bb2dec873fd62ab70c36b7436bb7a103339ac5c80a9103a6d4911293063d3f77"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:798bad9fd3122b0b3a1ef121080212eeedbbb7fa2b773e1db5579fa87027653f"
+      }
+    },
+    {
+      "shot_dir": "0004_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0004_final\\packaging-agent-log.json",
+        "bytes": 1844,
+        "sha256": "56b9cd4229d83149c6677b2b91ef4881feb4190348a80045ecf0eef90f8bfb43"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 equal_lines",
+        "overridden": "script_layout",
+        "cache_key": "sha256:9a5a98ae3b37db7ec69825fbec60a679425f2039b07dc9bc51394549ca3c4d09"
+      }
+    },
+    {
+      "shot_dir": "0006_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0006_final\\packaging-agent-log.json",
+        "bytes": 1861,
+        "sha256": "c5f6798de7c166d39f089301a4d848338856781f3895a0d6f24c6ea3a2b0c6ff"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": false,
+      "deterministic": {
+        "template": "title",
+        "show": true
+      },
+      "decision": {
+        "template": "title",
+        "show": true,
+        "reason": "card_content 单句主张",
+        "overridden": null,
+        "source": "agent",
+        "cache_key": "sha256:14e0edba190884c2025988042ef976e1d1eeeb05675743d21aa47e866263be64"
+      }
+    },
+    {
+      "shot_dir": "0007_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0007_final\\packaging-agent-log.json",
+        "bytes": 1894,
+        "sha256": "48e30b972edb9637e71b0f409c3c90a31c3281a1c34ef4ce2b8ca5fd78fce6e2"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": false,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "reason": "card_content 两行换行",
+        "overridden": null,
+        "source": "agent",
+        "cache_key": "sha256:9d8bfa738a7fe73465c2c0eb7260381c2e23ac5ccf554cdc273f8f3c212f83ff"
+      }
+    },
+    {
+      "shot_dir": "0008_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0008_final\\packaging-agent-log.json",
+        "bytes": 2061,
+        "sha256": "407e8f6ee0b1980bb7cef09a18fa2b5a6d56be125d6ce408e6adabdb40cc8170"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "parameters",
+        "show": true
+      },
+      "decision": {
+        "template": "parameters",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 equal_lines",
+        "overridden": "script_layout",
+        "cache_key": "sha256:966f14819de13917b05bf52c7077c580432edf9a2bb29e2bacca2dfa6366e656"
+      }
+    },
+    {
+      "shot_dir": "0009_final",
+      "source": {
+        "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final\\packaging-agent-log.json",
+        "bytes": 1866,
+        "sha256": "8b521fa43e9b7a619017b11ad9d1e06af8a8204172deea5c0dce41d1c5b4261b"
+      },
+      "backend": "pi",
+      "policy": "packaging-agent-step1",
+      "response_raw_is_null": true,
+      "deterministic": {
+        "template": "headline",
+        "show": true
+      },
+      "decision": {
+        "template": "headline",
+        "show": true,
+        "source": "script_label",
+        "reason": "脚本版式标签 headline_sub",
+        "overridden": "script_layout",
+        "cache_key": "sha256:7193e82058ffaabb9adf88be4079809dd053793aee13231386857c6976a5de1d"
+      }
+    }
+  ],
+  "actual_packaging_paths": [
+    {
+      "shot_dir": "0001_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0001_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0003_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0003_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0003_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0004_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0004_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0004_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0006_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0006_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0006_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0007_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0007_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0007_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0008_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0008_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0008_final",
+      "passed_form_length": 127,
+      "exists": true
+    },
+    {
+      "shot_dir": "0009_final",
+      "without_prefix": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+      "without_prefix_length": 123,
+      "passed_form": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\0009_final",
+      "passed_form_length": 127,
+      "exists": true
+    }
+  ],
+  "observer": {
+    "status": "complete",
+    "records": 535,
+    "capture_errors": 88,
+    "values_all_observer_records_unfiltered": {
+      "TEMP": [
+        "C:\\Users\\evstm\\AppData\\Local\\Temp",
+        "D:\\vac\\f3\\t"
+      ],
+      "TMP": [
+        "C:\\Users\\evstm\\AppData\\Local\\Temp",
+        "D:\\vac\\f3\\t"
+      ],
+      "VIDEOAUTO_TEMP_DIR": [
+        "D:\\vac\\f3\\t",
+        "D:\\vac\\f3\\w\\temp",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb",
+        "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp"
+      ]
+    },
+    "formal_engine_record": {
+      "pid": 6464,
+      "parent_pid": 10572,
+      "image": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\VideoAutoCutEngine.exe",
+      "captured_at": "2026-09-29T06:57:16.8568948Z",
+      "TEMP": "D:\\vac\\f3\\t",
+      "TMP": "D:\\vac\\f3\\t",
+      "VIDEOAUTO_TEMP_DIR": "D:\\vac\\f3\\t",
+      "temp_exists": true,
+      "tmp_exists": true,
+      "videoauto_temp_exists": true
+    },
+    "first_direct_python_record": {
+      "pid": 2464,
+      "parent_pid": 6464,
+      "image": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe",
+      "captured_at": "2026-09-29T06:57:17.6523097Z",
+      "TEMP": "D:\\vac\\f3\\t",
+      "TMP": "D:\\vac\\f3\\t",
+      "VIDEOAUTO_TEMP_DIR": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\incremental-work\\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc",
+      "temp_exists": true,
+      "tmp_exists": true,
+      "videoauto_temp_exists": true
+    },
+    "scope_limit": "Observer inventory includes unrelated long-lived processes such as codex.exe; aggregate values are not asserted as formal-child-only. Engine and first direct Python records are the authoritative launch facts.",
+    "receipt": {
+      "path": "D:\\vac\\f3\\actual-process-environment.json",
+      "bytes": 280013,
+      "sha256": "a9889f3af96ad080777c507b7306c562ed4a6c9109a754a542418d6ca0f8fc48"
+    }
+  },
+  "protections": [
+    {
+      "path": "VideoAutoCutDesktop/package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/runtime-release/manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "VideoAutoCutDesktop/release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:/Video Edit/VideoAutoCut/config/app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:/Users/evstm/.pi/agent/models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json",
+    "?? docs/acceptance-evidence/food-e2e-shortroot-subtitle-stop-20260929-51403704/"
+  ]
+}

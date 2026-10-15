@@ -1,0 +1,72 @@
+{
+  "schema": "vacut-u7-resume-preimport-after-escape/v1",
+  "checked_at": "2026-09-28T10:01:34.1955363Z",
+  "pass": true,
+  "previous_escape_caused_gui_clicks": 0,
+  "captured_children": 1,
+  "captured_help_exit": 0,
+  "active_engine_descendants": 0,
+  "electron": {
+    "pid": 38288,
+    "start_time_utc": "2026-09-28T09:48:08.5249941Z",
+    "executable_sha256": "4e3b585c8cbbc45a6d037093942d9f657a5baee2a5a41e88b66c5d091fd58703"
+  },
+  "launcher": {
+    "pid": 36320,
+    "start_time_utc": "2026-09-28T09:48:02.6327954Z",
+    "commandline_sha256": "ce7424ee8061c53c579705b259b30664afc33d8b5634a44771dcd9403a95eb23",
+    "start_script_match": true
+  },
+  "current": {
+    "read_at": "2026-09-28T10:01:34.3466632Z",
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a"
+  },
+  "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "input": {
+    "path": "D:\\autocut\\video-auto-cut\\docs\\packaging-test-scripts-2026-09-21\\07_表格版_混合_show判定_食品码垛_CN.xlsx",
+    "sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e"
+  },
+  "ports": {
+    "vite4173": true,
+    "manifest9": false
+  },
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ],
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ]
+}

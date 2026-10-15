@@ -1,0 +1,19 @@
+{
+  "instruction": 51411450,
+  "main_head": "dcab57fb7426a546e1a09ac23e3e1ca1e3a9c5f5",
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "worktree_detached": true,
+  "worktree_status": [],
+  "old_formal_pack_calls": 1,
+  "old_formal_pack_exit": 1,
+  "retry_calls_before": 0,
+  "pkg_exists_before": false,
+  "source_config": {
+    "path": "VideoAutoCutDesktop/release-upload.local.json",
+    "bytes": 337,
+    "sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+    "content_recorded": false
+  },
+  "dependencies_reinstalled": false,
+  "probes_created": false
+}

@@ -1,0 +1,7 @@
+BEGIN;
+
+ALTER TABLE upload_part
+    ALTER COLUMN checksum_sha256 DROP NOT NULL,
+    ADD COLUMN IF NOT EXISTS recovered_at TIMESTAMPTZ;
+
+COMMIT;

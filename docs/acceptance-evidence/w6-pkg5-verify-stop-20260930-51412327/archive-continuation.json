@@ -1,0 +1,26 @@
+{
+  "instruction": 51412327,
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "isolated_detached_head": true,
+  "archive": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\VideoAutoCut-runtime-0.5.15-agent-trial-pkg5.zip",
+    "bytes": 669984472,
+    "sha256": "662882deedd897b04043b2cb78ff1a40c17fcfd09cfd80885ace3e1dfd5002f5"
+  },
+  "manifest": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+    "bytes": 433,
+    "sha256": "c80642c7370fe4a310a30ab1ea3b8852093b7986dd8cd67f8588ace69c1bda0c"
+  },
+  "engine_sha256": "eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085",
+  "engine_freeze_accepted_by": 51412327,
+  "engine_freeze_evidence_commit": "e82be4c8c38e21847d215f7508c0025862b700c3",
+  "engine_normalized_sha256": "4425d7574e226fdf96a6023ae2f0bd28d71585307c4a2fb5357c5900f884413b",
+  "prior_pack_retry_calls": 1,
+  "prior_npm_pack_exit": 0,
+  "prior_wrapper_state_complete": false,
+  "existing_archive_reused": true,
+  "repack_run": false,
+  "verify30_calls": 0,
+  "hash40_calls": 0
+}

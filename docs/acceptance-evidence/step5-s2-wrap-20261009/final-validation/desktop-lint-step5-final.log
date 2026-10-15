@@ -1,0 +1,155 @@
+
+> videoauto-desktop@0.5.15 lint
+> eslint .
+
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\App.tsx
+  58:47  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\App.tsx:58:47
+  56 |   const CurrentPage = pageComponents[page]
+  57 |   const [materialsVisited, setMaterialsVisited] = useState(false)
+> 58 |   useEffect(() => { if (page === 'materials') setMaterialsVisited(true) }, [page])
+     |                                               ^^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  59 |
+  60 |   if (!auth?.loggedIn) return null
+  61 |  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\motion-filter-preview.tsx
+  31:10  error  Fast refresh only works when a file has exports. Move your component(s) to a separate file  react-refresh/only-export-components
+  72:10  error  Fast refresh only works when a file has exports. Move your component(s) to a separate file  react-refresh/only-export-components
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialDeleteDialog.tsx
+  85:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialDeleteDialog.tsx:85:10
+  83 |
+  84 |   useEffect(() => {
+> 85 |     void loadImpact()
+     |          ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  86 |   }, [loadImpact])
+  87 |
+  88 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialMediaPlayer.tsx
+  43:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialMediaPlayer.tsx:43:5
+  41 |
+  42 |   useEffect(() => {
+> 43 |     setFailedSrc(undefined)
+     |     ^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  44 |   }, [src])
+  45 |
+  46 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialMoveDialog.tsx
+  60:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\MaterialMoveDialog.tsx:60:10
+  58 |
+  59 |   useEffect(() => {
+> 60 |     void loadFolder()
+     |          ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  61 |   }, [loadFolder])
+  62 |
+  63 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\PublicMaterialDialog.tsx
+  58:10  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\PublicMaterialDialog.tsx:58:10
+  56 |
+  57 |   useEffect(() => {
+> 58 |     void load('')
+     |          ^^^^ Avoid calling setState() directly within an effect
+  59 |   }, [])
+  60 |
+  61 |   useEffect(() => {  react-hooks/set-state-in-effect
+  59:6   warning  React Hook useEffect has a missing dependency: 'load'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           react-hooks/exhaustive-deps
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\useMaterialsLibrary.ts
+  163:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\materials\useMaterialsLibrary.ts:163:10
+  161 |   useEffect(() => {
+  162 |     // A freshly installed device has no local catalog until cloud sync finishes.
+> 163 |     void syncCloud()
+      |          ^^^^^^^^^ Avoid calling setState() directly within an effect
+  164 |   }, [syncCloud])
+  165 |
+  166 |   useEffect(() => {  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\start\ScriptFilesDialog.tsx
+  66:7  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\start\ScriptFilesDialog.tsx:66:7
+  64 |   useEffect(() => {
+  65 |     if (!open || !allowMaterialBindings) {
+> 66 |       setBindingScriptPath(null)
+     |       ^^^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  67 |       setBindingAll(false)
+  68 |     }
+  69 |   }, [open, allowMaterialBindings])  react-hooks/set-state-in-effect
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\start\ShotEditorDrawer.tsx
+  116:33  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\vac\s516-step5\VideoAutoCutDesktop\src\pages\start\ShotEditorDrawer.tsx:116:33
+  114 |   )
+  115 |   useEffect(() => {
+> 116 |     if (!allowMaterialBindings) setPickerShotIndex(null)
+      |                                 ^^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  117 |   }, [allowMaterialBindings])
+  118 |   const activePickerIndex = allowMaterialBindings && pickerShotIndex !== null && shots[pickerShotIndex]
+  119 |     ? pickerShotIndex  react-hooks/set-state-in-effect
+
+✖ 11 problems (10 errors, 1 warning)

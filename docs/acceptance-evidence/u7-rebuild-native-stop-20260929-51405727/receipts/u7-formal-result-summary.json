@@ -1,0 +1,42 @@
+{
+  "schema": "u7-formal-result-summary/v1",
+  "instruction_comment": 51406527,
+  "import_clicked_at": "2026-09-29T09:47:06.832Z",
+  "gui_import_clicks": 1,
+  "manual_retries": 0,
+  "automatic_retries": 0,
+  "file_uploads": 1,
+  "main_parse_model": "qwen-long",
+  "main_parse_logical_calls": 1,
+  "underlying_http_request_count": "not independently observed",
+  "provider_raw_response_saved": false,
+  "voice_review_calls": 0,
+  "voice_predicate_evidence": {
+    "source": "VideoAutoCut/tools/normalize_script.py:238-241",
+    "all_seven_have_voice_text_and_subtitle": true
+  },
+  "label_review_calls": 0,
+  "label_predicate_evidence": {
+    "source": "VideoAutoCut/tools/progress_labels.py:38-68",
+    "pending": 0
+  },
+  "child": {
+    "pid": 30704,
+    "path": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+    "sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "exit_code": 0,
+    "stderr_bytes": 0,
+    "stdout_bytes": 7145,
+    "stdout_sha256": "2cebe59a750363e4c9fb91e18f5e91f7ca41ec666053a0399719768de253bc0c",
+    "events_bytes": 1035,
+    "events_lines": 5,
+    "events_sha256": "5680d8804d26629bb9c7dafaa3590f1d045a0298707b9e3a22373326cc77d196"
+  },
+  "shots": 7,
+  "authored_fields_exact": 21,
+  "authored_fields_total": 21,
+  "authored_fields_mismatch": 0,
+  "screenshot_scope": "ready state and visible list shots 1-4 only; full 21-field conclusion is JSON comparison evidence",
+  "second_import": false,
+  "final_shots_artifact": "u7-final-shots.json"
+}

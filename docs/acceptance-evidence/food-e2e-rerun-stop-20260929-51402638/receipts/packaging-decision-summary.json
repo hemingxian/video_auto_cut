@@ -1,0 +1,19 @@
+{
+  "schema": "food-rerun-packaging-decision-summary/v1",
+  "shot_id": "template-0001",
+  "backend": "pi",
+  "decision": {
+    "template": "headline",
+    "show": true,
+    "source": "script_label",
+    "reason": "脚本版式标签 headline_sub",
+    "overridden": "script_layout",
+    "cache_key": "sha256:2763ec88a3ee9e479b828ef8d1aab9385044a8a6aef7bf2ef0e2cb69b29a2fde"
+  },
+  "response_raw": null,
+  "model_seconds": 0.0,
+  "ok": true,
+  "source_relative": "final_clips/packaging/0001_final/packaging-agent-log.json",
+  "source_bytes": 1892,
+  "source_sha256": "e5edf01b96b212252c45d492756da41ca2a9275813a3e5b23bfd5a65362e0e08"
+}

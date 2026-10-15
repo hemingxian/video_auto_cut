@@ -1,0 +1,95 @@
+51492839 Windows resume path fix - verification excerpts
+Recorded: 2026-10-09 Asia/Shanghai
+
+IMPORTANT: This file contains excerpts from tool output already returned in this implementation turn. It is not represented as a complete raw command log. No passing command was rerun to create this file.
+
+[focused]
+command: npm run build:electron; if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }; node --experimental-strip-types --test tests/task-events.test.mjs tests/task-service.test.mjs
+cwd: D:\vac\s516-step6\VideoAutoCutDesktop
+exit_code: 0
+tool-output tail excerpt:
+✔ resume normalizes historical namespace paths and joins shots.json in the main process (2698.6465ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2801.7157
+
+[desktop full]
+command: npm test
+cwd: D:\vac\s516-step6\VideoAutoCutDesktop
+exit_code: 0
+tool-output tail excerpt:
+✔ resume normalizes historical namespace paths and joins shots.json in the main process (0.5153ms)
+ℹ tests 446
+ℹ suites 0
+ℹ pass 444
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 2
+ℹ todo 0
+ℹ duration_ms 2922.9268
+
+[build]
+command: npm run build
+cwd: D:\vac\s516-step6\VideoAutoCutDesktop
+exit_code: 0
+tool-output excerpt:
+> videoauto-desktop@0.5.15 build
+> npm run build:renderer && npm run build:electron
+vite v8.0.16 building client environment for production...
+✓ 2681 modules transformed.
+✓ built in 371ms
+> videoauto-desktop@0.5.15 build:electron
+> node -e "require('node:fs').rmSync('dist-electron',{recursive:true,force:true})" && tsc -p tsconfig.electron.json && npm run build:preload
+vite v8.0.16 building client environment for production...
+✓ 3 modules transformed.
+dist-electron/preload.cjs  9.90 kB │ gzip: 2.32 kB
+✓ built in 15ms
+
+[lint]
+command: npm run lint
+cwd: D:\vac\s516-step6\VideoAutoCutDesktop
+exit_code: 1
+All 11 diagnostic entries from the returned tool output (path, position, severity and rule):
+D:\vac\s516-step6\VideoAutoCutDesktop\src\App.tsx
+  58:47  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\motion-filter-preview.tsx
+  31:10  error  Fast refresh only works when a file has exports. Move your component(s) to a separate file  react-refresh/only-export-components
+  72:10  error  Fast refresh only works when a file has exports. Move your component(s) to a separate file  react-refresh/only-export-components
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\materials\MaterialDeleteDialog.tsx
+  85:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\materials\MaterialMediaPlayer.tsx
+  43:5  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\materials\MaterialMoveDialog.tsx
+  60:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\materials\PublicMaterialDialog.tsx
+  58:10  error    Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+  59:6   warning  React Hook useEffect has a missing dependency: 'load'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\materials\useMaterialsLibrary.ts
+  163:10  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\start\ScriptFilesDialog.tsx
+  66:7  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+D:\vac\s516-step6\VideoAutoCutDesktop\src\pages\start\ShotEditorDrawer.tsx
+  116:33  error  Error: Calling setState synchronously within an effect can trigger cascading renders  react-hooks/set-state-in-effect
+✖ 11 problems (10 errors, 1 warning)
+
+Frozen comparison source:
+D:\vac\s516-step5\docs\acceptance-evidence\step5-s2-wrap-20261009\final-validation\desktop-lint-step5-final.log
+The comparison command output returned these same 11 path-relative files/positions/severities/rules and the same final count at baseline line 155. Only the worktree prefix differs (s516-step5 versus s516-step6). No changed file in this fix appears in the diagnostic list.
+
+[diff check]
+command: git -C D:\vac\s516-step6 diff --check
+exit_code: 0
+tool output: empty
+
+[engine read-only hash]
+command: (Get-FileHash -Algorithm SHA256 -LiteralPath 'D:\vac\s516-step6\VideoAutoCutApp\target\release\VideoAutoCutEngine.exe').Hash.ToLowerInvariant()
+exit_code: 0
+tool output:
+41995f53fae3d89c9486e6980b33b98a3f2e434f73a0706ad71948af40e6c871
+
+No secret, key, token, private configuration value or private endpoint is recorded here.

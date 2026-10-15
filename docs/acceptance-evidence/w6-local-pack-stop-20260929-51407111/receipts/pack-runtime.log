@@ -1,0 +1,10 @@
+
+> videoauto-desktop@0.5.13 release:pack:runtime
+> npm run build:scripts && node dist-scripts/pack-release.js --runtime
+
+
+> videoauto-desktop@0.5.13 build:scripts
+> tsc -p tsconfig.scripts.json
+
+
+[发布失败] 没有找到本地发布配置：D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCutDesktop\release-upload.local.json

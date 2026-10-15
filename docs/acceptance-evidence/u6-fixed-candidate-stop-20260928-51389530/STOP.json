@@ -1,0 +1,71 @@
+{
+  "schema": "u6-fixed-candidate-stop-evidence-v1",
+  "instruction_comment": 51389530,
+  "superseded_instruction_comment": 51388993,
+  "source_sha": "314c52f0e77475d8d737e749936084e76ff0c520",
+  "outcome": "STOP_PARTIAL_CARD_OBSERVED",
+  "attempts": {
+    "formal_gui": 1,
+    "badshot_gui": 0,
+    "retries": 0,
+    "folder_clicks": 0,
+    "generate": 0,
+    "u7": 0
+  },
+  "exit": {
+    "required_outer": 2,
+    "observed_outer": 1,
+    "inner_python_observed_in_stderr": 2,
+    "disposition": "STOP_DO_NOT_SELF_APPROVE_WRAPPER_EQUIVALENCE"
+  },
+  "event": {
+    "count": 1,
+    "route": "template",
+    "format": "VAC-SB-1",
+    "shots": 8,
+    "blocked": 2,
+    "blocked_items": [
+      {
+        "shot": 8,
+        "cell": "I9",
+        "column": "口播"
+      },
+      {
+        "shot": 8,
+        "cell": "K9",
+        "column": "上屏文字"
+      }
+    ],
+    "warnings": 53,
+    "warning_codes": {
+      "ai_suggested": 43,
+      "status_pending": 8,
+      "status_note": 2
+    },
+    "crlf_trimmed_sha256": "52781ff6dbad77bd7238a86c3612add8863eec06956044c5a62a98526527cd92"
+  },
+  "model_classification": {
+    "model_calls": 0,
+    "stdout_ai_lines": 44,
+    "fixed_static_lines": 43,
+    "complete_event_lines": 1,
+    "stderr_generic_wrapper_lines": 1,
+    "qwen_or_model_api_markers": 0
+  },
+  "ui": {
+    "progress_percent": 3,
+    "message": "读取脚本失败",
+    "queue_card_visible": true,
+    "folder_button_visible": true,
+    "folder_button_clicked": false,
+    "realtime_log_screenshot": "transitional; raw stdout is primary log evidence"
+  },
+  "shutdown": {
+    "natural": true,
+    "electron_pid": 38016,
+    "launcher_pid": 40088,
+    "processes_running_after": 0,
+    "port_4173_listeners_after": 0,
+    "port_9_listeners_after": 0
+  }
+}

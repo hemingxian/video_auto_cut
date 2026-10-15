@@ -1,0 +1,49 @@
+{
+  "schema": "food-rerun-strict-ass-text/v1",
+  "ass": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0002_final_2644_044d2ee9.ass",
+  "ass_sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6",
+  "plan": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\shots.json",
+  "plan_sha256": "b1fa7de76279e29abf3cabdad83faea771cad950357cc2ec00a47ed1034a46c8",
+  "oracle": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51402638-independent\\source-54-field-oracle.json",
+  "oracle_sha256": "b94b4817b9fbdd4f75ff16c1dd8947b094e6f531e40915aadb8455d2118d5a94",
+  "rules": [
+    "no punctuation/case/space normalization",
+    "authored LF must match a renderer break",
+    "soft break may consume zero or one U+0020 only",
+    "ambiguous time/text mapping never passes"
+  ],
+  "shot_audits": [
+    {
+      "shot": 2,
+      "shot_id": "template-0002",
+      "interval": [
+        0.0,
+        9.0
+      ],
+      "expected": "U3字幕验收：整箱来料排队。",
+      "events": [
+        {
+          "line": 13,
+          "start": 0.0,
+          "end": 8.54,
+          "raw": "{\\an2\\fs68\\pos(960,1075)}U3字幕验收：整箱来料排队",
+          "visible": "U3字幕验收：整箱来料排队"
+        }
+      ],
+      "strict": {
+        "match": false,
+        "ambiguous": false,
+        "solutions": 0,
+        "seams": []
+      },
+      "manual_review_reasons": [
+        "strict text mismatch"
+      ],
+      "pass": false
+    }
+  ],
+  "unassigned_or_boundary_ambiguous_events": [],
+  "parse_errors": [],
+  "manual_review_required": true,
+  "ok": false
+}

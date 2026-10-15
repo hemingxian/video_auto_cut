@@ -1,0 +1,348 @@
+{
+  "schema": "food-ass-51404601-summary/v1",
+  "source_receipt": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-ass-51404601\\receipts\\ass-text-audit.json",
+  "source_receipt_sha256": "5139507b0793e297a46baa9ffa8188fa290994151dfba0c83e0d707bc55f885b",
+  "rules_result": "9/9 PASS under Mac 51404601 event-tail-only allowance",
+  "time_tolerance_seconds": 0,
+  "event_total": 35,
+  "allowed_removed_total": 34,
+  "manual_review_required": false,
+  "rows": [
+    {
+      "shot": 1,
+      "shot_id": "template-0001",
+      "pass": true,
+      "events": 4,
+      "time_groups": 4,
+      "actual_clip_duration": 8.0,
+      "last_ass_end": 7.36,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 8,
+          "expected_end": 9,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 18,
+          "expected_end": 19,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 30,
+          "expected_end": 31,
+          "text": "，"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 35,
+          "expected_end": 36,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 2,
+      "shot_id": "template-0002",
+      "pass": true,
+      "events": 1,
+      "time_groups": 1,
+      "actual_clip_duration": 9.0,
+      "last_ass_end": 8.54,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 13,
+          "expected_end": 14,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 3,
+      "shot_id": "template-0003",
+      "pass": true,
+      "events": 6,
+      "time_groups": 6,
+      "actual_clip_duration": 11.0,
+      "last_ass_end": 9.68,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 12,
+          "expected_end": 13,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 18,
+          "expected_end": 19,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 25,
+          "expected_end": 26,
+          "text": "。"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 29,
+          "expected_end": 30,
+          "text": "、"
+        },
+        {
+          "event_index": 4,
+          "expected_start": 33,
+          "expected_end": 34,
+          "text": "，"
+        },
+        {
+          "event_index": 5,
+          "expected_start": 42,
+          "expected_end": 43,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 4,
+      "shot_id": "template-0004",
+      "pass": true,
+      "events": 5,
+      "time_groups": 5,
+      "actual_clip_duration": 8.0,
+      "last_ass_end": 7.44,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 5,
+          "expected_end": 6,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 15,
+          "expected_end": 16,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 25,
+          "expected_end": 26,
+          "text": "，"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 30,
+          "expected_end": 31,
+          "text": "，"
+        },
+        {
+          "event_index": 4,
+          "expected_start": 36,
+          "expected_end": 37,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 5,
+      "shot_id": "template-0005",
+      "pass": true,
+      "events": 5,
+      "time_groups": 5,
+      "actual_clip_duration": 8.0,
+      "last_ass_end": 7.28,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 6,
+          "expected_end": 7,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 11,
+          "expected_end": 12,
+          "text": "。"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 18,
+          "expected_end": 19,
+          "text": "、"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 23,
+          "expected_end": 24,
+          "text": "，"
+        },
+        {
+          "event_index": 4,
+          "expected_start": 33,
+          "expected_end": 34,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 6,
+      "shot_id": "template-0006",
+      "pass": true,
+      "events": 5,
+      "time_groups": 5,
+      "actual_clip_duration": 10.0,
+      "last_ass_end": 9.28,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 6,
+          "expected_end": 7,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 11,
+          "expected_end": 12,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 21,
+          "expected_end": 22,
+          "text": "，"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 29,
+          "expected_end": 30,
+          "text": "，"
+        },
+        {
+          "event_index": 4,
+          "expected_start": 36,
+          "expected_end": 37,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 7,
+      "shot_id": "template-0007",
+      "pass": true,
+      "events": 4,
+      "time_groups": 4,
+      "actual_clip_duration": 8.0,
+      "last_ass_end": 6.8,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 8,
+          "expected_end": 9,
+          "text": "、"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 15,
+          "expected_end": 16,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 27,
+          "expected_end": 28,
+          "text": "，"
+        },
+        {
+          "event_index": 3,
+          "expected_start": 33,
+          "expected_end": 34,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 8,
+      "shot_id": "template-0008",
+      "pass": true,
+      "events": 2,
+      "time_groups": 1,
+      "actual_clip_duration": 10.0,
+      "last_ass_end": 9.5,
+      "same_time_multiline_groups": [
+        {
+          "start": 0.0,
+          "end": 9.5,
+          "layer": "5",
+          "physical_lines": [
+            13,
+            14
+          ],
+          "pos_y": [
+            993.0,
+            1075.0
+          ]
+        }
+      ],
+      "allowed_removed": [
+        {
+          "event_index": 1,
+          "expected_start": 29,
+          "expected_end": 30,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    },
+    {
+      "shot": 9,
+      "shot_id": "template-0009",
+      "pass": true,
+      "events": 3,
+      "time_groups": 3,
+      "actual_clip_duration": 8.0,
+      "last_ass_end": 6.64,
+      "same_time_multiline_groups": [],
+      "allowed_removed": [
+        {
+          "event_index": 0,
+          "expected_start": 11,
+          "expected_end": 12,
+          "text": "，"
+        },
+        {
+          "event_index": 1,
+          "expected_start": 20,
+          "expected_end": 21,
+          "text": "，"
+        },
+        {
+          "event_index": 2,
+          "expected_start": 34,
+          "expected_end": 35,
+          "text": "。"
+        }
+      ],
+      "manual_review_reasons": []
+    }
+  ],
+  "scope_limit": "ASS text/local-time result only; does not decide final duration or overall E2E status."
+}

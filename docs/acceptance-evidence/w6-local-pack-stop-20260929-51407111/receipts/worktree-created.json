@@ -1,0 +1,26 @@
+{
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "worktree": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737",
+  "worktree_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "detached": true,
+  "resumed_after_prepare_harness_stop": true,
+  "original_10_log": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\w6-51407111-isolated-pkg5-20260929-v2\\worktree-add.log",
+  "committed_package_only": true,
+  "package_json_sha256": "19bf45d7c99cb64f2fd16032a79f2041ad674ea15baf86cf9f1faa019abbe602",
+  "package_lock_sha256": "3f8c939a3f47b2e377b95669e43fe03a043811d9143ad5d32e29f3ce685c3f10",
+  "desktop_node_modules": {
+    "strategy": "junction_read_only",
+    "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules",
+    "target": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\node_modules"
+  },
+  "tool_node_modules": "absent_before_install_physical_isolated_only",
+  "tracked_tools_count": 157,
+  "script_card_fields_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+  "isolated_manifest_seed": {
+    "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+    "target": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+    "gitignored": true,
+    "bytes": 433,
+    "sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942"
+  }
+}

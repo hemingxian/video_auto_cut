@@ -1,0 +1,1 @@
+错误: AI 解析脚本文档失败: D:\autocut\video-auto-cut\docs\script-template-v1\转换演示_v1表格.xlsx: 命令执行失败: python normalize_script, 退出码: Some(2)

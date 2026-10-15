@@ -1,0 +1,3 @@
+Generation: C:/Users/evstm/AppData/Local/Programs/Python/Python312/python.exe helpers/generate_after.py
+Capture per pair: Chrome --headless=new --disable-gpu --hide-scrollbars --run-all-compositor-stages-before-draw --virtual-time-budget=1200 --window-size=1920,1080 --screenshot=<output.png> file:///<capture.html>
+Comparison: PowerShell Get-FileHash -Algorithm SHA256.

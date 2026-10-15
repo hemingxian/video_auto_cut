@@ -1,0 +1,180 @@
+{
+  "schema": "vacut-u6-51390393-stop-folder-open/v2",
+  "stopped_at": "2026-09-28T08:14:27.4736696Z",
+  "source_head": "4d62e25965cbae0bd25f53ff2c45881082c87db6",
+  "git_status": [
+    " M VideoAutoCutDesktop/package-lock.json",
+    " M VideoAutoCutDesktop/package.json"
+  ],
+  "counts": {
+    "help_preflight": 1,
+    "formal_import": 1,
+    "badshot_import": 0,
+    "u7_import": 0,
+    "qwen": 0,
+    "other_model": 0,
+    "generate": 0,
+    "folder_button_click": 1
+  },
+  "formal_capture": {
+    "receipt_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\receipts\\captured-import-formal-u6.json",
+    "receipt_sha256": "b1c1c0383942be55e347869a1dd8353309dc8c04a133f1eb870c5e5147446877",
+    "pass": true,
+    "outer_engine_exit": 1,
+    "inner_normalize_exit": 2,
+    "blocked": 2,
+    "warnings": 53,
+    "stdout": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\raw-electron-stdout\\observer-5836-seq-2-child-13448-stdout.bin",
+      "sha256": "296d6c5806db179ebe9d5fd94c82db358c56d0bcc71a6c2b6c553917a3a54c22",
+      "bytes": 19876
+    },
+    "stderr": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\raw-electron-stdout\\observer-5836-seq-2-child-13448-stderr.bin",
+      "sha256": "7a8219e2ecad4ab07728c772ce4aee7d718c24ae458b3a0301484f8843281948",
+      "bytes": 180
+    },
+    "events": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\raw-electron-stdout\\observer-5836-seq-2-child-13448-vacut-events.bin",
+      "sha256": "91893d56879180a58dbd8ef72955979f080e0c05877be925f8974981330afae4",
+      "lines": 1
+    },
+    "forbidden_model_markers": 0
+  },
+  "folder_failure": {
+    "clicked_once": true,
+    "vite_local_time": "2026-09-28 16:10:59 +08:00",
+    "target": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1",
+    "message": "目录不在工作区内，已拒绝删除",
+    "explorer_opened": false,
+    "expected_explorer_title_present": false,
+    "window_inventory": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\receipts\\window-inventory-after-folder-click.json",
+      "sha256": "d63a818223922ab8ac6f5d12bdaaea7e5472eacdcacd91a89162112f5e60add8"
+    },
+    "launcher_error_lines": [
+      {
+        "line": 23,
+        "text": "[1] Error occurred in handler for 'folder:open': Error: 目录不在工作区内，已拒绝删除"
+      },
+      {
+        "line": 29,
+        "text": "[0] 16:10:59 [vite] (client) [console.error] [VideoAutoCut] open folder failed {\"target\":\"D:\\\\autocut\\\\video-auto-cut\\\\docs\\\\script-template-v1\",\"error\":{\"name\":\"Error\",\"message\":\"Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除\",\"stack\":\"Error: Error invoking remote method 'folder:open': Error: 目录不在工作区内，已拒绝删除\"}}"
+      }
+    ]
+  },
+  "logs": {
+    "launcher_stdout": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\logs\\launcher.stdout.log",
+      "bytes": 2035,
+      "sha256": "20f9cc9882115e2b7e8a6a68f6c5fd6206e23b416d353ad68a3e17097728ad43"
+    },
+    "launcher_stderr": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\logs\\launcher.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "credential_pattern_hits": 0
+  },
+  "current_post_stop": {
+    "read_at": "2026-09-28T08:14:27.5283542Z",
+    "source_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "copy_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\receipts\\current-post-stop.json",
+    "source_sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "copy_sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "last_write_utc": "2026-09-28T07:11:06.9072789Z",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf"
+  },
+  "screenshots": [
+    {
+      "name": "U6-folder-click-existing-explorer-review-page.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-folder-click-existing-explorer-review-page.jpg",
+      "bytes": 65967,
+      "sha256": "8558738724a621a9ebcdde22bb8a17b5fdac6b109124011bb20f5f5efe4b6617"
+    },
+    {
+      "name": "U6-folder-click-existing-explorer-video-auto-cut.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-folder-click-existing-explorer-video-auto-cut.jpg",
+      "bytes": 88431,
+      "sha256": "f1e1ad1a98e9bdfff608cdc97ed81bcd28bc24b5db10c4bba90444d10d78b898"
+    },
+    {
+      "name": "U6-formal-main-failed.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-formal-main-failed.jpg",
+      "bytes": 73043,
+      "sha256": "f19341a6bbef011794f7139f4b8b89710c141e148508caf95e8bc929a3a16594"
+    },
+    {
+      "name": "U6-formal-queue-after-folder-error.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-formal-queue-after-folder-error.jpg",
+      "bytes": 87433,
+      "sha256": "eaa84c66791c647aa8d90003c66d84603eccb89c75c685a9856b0a260b7392ea"
+    },
+    {
+      "name": "U6-formal-queue-blocked2-before-folder.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-formal-queue-blocked2-before-folder.jpg",
+      "bytes": 87661,
+      "sha256": "7d3ea73b7bf47bc52d30b98f984931abcc42e5139f15b232a30257b65ab7147c"
+    },
+    {
+      "name": "U6-queue-absent-before-formal.jpg",
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\screenshots\\U6-queue-absent-before-formal.jpg",
+      "bytes": 72375,
+      "sha256": "fbf3690b41c594020f5544bff83314c3751942912e4bf7baa597c2065524f12e"
+    }
+  ],
+  "shutdown": {
+    "method": "official Sky Alt+F4 after exact window/owner identity check",
+    "sent_at": "2026-09-28T08:13:30.879Z",
+    "launcher_pid": 22848,
+    "electron_owner_pid": 5836,
+    "launcher_identity_matched": true,
+    "electron_identity_matched": true,
+    "launcher_alive_after_wait": false,
+    "electron_owner_alive_after_wait": false,
+    "port4173_listeners": 0,
+    "port9_listeners": 0,
+    "force_kill_used": false,
+    "other_explorer_or_production_studio_touched": false
+  },
+  "protected": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package.json",
+      "expected_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "actual_sha256": "8c89f426c9c350b3388245a4ef077653d31cb8f155b7085ef4d59286dc0c3d91",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\package-lock.json",
+      "expected_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "actual_sha256": "7e9958728343da5c85f96188c11f6e69aee5f7b3918ec23c89a7196abf398ec8",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\runtime-release\\manifest.json",
+      "expected_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "actual_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+      "same": true
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\release-upload.local.json",
+      "expected_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "actual_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+      "same": true
+    },
+    {
+      "path": "D:\\Video Edit\\VideoAutoCut\\config\\app.env",
+      "expected_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "actual_sha256": "b9d6ecaf70da6bc559429efccbcc616356f82878cd79e97428c9e1a19b875cab",
+      "same": true
+    },
+    {
+      "path": "C:\\Users\\evstm\\.pi\\agent\\models.json",
+      "expected_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "actual_sha256": "c42af349bd0897e18b086c7f799442f7e08f2d3adb8639dba38fb08290dc822a",
+      "same": true
+    }
+  ]
+}

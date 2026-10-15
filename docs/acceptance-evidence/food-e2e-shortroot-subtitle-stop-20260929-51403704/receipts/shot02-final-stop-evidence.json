@@ -1,0 +1,51 @@
+{
+  "status": "STOP",
+  "reason": "strict_visible_subtitle_character_mismatch",
+  "expected": "U3字幕验收：整箱来料排队。",
+  "actual": "U3字幕验收：整箱来料排队",
+  "mismatch": "missing_terminal_U+3002",
+  "mapping": {
+    "shot1_ffprobe_duration_seconds": 8.0,
+    "shot2_local_samples_seconds": [
+      2.0,
+      6.0
+    ],
+    "final_video_global_samples_seconds": [
+      10.0,
+      14.0
+    ],
+    "basis": "global = ffprobe(0001_final.mp4 duration) + shot2 local time"
+  },
+  "final_frames": [
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51403704-independent\\frames\\final-shot02-local-2.0s-global-10.000s.png",
+      "bytes": 657403,
+      "sha256": "7564974f6f7cb64abc0caa4b74eba6e4590128c41da058c4bde5b53f0158ec85"
+    },
+    {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51403704-independent\\frames\\final-shot02-local-6.0s-global-14.000s.png",
+      "bytes": 699652,
+      "sha256": "3403faae2a808229496e3eb4fb3fa089e7de327ce5ecc5e0e686c314c7feb4b7"
+    }
+  ],
+  "ass": {
+    "path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\temp\\ass\\0002_final_2644_044d2ee9.ass",
+    "bytes": 650,
+    "sha256": "2fe3cd616da6801f81f154960cbd2c8903ac83b5bdf6b990d3f4e7e5837a6fc6",
+    "event_count": 1,
+    "event_interval_seconds": [
+      0.0,
+      8.54
+    ]
+  },
+  "strict_ass_receipt": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51403704-independent\\ass\\shot-02.json",
+    "bytes": 1788,
+    "sha256": "91bd4437ee4c28aecdd097d6212cf4ed35f16f66c5693abce33ff57967b6efab"
+  },
+  "oracle": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-rerun-51402638-independent\\source-54-field-oracle.json",
+    "sha256": "b94b4817b9fbdd4f75ff16c1dd8947b094e6f531e40915aadb8455d2118d5a94"
+  },
+  "scope_limit": "failure evidence only; no model, engine, rerender, repair, or gate change; other unreviewed raw checks carry no product conclusion"
+}

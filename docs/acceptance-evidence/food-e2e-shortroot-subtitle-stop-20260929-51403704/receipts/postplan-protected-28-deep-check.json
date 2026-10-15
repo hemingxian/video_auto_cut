@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "scope": "contract protected fields only; 1 script_source + 9*(shot_id, script_meta, render_hints)",
+  "before_path": "D:\\vac\\f3\\shots.json",
+  "before_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "after_path": "D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\shots.json",
+  "after_sha256": "b1fa7de76279e29abf3cabdad83faea771cad950357cc2ec00a47ed1034a46c8",
+  "before_shot_count": 9,
+  "after_shot_count": 9,
+  "checked_protected_fields": 28,
+  "deep_equal": true,
+  "changes": [],
+  "checks": [
+    {
+      "path": "script_source",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[1].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[1].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[1].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[2].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[2].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[2].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[3].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[3].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[3].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[4].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[4].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[4].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[5].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[5].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[5].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[6].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[6].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[6].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[7].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[7].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[7].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[8].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[8].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[8].render_hints",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[9].shot_id",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[9].script_meta",
+      "deep_equal": true
+    },
+    {
+      "path": "shots[9].render_hints",
+      "deep_equal": true
+    }
+  ],
+  "method": "Python JSON structural equality; absent optional render_hints is compared as null via object.get; no normalization",
+  "limits": "Does not override the independent strict visible-subtitle STOP finding and is not a remaining success acceptance."
+}

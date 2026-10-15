@@ -1,0 +1,427 @@
+{
+ "file": "示例_食品码垛_v1.xlsx",
+ "label": "示例_食品码垛_v1",
+ "status": "ok",
+ "tier": "certain",
+ "route": "table",
+ "header_row": 1,
+ "roles": [
+  "card_content",
+  "card_hint",
+  "duration",
+  "shot_no",
+  "subtitle",
+  "title",
+  "visual",
+  "voice_text"
+ ],
+ "uncertain": null,
+ "sheets": [
+  "分镜脚本"
+ ],
+ "field_header_rows": [
+  "分镜脚本!1"
+ ],
+ "blocks": [
+  {
+   "shot": 1,
+   "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+   "card_layout": "headline_sub",
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "标题卡",
+   "title": "包装线末端",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 2,
+   "card_content": "",
+   "card_layout": null,
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "",
+   "title": "来料排队",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 3,
+   "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+   "card_layout": "headline_sub",
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "标题卡",
+   "title": "抓稳转快",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 4,
+   "card_content": "一层码满\n再码下一层",
+   "card_layout": "equal_lines",
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "流程条",
+   "title": "逐层码放",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 5,
+   "card_content": "",
+   "card_layout": null,
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "",
+   "title": "整垛稳",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 6,
+   "card_content": "箱型变了，改程序不改线",
+   "card_layout": null,
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "标题卡",
+   "title": "换箱型",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 7,
+   "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+   "card_layout": null,
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "对照卡",
+   "title": "一人巡线",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 8,
+   "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+   "card_layout": "equal_lines",
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "参数列表",
+   "title": "先备四样",
+   "anchors": [
+    "subtitle",
+    "title",
+    "voice_text"
+   ]
+  },
+  {
+   "shot": 9,
+   "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+   "card_layout": "headline_sub",
+   "card_reliable": true,
+   "card_notice": null,
+   "card_hint": "行动号召",
+   "title": "发来箱型",
+   "anchors": [
+    "title",
+    "voice_text"
+   ]
+  }
+ ],
+ "reconcile_ideal": {
+  "status": "ok",
+  "tier": "certain",
+  "checked": 9,
+  "corrections": [],
+  "layouts": [
+   {
+    "shot": 1,
+    "card_layout": "headline_sub"
+   },
+   {
+    "shot": 3,
+    "card_layout": "headline_sub"
+   },
+   {
+    "shot": 4,
+    "card_layout": "equal_lines"
+   },
+   {
+    "shot": 8,
+    "card_layout": "equal_lines"
+   },
+   {
+    "shot": 9,
+    "card_layout": "headline_sub"
+   }
+  ],
+  "warnings": [],
+  "final": [
+   {
+    "shot": 1,
+    "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 2,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 3,
+    "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 4,
+    "card_content": "一层码满\n再码下一层",
+    "card_layout": "equal_lines",
+    "card_hint": "流程条"
+   },
+   {
+    "shot": 5,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 6,
+    "card_content": "箱型变了，改程序不改线",
+    "card_layout": null,
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 7,
+    "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+    "card_layout": null,
+    "card_hint": "对照卡"
+   },
+   {
+    "shot": 8,
+    "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+    "card_layout": "equal_lines",
+    "card_hint": "参数列表"
+   },
+   {
+    "shot": 9,
+    "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+    "card_layout": "headline_sub",
+    "card_hint": "行动号召"
+   }
+  ]
+ },
+ "reconcile_buggy": {
+  "status": "ok",
+  "tier": "certain",
+  "checked": 9,
+  "corrections": [
+   {
+    "shot": 1,
+    "field": "card_content",
+    "kind": "rewritten",
+    "applied": true
+   },
+   {
+    "shot": 3,
+    "field": "card_content",
+    "kind": "rewritten",
+    "applied": true
+   },
+   {
+    "shot": 4,
+    "field": "card_hint",
+    "kind": "rewritten",
+    "applied": true
+   }
+  ],
+  "layouts": [
+   {
+    "shot": 1,
+    "card_layout": "headline_sub"
+   },
+   {
+    "shot": 3,
+    "card_layout": "headline_sub"
+   },
+   {
+    "shot": 4,
+    "card_layout": "equal_lines"
+   },
+   {
+    "shot": 8,
+    "card_layout": "equal_lines"
+   },
+   {
+    "shot": 9,
+    "card_layout": "headline_sub"
+   }
+  ],
+  "warnings": [],
+  "final": [
+   {
+    "shot": 1,
+    "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 2,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 3,
+    "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 4,
+    "card_content": "一层码满\n再码下一层",
+    "card_layout": "equal_lines",
+    "card_hint": "流程条"
+   },
+   {
+    "shot": 5,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 6,
+    "card_content": "箱型变了，改程序不改线",
+    "card_layout": null,
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 7,
+    "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+    "card_layout": null,
+    "card_hint": "对照卡"
+   },
+   {
+    "shot": 8,
+    "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+    "card_layout": "equal_lines",
+    "card_hint": "参数列表"
+   },
+   {
+    "shot": 9,
+    "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+    "card_layout": "headline_sub",
+    "card_hint": "行动号召"
+   }
+  ]
+ },
+ "reconcile_placeholder_probe": {
+  "status": "ok",
+  "tier": "certain",
+  "corrections": [
+   {
+    "shot": 2,
+    "field": "card_content",
+    "kind": "invented",
+    "applied": true
+   },
+   {
+    "shot": 2,
+    "field": "card_hint",
+    "kind": "invented",
+    "applied": true
+   },
+   {
+    "shot": 5,
+    "field": "card_content",
+    "kind": "invented",
+    "applied": true
+   },
+   {
+    "shot": 6,
+    "field": "card_hint",
+    "kind": "rewritten",
+    "applied": true
+   },
+   {
+    "shot": 8,
+    "field": "card_content",
+    "kind": "rewritten",
+    "applied": true
+   }
+  ],
+  "warnings": [],
+  "final": [
+   {
+    "shot": 1,
+    "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 2,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 3,
+    "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+    "card_layout": "headline_sub",
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 4,
+    "card_content": "一层码满\n再码下一层",
+    "card_layout": "equal_lines",
+    "card_hint": "流程条"
+   },
+   {
+    "shot": 5,
+    "card_content": "",
+    "card_layout": null,
+    "card_hint": ""
+   },
+   {
+    "shot": 6,
+    "card_content": "箱型变了，改程序不改线",
+    "card_layout": null,
+    "card_hint": "标题卡"
+   },
+   {
+    "shot": 7,
+    "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+    "card_layout": null,
+    "card_hint": "对照卡"
+   },
+   {
+    "shot": 8,
+    "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+    "card_layout": "equal_lines",
+    "card_hint": "参数列表"
+   },
+   {
+    "shot": 9,
+    "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+    "card_layout": "headline_sub",
+    "card_hint": "行动号召"
+   }
+  ]
+ }
+}

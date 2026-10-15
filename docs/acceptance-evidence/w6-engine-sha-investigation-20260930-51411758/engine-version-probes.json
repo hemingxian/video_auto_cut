@@ -1,0 +1,17 @@
+{
+  "schema": "w6-engine-version-probe/v1",
+  "old": {
+    "path": "D:\\vac\\u7n\\VideoAutoCutEngine.exe",
+    "bytes": 8308224,
+    "sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+    "output": "VideoAuto 0.2.1",
+    "exit_code": 0
+  },
+  "new": {
+    "path": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutApp\\target\\release\\VideoAutoCutEngine.exe",
+    "bytes": 8308224,
+    "sha256": "eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085",
+    "output": "VideoAuto 0.2.1",
+    "exit_code": 0
+  }
+}

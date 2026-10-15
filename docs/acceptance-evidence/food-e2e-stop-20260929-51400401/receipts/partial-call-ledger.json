@@ -1,0 +1,49 @@
+{
+  "schema": "food-route-a-partial-call-ledger/v1",
+  "template_import_qwen": {
+    "actual": 0,
+    "evidence": "complete private plan raw; no qwen/upload/AI-parse markers"
+  },
+  "tts": {
+    "actual_success": 9,
+    "model": "cosyvoice-v3-flash",
+    "evidence": "nine fresh run-root MP3 plus nine log success markers"
+  },
+  "asr": {
+    "actual_submit": 9,
+    "actual_success": 9,
+    "model": "qwen3-asr-flash-filetrans",
+    "evidence": "nine incremental ASR JSON plus nine submit/success markers"
+  },
+  "cue_write": {
+    "actual_success": 9,
+    "evidence": "nine fresh run-root cue JSON plus nine write markers"
+  },
+  "subtitle_llm": {
+    "source_derived_wrapper_invocations": 22,
+    "derivation": "11 strong-punctuation sentences times two production segmentation entry points",
+    "callable_import_probe": true,
+    "model": "qwen-plus",
+    "model_evidence": "source/config-derived: isolated app.env sets DASHSCOPE_TEXT_MODEL=qwen-plus; auth remoteConfigEnv has no override and gatewayRemoteEnv only supplies API key/base URL",
+    "timing_map_invocations": 0,
+    "http_attempts": null,
+    "status": "source/config-derived qwen-plus wrapper calls, not direct HTTP calls; complete request IDs/attempt count unavailable, and zero raw request markers is not treated as actual zero"
+  },
+  "material_agent": {
+    "actual": 0,
+    "evidence": "engine stopped in sentrysearch index before material-agent stage"
+  },
+  "packaging_agent": {
+    "actual": 0,
+    "evidence": "engine stopped before packaging stage"
+  },
+  "renderer": {
+    "actual": 0,
+    "evidence": "engine stopped before renderer stage; no final video"
+  },
+  "retry": {
+    "manual": 0,
+    "engine_restart": 0
+  },
+  "complete_total": null
+}

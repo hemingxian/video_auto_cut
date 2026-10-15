@@ -1,0 +1,21 @@
+F
+======================================================================
+FAIL: test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels (tests.test_script_card_fields.EquivalentScriptTests.test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels)
+51405257����ԭ 07 ���� U7 �״ε��� plan ���ֵ� 4/6 �����ⱻ�����߼���ס��
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\autocut\video-auto-cut\VideoAutoCut\tests\test_script_card_fields.py", line 1944, in test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels
+    self.assertEqual(
+AssertionError: Lists differ: [] != [(4, 'title', 'rewritten'), (6, 'title', 'rewritten')]
+
+Second list contains 2 additional elements.
+First extra element 0:
+(4, 'title', 'rewritten')
+
+- []
++ [(4, 'title', 'rewritten'), (6, 'title', 'rewritten')]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+FAILED (failures=1)

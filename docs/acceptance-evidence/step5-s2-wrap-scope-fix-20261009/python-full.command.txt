@@ -1,0 +1,1 @@
+& 'D:/Video Edit/VideoAutoCut/workspace/runtime/0.5.15/VideoAutoCut/python-3.11.9-embed-amd64/python.exe' -I -B -X utf8 -m unittest discover VideoAutoCut/tests test_*.py

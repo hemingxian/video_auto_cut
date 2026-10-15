@@ -1,0 +1,32 @@
+{
+  "schema": "vacut-food-ui-native-unavailable/v1",
+  "source_sha": "2cad82d773f8bbfc9e66013628322dd499a3d161",
+  "ipc_fix_sha": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "app_launched": true,
+  "auth_gateway_ready_observed": true,
+  "secret_values_recorded": false,
+  "computer_use_attempts": [
+    "initial list_windows",
+    "two-second delayed list_windows retry",
+    "kernel reset, reinitialize, list_windows retry"
+  ],
+  "error": "Computer Use native pipe is unavailable: failed to connect native pipe: 系统找不到指定的文件。 (os error 2)",
+  "ui_actions": 0,
+  "import_invocations": 0,
+  "generate_clicks": 0,
+  "model_invocations": 0,
+  "tts_invocations": 0,
+  "asr_jobs": 0,
+  "renderer_invocations": 0,
+  "launcher_stopped_with_ctrl_c": true,
+  "electron_exit_signal": "SIGINT",
+  "electron_processes_after_stop": 0,
+  "engine_processes_after_stop": 0,
+  "port_9_listeners_after_stop": 0,
+  "port_4173_listeners_after_stop": 0,
+  "workspace_dirty_only": [
+    "VideoAutoCutDesktop/package-lock.json",
+    "VideoAutoCutDesktop/package.json"
+  ],
+  "note": "Stopped under the computer-use skill recovery rule after the official native helper remained unavailable. The one authorized Generate click was not consumed."
+}

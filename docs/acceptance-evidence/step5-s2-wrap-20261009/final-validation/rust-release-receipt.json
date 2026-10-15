@@ -1,0 +1,12 @@
+{
+  "command": "cargo build --manifest-path VideoAutoCutApp/Cargo.toml --release --locked",
+  "started_at": "2026-10-09T11:23:57.9982377+08:00",
+  "finished_at": "2026-10-09T11:24:16.5166197+08:00",
+  "exit_code": 0,
+  "engine_path": "D:\\vac\\s516-step5\\VideoAutoCutApp\\target\\release\\VideoAutoCutEngine.exe",
+  "engine_sha256": "41995f53fae3d89c9486e6980b33b98a3f2e434f73a0706ad71948af40e6c871",
+  "help_exit_code": 0,
+  "help_has_voice_script_body": true,
+  "installed_or_copied": false,
+  "packaged": false
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "vacut-u6-ai-line-inventory/v1",
+  "phase": "badshot",
+  "source_stdout_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-stdout.bin",
+  "source_stdout_sha256": "ba9481f75830e3b4eec3a209eb21a190cfeed1007e653d450c077741c2b79027",
+  "exact_preservation": "text plus line ending plus raw UTF-8 base64 and per-line SHA-256",
+  "all_ai_line_count": 0,
+  "ordinary_ai_line_count": 0,
+  "fixed_ai_suggested_count": 0,
+  "unexpected_ordinary_ai_line_count": 0,
+  "event_ai_line_count": 0,
+  "event_literal_ai_string_count": 0,
+  "lines": [],
+  "secret_pattern_matches": 0
+}

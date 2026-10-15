@@ -1,0 +1,18 @@
+# 运行包自带 pi 的 node_modules：**不入库**（2026-09-18 定），随视频引擎运行包
+# 一起打包、一起下载分发。
+#
+# 做法是「不入库、打包前用 install_pi.py 现装」：
+#   python VideoAutoCut/tools/material_gen/pi/install_pi.py
+# 仓库根 .gitignore 的 `VideoAutoCut/tools/material_gen/**/node_modules/` 因此
+# 保持生效，Windows 工作区装完 1.35 万个文件也不会污染 `git status`
+#（避免 `git add -A` 误提交）。
+#
+# 若之后改判要入库：把下面这行的注释去掉，子目录 .gitignore 优先级高于仓库根，
+# 会把 node_modules 反向例外回来（git check-ignore 实测生效），
+# 然后用 install_pi.py 装精简版（约 137MB / 1.35 万文件）再提交。
+# !node_modules/
+
+# 无论入不入库都不需要的安装副产物
+node_modules/.cache/
+node_modules/.package-lock.json
+package-lock.json

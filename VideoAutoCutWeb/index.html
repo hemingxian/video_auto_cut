@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VideoAutoCut Studio 是一款脚本驱动的视频自动化剪辑工具，自动解析分镜、下载素材、理解画面、剪辑并合成成片。" />
+  <title>VideoAutoCut Studio - 视频自动化剪辑工具</title>
+  <link rel="icon" href="./assets/app-icon.png" />
+  <link rel="stylesheet" href="./assets/site.css" />
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true" focusable="false">
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></symbol>
+    <symbol id="icon-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path><path d="M12 7v5l4 2"></path></symbol>
+    <symbol id="icon-boxes" viewBox="0 0 24 24"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"></path><path d="m7 16.5-4.74-2.85"></path><path d="m7 16.5 5-3"></path><path d="M7 16.5v5.17"></path><path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"></path><path d="m17 16.5-5-3"></path><path d="m17 16.5 4.74-2.85"></path><path d="M17 16.5v5.17"></path><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"></path><path d="M12 8 7.26 5.15"></path><path d="m12 8 4.74-2.85"></path><path d="M12 13.5V8"></path></symbol>
+    <symbol id="icon-mic" viewBox="0 0 24 24"><path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12"></path><path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5"></path><circle cx="16" cy="7" r="5"></circle></symbol>
+    <symbol id="icon-settings" viewBox="0 0 24 24"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"></path><circle cx="12" cy="12" r="3"></circle></symbol>
+    <symbol id="icon-user" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="10" r="3"></circle><path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"></path></symbol>
+    <symbol id="icon-fileText" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></symbol>
+    <symbol id="icon-terminal" viewBox="0 0 24 24"><path d="M12 19h8"></path><path d="m4 17 6-6-6-6"></path></symbol>
+    <symbol id="icon-fileJson" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 12a1 1 0 0 0-1 1v1a1 1 0 0 1-1 1 1 1 0 0 1 1 1v1a1 1 0 0 0 1 1"></path><path d="M14 18a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-1a1 1 0 0 0-1-1"></path></symbol>
+    <symbol id="icon-listChecks" viewBox="0 0 24 24"><path d="M13 5h8"></path><path d="M13 12h8"></path><path d="M13 19h8"></path><path d="m3 17 2 2 4-4"></path><path d="m3 7 2 2 4-4"></path></symbol>
+    <symbol id="icon-fileSpreadsheet" viewBox="0 0 24 24"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M8 13h2"></path><path d="M14 13h2"></path><path d="M8 17h2"></path><path d="M14 17h2"></path></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 13v8l-4-4"></path><path d="m12 21 4-4"></path><path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284"></path></symbol>
+    <symbol id="icon-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle><path d="M8.12 8.12 12 12"></path><path d="M20 4 8.12 15.88"></path><circle cx="6" cy="18" r="3"></circle><path d="M14.8 14.8 20 20"></path></symbol>
+    <symbol id="icon-film" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M7 3v18"></path><path d="M3 7.5h4"></path><path d="M3 12h18"></path><path d="M3 16.5h4"></path><path d="M17 3v18"></path><path d="M17 7.5h4"></path><path d="M17 16.5h4"></path></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></symbol>
+    <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle></symbol>
+    <symbol id="icon-loader" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></symbol>
+    <symbol id="icon-edit" viewBox="0 0 24 24"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"></path></symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></symbol>
+    <symbol id="icon-folder" viewBox="0 0 24 24"><path d="m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2"></path></symbol>
+  </svg>
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="VideoAutoCut Studio">
+        <img src="./assets/app-icon.png" alt="" />
+        <span><b>VideoAutoCut</b><i> Studio</i></span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a class="active active-link" href="#top">产品概览</a>
+        <a href="#pipeline">工作流程</a>
+        <a href="#vision">素材匹配</a>
+        <a href="./help/">使用帮助</a>
+        <a href="#download">下载</a>
+        <span class="nav-indicator" aria-hidden="true"></span>
+      </nav>
+      <a class="nav-download" href="#download"><span class="label-full">下载 Windows 版</span><span class="label-short">下载</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-lines" aria-hidden="true">
+        <i class="line-one"></i>
+        <i class="line-two"></i>
+        <i class="line-three"></i>
+      </div>
+
+      <div class="hero-content reveal">
+        <p class="kicker">AI 视频自动化剪辑工具</p>
+        <h1>从脚本到成片，<br />自动完成视频剪辑。</h1>
+        <p class="lead">导入脚本、文档或分镜文件后，VideoAutoCut Studio 会在一个任务内依次完成分镜解析、素材检索下载、画面识别、片段匹配、时间线生成和视频合成。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">下载 Windows 版</a>
+          <a class="button secondary" href="#pipeline">查看工作流程</a>
+        </div>
+      </div>
+
+      <section class="console reveal" aria-label="VideoAutoCut Studio 产品界面">
+        <div class="console-bar">
+          <div class="console-title">
+            <img src="./assets/app-icon.png" alt="" />
+            <strong>VideoAutoCut Studio</strong>
+          </div>
+          <em>开始任务 / 自动剪辑任务进行中</em>
+        </div>
+
+        <div class="app-preview">
+          <aside class="app-preview-sidebar">
+            <div class="app-preview-logo"><img src="./assets/app-icon.png" alt="" /></div>
+            <div class="app-preview-nav">
+              <a class="active" title="开始任务" aria-label="开始任务"><svg class="nav-icon"><use href="#icon-play"></use></svg></a>
+              <a title="历史任务" aria-label="历史任务"><svg class="nav-icon"><use href="#icon-history"></use></svg></a>
+              <a title="素材库" aria-label="素材库"><svg class="nav-icon"><use href="#icon-boxes"></use></svg></a>
+              <a title="音色克隆" aria-label="音色克隆"><svg class="nav-icon"><use href="#icon-mic"></use></svg></a>
+            </div>
+            <div class="app-preview-sidebar-bottom">
+              <a title="账号" aria-label="账号"><svg class="nav-icon"><use href="#icon-user"></use></svg><span class="account-status-dot online"></span></a>
+              <a title="设置" aria-label="设置"><svg class="nav-icon"><use href="#icon-settings"></use></svg></a>
+            </div>
+          </aside>
+
+          <section class="app-preview-main">
+            <div class="app-preview-head">
+              <div class="task-queue-chip">
+                <svg class="button-icon"><use href="#icon-listChecks"></use></svg>
+                <span>任务队列</span>
+                <b>1 个 · 生成中</b>
+              </div>
+              <div class="app-actions">
+                <button><svg class="button-icon"><use href="#icon-fileText"></use></svg>脚本文件</button>
+                <button><svg class="button-icon"><use href="#icon-boxes"></use></svg>素材设置</button>
+                <button><svg class="button-icon"><use href="#icon-terminal"></use></svg>查看日志</button>
+                <button><svg class="button-icon"><use href="#icon-fileJson"></use></svg>预览分镜</button>
+                <button class="primary"><svg class="button-icon"><use href="#icon-play"></use></svg>生成视频</button>
+              </div>
+            </div>
+
+            <div class="start-grid-preview">
+              <section class="preview-panel workflow-panel-preview">
+                <div class="app-panel-title"><span><svg class="title-icon"><use href="#icon-listChecks"></use></svg>当前流程</span></div>
+                <div class="workflow-progress-preview">
+                  <div class="workflow-progress-head">
+                    <strong>正在处理：下载候选素材 · 12 / 28</strong>
+                    <span>run_20260624_1032 · 54%</span>
+                  </div>
+                  <div class="progress-bar is-slim" aria-label="当前流程进度"><span style="width: 54%"></span></div>
+                  <div class="workflow-steps">
+                    <article class="workflow-step is-done">
+                      <div class="workflow-step-index">01</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-fileSpreadsheet"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>读取脚本</strong>
+                        <span>解析脚本文档，并建立本次任务目录</span>
+                        <em>任务目录已建立</em>
+                      </div>
+                      <div class="workflow-step-status" title="done"><svg class="icon"><use href="#icon-check"></use></svg></div>
+                    </article>
+                    <article class="workflow-step is-done">
+                      <div class="workflow-step-index">02</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-listChecks"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>整理分镜</strong>
+                        <span>生成画面要求、素材需求和每段时长</span>
+                        <em>6 个镜头可编辑</em>
+                      </div>
+                      <div class="workflow-step-status" title="done"><svg class="icon"><use href="#icon-check"></use></svg></div>
+                    </article>
+                    <article class="workflow-step is-done">
+                      <div class="workflow-step-index">03</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-search"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>优化搜索词</strong>
+                        <span>把画面需求压缩成可检索关键词</span>
+                        <em>素材关键词已生成</em>
+                      </div>
+                      <div class="workflow-step-status" title="done"><svg class="icon"><use href="#icon-check"></use></svg></div>
+                    </article>
+                    <article class="workflow-step is-active">
+                      <div class="workflow-step-index">04</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-download"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>下载候选素材</strong>
+                        <span>按分镜搜索并下载可用视频片段</span>
+                        <em>12 个候选片段</em>
+                      </div>
+                      <div class="workflow-step-status" title="active"><svg class="icon"><use href="#icon-loader"></use></svg></div>
+                    </article>
+                    <article class="workflow-step is-pending">
+                      <div class="workflow-step-index">05</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-scissors"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>剪辑片段</strong>
+                        <span>按分镜要求截取可用镜头</span>
+                        <em>0 个剪辑片段</em>
+                      </div>
+                      <div class="workflow-step-status" title="pending"><svg class="icon"><use href="#icon-circle"></use></svg></div>
+                    </article>
+                    <article class="workflow-step is-pending">
+                      <div class="workflow-step-index">06</div>
+                      <div class="workflow-step-glyph"><svg class="icon"><use href="#icon-film"></use></svg></div>
+                      <div class="workflow-step-copy">
+                        <strong>合成成片</strong>
+                        <span>合成剪辑片段和最终视频</span>
+                        <em>等待素材完成</em>
+                      </div>
+                      <div class="workflow-step-status" title="pending"><svg class="icon"><use href="#icon-circle"></use></svg></div>
+                    </article>
+                  </div>
+                </div>
+              </section>
+
+              <section class="preview-panel shot-workspace-panel-preview">
+                <div class="app-panel-title spread">
+                  <span><svg class="title-icon"><use href="#icon-film"></use></svg>分镜工作区</span>
+                  <span class="shot-panel-tools">
+                    <b class="status-pill is-running">运行中</b>
+                    <em><svg class="button-icon"><use href="#icon-edit"></use></svg>编辑分镜</em>
+                    <em><svg class="button-icon"><use href="#icon-refresh"></use></svg>刷新</em>
+                    <em><svg class="button-icon"><use href="#icon-folder"></use></svg>目录</em>
+                  </span>
+                </div>
+                <div class="shot-context-line-preview">
+                  <span>当前任务：run_20260624_1032</span>
+                  <span>脚本生成 6 个分镜，素材下载阶段进行中</span>
+                </div>
+
+                <div class="shot-workspace-preview">
+                  <aside class="shot-row-panel-preview">
+                    <div class="shot-material-summary-preview">
+                      <div><strong>6</strong><span>分镜</span></div>
+                      <div><strong>12</strong><span>候选片段</span></div>
+                      <div><strong>0</strong><span>剪辑片段</span></div>
+                    </div>
+                    <div class="shot-row-list-preview">
+                      <button class="shot-row-item-preview active">
+                        <span class="shot-row-index-preview">01</span>
+                        <span class="shot-row-main-preview">
+                          <strong>年轻人深夜办公，屏幕光打在脸上</strong>
+                          <em>office night laptop working screen light</em>
+                        </span>
+                        <span class="shot-row-meta-preview"><em>6s</em><span>4 候选</span><span>0 剪辑</span></span>
+                      </button>
+                      <button class="shot-row-item-preview">
+                        <span class="shot-row-index-preview">02</span>
+                        <span class="shot-row-main-preview">
+                          <strong>城市清晨航拍，节奏逐渐加快</strong>
+                          <em>city aerial morning fast rhythm</em>
+                        </span>
+                        <span class="shot-row-meta-preview"><em>5s</em><span>3 候选</span><span>0 剪辑</span></span>
+                      </button>
+                      <button class="shot-row-item-preview">
+                        <span class="shot-row-index-preview">03</span>
+                        <span class="shot-row-main-preview">
+                          <strong>产品界面特写，字幕弹出关键卖点</strong>
+                          <em>software interface close up subtitle</em>
+                        </span>
+                        <span class="shot-row-meta-preview"><em>7s</em><span>5 候选</span><span>0 剪辑</span></span>
+                      </button>
+                    </div>
+                  </aside>
+
+                  <div class="shot-detail-pane-preview">
+                    <div class="shot-detail-head-preview">
+                      <div>
+                        <span class="shot-detail-index-preview">01</span>
+                        <div>
+                          <strong>年轻人深夜办公，屏幕光打在脸上</strong>
+                          <span>6s · 下载候选素材</span>
+                        </div>
+                      </div>
+                      <div class="shot-material-counts-preview">
+                        <span>4 候选</span>
+                        <span>0 剪辑</span>
+                      </div>
+                    </div>
+                    <div class="category-tabs-preview">
+                      <button class="active">分镜内容</button>
+                      <button>候选片段 <span>4</span></button>
+                      <button>剪辑片段 <span>0</span></button>
+                      <button>未关联</button>
+                    </div>
+                    <div class="shot-query-grid-preview">
+                      <div class="shot-query-field-preview">
+                        <div class="shot-query-field-head-preview"><svg class="query-icon"><use href="#icon-fileText"></use></svg><strong>口播文案</strong></div>
+                        <div class="shot-query-value-preview"><span>很多创作者把时间花在找素材和粗剪上，而不是内容本身。</span></div>
+                      </div>
+                      <div class="shot-query-field-preview">
+                        <div class="shot-query-field-head-preview"><svg class="query-icon"><use href="#icon-search"></use></svg><strong>素材搜索词</strong></div>
+                        <div class="shot-query-value-preview"><span>office night laptop working screen light</span></div>
+                      </div>
+                      <div class="shot-query-field-preview">
+                        <div class="shot-query-field-head-preview"><svg class="query-icon"><use href="#icon-film"></use></svg><strong>画面要求</strong></div>
+                        <div class="shot-query-value-preview"><span>人物在夜间办公桌前专注工作，屏幕光照亮面部，环境安静，适合冷色调科技感。</span></div>
+                      </div>
+                      <div class="shot-query-field-preview">
+                        <div class="shot-query-field-head-preview"><svg class="query-icon"><use href="#icon-scissors"></use></svg><strong>剪辑要求</strong></div>
+                        <div class="shot-query-value-preview"><span>候选素材下载和画面识别完成后，再按匹配分数裁切并放入时间线。</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <section id="pipeline" class="pipeline">
+      <div class="section-head reveal">
+        <p class="kicker">工作流程</p>
+        <h2>一个视频任务，按阶段顺序执行。</h2>
+        <p>分镜预览、素材下载、片段匹配和剪辑合成都属于同一任务的不同状态。下载未完成时，后续阶段保持等待。</p>
+      </div>
+
+      <div class="steps reveal">
+        <article class="step done">
+          <span>01</span>
+          <h3>解析脚本</h3>
+          <p>读取脚本、文档或分镜文件，提取镜头描述、时长、旁白、字幕和素材要求。</p>
+        </article>
+        <article class="step done">
+          <span>02</span>
+          <h3>分镜预览</h3>
+          <p>生成可确认的镜头列表，用于检查素材需求和时间结构。</p>
+        </article>
+        <article class="step active">
+          <span>03</span>
+          <h3>下载素材</h3>
+          <p>按分镜关键词检索并下载候选素材，保留来源和处理状态。</p>
+        </article>
+        <article class="step">
+          <span>04</span>
+          <h3>素材识别</h3>
+          <p>对候选视频建立画面标签、场景信息和语义索引。</p>
+        </article>
+        <article class="step">
+          <span>05</span>
+          <h3>剪辑合成</h3>
+          <p>根据匹配结果生成时间线，写入字幕、口播和进度条并导出视频。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="vision" class="vision">
+      <div class="vision-copy reveal">
+        <p class="kicker">素材识别与匹配</p>
+        <h2>根据画面信息选择候选片段。</h2>
+        <p>系统会结合脚本需求、素材标签和匹配分数筛选片段，减少只靠关键词匹配带来的误选。</p>
+      </div>
+      <div class="vision-panel reveal">
+        <div class="scan">
+          <div class="scan-line"></div>
+          <div class="box box-a"><span>人物 / 夜间 / 专注</span></div>
+          <div class="box box-b"><span>屏幕光 / 办公桌</span></div>
+          <strong>Shot 01 - 深夜办公</strong>
+        </div>
+        <div class="scores">
+          <div><span>office_focus_01.mp4</span><b>96%</b></div>
+          <div><span>startup_night_07.mp4</span><b>91%</b></div>
+          <div><span>desk_closeup_04.mp4</span><b>86%</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="capabilities">
+      <div class="section-head reveal">
+        <p class="kicker">功能模块</p>
+        <h2>覆盖脚本解析、素材处理和视频输出的核心环节。</h2>
+      </div>
+      <div class="capability-grid reveal">
+        <article class="module-card">
+          <div class="module-top"><span>01</span><b>Input</b></div>
+          <h3>多格式脚本 / 分镜导入</h3>
+          <p>读取脚本、文档、表格和分镜文件。</p>
+          <div class="module-meta"><i>script</i><i>doc</i><i>sheet</i></div>
+        </article>
+        <article class="module-card">
+          <div class="module-top"><span>02</span><b>Plan</b></div>
+          <h3>分镜阶段预览</h3>
+          <p>下载素材前先确认镜头结构。</p>
+          <div class="module-meter"><i style="width: 72%"></i></div>
+        </article>
+        <article class="module-card">
+          <div class="module-top"><span>03</span><b>Assets</b></div>
+          <h3>候选素材下载</h3>
+          <p>按分镜收集候选视频片段。</p>
+          <div class="module-meter"><i style="width: 56%"></i></div>
+        </article>
+        <article class="module-card">
+          <div class="module-top"><span>04</span><b>Vision</b></div>
+          <h3>素材画面识别</h3>
+          <p>识别场景、人物、构图和动作。</p>
+          <div class="module-meta"><i>scene</i><i>object</i><i>action</i></div>
+        </article>
+        <article class="module-card">
+          <div class="module-top"><span>05</span><b>Timeline</b></div>
+          <h3>时间线自动生成</h3>
+          <p>自动裁剪、排序并对齐节奏。</p>
+          <div class="mini-timeline"><i></i><i></i><i></i></div>
+        </article>
+        <article class="module-card">
+          <div class="module-top"><span>06</span><b>Render</b></div>
+          <h3>字幕、口播、进度条配置</h3>
+          <p>统一写入最终合成流程。</p>
+          <div class="module-meta"><i>subtitle</i><i>voice</i><i>progress</i></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div class="download-copy reveal">
+        <p class="kicker">Windows 桌面版</p>
+        <h2>下载 VideoAutoCut Studio</h2>
+        <p>安装 Windows 桌面端，连接模型服务和素材来源后，就可以从脚本或分镜表启动自动剪辑任务。</p>
+      </div>
+      <div class="release-card reveal">
+        <div class="release-title">
+          <img src="./assets/app-icon.png" alt="" />
+          <div>
+            <strong>VideoAutoCut Studio</strong>
+            <span>Windows 桌面端安装包</span>
+          </div>
+        </div>
+        <dl>
+          <div><dt>系统</dt><dd>Windows x64</dd></div>
+          <div><dt>大小</dt><dd data-release-size aria-live="polite">获取中…</dd></div>
+          <div><dt>版本</dt><dd data-release-version aria-live="polite">获取中…</dd></div>
+          <div><dt>运行环境</dt><dd>可按需下载</dd></div>
+        </dl>
+        <a class="button primary full" data-release-download aria-disabled="true">下载 Windows 安装包</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#top" aria-label="VideoAutoCut Studio">
+          <img src="./assets/app-icon.png" alt="" />
+          <span><b>VideoAutoCut</b><i> Studio</i></span>
+        </a>
+        <p>把脚本、素材和时间线交给同一个自动化任务。</p>
+        <div class="footer-status">
+          <span>Windows x64</span>
+          <span data-release-version aria-live="polite">获取中…</span>
+        </div>
+      </div>
+
+      <div class="footer-flow" aria-label="视频自动化流程">
+        <span>Script</span>
+        <i></i>
+        <span>Assets</span>
+        <i></i>
+        <span>Timeline</span>
+        <i></i>
+        <span>final.mp4</span>
+      </div>
+
+      <nav class="footer-links" aria-label="底部导航">
+        <div>
+          <strong>产品</strong>
+          <a href="#top">产品概览</a>
+          <a href="#pipeline">工作流程</a>
+          <a href="./help/">使用帮助</a>
+        </div>
+        <div>
+          <strong>下载</strong>
+          <a href="#download">Windows 安装包</a>
+          <a href="#vision">素材匹配</a>
+        </div>
+        <div>
+          <strong>联系</strong>
+          <a href="mailto:sales@evsrobot.com">sales@evsrobot.com</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VideoAutoCut Studio</span>
+      <a href="#download">下载 Windows 版</a>
+    </div>
+  </footer>
+
+  <script src="./assets/site.js?v=20260902-1"></script>
+</body>
+</html>

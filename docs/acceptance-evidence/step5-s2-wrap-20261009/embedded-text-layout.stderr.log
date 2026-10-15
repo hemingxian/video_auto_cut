@@ -1,0 +1,19 @@
+........................D:\vac\s516-step5\VideoAutoCut\tools\_vendor\jieba\__init__.py:44: DeprecationWarning: invalid escape sequence '\.'
+  re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+D:\vac\s516-step5\VideoAutoCut\tools\_vendor\jieba\__init__.py:46: DeprecationWarning: invalid escape sequence '\s'
+  re_skip_default = re.compile("(\r\n|\s)", re.U)
+D:\vac\s516-step5\VideoAutoCut\tools\_vendor\jieba\finalseg\__init__.py:78: DeprecationWarning: invalid escape sequence '\.'
+  re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+...........Dump cache file failed.
+Traceback (most recent call last):
+  File "D:\vac\s516-step5\VideoAutoCut\tools\_vendor\jieba\__init__.py", line 150, in initialize
+    fd, fpath = tempfile.mkstemp(dir=tmpdir)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tempfile.py", line 358, in mkstemp
+  File "tempfile.py", line 257, in _mkstemp_inner
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\evstm\\AppData\\Local\\Temp\\tmpzi90z7j9\\cache-target\\tmpbjkor2in'
+..
+----------------------------------------------------------------------
+Ran 37 tests in 1.342s
+
+OK

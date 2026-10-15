@@ -1,0 +1,18 @@
+成片比例: 16:9，分辨率: 1080p，输出尺寸: 1920x1080，等比例居中、纯黑填充
+
+========== VideoAuto ==========
+主题: synthetic-regression-shot-no-invalid
+运行目录: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388993-314c52f-20260928\data\video\runs\20260928\synthetic-regression-shot-no-invalid\.videoautocut\runs\run_20260928_171459_816_42308
+脚本文档: D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\ui-u6-51388993-314c52f-20260928\fixtures\synthetic-regression-shot-no-invalid.xlsx
+分镜数: 6
+素材来源: Pexels
+每分镜下载: 2
+每分镜剪出: 1
+匹配接受阈值: 0.00
+================================
+
+
+>>> python normalize_script
+"D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\python-3.11.9-embed-amd64\\python.exe" "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\tools\\normalize_script.py" "--input" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\fixtures\\synthetic-regression-shot-no-invalid.xlsx" "--output" "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\temp\\normalized_script_shots.json" "--topic" "synthetic-regression-shot-no-invalid"
+[script] 标准模板导入 shot_no_invalid: A2 镜号应为 1，实际 -1
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"failed","workflowProgress":{"stage":"script","status":"failed","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\u88ab\u62e6\u4e0b\uff1a1 \u5904\u9700\u5728 Excel \u91cc\u5904\u7406"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"synthetic-regression-shot-no-invalid.xlsx","shots":1,"blocked":[{"shot":-1,"cell":"A2","column":"\u955c\u53f7","code":"shot_no_invalid","message":"\u955c\u53f7\u5e94\u4e3a 1\uff0c\u5b9e\u9645 -1","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587"}],"warnings":[]}}

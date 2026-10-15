@@ -1,0 +1,9 @@
+[script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+........................................
+----------------------------------------------------------------------
+Ran 40 tests in 47.505s
+
+OK

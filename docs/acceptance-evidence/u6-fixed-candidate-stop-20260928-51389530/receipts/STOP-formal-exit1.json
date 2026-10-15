@@ -1,0 +1,167 @@
+{
+  "schema": "vacut-u6-fixed-candidate-stop/v1",
+  "stopped_at": "2026-09-28T07:20:12.0799634Z",
+  "reason": "formal GUI child exit code 1, expected 2",
+  "source_head": "314c52f0e77475d8d737e749936084e76ff0c520",
+  "formal_import_invocations": 1,
+  "badshot_import_invocations": 0,
+  "help_preflight_invocations": 1,
+  "folder_button_clicks": 0,
+  "generate_invocations": 0,
+  "model_invocations": {
+    "actual": 0,
+    "basis": "template route event; 43 fixed local ai_suggested reminders; no Qwen/DashScope/百炼/model API or model-name markers",
+    "forbidden_model_marker_hits": 0
+  },
+  "ui": {
+    "status": "读取脚本失败",
+    "progress_percent": 3,
+    "workspace": "执行失败",
+    "screenshots": [
+      {
+        "role": "main_failure",
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\screenshots\\STOP-formal-exit1-main-01.jpg",
+        "bytes": 73225,
+        "sha256": "0cfac72c671269139eab3a5348be0377ff87ed94fd50b1f8bdd28bce46d5ae80",
+        "primary_evidence": true,
+        "note": null,
+        "width": 1306,
+        "height": 853
+      },
+      {
+        "role": "queue_blocked_card",
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\screenshots\\STOP-formal-exit1-queue-01.jpg",
+        "bytes": 87202,
+        "sha256": "2da92b974788c7f04e36e2bc15802eff825cceeae32b4daba6e17595794c5ce1",
+        "primary_evidence": true,
+        "note": null,
+        "width": 1306,
+        "height": 853
+      },
+      {
+        "role": "realtime_log_transitional",
+        "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\screenshots\\STOP-formal-exit1-realtime-log-01.jpg",
+        "bytes": 105225,
+        "sha256": "0754a6c2b5b58b90e8719609f12a6ed0e37ac93b32c91d6fb8c7bf56b3949fb1",
+        "primary_evidence": false,
+        "note": "panel captured during transition; raw stdout is primary log evidence",
+        "width": 1306,
+        "height": 853
+      }
+    ]
+  },
+  "command_line": "\"D:\\\\Video Edit\\\\VideoAutoCut-step4-audit\\\\44959b4-20260924-envprep\\\\runtime\\\\44959b4-envprep\\\\VideoAutoCut\\\\python-3.11.9-embed-amd64\\\\python.exe\" \"D:\\\\Video Edit\\\\VideoAutoCut-step4-audit\\\\44959b4-20260924-envprep\\\\runtime\\\\44959b4-envprep\\\\VideoAutoCut\\\\tools\\\\normalize_script.py\" \"--input\" \"D:\\\\autocut\\\\video-auto-cut\\\\docs\\\\script-template-v1\\\\转换演示_v1表格.xlsx\" \"--output\" \"D:\\\\autocut\\\\video-auto-cut\\\\VideoAutoCutDesktop\\\\node_modules\\\\.tmp\\\\ui-u6-51388993-314c52f-20260928\\\\data\\\\temp\\\\normalized_script_shots.json\" \"--topic\" \"转换演示_v1表格\"",
+  "run_directory_line": "运行目录: \\\\?\\D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\video\\runs\\20260928\\转换演示_v1表格\\.videoautocut\\runs\\run_20260928_151733_427_10176",
+  "capture": {
+    "metadata_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\raw-electron-stdout\\observer-38016-seq-2-child-10176-metadata.json",
+    "metadata_sha256": "f2691ab6d820f695a9b3dc832bf7314caa7c08573d650920b678a7dd7c192aaf",
+    "exit_code": 1,
+    "stdout": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\raw-electron-stdout\\observer-38016-seq-2-child-10176-stdout.bin",
+      "bytes": 19876,
+      "sha256": "26db386946d5cfac794984dc6c4cdc5b5d85bd56a343afe4dd087313641e1e1a",
+      "strict_utf8": true
+    },
+    "stderr": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\raw-electron-stdout\\observer-38016-seq-2-child-10176-stderr.bin",
+      "bytes": 180,
+      "sha256": "7a8219e2ecad4ab07728c772ce4aee7d718c24ae458b3a0301484f8843281948",
+      "strict_utf8": true,
+      "exact_nonempty_lines": [
+        "错误: AI 解析脚本文档失败: D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\转换演示_v1表格.xlsx: 命令执行失败: python normalize_script, 退出码: Some(2)"
+      ]
+    },
+    "events": {
+      "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\raw-electron-stdout\\observer-38016-seq-2-child-10176-vacut-events.bin",
+      "bytes": 14380,
+      "sha256": "91893d56879180a58dbd8ef72955979f080e0c05877be925f8974981330afae4",
+      "lines": 1
+    }
+  },
+  "report": {
+    "route": "template",
+    "format": "VAC-SB-1",
+    "shots": 8,
+    "blocked": 2,
+    "warnings": 53,
+    "warning_code_counts": [
+      {
+        "code": "ai_suggested",
+        "count": 43
+      },
+      {
+        "code": "status_note",
+        "count": 2
+      },
+      {
+        "code": "status_pending",
+        "count": 8
+      }
+    ],
+    "blocked_items": [
+      {
+        "shot": 8,
+        "cell": "I9",
+        "column": "口播",
+        "code": "text_cell_pending",
+        "message": "正文或时长黄格须先在 Excel 核对",
+        "action": "请在 Excel 中核对正文并清除黄色底色"
+      },
+      {
+        "shot": 8,
+        "cell": "K9",
+        "column": "上屏文字",
+        "code": "text_cell_pending",
+        "message": "正文或时长黄格须先在 Excel 核对",
+        "action": "请在 Excel 中核对正文并清除黄色底色"
+      }
+    ]
+  },
+  "ai_inventory": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\receipts\\STOP-ai-line-inventory.json",
+    "sha256": "d647dd30321588732812678a02d54a4f98cc1a049e356ab4c96d1ebbde1f8fc3",
+    "stdout_literal_AI": 44,
+    "stdout_fixed_ai_suggested": 43,
+    "stdout_event_AI": 1,
+    "stderr_literal_AI": 1
+  },
+  "runtime_post_stop": {
+    "source_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "snapshot_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\receipts\\current-post-stop.json",
+    "read_at": "2026-09-28T07:20:12.1063229Z",
+    "last_write_utc": "2026-09-28T07:11:06.9072789Z",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut",
+    "engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf"
+  },
+  "helper_stop": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\verify-captured-import.ps1",
+    "sha256": "e1645c1c31ecd6b654edf02b855bcf67c2ba5e66e581b85f85bc03b44f5ec91b",
+    "message": "STOP: formal-u6 exit code was 1, expected 2"
+  },
+  "no_retry": true,
+  "stderr_classification": {
+    "literal_AI_lines": 1,
+    "exact_label": "AI 解析脚本文档失败",
+    "classification": "generic Rust error context wrapping local template parser exit 2; not evidence of a model call",
+    "model_call": false
+  },
+  "source_error_wrap": {
+    "main": "VideoAutoCutApp/src/main.rs:403-404 read_plan_from_script_ai(...).with_context(AI 解析脚本文档失败)?",
+    "script": "VideoAutoCutApp/src/script.rs:98-108 Candidate Python normalize_script then run_command",
+    "process": "VideoAutoCutApp/src/process.rs:133-147 non-success child status becomes anyhow error; process main exits 1",
+    "source_modified": false
+  },
+  "shutdown": {
+    "electron_pid": 38016,
+    "launcher_pid": 40088,
+    "method": "official native Computer Use Alt+F4 to isolated target window",
+    "natural_exit": true,
+    "forced_termination": false,
+    "port4173_listeners_after": 0,
+    "production_studio_untouched": true
+  },
+  "command_line_scope": "exact Candidate Python + normalize_script.py line from engine stdout; outer engine command is represented by captured child metadata and UI screenshot",
+  "folder_button_clicked": false
+}

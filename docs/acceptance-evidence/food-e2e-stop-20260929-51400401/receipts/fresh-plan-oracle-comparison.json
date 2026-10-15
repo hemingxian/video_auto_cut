@@ -1,0 +1,59 @@
+{
+  "schema": "food-route-a-fresh-plan-oracle-comparison/v1",
+  "method": "independent read-only comparison against openpyxl raw-cell oracle; no importer/model",
+  "ok": true,
+  "oracle": {
+    "path": "excel-source-oracle.json",
+    "sha256": "3993a93f5f1602bff13546aeff36988f514375df726cdb14e40efd2363697775"
+  },
+  "fresh_plan": {
+    "path": "plan-workspace/video/runs/20260929/food_route_a_51400401_plan/.videoautocut/runs/run_20260929_112743_695_17248/shots.json",
+    "sha256": "a289660f5a1d48b212f7e94e7479bb3c385d930ac2c1069b00a04e29917dcf68",
+    "excel_author_fields_checked": 45,
+    "excel_author_field_errors": 0
+  },
+  "prepared_plan": {
+    "path": "prepared-input/shots.json",
+    "sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+    "excel_author_fields_plus_frozen_U3_checked": 45,
+    "field_errors": 0
+  },
+  "semantic_rules": {
+    "empty_excel_subtitle": "voice_text",
+    "frozen_U3_override": {
+      "shot": 2,
+      "subtitle": "U3字幕验收：整箱来料排队。"
+    },
+    "card_empty_markers": ["—", "-", null],
+    "card_line_prefixes_removed_once": ["大字：", "副行：", "参数卡："],
+    "card_newlines_preserved": true,
+    "all_other_characters_preserved": true
+  },
+  "fresh_to_prepared_full_json_diff": {
+    "difference_count": 20,
+    "allowed_difference_count": 20,
+    "unexpected_difference_count": 0,
+    "allowed_scope": {
+      "download_material": 9,
+      "material_bindings": 9,
+      "shot2_subtitle": 1,
+      "shot2_render_hints": 1
+    },
+    "unexpected_paths": []
+  },
+  "protected_metadata": {
+    "script_source_deep_equal": true,
+    "script_meta_deep_equal_shots": 9,
+    "render_hints_deep_equal_other_shots": 8,
+    "shot2_render_hints_change_authorized": true,
+    "errors": []
+  },
+  "prepared_material_manifest": {
+    "path": "prepared-input/material_manifest.json",
+    "sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421"
+  },
+  "prepare_receipt": {
+    "path": "prepared-input/prepare-receipt.json",
+    "sha256": "26853d81c6847f913e180b26e544aec4f0dc8b508abb8ea79e01017c54aec5fd"
+  }
+}

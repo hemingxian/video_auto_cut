@@ -1,0 +1,324 @@
+{
+  "schema": "vacut-u6-ai-line-inventory/v1",
+  "phase": "formal-u6",
+  "source_stdout_path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51390393\\raw-electron-stdout\\observer-5836-seq-2-child-13448-stdout.bin",
+  "source_stdout_sha256": "296d6c5806db179ebe9d5fd94c82db358c56d0bcc71a6c2b6c553917a3a54c22",
+  "exact_preservation": "text plus line ending plus raw UTF-8 base64 and per-line SHA-256",
+  "all_ai_line_count": 44,
+  "ordinary_ai_line_count": 43,
+  "fixed_ai_suggested_count": 43,
+  "unexpected_ordinary_ai_line_count": 0,
+  "event_ai_line_count": 1,
+  "event_literal_ai_string_count": 43,
+  "lines": [
+    {
+      "ordinal": 19,
+      "text": "[script] 标准模板导入 ai_suggested: E2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "3bd975cdf632e0c980edbf8fae10a8df59f91f68bae38cd117d272509e9f5f75"
+    },
+    {
+      "ordinal": 20,
+      "text": "[script] 标准模板导入 ai_suggested: F2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "45e292b425d9afc5b2a4f85f2dd142b510915e6f586f47d2e109f61545557223"
+    },
+    {
+      "ordinal": 21,
+      "text": "[script] 标准模板导入 ai_suggested: G2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "7cc84f62be878f454ee1f374a421b12e3ef6e663340ba8864dfe129b9cb69f4d"
+    },
+    {
+      "ordinal": 22,
+      "text": "[script] 标准模板导入 ai_suggested: H2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "236ab3c4a7be6fe49de798c5632161f53f362d1a94252383bff397ee35752479"
+    },
+    {
+      "ordinal": 23,
+      "text": "[script] 标准模板导入 ai_suggested: O2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "c1f8164e9e848570f3802235d42e4052080767ad4de9e06240d7eeb88eb96862"
+    },
+    {
+      "ordinal": 24,
+      "text": "[script] 标准模板导入 ai_suggested: P2 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogUDIg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "3088ef97d54a56f2f7e01d065a1bfbf287cb7a89454bb5b6e7d471ec15b5d8c2"
+    },
+    {
+      "ordinal": 26,
+      "text": "[script] 标准模板导入 ai_suggested: E3 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTMg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "af53ae1c9562634ce10a4697a2942f180da51a023cc2bc40d3a0a10573a6497c"
+    },
+    {
+      "ordinal": 27,
+      "text": "[script] 标准模板导入 ai_suggested: F3 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjMg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "49e6dd2000b1ec4ff3eb8d980665acf8ff829f45c4b6cfed796ab4f46dc9c7c6"
+    },
+    {
+      "ordinal": 28,
+      "text": "[script] 标准模板导入 ai_suggested: G3 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzMg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "0a998f89d5291f0471af08f63771e291ffeb650b952a0f3edd369b20aaa000a1"
+    },
+    {
+      "ordinal": 29,
+      "text": "[script] 标准模板导入 ai_suggested: H3 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDMg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "35fdf0cbb54bc19c9ab6e74fb618911b1832d296c01211718c74594667f055d4"
+    },
+    {
+      "ordinal": 30,
+      "text": "[script] 标准模板导入 ai_suggested: O3 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzMg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "f56ddf9d853b4de897de93deeb6861c3c0f29473e793437c5cea100c0c117e2e"
+    },
+    {
+      "ordinal": 32,
+      "text": "[script] 标准模板导入 ai_suggested: E4 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTQg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "7371a83273df4baae339514afc8b51a7d357dbb8499029171e0fa79ac4393bf0"
+    },
+    {
+      "ordinal": 33,
+      "text": "[script] 标准模板导入 ai_suggested: F4 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjQg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "a876a54c9a238ac0c940821e679c6fd812ff5df54ef4936291baa043bda5dcca"
+    },
+    {
+      "ordinal": 34,
+      "text": "[script] 标准模板导入 ai_suggested: G4 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzQg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "cca526d77d8aff42bc50f342095c95971e96d96c756902ad10f4a96fd41138d5"
+    },
+    {
+      "ordinal": 35,
+      "text": "[script] 标准模板导入 ai_suggested: H4 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDQg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "1c7ea3a36bf0780a346f61758f810ee65517f4a6296fd2fe23cfb76becf4771d"
+    },
+    {
+      "ordinal": 36,
+      "text": "[script] 标准模板导入 ai_suggested: O4 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzQg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "bb75693536839160d45ca0a5234b2f67e042140815ca562417088f4a41ff4d2d"
+    },
+    {
+      "ordinal": 38,
+      "text": "[script] 标准模板导入 ai_suggested: E5 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTUg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "6216daea3f3741e50c5a0fcdea5d06a2c59ffd8ed75592988253db2df2d22c24"
+    },
+    {
+      "ordinal": 39,
+      "text": "[script] 标准模板导入 ai_suggested: F5 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjUg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "1b78ca876da2d04b0aa6ee3d5332a261c3b045f11404b56d4d6ed770145fafca"
+    },
+    {
+      "ordinal": 40,
+      "text": "[script] 标准模板导入 ai_suggested: G5 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzUg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "d3a6f2bfc58c535c5eaa666714bd2db598637b58cf24ee46a07c64d0cd8974d6"
+    },
+    {
+      "ordinal": 41,
+      "text": "[script] 标准模板导入 ai_suggested: H5 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDUg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "c39c9d1023944c3e7c76f59caea4916dffe410d02c7850504c7a356741be68b5"
+    },
+    {
+      "ordinal": 42,
+      "text": "[script] 标准模板导入 ai_suggested: O5 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzUg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "37f3e8b9f0d3fcc834ce463763576cfb792f9e7e2b5c3e14f7c8dd114af44082"
+    },
+    {
+      "ordinal": 44,
+      "text": "[script] 标准模板导入 ai_suggested: E6 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTYg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "8cce547a540da67855d9af84fc1a24f5aaab691fd134055f66f57cfbb5f9965c"
+    },
+    {
+      "ordinal": 45,
+      "text": "[script] 标准模板导入 ai_suggested: F6 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjYg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "39b621e10d663952db69c8090042467e316664cd874080409d1bb34076d0c65f"
+    },
+    {
+      "ordinal": 46,
+      "text": "[script] 标准模板导入 ai_suggested: G6 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzYg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "4180aecb1a66c964dbc7951f89e94dc19d71e1cc83325725e72ba46f75283c2c"
+    },
+    {
+      "ordinal": 47,
+      "text": "[script] 标准模板导入 ai_suggested: H6 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDYg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "5f27474601a9b50c03b29648246cea0d3bca901d0e57ceb35f52978079b3abea"
+    },
+    {
+      "ordinal": 48,
+      "text": "[script] 标准模板导入 ai_suggested: O6 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzYg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "02f1d8ab81717091222717616b4379c7b7847d8679bfd54ac5def24409f7d2ab"
+    },
+    {
+      "ordinal": 50,
+      "text": "[script] 标准模板导入 ai_suggested: E7 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTcg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "46daf6993fdb7e3e481d5c826da0f2a586b872968518432a09546471636141a6"
+    },
+    {
+      "ordinal": 51,
+      "text": "[script] 标准模板导入 ai_suggested: F7 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjcg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "ff3f44b20692cfbfeda292b4af21af2ff8f8f2b49d163391bf09d369999ef7b0"
+    },
+    {
+      "ordinal": 52,
+      "text": "[script] 标准模板导入 ai_suggested: G7 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzcg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "8a4ac1e0d88968741732245c1f8ec650225d7ed8c9d5a1bedf38a4406eff59ce"
+    },
+    {
+      "ordinal": 53,
+      "text": "[script] 标准模板导入 ai_suggested: H7 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDcg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "925f53d6dbaca339df6f24bd6d4486de0bdde517efc5ae63615fdbca7b2079b0"
+    },
+    {
+      "ordinal": 54,
+      "text": "[script] 标准模板导入 ai_suggested: O7 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzcg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "66819ad8632b34d76c0c0f2e2a84ec9eaca94cdf5b8f0ae3b148fb52c38dc6f4"
+    },
+    {
+      "ordinal": 56,
+      "text": "[script] 标准模板导入 ai_suggested: E8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "41dcc0efa36b65df8a5b854fc65e91a24f9171baf5c5521862a591dea7aa465c"
+    },
+    {
+      "ordinal": 57,
+      "text": "[script] 标准模板导入 ai_suggested: F8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "5d677ef6fc53fe64fef559dc1101a48bbf3f6d236172496fddcc38435f2f477f"
+    },
+    {
+      "ordinal": 58,
+      "text": "[script] 标准模板导入 ai_suggested: G8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "8e8b86acc0c81620258238ab3bb088def21a926a5da20bb7e31625dd426e965e"
+    },
+    {
+      "ordinal": 59,
+      "text": "[script] 标准模板导入 ai_suggested: H8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "bb78ea3e51e7050a293cd30338a1495fd705b9d32975ffe00e903dea4eb08ee5"
+    },
+    {
+      "ordinal": 60,
+      "text": "[script] 标准模板导入 ai_suggested: O8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "786d7d37e226e05799c157d7fec5333153a1d05ac3dbab396cfeb0f86393ce12"
+    },
+    {
+      "ordinal": 61,
+      "text": "[script] 标准模板导入 ai_suggested: P8 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogUDgg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "21d6b8357c7e351b3ab464402f302eca1d815e58023610953d12f8e617d70731"
+    },
+    {
+      "ordinal": 63,
+      "text": "[script] 标准模板导入 ai_suggested: E9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRTkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "019d359c6a4ff068904b1097487a038488f2af5043d9933002a27db472a88f19"
+    },
+    {
+      "ordinal": 64,
+      "text": "[script] 标准模板导入 ai_suggested: F9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRjkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "27988d162dae63cfa711d6fc1b3eced090018cab60bad435b4daa18fe9818261"
+    },
+    {
+      "ordinal": 65,
+      "text": "[script] 标准模板导入 ai_suggested: G9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogRzkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "52746f661e9ea70309d5a1d13df5a287632ed210cbc7e33a14f729de2ccbd2bc"
+    },
+    {
+      "ordinal": 66,
+      "text": "[script] 标准模板导入 ai_suggested: H9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogSDkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "865ce6fd01f5b834f0dea751ea44aa1349cc4261683ad0531f25c965ebad2ad3"
+    },
+    {
+      "ordinal": 67,
+      "text": "[script] 标准模板导入 ai_suggested: O9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogTzkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "938d7baf31adfc96c7ca125b99a376185b96d86e51f877251476c6054ade3076"
+    },
+    {
+      "ordinal": 68,
+      "text": "[script] 标准模板导入 ai_suggested: P9 制作字段为 AI 建议",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "W3NjcmlwdF0g5qCH5YeG5qih5p2/5a+85YWlIGFpX3N1Z2dlc3RlZDogUDkg5Yi25L2c5a2X5q615Li6IEFJIOW7uuiurg0K",
+      "raw_sha256": "7de61a72892a7fe3e80451c87f3043b5ac430f292d60fb5998c369bc7b6393a1"
+    },
+    {
+      "ordinal": 72,
+      "text": "VACUT_EVENT:{\"kind\":\"workflow\",\"workflowStage\":\"script\",\"workflowStatus\":\"failed\",\"workflowProgress\":{\"stage\":\"script\",\"status\":\"failed\",\"phase\":\"template_import\",\"label\":\"\\u6807\\u51c6\\u6a21\\u677f\\u5bfc\\u5165\\u88ab\\u62e6\\u4e0b\\uff1a2 \\u5904\\u9700\\u5728 Excel \\u91cc\\u5904\\u7406\"},\"scriptImport\":{\"route\":\"template\",\"format\":\"VAC-SB-1\",\"file\":\"\\u8f6c\\u6362\\u6f14\\u793a_v1\\u8868\\u683c.xlsx\",\"shots\":8,\"blocked\":[{\"shot\":8,\"cell\":\"I9\",\"column\":\"\\u53e3\\u64ad\",\"code\":\"text_cell_pending\",\"message\":\"\\u6b63\\u6587\\u6216\\u65f6\\u957f\\u9ec4\\u683c\\u987b\\u5148\\u5728 Excel \\u6838\\u5bf9\",\"action\":\"\\u8bf7\\u5728 Excel \\u4e2d\\u6838\\u5bf9\\u6b63\\u6587\\u5e76\\u6e05\\u9664\\u9ec4\\u8272\\u5e95\\u8272\"},{\"shot\":8,\"cell\":\"K9\",\"column\":\"\\u4e0a\\u5c4f\\u6587\\u5b57\",\"code\":\"text_cell_pending\",\"message\":\"\\u6b63\\u6587\\u6216\\u65f6\\u957f\\u9ec4\\u683c\\u987b\\u5148\\u5728 Excel \\u6838\\u5bf9\",\"action\":\"\\u8bf7\\u5728 Excel \\u4e2d\\u6838\\u5bf9\\u6b63\\u6587\\u5e76\\u6e05\\u9664\\u9ec4\\u8272\\u5e95\\u8272\"}],\"warnings\":[{\"shot\":1,\"cell\":\"E2\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"F2\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"G2\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"H2\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"O2\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"P2\",\"column\":\"\\u8f6c\\u573a\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"transition\",\"level\":\"warn\"},{\"shot\":1,\"cell\":\"R2\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"E3\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"F3\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"G3\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"H3\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"O3\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":2,\"cell\":\"R3\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"E4\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"F4\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"G4\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"H4\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"O4\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":3,\"cell\":\"R4\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"E5\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"F5\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"G5\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"H5\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"O5\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":4,\"cell\":\"R5\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"E6\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"F6\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"G6\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"H6\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"O6\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":5,\"cell\":\"R6\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"E7\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"F7\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"G7\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"H7\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"O7\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":6,\"cell\":\"R7\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"E8\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"F8\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"G8\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"H8\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"O8\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"P8\",\"column\":\"\\u8f6c\\u573a\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"transition\",\"level\":\"warn\"},{\"shot\":7,\"cell\":\"R8\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"E9\",\"column\":\"\\u666f\\u522b\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"shot_size\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"F9\",\"column\":\"\\u8fd0\\u955c\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_move\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"G9\",\"column\":\"\\u62cd\\u6444\\u89d2\\u5ea6\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"camera_angle\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"H9\",\"column\":\"\\u753b\\u9762\\u5185\\u5bb9\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"visual_description\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"O9\",\"column\":\"\\u641c\\u7d22\\u5173\\u952e\\u8bcd\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"search_keywords\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"P9\",\"column\":\"\\u8f6c\\u573a\",\"code\":\"ai_suggested\",\"message\":\"\\u5236\\u4f5c\\u5b57\\u6bb5\\u4e3a AI \\u5efa\\u8bae\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"transition\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"R9\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_pending\",\"message\":\"\\u6765\\u6e90/\\u6838\\u5bf9\\u72b6\\u6001\\u5f85\\u786e\\u8ba4\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"R9\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_note\",\"message\":\"\\u539f\\u6587\\u542b\\u56fd\\u5185/\\u6d77\\u5916\\u4e24\\u4e2a\\u7248\\u672c\\uff0c\\u8bf7\\u5220\\u6389\\u672c\\u7247\\u4e0d\\u7528\\u7684\\u7248\\u672c\\uff08\\u53ea\\u80fd\\u5220\\uff0c\\u4e0d\\u80fd\\u6539\\u5b57\\uff09\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"},{\"shot\":8,\"cell\":\"R9\",\"column\":\"\\u6765\\u6e90/\\u6838\\u5bf9\",\"code\":\"status_note\",\"message\":\"\\u5f85\\u786e\\u8ba4\\u539f\\u56e0\\uff1a\\u53e3\\u64ad\\u3001\\u4e0a\\u5c4f\\u6587\\u5b57 \\u5df2\\u6807\\u9ec4\\u2014\\u2014\\u539f\\u6587\\u540c\\u65f6\\u5199\\u4e86\\u56fd\\u5185\\u7248\\u548c\\u6d77\\u5916\\u7248\\uff0c\\u76f4\\u63a5\\u5bfc\\u5165\\u4f1a\\u4e24\\u7248\\u4e00\\u8d77\\u4e0a\\u5c4f\\uff1b\\u5220\\u6389\\u4e0d\\u7528\\u7684\\u7248\\u672c\\u3001\\u6e05\\u6389\\u9ec4\\u8272\\u3001\\u72b6\\u6001\\u6539\\u4e3a\\u300c\\u5df2\\u786e\\u8ba4\\u300d\\u540e\\u624d\\u80fd\\u5bfc\\u5165\",\"action\":\"\\u8bf7\\u6309\\u63d0\\u793a\\u68c0\\u67e5 Excel \\u539f\\u6587\",\"field\":\"review\",\"level\":\"warn\"}]}}",
+      "line_ending": "CRLF",
+      "raw_utf8_base64": "VkFDVVRfRVZFTlQ6eyJraW5kIjoid29ya2Zsb3ciLCJ3b3JrZmxvd1N0YWdlIjoic2NyaXB0Iiwid29ya2Zsb3dTdGF0dXMiOiJmYWlsZWQiLCJ3b3JrZmxvd1Byb2dyZXNzIjp7InN0YWdlIjoic2NyaXB0Iiwic3RhdHVzIjoiZmFpbGVkIiwicGhhc2UiOiJ0ZW1wbGF0ZV9pbXBvcnQiLCJsYWJlbCI6Ilx1NjgwN1x1NTFjNlx1NmEyMVx1Njc3Zlx1NWJmY1x1NTE2NVx1ODhhYlx1NjJlNlx1NGUwYlx1ZmYxYTIgXHU1OTA0XHU5NzAwXHU1NzI4IEV4Y2VsIFx1OTFjY1x1NTkwNFx1NzQwNiJ9LCJzY3JpcHRJbXBvcnQiOnsicm91dGUiOiJ0ZW1wbGF0ZSIsImZvcm1hdCI6IlZBQy1TQi0xIiwiZmlsZSI6Ilx1OGY2Y1x1NjM2Mlx1NmYxNFx1NzkzYV92MVx1ODg2OFx1NjgzYy54bHN4Iiwic2hvdHMiOjgsImJsb2NrZWQiOlt7InNob3QiOjgsImNlbGwiOiJJOSIsImNvbHVtbiI6Ilx1NTNlM1x1NjRhZCIsImNvZGUiOiJ0ZXh0X2NlbGxfcGVuZGluZyIsIm1lc3NhZ2UiOiJcdTZiNjNcdTY1ODdcdTYyMTZcdTY1ZjZcdTk1N2ZcdTllYzRcdTY4M2NcdTk4N2JcdTUxNDhcdTU3MjggRXhjZWwgXHU2ODM4XHU1YmY5IiwiYWN0aW9uIjoiXHU4YmY3XHU1NzI4IEV4Y2VsIFx1NGUyZFx1NjgzOFx1NWJmOVx1NmI2M1x1NjU4N1x1NWU3Nlx1NmUwNVx1OTY2NFx1OWVjNFx1ODI3Mlx1NWU5NVx1ODI3MiJ9LHsic2hvdCI6OCwiY2VsbCI6Iks5IiwiY29sdW1uIjoiXHU0ZTBhXHU1YzRmXHU2NTg3XHU1YjU3IiwiY29kZSI6InRleHRfY2VsbF9wZW5kaW5nIiwibWVzc2FnZSI6Ilx1NmI2M1x1NjU4N1x1NjIxNlx1NjVmNlx1OTU3Zlx1OWVjNFx1NjgzY1x1OTg3Ylx1NTE0OFx1NTcyOCBFeGNlbCBcdTY4MzhcdTViZjkiLCJhY3Rpb24iOiJcdThiZjdcdTU3MjggRXhjZWwgXHU0ZTJkXHU2ODM4XHU1YmY5XHU2YjYzXHU2NTg3XHU1ZTc2XHU2ZTA1XHU5NjY0XHU5ZWM0XHU4MjcyXHU1ZTk1XHU4MjcyIn1dLCJ3YXJuaW5ncyI6W3sic2hvdCI6MSwiY2VsbCI6IkUyIiwiY29sdW1uIjoiXHU2NjZmXHU1MjJiIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2hvdF9zaXplIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjoxLCJjZWxsIjoiRjIiLCJjb2x1bW4iOiJcdThmZDBcdTk1NWMiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfbW92ZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MSwiY2VsbCI6IkcyIiwiY29sdW1uIjoiXHU2MmNkXHU2NDQ0XHU4OWQyXHU1ZWE2IiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoiY2FtZXJhX2FuZ2xlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjoxLCJjZWxsIjoiSDIiLCJjb2x1bW4iOiJcdTc1M2JcdTk3NjJcdTUxODVcdTViYjkiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJ2aXN1YWxfZGVzY3JpcHRpb24iLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjEsImNlbGwiOiJPMiIsImNvbHVtbiI6Ilx1NjQxY1x1N2QyMlx1NTE3M1x1OTUyZVx1OGJjZCIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InNlYXJjaF9rZXl3b3JkcyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MSwiY2VsbCI6IlAyIiwiY29sdW1uIjoiXHU4ZjZjXHU1NzNhIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoidHJhbnNpdGlvbiIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MSwiY2VsbCI6IlIyIiwiY29sdW1uIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOSIsImNvZGUiOiJzdGF0dXNfcGVuZGluZyIsIm1lc3NhZ2UiOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5XHU3MmI2XHU2MDAxXHU1Zjg1XHU3ODZlXHU4YmE0IiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoicmV2aWV3IiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjoyLCJjZWxsIjoiRTMiLCJjb2x1bW4iOiJcdTY2NmZcdTUyMmIiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJzaG90X3NpemUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjIsImNlbGwiOiJGMyIsImNvbHVtbiI6Ilx1OGZkMFx1OTU1YyIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6ImNhbWVyYV9tb3ZlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjoyLCJjZWxsIjoiRzMiLCJjb2x1bW4iOiJcdTYyY2RcdTY0NDRcdTg5ZDJcdTVlYTYiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfYW5nbGUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjIsImNlbGwiOiJIMyIsImNvbHVtbiI6Ilx1NzUzYlx1OTc2Mlx1NTE4NVx1NWJiOSIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InZpc3VhbF9kZXNjcmlwdGlvbiIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MiwiY2VsbCI6Ik8zIiwiY29sdW1uIjoiXHU2NDFjXHU3ZDIyXHU1MTczXHU5NTJlXHU4YmNkIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2VhcmNoX2tleXdvcmRzIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjoyLCJjZWxsIjoiUjMiLCJjb2x1bW4iOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5IiwiY29kZSI6InN0YXR1c19wZW5kaW5nIiwibWVzc2FnZSI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjlcdTcyYjZcdTYwMDFcdTVmODVcdTc4NmVcdThiYTQiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJyZXZpZXciLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjMsImNlbGwiOiJFNCIsImNvbHVtbiI6Ilx1NjY2Zlx1NTIyYiIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InNob3Rfc2l6ZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MywiY2VsbCI6IkY0IiwiY29sdW1uIjoiXHU4ZmQwXHU5NTVjIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoiY2FtZXJhX21vdmUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjMsImNlbGwiOiJHNCIsImNvbHVtbiI6Ilx1NjJjZFx1NjQ0NFx1ODlkMlx1NWVhNiIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6ImNhbWVyYV9hbmdsZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6MywiY2VsbCI6Ikg0IiwiY29sdW1uIjoiXHU3NTNiXHU5NzYyXHU1MTg1XHU1YmI5IiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoidmlzdWFsX2Rlc2NyaXB0aW9uIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90IjozLCJjZWxsIjoiTzQiLCJjb2x1bW4iOiJcdTY0MWNcdTdkMjJcdTUxNzNcdTk1MmVcdThiY2QiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJzZWFyY2hfa2V5d29yZHMiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjMsImNlbGwiOiJSNCIsImNvbHVtbiI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjkiLCJjb2RlIjoic3RhdHVzX3BlbmRpbmciLCJtZXNzYWdlIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOVx1NzJiNlx1NjAwMVx1NWY4NVx1Nzg2ZVx1OGJhNCIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InJldmlldyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NCwiY2VsbCI6IkU1IiwiY29sdW1uIjoiXHU2NjZmXHU1MjJiIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2hvdF9zaXplIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo0LCJjZWxsIjoiRjUiLCJjb2x1bW4iOiJcdThmZDBcdTk1NWMiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfbW92ZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NCwiY2VsbCI6Ikc1IiwiY29sdW1uIjoiXHU2MmNkXHU2NDQ0XHU4OWQyXHU1ZWE2IiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoiY2FtZXJhX2FuZ2xlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo0LCJjZWxsIjoiSDUiLCJjb2x1bW4iOiJcdTc1M2JcdTk3NjJcdTUxODVcdTViYjkiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJ2aXN1YWxfZGVzY3JpcHRpb24iLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjQsImNlbGwiOiJPNSIsImNvbHVtbiI6Ilx1NjQxY1x1N2QyMlx1NTE3M1x1OTUyZVx1OGJjZCIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InNlYXJjaF9rZXl3b3JkcyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NCwiY2VsbCI6IlI1IiwiY29sdW1uIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOSIsImNvZGUiOiJzdGF0dXNfcGVuZGluZyIsIm1lc3NhZ2UiOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5XHU3MmI2XHU2MDAxXHU1Zjg1XHU3ODZlXHU4YmE0IiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoicmV2aWV3IiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo1LCJjZWxsIjoiRTYiLCJjb2x1bW4iOiJcdTY2NmZcdTUyMmIiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJzaG90X3NpemUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjUsImNlbGwiOiJGNiIsImNvbHVtbiI6Ilx1OGZkMFx1OTU1YyIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6ImNhbWVyYV9tb3ZlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo1LCJjZWxsIjoiRzYiLCJjb2x1bW4iOiJcdTYyY2RcdTY0NDRcdTg5ZDJcdTVlYTYiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfYW5nbGUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjUsImNlbGwiOiJINiIsImNvbHVtbiI6Ilx1NzUzYlx1OTc2Mlx1NTE4NVx1NWJiOSIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InZpc3VhbF9kZXNjcmlwdGlvbiIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NSwiY2VsbCI6Ik82IiwiY29sdW1uIjoiXHU2NDFjXHU3ZDIyXHU1MTczXHU5NTJlXHU4YmNkIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2VhcmNoX2tleXdvcmRzIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo1LCJjZWxsIjoiUjYiLCJjb2x1bW4iOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5IiwiY29kZSI6InN0YXR1c19wZW5kaW5nIiwibWVzc2FnZSI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjlcdTcyYjZcdTYwMDFcdTVmODVcdTc4NmVcdThiYTQiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJyZXZpZXciLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjYsImNlbGwiOiJFNyIsImNvbHVtbiI6Ilx1NjY2Zlx1NTIyYiIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InNob3Rfc2l6ZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NiwiY2VsbCI6IkY3IiwiY29sdW1uIjoiXHU4ZmQwXHU5NTVjIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoiY2FtZXJhX21vdmUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjYsImNlbGwiOiJHNyIsImNvbHVtbiI6Ilx1NjJjZFx1NjQ0NFx1ODlkMlx1NWVhNiIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6ImNhbWVyYV9hbmdsZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NiwiY2VsbCI6Ikg3IiwiY29sdW1uIjoiXHU3NTNiXHU5NzYyXHU1MTg1XHU1YmI5IiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoidmlzdWFsX2Rlc2NyaXB0aW9uIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo2LCJjZWxsIjoiTzciLCJjb2x1bW4iOiJcdTY0MWNcdTdkMjJcdTUxNzNcdTk1MmVcdThiY2QiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJzZWFyY2hfa2V5d29yZHMiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjYsImNlbGwiOiJSNyIsImNvbHVtbiI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjkiLCJjb2RlIjoic3RhdHVzX3BlbmRpbmciLCJtZXNzYWdlIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOVx1NzJiNlx1NjAwMVx1NWY4NVx1Nzg2ZVx1OGJhNCIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InJldmlldyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NywiY2VsbCI6IkU4IiwiY29sdW1uIjoiXHU2NjZmXHU1MjJiIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2hvdF9zaXplIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo3LCJjZWxsIjoiRjgiLCJjb2x1bW4iOiJcdThmZDBcdTk1NWMiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfbW92ZSIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NywiY2VsbCI6Ikc4IiwiY29sdW1uIjoiXHU2MmNkXHU2NDQ0XHU4OWQyXHU1ZWE2IiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoiY2FtZXJhX2FuZ2xlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo3LCJjZWxsIjoiSDgiLCJjb2x1bW4iOiJcdTc1M2JcdTk3NjJcdTUxODVcdTViYjkiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJ2aXN1YWxfZGVzY3JpcHRpb24iLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjcsImNlbGwiOiJPOCIsImNvbHVtbiI6Ilx1NjQxY1x1N2QyMlx1NTE3M1x1OTUyZVx1OGJjZCIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InNlYXJjaF9rZXl3b3JkcyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NywiY2VsbCI6IlA4IiwiY29sdW1uIjoiXHU4ZjZjXHU1NzNhIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoidHJhbnNpdGlvbiIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6NywiY2VsbCI6IlI4IiwiY29sdW1uIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOSIsImNvZGUiOiJzdGF0dXNfcGVuZGluZyIsIm1lc3NhZ2UiOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5XHU3MmI2XHU2MDAxXHU1Zjg1XHU3ODZlXHU4YmE0IiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoicmV2aWV3IiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo4LCJjZWxsIjoiRTkiLCJjb2x1bW4iOiJcdTY2NmZcdTUyMmIiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJzaG90X3NpemUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjgsImNlbGwiOiJGOSIsImNvbHVtbiI6Ilx1OGZkMFx1OTU1YyIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6ImNhbWVyYV9tb3ZlIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo4LCJjZWxsIjoiRzkiLCJjb2x1bW4iOiJcdTYyY2RcdTY0NDRcdTg5ZDJcdTVlYTYiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJjYW1lcmFfYW5nbGUiLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjgsImNlbGwiOiJIOSIsImNvbHVtbiI6Ilx1NzUzYlx1OTc2Mlx1NTE4NVx1NWJiOSIsImNvZGUiOiJhaV9zdWdnZXN0ZWQiLCJtZXNzYWdlIjoiXHU1MjM2XHU0ZjVjXHU1YjU3XHU2YmI1XHU0ZTNhIEFJIFx1NWVmYVx1OGJhZSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InZpc3VhbF9kZXNjcmlwdGlvbiIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6OCwiY2VsbCI6Ik85IiwiY29sdW1uIjoiXHU2NDFjXHU3ZDIyXHU1MTczXHU5NTJlXHU4YmNkIiwiY29kZSI6ImFpX3N1Z2dlc3RlZCIsIm1lc3NhZ2UiOiJcdTUyMzZcdTRmNWNcdTViNTdcdTZiYjVcdTRlM2EgQUkgXHU1ZWZhXHU4YmFlIiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoic2VhcmNoX2tleXdvcmRzIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo4LCJjZWxsIjoiUDkiLCJjb2x1bW4iOiJcdThmNmNcdTU3M2EiLCJjb2RlIjoiYWlfc3VnZ2VzdGVkIiwibWVzc2FnZSI6Ilx1NTIzNlx1NGY1Y1x1NWI1N1x1NmJiNVx1NGUzYSBBSSBcdTVlZmFcdThiYWUiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJ0cmFuc2l0aW9uIiwibGV2ZWwiOiJ3YXJuIn0seyJzaG90Ijo4LCJjZWxsIjoiUjkiLCJjb2x1bW4iOiJcdTY3NjVcdTZlOTAvXHU2ODM4XHU1YmY5IiwiY29kZSI6InN0YXR1c19wZW5kaW5nIiwibWVzc2FnZSI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjlcdTcyYjZcdTYwMDFcdTVmODVcdTc4NmVcdThiYTQiLCJhY3Rpb24iOiJcdThiZjdcdTYzMDlcdTYzZDBcdTc5M2FcdTY4YzBcdTY3ZTUgRXhjZWwgXHU1MzlmXHU2NTg3IiwiZmllbGQiOiJyZXZpZXciLCJsZXZlbCI6Indhcm4ifSx7InNob3QiOjgsImNlbGwiOiJSOSIsImNvbHVtbiI6Ilx1Njc2NVx1NmU5MC9cdTY4MzhcdTViZjkiLCJjb2RlIjoic3RhdHVzX25vdGUiLCJtZXNzYWdlIjoiXHU1MzlmXHU2NTg3XHU1NDJiXHU1NmZkXHU1MTg1L1x1NmQ3N1x1NTkxNlx1NGUyNFx1NGUyYVx1NzI0OFx1NjcyY1x1ZmYwY1x1OGJmN1x1NTIyMFx1NjM4OVx1NjcyY1x1NzI0N1x1NGUwZFx1NzUyOFx1NzY4NFx1NzI0OFx1NjcyY1x1ZmYwOFx1NTNlYVx1ODBmZFx1NTIyMFx1ZmYwY1x1NGUwZFx1ODBmZFx1NjUzOVx1NWI1N1x1ZmYwOSIsImFjdGlvbiI6Ilx1OGJmN1x1NjMwOVx1NjNkMFx1NzkzYVx1NjhjMFx1NjdlNSBFeGNlbCBcdTUzOWZcdTY1ODciLCJmaWVsZCI6InJldmlldyIsImxldmVsIjoid2FybiJ9LHsic2hvdCI6OCwiY2VsbCI6IlI5IiwiY29sdW1uIjoiXHU2NzY1XHU2ZTkwL1x1NjgzOFx1NWJmOSIsImNvZGUiOiJzdGF0dXNfbm90ZSIsIm1lc3NhZ2UiOiJcdTVmODVcdTc4NmVcdThiYTRcdTUzOWZcdTU2ZTBcdWZmMWFcdTUzZTNcdTY0YWRcdTMwMDFcdTRlMGFcdTVjNGZcdTY1ODdcdTViNTcgXHU1ZGYyXHU2ODA3XHU5ZWM0XHUyMDE0XHUyMDE0XHU1MzlmXHU2NTg3XHU1NDBjXHU2NWY2XHU1MTk5XHU0ZTg2XHU1NmZkXHU1MTg1XHU3MjQ4XHU1NDhjXHU2ZDc3XHU1OTE2XHU3MjQ4XHVmZjBjXHU3NmY0XHU2M2E1XHU1YmZjXHU1MTY1XHU0ZjFhXHU0ZTI0XHU3MjQ4XHU0ZTAwXHU4ZDc3XHU0ZTBhXHU1YzRmXHVmZjFiXHU1MjIwXHU2Mzg5XHU0ZTBkXHU3NTI4XHU3Njg0XHU3MjQ4XHU2NzJjXHUzMDAxXHU2ZTA1XHU2Mzg5XHU5ZWM0XHU4MjcyXHUzMDAxXHU3MmI2XHU2MDAxXHU2NTM5XHU0ZTNhXHUzMDBjXHU1ZGYyXHU3ODZlXHU4YmE0XHUzMDBkXHU1NDBlXHU2MjRkXHU4MGZkXHU1YmZjXHU1MTY1IiwiYWN0aW9uIjoiXHU4YmY3XHU2MzA5XHU2M2QwXHU3OTNhXHU2OGMwXHU2N2U1IEV4Y2VsIFx1NTM5Zlx1NjU4NyIsImZpZWxkIjoicmV2aWV3IiwibGV2ZWwiOiJ3YXJuIn1dfX0NCg==",
+      "raw_sha256": "91893d56879180a58dbd8ef72955979f080e0c05877be925f8974981330afae4"
+    }
+  ],
+  "secret_pattern_matches": 0
+}

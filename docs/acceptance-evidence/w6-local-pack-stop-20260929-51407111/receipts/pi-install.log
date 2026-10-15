@@ -1,0 +1,18 @@
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+
+added 128 packages in 11s
+
+15 packages are looking for funding
+  run `npm fund` for details
+npm warn allow-scripts 3 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   @google/genai@1.52.0 (preinstall: echo 'preinstall: no-op')
+npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+npm warn allow-scripts   protobufjs@7.6.5 (postinstall: node scripts/postinstall)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+[install_pi] C:\Program Files\nodejs\npm.CMD install --prefix D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\pi --no-save --omit=dev --omit=optional @earendil-works/pi-coding-agent@0.85.1
+[install_pi] ✓ cli.js        D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\pi\node_modules\@earendil-works\pi-coding-agent\dist\bundle\cli.js
+[install_pi] ✓ version       0.85.1
+[install_pi] ✓ chord         D:\autocut\video-auto-cut-w6-51407111-4c6fb40ff737\VideoAutoCut\tools\material_gen\pi\node_modules\@earendil-works\pi-coding-agent\node_modules\@earendil-works\chord\package.json（node 解析：C:\Program Files\nodejs\node.EXE）
+[install_pi] ✓ node_modules  13548 个文件 / 117836511 字节（117.8 MB）
+[install_pi] 参考：精简安装（--omit=optional）约 13,548 个文件 / 117.8MB（字节总和；`du` 磁盘占用约 137MB）；若接近 13,678 个文件 /（`du`）421MB 说明可选依赖被装进来了，删掉 node_modules 重装。

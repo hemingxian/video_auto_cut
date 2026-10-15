@@ -1,0 +1,735 @@
+{
+  "ok": true,
+  "kind": "food-e2e-before-generate-snapshot",
+  "created_at": "2026-09-29T03:28:03.252358+00:00",
+  "created_epoch": 1790652483.252358,
+  "plan": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\prepared-input\\shots.json",
+  "plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "fixture": "D:\\autocut\\video-auto-cut\\docs\\script-template-v1\\示例_食品码垛_v1.xlsx",
+  "fixture_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+  "route": "template",
+  "task_revision": 0,
+  "shot_count": 9,
+  "edited_shot": 2,
+  "additional_caption_shots": [
+    8
+  ],
+  "caption_targets": [
+    {
+      "position": 2,
+      "role": "edited",
+      "shot_id": "template-0002",
+      "caption_source": "subtitle",
+      "subtitle_differs_from_voice_text": true,
+      "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+      "subtitle": "U3字幕验收：整箱来料排队。"
+    },
+    {
+      "position": 8,
+      "role": "additional",
+      "shot_id": "template-0008",
+      "caption_source": "subtitle",
+      "subtitle_differs_from_voice_text": true,
+      "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+      "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。"
+    }
+  ],
+  "dirty_artifacts": [],
+  "voice_dir": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-route-a-51400401-2cad82d-20260929\\formal-workspace\\voice",
+  "voice_preexisting_files": [],
+  "script_source": {
+    "conversion": {
+      "原始脚本 SHA-256": "不适用（原创，无原始稿）",
+      "原始脚本文件名": "无（本文件原创，Mac 手写示例，非客户稿转换）",
+      "映射档案": "不适用",
+      "转换器版本": "不适用（作者手写，生成器 _生成脚本/vac_template.py）",
+      "转换方式": "作者手写",
+      "转换时间": "2026-09-23"
+    },
+    "dictionaries": {
+      "camera_angle": [
+        "平视",
+        "俯拍",
+        "仰拍",
+        "顶拍",
+        "侧拍",
+        "背拍",
+        "主观视角",
+        "倾斜",
+        "不限"
+      ],
+      "camera_move": [
+        "固定",
+        "推",
+        "拉",
+        "左摇",
+        "右摇",
+        "上摇",
+        "下摇",
+        "左移",
+        "右移",
+        "跟",
+        "升",
+        "降",
+        "环绕",
+        "甩",
+        "手持",
+        "不限"
+      ],
+      "shot_size": [
+        "大远景",
+        "远景",
+        "全景",
+        "中景",
+        "中近景",
+        "近景",
+        "特写",
+        "大特写",
+        "不限"
+      ],
+      "transition": [
+        "硬切",
+        "叠化",
+        "淡入",
+        "淡出",
+        "闪白",
+        "闪黑",
+        "划像",
+        "甩切",
+        "匹配剪辑"
+      ]
+    },
+    "file_name": "示例_食品码垛_v1.xlsx",
+    "file_sha256": "33a47aefc3d6e97d7cb556f827cfccbbac9dd2aba8e9cb35ae227b165869cc0a",
+    "format": "VAC-SB-1",
+    "import_summary": {
+      "shots": 9,
+      "shots_with_ai_suggested": 0,
+      "warnings": 9
+    },
+    "project_info": {
+      "BGM 风格": "轻电子，低音量，不抢口播",
+      "原始脚本 SHA-256": "不适用（原创，无原始稿）",
+      "原始脚本文件名": "无（本文件原创，Mac 手写示例，非客户稿转换）",
+      "品牌主色": "#17191C",
+      "品牌强调色": "#FF7A33",
+      "字体": "思源黑体",
+      "字幕样式": "描边 + 关键词高亮，不加深色底条",
+      "客户/品牌": "无品牌（不露任何客户、合作方、设备厂商名称）",
+      "映射档案": "不适用",
+      "核对人": "Mac 侧作者自核",
+      "核对完成时间": "2026-09-23",
+      "模板版本": "VAC-SB-1",
+      "片名": "箱装食品码垛工作站：一箱箱是怎么码上托盘的",
+      "画幅": "16:9",
+      "目标平台": "抖音 / 视频号 / B站",
+      "目标时长(秒)": "75–90",
+      "禁止出现": "任何客户、合作方、设备厂商的名称和 Logo；纸箱上的产品品牌字样（特写需打码）；机型号；人脸特写；袋装画面混入箱装镜头",
+      "视频类型": "产品宣传",
+      "角标/Logo": "不放",
+      "语言": "中文",
+      "转换器版本": "不适用（作者手写，生成器 _生成脚本/vac_template.py）",
+      "转换方式": "作者手写",
+      "转换时间": "2026-09-23",
+      "配音语速": "偏快，约 4.2 字/秒",
+      "配音音色": "男声·沉稳（zh-CN-YunjianNeural）",
+      "项目": "填写",
+      "默认素材范围": "本地素材 / 食品码垛（9/17 冻结的 6 条，以箱装两组为主：纸箱装牛奶、整箱瓶装水）"
+    },
+    "route": "template",
+    "v": 1
+  },
+  "script_source_sha256": "6894abb480d1fe59d209ce709d946f3e85e7f4325bd3929cbcb51fe1f86bc687",
+  "protected_fields_sha256": "abc5c51a095d805ee4b06d06538e16f95de2b68976a10de0b58033e299724f0f",
+  "metadata": [
+    {
+      "position": 1,
+      "shot_id": "template-0001",
+      "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "大字：包装线末端，最重复的一道活\n副行：箱装食品码垛工作站"
+        },
+        "camera_angle": "平视",
+        "camera_move": "固定",
+        "material_requirements": "横屏、方向正常（不能横倒）；固定机位整段可用；产品标签不做特写",
+        "material_source": "素材库：食品码垛/食品（乳品线固定机位，多台码垛机器人同框那条）",
+        "notes": "音效：车间环境底噪，渐入",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R2",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 1
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "固定",
+          "card_content": "包装线末端，最重复的一道活\n箱装食品码垛工作站",
+          "card_hint": "标题卡",
+          "card_layout": "headline_sub",
+          "shot_size": "远景",
+          "subtitle": null,
+          "title": "包装线末端",
+          "transition": "淡入",
+          "visual_description": "食品包装线末端的码垛区，多台橙色码垛机器人同时作业，输送线和托盘位同框，固定机位",
+          "voice_text": "食品包装线的末端，一箱箱成品下线以后，最重复、最累人的一道活，就是码垛。"
+        },
+        "search_keywords": "多台码垛机器人 同时作业 输送线 托盘, multiple palletizing robots working at end of packaging line",
+        "segment": "开场",
+        "shot_size": "远景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 2,
+          "sheet": "分镜脚本"
+        },
+        "transition": "淡入",
+        "v": 1,
+        "visual_description": "食品包装线末端的码垛区，多台橙色码垛机器人同时作业，输送线和托盘位同框，固定机位"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "ea2a78268da1806744ea8ac8301c892bc18a9a8e759e34fdb49d36b1b76935b8",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 2,
+      "shot_id": "template-0002",
+      "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。",
+      "subtitle": "U3字幕验收：整箱来料排队。",
+      "script_meta": {
+        "authored": {
+          "card_content": "—"
+        },
+        "camera_angle": "平视",
+        "camera_move": "固定",
+        "material_requirements": "要看得到输送带和整箱来料；不要袋装画面混进来",
+        "material_source": "指定：食品码垛/食品/瓶装饮用水流水线自动化搬运码垛1.mp4 取段 t26–t36",
+        "notes": "本镜不上卡片（上屏文字写「—」）；音效：输送带滚筒声",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R3",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 2
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "固定",
+          "card_content": null,
+          "card_hint": null,
+          "card_layout": null,
+          "shot_size": "中景",
+          "subtitle": null,
+          "title": "来料排队",
+          "transition": "硬切",
+          "visual_description": "整箱瓶装水沿输送带排队前进，经过线间转接，一箱一箱送进机器人的抓取位",
+          "voice_text": "整箱的瓶装水、纸箱装的牛奶，装好箱以后先在输送带上排好队，一箱一箱送到机器人的抓取位。"
+        },
+        "search_keywords": "整箱瓶装水 输送带 排队 线间转接, boxed bottled water moving on conveyor toward robot pick position",
+        "segment": "来料",
+        "shot_size": "中景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 3,
+          "sheet": "分镜脚本"
+        },
+        "transition": "硬切",
+        "v": 1,
+        "visual_description": "整箱瓶装水沿输送带排队前进，经过线间转接，一箱一箱送进机器人的抓取位"
+      },
+      "render_hints": {
+        "caption_source": "subtitle"
+      },
+      "script_meta_sha256": "82ce7c7997b4401a8b1252cafeb098fae567fac1c22134443aaf41f80f288971",
+      "render_hints_sha256": "d1c2baea6100b7844b9c47da75e1b2c249a23ba286133fb4d2144a00cd4d3c73"
+    },
+    {
+      "position": 3,
+      "shot_id": "template-0003",
+      "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "大字：抓得稳 · 转得快\n副行：节拍才跟得上产线"
+        },
+        "camera_angle": "侧拍",
+        "camera_move": "固定",
+        "material_requirements": "一镜内看到抓起→转身的完整动作；方向正常；纸箱品牌字样不做特写，必要时打码",
+        "material_source": "素材库：食品码垛/食品（纸箱装牛奶，红色机械臂机位）",
+        "notes": "音效：机械臂伺服声压在转身处",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R4",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 3
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "侧拍",
+          "camera_move": "固定",
+          "card_content": "抓得稳 · 转得快\n节拍才跟得上产线",
+          "card_hint": "标题卡",
+          "card_layout": "headline_sub",
+          "shot_size": "中近景",
+          "subtitle": null,
+          "title": "抓稳转快",
+          "transition": "硬切",
+          "visual_description": "红色机械臂从输送带上抓起一箱牛奶，抬起、转身，把纸箱送到托盘上方",
+          "voice_text": "机器人从输送带上抓起整箱，抬起、转身，送到托盘上方。抓得稳、转得快，节拍才跟得上产线。"
+        },
+        "search_keywords": "红色机械臂 抓取 纸箱牛奶 抬起转身, red robot arm picks carton from conveyor and rotates",
+        "segment": "抓取",
+        "shot_size": "中近景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 4,
+          "sheet": "分镜脚本"
+        },
+        "transition": "硬切",
+        "v": 1,
+        "visual_description": "红色机械臂从输送带上抓起一箱牛奶，抬起、转身，把纸箱送到托盘上方"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "8eb38be37fd4950c2c7fab0b50d9b7388b5d26bb06375e51ebf165c727930fd4",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 4,
+      "shot_id": "template-0004",
+      "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "大字：一层码满\n大字：再码下一层"
+        },
+        "camera_angle": "平视",
+        "camera_move": "推",
+        "material_requirements": "托盘和已码好的层要同时入画；静态段可由渲染层做慢推",
+        "material_source": "素材库：食品码垛/食品（纸箱装牛奶，托盘已码多层的段落）",
+        "notes": "两行都写「大字：」= 两行一样大",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R5",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 4
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "推",
+          "card_content": "一层码满\n再码下一层",
+          "card_hint": "流程条",
+          "card_layout": "equal_lines",
+          "shot_size": "中景",
+          "subtitle": null,
+          "title": "逐层码放",
+          "transition": "硬切",
+          "visual_description": "机械臂把一箱牛奶放到红色托盘上，托盘上已经码好几层纸箱，镜头慢慢推近落箱位置",
+          "voice_text": "落到托盘上，每一箱的位置和朝向，都按设定好的垛型来，一层码满，再码下一层。"
+        },
+        "search_keywords": "机械臂 纸箱 放到托盘 多层, robot places carton onto pallet with stacked layers",
+        "segment": "落位",
+        "shot_size": "中景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 5,
+          "sheet": "分镜脚本"
+        },
+        "transition": "硬切",
+        "v": 1,
+        "visual_description": "机械臂把一箱牛奶放到红色托盘上，托盘上已经码好几层纸箱，镜头慢慢推近落箱位置"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "2fa65fc1e3a23a31a944e4f41964533c9cf88ad87d5e274d186126b4b15c9192",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 5,
+      "shot_id": "template-0005",
+      "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "—"
+        },
+        "camera_angle": "平视",
+        "camera_move": "拉",
+        "material_requirements": "托盘上要能看出多层；设备铭牌不做特写",
+        "material_source": "指定：食品码垛/食品/瓶装饮用水流水线自动化搬运码垛1.mp4 取段 t120–t136",
+        "notes": "本镜不上卡片；口播提叉车但画面不找叉车",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R6",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 5
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "拉",
+          "card_content": null,
+          "card_hint": null,
+          "card_layout": null,
+          "shot_size": "全景",
+          "subtitle": null,
+          "title": "整垛稳",
+          "transition": "叠化",
+          "visual_description": "托盘上多层整箱已经码齐，机械臂继续往上码，镜头拉开露出输送带和整个码垛工位",
+          "voice_text": "箱子码得整齐，整垛才稳。后面叉车转运、进库存放，都不容易倒箱、塌垛。"
+        },
+        "search_keywords": "托盘 多层 整箱 码齐 码垛工位全景, pallet stacked with layers of cartons wide shot",
+        "segment": "成垛",
+        "shot_size": "全景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 6,
+          "sheet": "分镜脚本"
+        },
+        "transition": "叠化",
+        "v": 1,
+        "visual_description": "托盘上多层整箱已经码齐，机械臂继续往上码，镜头拉开露出输送带和整个码垛工位"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "18930ffe4992d3a8cf6aa5edef5db11338325406498bc78ff5648ed41b4643c9",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 6,
+      "shot_id": "template-0006",
+      "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "箱型变了，改程序不改线"
+        },
+        "camera_angle": "平视",
+        "camera_move": "右摇",
+        "material_requirements": "要看得到多条输送带；方向正常；地面、护栏可入画",
+        "material_source": "素材库：食品码垛/食品（整箱瓶装水那两条，挑多条输送带同框的段落）",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R7",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 6
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "右摇",
+          "card_content": "箱型变了，改程序不改线",
+          "card_hint": "标题卡",
+          "card_layout": null,
+          "shot_size": "远景",
+          "subtitle": null,
+          "title": "换箱型",
+          "transition": "硬切",
+          "visual_description": "瓶装水车间里多条输送带并行，机械臂在输送带和托盘之间来回搬运整箱，镜头缓慢右摇扫过整条线",
+          "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。"
+        },
+        "search_keywords": "多条输送带 机械臂 搬运整箱 瓶装水车间, robot moves cases between parallel conveyors and pallet",
+        "segment": "柔性",
+        "shot_size": "远景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 7,
+          "sheet": "分镜脚本"
+        },
+        "transition": "硬切",
+        "v": 1,
+        "visual_description": "瓶装水车间里多条输送带并行，机械臂在输送带和托盘之间来回搬运整箱，镜头缓慢右摇扫过整条线"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "19e29b60382347f3a7a7b206802166d710d802b215ff8cc4cd98d776e52fa93f",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 7,
+      "shot_id": "template-0007",
+      "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "搬箱子交给机器人\n人只管巡线、换托盘"
+        },
+        "camera_angle": "平视",
+        "camera_move": "固定",
+        "material_requirements": "人只做中景以上，不出人脸特写；工服上的字样不做特写",
+        "material_source": "素材库：食品码垛/食品（整箱瓶装水，工人出镜的段落，如码垛1 的 t34 / t68 附近）",
+        "notes": "两行都不写标签 = 两行一样大（软件默认）",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R8",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 7
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "固定",
+          "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+          "card_hint": "对照卡",
+          "card_layout": null,
+          "shot_size": "中景",
+          "subtitle": null,
+          "title": "一人巡线",
+          "transition": "闪白",
+          "visual_description": "工人在码垛工位旁巡视、操作设备，身后机器人连续把整箱码到托盘上",
+          "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。"
+        },
+        "search_keywords": "工人 码垛工位 巡视 机器人 码放整箱, worker monitoring palletizing robot stacking cases",
+        "segment": "人机",
+        "shot_size": "中景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 8,
+          "sheet": "分镜脚本"
+        },
+        "transition": "闪白",
+        "v": 1,
+        "visual_description": "工人在码垛工位旁巡视、操作设备，身后机器人连续把整箱码到托盘上"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "36692dcecdbe9d2958d27c05b57ab039a55459a22d9fb0643bad93d1c2659c1d",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "position": 8,
+      "shot_id": "template-0008",
+      "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。",
+      "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+      "script_meta": {
+        "authored": {
+          "card_content": "参数卡：箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型"
+        },
+        "camera_angle": "平视",
+        "camera_move": "固定",
+        "material_requirements": "画面右侧留出放卡片的空间；只写要准备的项目，不写任何具体数字",
+        "material_source": "指定：食品码垛/食品/瓶装饮用水流水线自动化搬运码垛1.mp4 取段 t100–t116",
+        "notes": "字幕与口播不同：字幕做了压缩，口播照读",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R9",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 8
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "固定",
+          "card_content": "箱体尺寸 · 重量\n产线节拍（箱/小时）\n托盘规格\n目标垛型",
+          "card_hint": "参数列表",
+          "card_layout": "equal_lines",
+          "shot_size": "中景",
+          "subtitle": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型。",
+          "title": "先备四样",
+          "transition": "硬切",
+          "visual_description": "机械臂在托盘旁连续码放整箱瓶装水，托盘逐层码高，参数卡叠在画面右侧",
+          "voice_text": "想上一套码垛工作站，先把这四样准备好：箱子的尺寸和重量、每小时要码多少箱、托盘规格，还有目标垛型。"
+        },
+        "search_keywords": "机械臂 连续码放 整箱瓶装水 托盘, robot continuously stacking cases of bottled water on pallet",
+        "segment": "选型",
+        "shot_size": "中景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 9,
+          "sheet": "分镜脚本"
+        },
+        "transition": "硬切",
+        "v": 1,
+        "visual_description": "机械臂在托盘旁连续码放整箱瓶装水，托盘逐层码高，参数卡叠在画面右侧"
+      },
+      "render_hints": {
+        "caption_source": "subtitle"
+      },
+      "script_meta_sha256": "f046d1acbf8ab72e0fa394a51bfd1dae247acac83bf34104439528888589d3be",
+      "render_hints_sha256": "d1c2baea6100b7844b9c47da75e1b2c249a23ba286133fb4d2144a00cd4d3c73"
+    },
+    {
+      "position": 9,
+      "shot_id": "template-0009",
+      "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。",
+      "subtitle": null,
+      "script_meta": {
+        "authored": {
+          "card_content": "大字：把箱型、垛型发过来\n副行：照你的现场排一套码垛工位"
+        },
+        "camera_angle": "平视",
+        "camera_move": "拉",
+        "material_requirements": "收尾画面要稳，不要摇晃机位；纸箱品牌字样打码",
+        "material_source": "素材库：食品码垛/食品（纸箱装牛奶，托盘码满多层的段落）",
+        "notes": "配乐在最后 2 秒淡出",
+        "review": {
+          "acknowledged": [],
+          "ai_suggested": [],
+          "confirmed": [],
+          "status": "已确认",
+          "status_lines": [
+            "已确认",
+            "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对"
+          ],
+          "warnings": [
+            {
+              "action": "请按提示检查 Excel 原文",
+              "cell": "R10",
+              "code": "status_note",
+              "column": "来源/核对",
+              "field": "review",
+              "level": "warn",
+              "message": "Mac 原创（2026-09-23），非客户稿转换；画面按 9/17 冻结食品码垛素材核对",
+              "shot": 9
+            }
+          ]
+        },
+        "script_values": {
+          "camera_angle": "平视",
+          "camera_move": "拉",
+          "card_content": "把箱型、垛型发过来\n照你的现场排一套码垛工位",
+          "card_hint": "行动号召",
+          "card_layout": "headline_sub",
+          "shot_size": "全景",
+          "subtitle": null,
+          "title": "发来箱型",
+          "transition": "淡出",
+          "visual_description": "码好多层纸箱的红色托盘停在工位旁，镜头慢慢拉开，机器人继续下一轮码放",
+          "voice_text": "把你的箱型和垛型发过来，我们照着现场条件，帮你把这一段码垛工位排出来。"
+        },
+        "search_keywords": "托盘 码满 纸箱 机器人 继续码垛, fully stacked pallet of cartons robot continues next cycle",
+        "segment": "收束",
+        "shot_size": "全景",
+        "source": {
+          "format": "VAC-SB-1",
+          "row": 10,
+          "sheet": "分镜脚本"
+        },
+        "transition": "淡出",
+        "v": 1,
+        "visual_description": "码好多层纸箱的红色托盘停在工位旁，镜头慢慢拉开，机器人继续下一轮码放"
+      },
+      "render_hints": null,
+      "script_meta_sha256": "fa04c7229f77d5dddb58fbe611836c8a637a863249f078dac43cbfb4d3d610d6",
+      "render_hints_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,19 @@
+Codex，收到 51412010，排查结论清楚，谢谢。用户确认，下一步如下：
+
+**1. 接受新引擎，登记冻结 SHA 变更**
+- 冻结引擎 SHA 从 `be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf` 改为 `eadea1955d1aed3543de74fd647ede7f2e1638ae903b9bd056213e2e75ea9085`。
+- 理由：两份 exe 只在 COFF/debug timestamp 和 RSDS PDB GUID 上不同，屏蔽后逐字节相等（规范化 SHA `4425d757…413b`）；`3715aa4→4c6fb40` 的 Rust/Cargo/构建配置 diff 为空。证据引用 `e82be4c`。
+- 不换回旧引擎，不重编，不重打包。
+
+**2. 对现有 pkg5 执行验收（不重打包）**
+- 对象：`VideoAutoCut-runtime-0.5.15-agent-trial-pkg5.zip`（669984472 bytes，SHA-256 `662882de…02f5`）和 manifest（433 bytes，SHA-256 `c80642c7…a0c`）。执行前先复核这两个值没变。
+- 执行 30 verify、40 hash-report，各 1 次。
+- 包内容检查：列出包内文件清单；确认包内引擎 SHA = `eadea195…9085`。
+- 凭证扫描：确认包内不含 `release-upload.local.json`、`app.env`、models 配置，也不含其中任何凭证值（只记扫描方式和结果，不记内容）。
+- 任一步失败就原样 STOP 回帖，不自行排查修复。
+
+**3. 全过后收尾**
+- 收尾清理单独提交；回帖附文件清单、字节数、SHA-256、源提交号 `4c6fb40`、引擎 SHA、verify/hash/凭证扫描结果、日志摘要。
+- 然后停下，等用户看包。
+
+**边界不变**：不上传、不发布、不合 master。

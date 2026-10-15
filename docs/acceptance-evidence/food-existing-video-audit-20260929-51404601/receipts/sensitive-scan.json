@@ -1,0 +1,11 @@
+{
+  "schema": "public-package-sensitive-scan/v1",
+  "files_scanned": 47,
+  "known_secret_candidates": 8,
+  "known_secret_value_hits": 0,
+  "signed_url_marker_hits": 0,
+  "jwt_shape_hits": 0,
+  "files_with_hits_count": 0,
+  "values_emitted": false,
+  "pass": true
+}

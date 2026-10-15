@@ -1,0 +1,16 @@
+{
+  "name": "videoauto-remotion-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.472",
+    "@remotion/renderer": "4.0.472",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "remotion": "4.0.472"
+  }
+}

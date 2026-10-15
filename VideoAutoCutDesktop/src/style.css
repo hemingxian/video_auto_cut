@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "./styles/bundled-fonts.css";
+@import "./styles/base.css";
+@import "./styles/layout-refinements.css";
+@import "./styles/start-shot-plan.css";
+@import "./styles/voice-material-config.css";
+@import "./styles/updates-runtime.css";
+@import "./styles/material-workflow-task-center-theme.css";
+@import "./styles/material-library-components.css";
+
+@source not "../release";
+.preview-fixture-status {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 10000;
+  margin: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #172036;
+  color: #fff;
+}

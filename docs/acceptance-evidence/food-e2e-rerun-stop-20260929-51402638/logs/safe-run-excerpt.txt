@@ -1,0 +1,68 @@
+source stdout sha256=2772321d0a60e93328701e40d83910dd2746471cdb1e7474e4f7d9c326dc8466 bytes=669000
+stdout LF line 147: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc\voice\0001_voice.mp3
+stdout LF line 153: ASR task_id: a651e9fe-d364-45b4-85b4-13bddf8ffc37
+stdout LF line 154: ASR 状态: SUCCEEDED
+stdout LF line 156: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36\5fd170bd9683b5ee6162d8253317ccd6bd637ed362bd9d200633821616bc84bc\voice\0001_cues.json
+stdout LF line 170: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d\voice\0001_voice.mp3
+stdout LF line 176: ASR task_id: a0a400d3-6c95-447c-9cbc-60358f9cd84c
+stdout LF line 177: ASR 状态: SUCCEEDED
+stdout LF line 179: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73\63ee755b08ad3b961f65ecd012b9e9f60cd699248a1028366a167372034a286d\voice\0001_cues.json
+stdout LF line 193: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa\voice\0001_voice.mp3
+stdout LF line 199: ASR task_id: 3e795f78-ddf3-4b1a-ae6e-72fd52a85cb1
+stdout LF line 200: ASR 状态: SUCCEEDED
+stdout LF line 202: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac\f597fb056a9beb3640e4cf2d0e927c1658d6f78d73f9789a85e03cd8f98165fa\voice\0001_cues.json
+stdout LF line 216: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2\voice\0001_voice.mp3
+stdout LF line 222: ASR task_id: 4534b134-e266-4d49-b6c9-7ebd45833591
+stdout LF line 223: ASR 状态: SUCCEEDED
+stdout LF line 225: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22\b16038de933e3316c386aa71d9697ab00d9ef78e6027d4984ebea31d800938f2\voice\0001_cues.json
+stdout LF line 239: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c\voice\0001_voice.mp3
+stdout LF line 245: ASR task_id: 5db94539-099b-45f3-a91f-7b9b984aabdf
+stdout LF line 246: ASR 状态: SUCCEEDED
+stdout LF line 248: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59\d605ea30e50b5e178587d3f77085f52f30830e2966f6cb8c23a6a42e4531161c\voice\0001_cues.json
+stdout LF line 262: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033\voice\0001_voice.mp3
+stdout LF line 268: ASR task_id: e68191c7-3e93-41a7-82d2-2f1e96ee0152
+stdout LF line 269: ASR 状态: SUCCEEDED
+stdout LF line 271: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb\4ab93c0f1c63a3775ff4367ad093368799ccb2b4074f5edbf73b2ed5fbfe2033\voice\0001_cues.json
+stdout LF line 285: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c\voice\0001_voice.mp3
+stdout LF line 291: ASR task_id: e38a628a-9011-4b45-b8bc-0ed24a1faece
+stdout LF line 292: ASR 状态: SUCCEEDED
+stdout LF line 294: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b\238fd8975d2da439979d100914d5cdd5fda7bbaa44fca57ce7e63808c9012f8c\voice\0001_cues.json
+stdout LF line 308: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb\voice\0001_voice.mp3
+stdout LF line 314: ASR task_id: 599ba7bf-4da5-49eb-b644-5ba642726ecb
+stdout LF line 315: ASR 状态: SUCCEEDED
+stdout LF line 317: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393\2e2d3bd3bef26b338430dce7d5ec21e0693a1474cdf6d447b0f10243a1fe9efb\voice\0001_cues.json
+stdout LF line 331: voice saved: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7\voice\0001_voice.mp3
+stdout LF line 337: ASR task_id: e3731884-1193-4f5f-97a2-92ec44a5ba74
+stdout LF line 338: ASR 状态: SUCCEEDED
+stdout LF line 340: 分镜 #01 已生成 ASR 字幕时间轴: \\?\D:\autocut\video-auto-cut\VideoAutoCutDesktop\node_modules\.tmp\food-route-a-rerun-51402638-1f86b0b-20260929\formal-workspace\video\runs\20260929\food_route_a_rerun_51402638\.videoautocut\runs\run_175e3315e0624f028eba293d66a9dece\incremental-work\d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6\ef82b54403d62b9cb38e029b7c30462c9a569c9fc6aa8ad51a55c7e3711f48f7\voice\0001_cues.json
+source stderr sha256=b5bd16bb9243a9613310de3b26ff6e7596ec68437b1eac33c6a036f8f8cb3e25 bytes=44789
+stderr LF line 461: Traceback (most recent call last):
+stderr LF line 462:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\render_segment.py", line 480, in prepare_packaging
+stderr LF line 463:     overlay = render(shot, width, height, duration, directory, picture_bounds, plan=plan)
+stderr LF line 464:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+stderr LF line 465:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\template_packaging.py", line 327, in render_overlay
+stderr LF line 466:     subprocess.run(command, cwd=directory, env=env, stdout=log, stderr=subprocess.STDOUT, check=True, timeout=max(180, duration * 60))
+stderr LF line 467:   File "subprocess.py", line 548, in run
+stderr LF line 468:   File "subprocess.py", line 1026, in __init__
+stderr LF line 469:   File "subprocess.py", line 1538, in _execute_child
+stderr LF line 470: NotADirectoryError: [WinError 267] 目录名称无效。
+stderr LF line 471: 
+stderr LF line 472: During handling of the above exception, another exception occurred:
+stderr LF line 473: 
+stderr LF line 474: Traceback (most recent call last):
+stderr LF line 475:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\render_segment.py", line 678, in <module>
+stderr LF line 476:     main()
+stderr LF line 477:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\render_segment.py", line 600, in main
+stderr LF line 478:     overlay, packaging_plan = prepare_packaging(
+stderr LF line 479:                               ^^^^^^^^^^^^^^^^^^
+stderr LF line 480:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\render_segment.py", line 487, in prepare_packaging
+stderr LF line 481:     overlay = render(shot, width, height, duration, directory, picture_bounds)
+stderr LF line 482:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+stderr LF line 483:   File "D:\Video Edit\VideoAutoCut-step4-audit\44959b4-20260924-envprep\runtime\44959b4-envprep\VideoAutoCut\tools\template_packaging.py", line 327, in render_overlay
+stderr LF line 484:     subprocess.run(command, cwd=directory, env=env, stdout=log, stderr=subprocess.STDOUT, check=True, timeout=max(180, duration * 60))
+stderr LF line 485:   File "subprocess.py", line 548, in run
+stderr LF line 486:   File "subprocess.py", line 1026, in __init__
+stderr LF line 487:   File "subprocess.py", line 1538, in _execute_child
+stderr LF line 488: NotADirectoryError: [WinError 267] 目录名称无效。
+stderr LF line 489: 
+stderr LF line 490: 错误: 命令执行失败: python render_segment, 退出码: Some(1)

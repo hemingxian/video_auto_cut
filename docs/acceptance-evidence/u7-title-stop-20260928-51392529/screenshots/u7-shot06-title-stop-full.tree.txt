@@ -1,0 +1,260 @@
+Window: "VideoAutoCut Studio", App: electron.exe.
+	0 窗口 VideoAutoCut Studio Secondary Actions: Raise
+		1 窗格 (disabled)
+		2 区域 VideoAutoCut Studio
+			3 区域
+				4 区域
+					5 区域
+						6 区域
+							7 区域
+								8 区域
+									10 文档 VideoAutoCut Studio Value: http://127.0.0.1:4173/ ID: RootWebArea
+										11 组
+											12 组 ID: root
+												13 区域 Notifications alt+T
+												15 补充
+													16 组 VideoAutoCut Studio Description: VideoAutoCut Studio v0.5.14
+													17 导航
+														18 按钮 开始任务
+														19 按钮 历史任务
+														20 按钮 素材库
+														21 按钮 音色克隆
+													22 按钮 账号 Description: info@evsrobot.com 余额 ¥98.53
+													23 按钮 设置
+												24 主要
+													25 章节标题 开始任务
+														26 按钮 脚本文件
+														27 组合框 (settable, string) 素材来源模式 Description: 先匹配本地和当前账号云端素材，未命中时从 Pexels 下载。 Value: 素材库 → Pexels
+															28 文本 素材库 → Pexels
+														29 文本 先匹配本地和当前账号云端素材，未命中时从 Pexels 下载。
+														30 按钮 素材设置
+														31 按钮 查看日志
+														32 按钮 (disabled) 预览分镜
+														182 按钮 重新生成全部 Description: 创建新运行，保留原有结果
+														33 按钮 继续生成视频
+													34 按钮 任务队列 1 个
+													35 文本 当前流程
+													36 组 任务执行控制
+														37 按钮 (disabled) 暂停当前
+													38 文本 分镜方案已就绪，下一步生成视频
+													39 文本 07_表格版_混合_show判定_食品码垛_CN.xlsx · 29%
+													40 进度指示器 当前流程进度 Value: 29
+													41 文章
+														42 文本 读取脚本
+														184 文本 run_20260928_180626_356_39012
+														43 组 Description: done
+													44 文章
+														45 文本 整理分镜
+														185 文本 分镜可编辑
+														46 组 Description: done
+													47 文章
+														48 文本 优化搜索词
+														49 组 Description: pending
+													50 文章
+														51 文本 下载素材
+														52 文本 0 个候选片段
+														53 组 Description: pending
+													186 文章
+														187 文本 口播字幕
+														188 组 Description: pending
+													54 文章
+														55 文本 剪辑片段
+														56 文本 0 个剪辑片段
+														57 组 Description: pending
+													58 文章
+														59 文本 合成成片
+														60 组 Description: pending
+													61 文本 分镜工作区
+													62 文本 分镜已就绪
+													63 按钮 编辑分镜
+													64 按钮 刷新
+													189 按钮 目录
+													190 文本 当前任务：
+													191 文本 07_表格版_混合_show判定_食品码垛_CN.xlsx
+													192 文本 食品码垛工位观察（混合上屏）
+													193 文本 7
+													194 文本 分镜
+													195 文本 0
+													196 文本 已绑定素材的分镜
+													197 文本 0
+													198 文本 下载候选片段
+													199 文本 0
+													200 文本 剪辑片段
+													201 按钮 01 来料到位是第一道关 袋装物料码垛，先看来料怎样到位，再看机械臂如何抓取和落放。 7s 0 候选 0 剪辑
+													202 按钮 02 袋料和箱体要分开核对 袋料和箱体的外形不同，来料朝向、抓取位置和支撑方式要分别核对。 8s 0 候选 0 剪辑
+													203 按钮 03 镜头B 抓具带料抬起、转向时，要检查包装与工具有没有碰到输送带护栏。 7s 0 候选 0 剪辑
+													204 按钮 04 落盘确认 包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。 7s 0 候选 0 剪辑
+													205 按钮 05 换型准备 换包装之前，先备好新包装样件、目标垛型和现场布局，再逐项确认要调整的抓具与路径。 8s 0 候选 0 剪辑
+													206 按钮 06 工位衔接 把取料端、输送线和托盘位置放在一起看，更容易看清工位之间的衔接。 8s 0 候选 0 剪辑
+													207 按钮 07 欢迎带着包装形态来试 动态画面只能帮着理解工位配置，破包、滑移和满垛稳定性还是要在现场试。 8s 0 候选 0 剪辑
+													208 文本 04
+													209 文本 落盘确认
+													210 文本 7s
+													211 文本 0
+													212 文本 候选
+													213 文本 0
+													214 文本 剪辑
+													215 按钮 分镜内容
+													216 按钮 候选片段 0
+													217 按钮 剪辑片段 0
+													218 按钮 未关联 0
+													219 文本 口播文案
+													220 文本 包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。
+													221 文本 素材搜索词
+													222 文本 boxed drinks placed on pallet with existing layers
+													223 文本 画面要求
+													224 文本 boxed beverage case being placed on plastic pallet with already stacked lower layer visible
+													225 对话框 编辑分镜 Secondary Actions: Raise
+														226 文本 编辑分镜
+														227 文本 当前任务：07_表格版_混合_show判定_食品码垛_CN
+														228 按钮 刷新
+														229 按钮 目录
+														230 按钮 保存
+														231 按钮 关闭
+														232 文本 主题
+														233 编辑 (settable, string) 视频主题 Description: 视频主题 Value: 食品码垛工位观察（混合上屏）
+														234 文章
+															235 文本 01
+															236 文本 来料到位是第一道关
+															237 文本 7s
+															238 文本 分镜标题
+															239 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 来料到位是第一道关
+															240 文本 口播文案
+															241 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 袋装物料码垛，先看来料怎样到位，再看机械臂如何抓取和落放。
+															242 文本 素材搜索词
+															243 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: white packaged bags on conveyor belt
+															244 文本 想要的画面
+															245 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: white packaging bags queuing on a conveyor belt, medium shot showing conveyor and guardrails
+															246 文本 剪辑要求
+															247 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															248 文本 分镜素材
+															249 文本 按工作台的素材来源模式获取素材
+															250 组 分镜素材来源
+																251 按钮 自动获取
+																252 按钮 指定素材
+															253 按钮 (disabled) 选择素材
+														254 文章
+															255 文本 02
+															256 文本 袋料和箱体要分开核对
+															257 文本 8s
+															258 文本 分镜标题
+															259 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 袋料和箱体要分开核对
+															260 文本 口播文案
+															261 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 袋料和箱体的外形不同，来料朝向、抓取位置和支撑方式要分别核对。
+															262 文本 素材搜索词
+															263 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: packaging bags and boxed drinks on separate conveyors
+															264 文本 想要的画面
+															265 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: packaging bags and boxed beverage cases moving on two parallel conveyors, contrast shot
+															266 文本 剪辑要求
+															267 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															268 文本 分镜素材
+															269 文本 按工作台的素材来源模式获取素材
+															270 组 分镜素材来源
+																271 按钮 自动获取
+																272 按钮 指定素材
+															273 按钮 (disabled) 选择素材
+														274 文章
+															275 文本 03
+															276 文本 镜头B
+															277 文本 7s
+															278 文本 分镜标题
+															279 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 镜头B
+															280 文本 口播文案
+															281 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 抓具带料抬起、转向时，要检查包装与工具有没有碰到输送带护栏。
+															282 文本 素材搜索词
+															283 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: robot arm lifting and rotating package
+															284 文本 想要的画面
+															285 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: robot arm lifting material with full view of package and gripper outline, checking clearance from conveyor guardrail
+															286 文本 剪辑要求
+															287 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															288 文本 分镜素材
+															289 文本 按工作台的素材来源模式获取素材
+															290 组 分镜素材来源
+																291 按钮 自动获取
+																292 按钮 指定素材
+															293 按钮 (disabled) 选择素材
+														294 文章
+															295 文本 04
+															296 文本 落盘确认
+															297 文本 7s
+															298 文本 分镜标题
+															299 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 落盘确认
+															300 文本 口播文案
+															301 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。
+															302 文本 素材搜索词
+															303 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: boxed drinks placed on pallet with existing layers
+															304 文本 想要的画面
+															305 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: boxed beverage case being placed on plastic pallet with already stacked lower layer visible
+															306 文本 剪辑要求
+															307 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															308 文本 分镜素材
+															309 文本 按工作台的素材来源模式获取素材
+															310 组 分镜素材来源
+																311 按钮 自动获取
+																312 按钮 指定素材
+															313 按钮 (disabled) 选择素材
+														314 文章
+															315 文本 05
+															316 文本 换型准备
+															317 文本 8s
+															318 文本 分镜标题
+															319 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 换型准备
+															320 文本 口播文案
+															321 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 换包装之前，先备好新包装样件、目标垛型和现场布局，再逐项确认要调整的抓具与路径。
+															322 文本 素材搜索词
+															323 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: worker checking new packaging sample at palletizing station
+															324 文本 想要的画面
+															325 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: worker examining new packaging sample beside palletizing station, background shows finished pallet area
+															326 文本 剪辑要求
+															327 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															328 文本 分镜素材
+															329 文本 按工作台的素材来源模式获取素材
+															330 组 分镜素材来源
+																331 按钮 自动获取
+																332 按钮 指定素材
+															333 按钮 (disabled) 选择素材
+														334 文章
+															335 文本 06
+															336 文本 工位衔接
+															337 文本 8s
+															338 文本 分镜标题
+															339 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 工位衔接
+															340 文本 口播文案
+															341 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 把取料端、输送线和托盘位置放在一起看，更容易看清工位之间的衔接。
+															342 文本 素材搜索词
+															343 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: palletizing robots operating simultaneously in workshop
+															344 文本 想要的画面
+															345 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: workshop interior showing pickup point, conveyor line, and pallet position in one frame, multiple palletizing robots working
+															346 文本 剪辑要求
+															347 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															348 文本 分镜素材
+															349 文本 按工作台的素材来源模式获取素材
+															350 组 分镜素材来源
+																351 按钮 自动获取
+																352 按钮 指定素材
+															353 按钮 (disabled) 选择素材
+														354 文章
+															355 文本 07
+															356 文本 欢迎带着包装形态来试
+															357 文本 8s
+															358 文本 分镜标题
+															359 编辑 (settable, string) 分镜标题 Description: 例如：①爆点 Value: 欢迎带着包装形态来试
+															360 文本 口播文案
+															361 编辑 (settable, string) 口播文案 Description: 这一段最终要朗读的文案 Value: 动态画面只能帮着理解工位配置，破包、滑移和满垛稳定性还是要在现场试。
+															362 文本 素材搜索词
+															363 编辑 (settable, string) 素材搜索词 Description: 用来搜索素材，建议短而准 Value: robot placing boxed drinks on pallet revealing finished pallet area
+															364 文本 想要的画面
+															365 编辑 (settable, string) 想要的画面 Description: 描述这一段需要什么画面，比如主体、场景、风格 Value: robot arm placing boxed beverage case onto pallet, camera pulls back to reveal completed pallet storage area
+															366 文本 剪辑要求
+															367 编辑 (settable, string) 剪辑要求 Description: 画面剪辑要求、动画效果、卡片提示等
+															368 文本 分镜素材
+															369 文本 按工作台的素材来源模式获取素材
+															370 组 分镜素材来源
+																371 按钮 自动获取
+																372 按钮 指定素材
+															373 按钮 (disabled) 选择素材
+								9 区域
+
+Document text: ```
+￼
+```

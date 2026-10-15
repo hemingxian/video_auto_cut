@@ -1,0 +1,28 @@
+{
+  "family": "Noto Sans CJK SC",
+  "version": "2.004",
+  "license": "SIL Open Font License 1.1",
+  "source_repository": "https://github.com/notofonts/noto-cjk",
+  "source_revision": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+  "source_tag": "Sans2.004",
+  "copyright": [
+    "© 2014-2021 Adobe (http://www.adobe.com/)."
+  ],
+  "files": [
+    {
+      "file": "NotoSansCJKsc-Regular.otf",
+      "size": 16437364,
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "file": "NotoSansCJKsc-Bold.otf",
+      "size": 17002248,
+      "sha256": "b5f0d1a190a7f9b43c310a8850630af12553df32c4c050543f9059732d9b4c0a"
+    },
+    {
+      "file": "LICENSE",
+      "size": 4393,
+      "sha256": "88f117575237307bdd86a17ef15e21790fc9a662fe4dfb103ca1ca077f0d9982"
+    }
+  ]
+}

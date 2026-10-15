@@ -1,0 +1,51 @@
+{
+  "schema": "food-shortroot-call-ledger/v1",
+  "formal_engine_spawns": 1,
+  "manual_retries": 0,
+  "imports": 0,
+  "tts": {
+    "model": "cosyvoice-v3-flash",
+    "observed_success": 9
+  },
+  "asr": {
+    "model": "qwen3-asr-flash-filetrans",
+    "observed_success": 9
+  },
+  "subtitle_split": {
+    "model": "qwen-plus",
+    "wrapper_invocations_source_config_derived": 22,
+    "direct_http_count": "unknown",
+    "timing_map_extra": 0
+  },
+  "embedding": {
+    "chunks_observed": 24,
+    "queries_observed": 9
+  },
+  "material_agent": {
+    "model": "qwen3.6-plus",
+    "sessions": 9,
+    "all_ok": true,
+    "same_formal_builtin_supplemental_review_retries": 1,
+    "manual_retry": 0,
+    "direct_http_count": "unknown"
+  },
+  "packaging": {
+    "card_bearing_decision_logs": 7,
+    "deterministic_script_label": 7,
+    "model_calls_observed": 0,
+    "rendered_clips": 9
+  },
+  "bgm": {
+    "schema": "bgm-summary/v1",
+    "provider": "openverse-audio",
+    "selected_title": "Soundscape - Last 31 - Cinematic Piano",
+    "license": "CC BY 4.0",
+    "search_attempts_observed": 3,
+    "download_candidates_attempted_observed": 1,
+    "model_calls": 0,
+    "mix_completed": true,
+    "source": "safe redacted formal log lines 3176-3206 and 3261",
+    "temporary_urls_included": false
+  },
+  "evidence_limit": "Counts distinguish observed artifacts/log markers, source/config-derived wrapper invocations, and unknown lower-level HTTP request totals."
+}

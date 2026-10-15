@@ -1,0 +1,33 @@
+{
+  "kind": "root-independent-badshot-51391164-review",
+  "source_sha": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "metadata": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\raw-electron-stdout\\observer-34724-seq-3-child-42308-metadata.json",
+  "outer_engine_exit": 1,
+  "inner_normalize_exit": 2,
+  "shots": 1,
+  "blocked": 1,
+  "warnings": 0,
+  "blocked_fact": [
+    "A2",
+    -1,
+    "镜号",
+    "shot_no_invalid"
+  ],
+  "stdout_literal_AI_lines": 0,
+  "model_path_markers": 0,
+  "streams": {
+    "stdout": {
+      "bytes": 2080,
+      "sha256": "ba9481f75830e3b4eec3a209eb21a190cfeed1007e653d450c077741c2b79027"
+    },
+    "stderr": {
+      "bytes": 250,
+      "sha256": "7a264856d9e3d5ff101e838ac142e9dcb9974e7c06df77833c30a01f6427e18d"
+    },
+    "vacut_events": {
+      "bytes": 625,
+      "sha256": "6cbb490c9b663ac2a1ae061da8806026b8f045a7c571e8aa77a837d98c9c5f5f"
+    }
+  },
+  "pass": true
+}

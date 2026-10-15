@@ -1,0 +1,4 @@
+* text eol=lf
+raw/** -text
+screenshots/*.jpg -text
+screenshots/*.png -text

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VideoAutoCut Studio 使用帮助：从安装、脚本导入和素材设置，到分镜编辑、视频生成与常见问题处理。" />
+  <title>使用帮助 - VideoAutoCut Studio</title>
+  <link rel="icon" href="../assets/app-icon.png" />
+  <link rel="stylesheet" href="../assets/site.css" />
+  <link rel="stylesheet" href="../assets/help.css" />
+</head>
+<body class="help-page">
+  <a class="skip-link" href="#help-content">跳到帮助内容</a>
+
+  <header class="site-header" data-header>
+    <div class="header-inner">
+      <a class="brand" href="../index.html" aria-label="返回 VideoAutoCut Studio 首页">
+        <img src="../assets/app-icon.png" alt="" />
+        <span><b>VideoAutoCut</b><i> Studio</i></span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="../index.html#top">产品概览</a>
+        <a href="../index.html#pipeline">工作流程</a>
+        <a href="../index.html#vision">素材匹配</a>
+        <a class="active active-link" href="#guide">使用帮助</a>
+        <a href="../index.html#download">下载</a>
+        <span class="nav-indicator" aria-hidden="true"></span>
+      </nav>
+      <a class="nav-download" href="../index.html#download">
+        <span class="label-full">下载 Windows 版</span>
+        <span class="label-short">下载</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="guide" class="help-main">
+    <section class="help-hero">
+      <div class="help-hero-copy">
+        <p class="help-eyebrow">VideoAutoCut Studio 使用帮助</p>
+        <h1>从脚本到成片，<br />一步步完成第一条视频。</h1>
+        <p class="help-lead">
+          这份说明按照软件中的真实操作顺序编写。第一次使用可以从“快速生成第一条视频”开始，
+          遇到问题时再查看对应功能或常见问题。
+        </p>
+        <div class="help-meta" aria-label="文档信息">
+          <span>Windows x64</span>
+          <span>适用于 <b data-release-version aria-live="polite">获取中…</b></span>
+          <span>更新于 2026-07-29</span>
+        </div>
+      </div>
+
+      <nav class="help-entry-grid" aria-label="常用帮助入口">
+        <a href="#quick-start">
+          <span>01</span>
+          <strong>快速开始</strong>
+          <em>用一个脚本生成视频</em>
+        </a>
+        <a href="#scripts">
+          <span>02</span>
+          <strong>准备脚本</strong>
+          <em>格式、内容与示例</em>
+        </a>
+        <a href="#materials">
+          <span>03</span>
+          <strong>管理素材</strong>
+          <em>导入、整理与搜索</em>
+        </a>
+        <a href="#troubleshooting">
+          <span>04</span>
+          <strong>问题排查</strong>
+          <em>失败后应该看哪里</em>
+        </a>
+      </nav>
+    </section>
+
+    <div class="help-mobile-nav">
+      <label for="help-section-select">跳转到</label>
+      <select id="help-section-select" data-help-select>
+        <option value="before-start">开始之前</option>
+        <option value="quick-start">快速生成第一条视频</option>
+        <option value="scripts">脚本如何准备</option>
+        <option value="material-settings">选择素材模式</option>
+        <option value="shots">预览和编辑分镜</option>
+        <option value="generation">生成视频与查看进度</option>
+        <option value="materials">使用素材库</option>
+        <option value="history">查看历史任务</option>
+        <option value="voice">克隆和使用音色</option>
+        <option value="settings">设置与软件更新</option>
+        <option value="troubleshooting">常见问题</option>
+      </select>
+    </div>
+
+    <div class="help-layout">
+      <aside class="help-toc" aria-label="使用帮助目录">
+        <strong>使用帮助</strong>
+        <nav>
+          <a href="#before-start">开始之前</a>
+          <a href="#quick-start">快速生成第一条视频</a>
+          <a href="#scripts">脚本如何准备</a>
+          <a href="#material-settings">选择素材模式</a>
+          <a href="#shots">预览和编辑分镜</a>
+          <a href="#generation">生成视频与查看进度</a>
+          <a href="#materials">使用素材库</a>
+          <a href="#history">查看历史任务</a>
+          <a href="#voice">克隆和使用音色</a>
+          <a href="#settings">设置与软件更新</a>
+          <a href="#troubleshooting">常见问题</a>
+        </nav>
+        <a class="help-toc-download" href="../index.html#download">下载最新版</a>
+      </aside>
+
+      <article id="help-content" class="help-content">
+        <section id="before-start" class="help-section">
+          <div class="help-section-heading">
+            <span>01</span>
+            <div>
+              <p>准备工作</p>
+              <h2>开始之前</h2>
+            </div>
+          </div>
+          <p>
+            从官网下载安装包并完成安装。启动 VideoAutoCut Studio 后，先登录已有账号；
+            没有账号时可以在登录窗口直接注册。
+          </p>
+          <div class="help-check-grid">
+            <div>
+              <strong>稳定的网络</strong>
+              <span>脚本解析、素材下载、语音和画面理解需要访问在线服务。</span>
+            </div>
+            <div>
+              <strong>足够的磁盘空间</strong>
+              <span>原素材、候选片段、音频和最终视频会保存在工作目录中。</span>
+            </div>
+            <div>
+              <strong>可用的脚本</strong>
+              <span>可以是文档、表格、纯文本、字幕或结构化 JSON。</span>
+            </div>
+          </div>
+          <div class="help-note">
+            <strong>第一次启动</strong>
+            <p>软件可能需要准备视频生成运行环境。保持软件开启，等待准备完成后再开始任务。</p>
+          </div>
+        </section>
+
+        <section id="quick-start" class="help-section">
+          <div class="help-section-heading">
+            <span>02</span>
+            <div>
+              <p>最快路径</p>
+              <h2>快速生成第一条视频</h2>
+            </div>
+          </div>
+          <ol class="help-steps">
+            <li>
+              <span>1</span>
+              <div>
+                <strong>添加脚本</strong>
+                <p>进入“开始任务”，点击右上角的“脚本文件”，选择一个脚本后点击“完成”。</p>
+              </div>
+            </li>
+            <li>
+              <span>2</span>
+              <div>
+                <strong>选择素材方式</strong>
+                <p>点击“素材设置”。需要软件搜索素材时选择“下载新素材”；已有视频已经放入素材库时选择“使用已有素材”。</p>
+              </div>
+            </li>
+            <li>
+              <span>3</span>
+              <div>
+                <strong>先检查分镜</strong>
+                <p>点击“预览分镜”，等待脚本解析完成。打开“编辑分镜”检查口播、搜索词、画面和剪辑要求，修改后点击“保存”。</p>
+              </div>
+            </li>
+            <li>
+              <span>4</span>
+              <div>
+                <strong>生成并查看结果</strong>
+                <p>点击“生成视频”。在“当前流程”查看处理步骤，完成后点击“播放成片”，也可以到“历史任务”中再次查看。</p>
+              </div>
+            </li>
+          </ol>
+          <div class="help-note is-accent">
+            <strong>推荐先预览分镜</strong>
+            <p>软件也支持直接生成，但先检查分镜更容易提前发现口播文案、搜索词或画面要求不准确的问题。</p>
+          </div>
+        </section>
+
+        <section id="scripts" class="help-section">
+          <div class="help-section-heading">
+            <span>03</span>
+            <div>
+              <p>输入内容</p>
+              <h2>脚本如何准备</h2>
+            </div>
+          </div>
+          <p>
+            软件可以理解没有固定表头的文档，但如果已经准备了分镜，建议按“一个分镜一组内容”的方式编写。
+            每个分镜至少写清楚分镜标题、时长、口播文案和画面内容；素材搜索词和剪辑要求可以按需补充。
+            这种写法更容易稳定解析，也方便生成前逐项检查。
+          </p>
+          <div class="help-format-row" aria-label="支持的脚本格式">
+            <span>Excel</span>
+            <span>Word</span>
+            <span>PDF</span>
+            <span>TXT / Markdown</span>
+            <span>CSV / JSON</span>
+            <span>SRT</span>
+          </div>
+          <div class="help-example">
+            <div class="help-example-head">
+              <strong>完整分镜脚本示例</strong>
+              <span>推荐格式，可直接复制修改</span>
+            </div>
+            <pre>视频标题：AI 如何改变视频制作流程
+预计时长：约 40 秒
+
+分镜 1｜传统制作流程
+时长：0-8 秒
+口播文案：
+过去制作一条完整视频，需要依次完成写稿、寻找素材、配音、字幕和剪辑。
+画面内容：
+夜晚的办公室里，视频编辑人员面对多块屏幕工作，屏幕上显示剪辑时间线。
+素材搜索词：
+video editor working late timeline
+剪辑要求：
+从编辑人员工作画面切到时间线特写，节奏稍快，突出步骤繁琐。
+
+分镜 2｜AI 整理分镜
+时长：8-18 秒
+口播文案：
+现在，AI 可以先理解脚本，把内容整理成清晰的分镜，并为每一段生成画面要求。
+画面内容：
+电脑屏幕上依次出现脚本文档、分镜列表和结构化的任务流程。
+素材搜索词：
+AI video workflow script storyboard
+剪辑要求：
+使用平滑推近镜头，重点展示脚本变成分镜列表的过程。
+
+分镜 3｜搜索和匹配素材
+时长：18-29 秒
+口播文案：
+系统会根据分镜搜索候选素材，再通过画面理解找到与文案语义匹配的片段。
+画面内容：
+素材缩略图快速排列，搜索结果被逐个筛选，最终选中的视频出现高亮。
+素材搜索词：
+video asset search media library
+剪辑要求：
+先展示多个候选素材，再聚焦到最终选中的画面；字幕保持清晰可读。
+
+分镜 4｜输出成片
+时长：29-40 秒
+口播文案：
+创作者仍然决定内容和表达，工具负责减少重复操作，让更多时间回到创作本身。
+画面内容：
+创作者检查最终视频，点击播放后露出满意的表情，最后停留在完成的成片画面。
+素材搜索词：
+content creator reviewing finished video
+剪辑要求：
+节奏逐渐放缓，结尾淡出；最后显示文字“把时间留给创作”。</pre>
+          </div>
+          <p class="help-caption">
+            字段名称不要求与示例完全一致，但口播文案、画面内容和剪辑要求不要混在同一句中。
+            字幕样式、进度条等统一画面设置请在软件“设置”页面配置，不要写进脚本示例。
+            需要同时处理多个脚本时，可以在“脚本文件”窗口继续点击“添加脚本”，软件会把它们加入任务队列并按顺序处理。
+          </p>
+        </section>
+
+        <section id="material-settings" class="help-section">
+          <div class="help-section-heading">
+            <span>04</span>
+            <div>
+              <p>素材范围</p>
+              <h2>选择素材模式</h2>
+            </div>
+          </div>
+          <div class="help-compare">
+            <article>
+              <span>模式 A</span>
+              <h3>下载新素材</h3>
+              <p>软件根据每个分镜的搜索词，从所选素材来源搜索并下载候选视频，再选择合适片段。</p>
+              <ul>
+                <li>适合还没有准备视频素材的任务</li>
+                <li>可以选择默认来源、Pexels、Pixabay 或 Wikimedia Commons</li>
+                <li>素材来源选项只在这个模式下生效</li>
+              </ul>
+            </article>
+            <article>
+              <span>模式 B</span>
+              <h3>使用已有素材</h3>
+              <p>软件从素材库和已有的语义索引中寻找与分镜画面要求相符的视频片段。</p>
+              <ul>
+                <li>适合使用企业、自有或已经下载的固定素材</li>
+                <li>开始任务前先在“素材库”中添加视频</li>
+                <li>不需要再选择外部素材来源</li>
+              </ul>
+            </article>
+          </div>
+          <div class="help-warning">
+            <strong>素材授权</strong>
+            <p>使用下载素材前，请根据实际发布场景确认素材平台的许可证、署名和使用限制。</p>
+          </div>
+        </section>
+
+        <section id="shots" class="help-section">
+          <div class="help-section-heading">
+            <span>05</span>
+            <div>
+              <p>生成前检查</p>
+              <h2>预览和编辑分镜</h2>
+            </div>
+          </div>
+          <p>
+            点击“预览分镜”后，软件只整理脚本并建立分镜，不会直接开始最终视频生成。
+            分镜准备完成后，“分镜工作区”会显示每段内容及其素材状态。
+          </p>
+          <div class="help-field-list">
+            <div><strong>分镜标题</strong><span>帮助快速识别这一段在视频中的作用。</span></div>
+            <div><strong>口播文案</strong><span>这一段最终用于配音和字幕的文字。</span></div>
+            <div><strong>素材搜索词</strong><span>下载新素材时用于搜索，建议简短、具体。</span></div>
+            <div><strong>想要的画面</strong><span>描述主体、场景、动作、镜头或画面风格。</span></div>
+            <div><strong>剪辑要求</strong><span>补充节奏、动画、卡片或其他剪辑要求。</span></div>
+          </div>
+          <div class="help-note">
+            <strong>修改后记得保存</strong>
+            <p>“编辑分镜”顶部出现“未保存”时，点击“保存”后再生成视频。</p>
+          </div>
+        </section>
+
+        <section id="generation" class="help-section">
+          <div class="help-section-heading">
+            <span>06</span>
+            <div>
+              <p>处理过程</p>
+              <h2>生成视频与查看进度</h2>
+            </div>
+          </div>
+          <p>
+            点击“生成视频”后，任务会进入队列。“当前流程”显示正在执行的阶段、整体进度和失败位置；
+            “分镜工作区”按分镜显示候选片段和已经剪辑的片段。
+          </p>
+          <div class="help-process">
+            <span>读取脚本</span><i></i>
+            <span>整理分镜</span><i></i>
+            <span>搜索素材</span><i></i>
+            <span>剪辑片段</span><i></i>
+            <span>配音字幕</span><i></i>
+            <span>合成成片</span>
+          </div>
+          <div class="help-action-grid">
+            <div>
+              <strong>任务队列</strong>
+              <p>查看等待中和执行中的任务，也可以停止当前任务。</p>
+            </div>
+            <div>
+              <strong>查看日志</strong>
+              <p>显示正在执行的具体命令、警告和失败原因。</p>
+            </div>
+            <div>
+              <strong>目录</strong>
+              <p>打开当前任务文件夹，查看脚本、音频、字幕、片段和输出文件。</p>
+            </div>
+            <div>
+              <strong>播放成片</strong>
+              <p>任务完成后使用系统播放器打开最终视频。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="materials" class="help-section">
+          <div class="help-section-heading">
+            <span>07</span>
+            <div>
+              <p>视频资源</p>
+              <h2>使用素材库</h2>
+            </div>
+          </div>
+          <p>
+            素材库用于保存和整理原始视频。点击“添加素材”导入视频，使用“新建文件夹”整理内容；
+            点击文件夹进入，点击视频可以直接预览。
+          </p>
+          <div class="help-action-grid">
+            <div>
+              <strong>文件夹搜索</strong>
+              <p>输入文件夹名称，快速找到已经整理好的素材分类。</p>
+            </div>
+            <div>
+              <strong>语义搜索</strong>
+              <p>用自然语言描述画面，例如“工业机器人在工厂里工作”。</p>
+            </div>
+            <div>
+              <strong>右键菜单</strong>
+              <p>在视频或文件夹上点击右键，可以重命名、删除或查看可用操作。</p>
+            </div>
+            <div>
+              <strong>素材目录</strong>
+              <p>在 Windows 文件资源管理器中打开软件管理的素材位置。</p>
+            </div>
+          </div>
+          <div class="help-note">
+            <strong>语义搜索没有结果时</strong>
+            <p>先确认视频已经成功导入，再换成更具体的画面描述重新搜索。</p>
+          </div>
+        </section>
+
+        <section id="history" class="help-section">
+          <div class="help-section-heading">
+            <span>08</span>
+            <div>
+              <p>结果管理</p>
+              <h2>查看历史任务</h2>
+            </div>
+          </div>
+          <p>
+            “历史任务”保留已经建立的任务目录。先在左侧选择任务，再在右侧查看输出文件。
+            已生成最终视频的任务会显示“已完成”标识。
+          </p>
+          <ul class="help-bullets">
+            <li><b>播放视频：</b>打开当前任务的最终成片。</li>
+            <li><b>目录：</b>打开任务在 Windows 中的保存位置。</li>
+            <li><b>查看日志：</b>检查生成过程、警告和失败原因。</li>
+            <li><b>任务文件：</b>查看或删除任务产生的视频、音频、字幕、图片和数据文件。</li>
+          </ul>
+        </section>
+
+        <section id="voice" class="help-section">
+          <div class="help-section-heading">
+            <span>09</span>
+            <div>
+              <p>声音设置</p>
+              <h2>克隆和使用音色</h2>
+            </div>
+          </div>
+          <ol class="help-inline-steps">
+            <li><span>1</span><p>在“音色克隆”中点击“添加音频”，选择 MP3、WAV 或 M4A 声音样本。</p></li>
+            <li><span>2</span><p>选择声音模板，填写只包含英文字母和数字的音色前缀。</p></li>
+            <li><span>3</span><p>点击“创建音色”，等待处理完成。</p></li>
+            <li><span>4</span><p>在“已克隆音色”中选择并应用需要使用的音色。</p></li>
+          </ol>
+          <div class="help-warning">
+            <strong>请只使用有权使用的声音</strong>
+            <p>克隆他人声音前应获得明确授权，不要用于冒充、欺骗或未经允许的内容发布。</p>
+          </div>
+        </section>
+
+        <section id="settings" class="help-section">
+          <div class="help-section-heading">
+            <span>10</span>
+            <div>
+              <p>软件配置</p>
+              <h2>设置与软件更新</h2>
+            </div>
+          </div>
+          <div class="help-settings-grid">
+            <div>
+              <strong>数据目录</strong>
+              <p>运行环境、素材、历史任务、临时文件和默认成品的保存位置。修改后重启生效。</p>
+            </div>
+            <div>
+              <strong>基础设置</strong>
+              <p>设置默认素材来源、每个分镜下载数量和素材最大时长。</p>
+            </div>
+            <div>
+              <strong>搜索与解析</strong>
+              <p>设置素材匹配阈值、候选数量和脚本解析相关参数。</p>
+            </div>
+            <div>
+              <strong>画面样式</strong>
+              <p>调整字幕字体、字号、位置、颜色和底部进度条模板。</p>
+            </div>
+            <div>
+              <strong>关于与更新</strong>
+              <p>查看客户端和视频生成引擎版本，检查并下载可用更新。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="troubleshooting" class="help-section">
+          <div class="help-section-heading">
+            <span>11</span>
+            <div>
+              <p>遇到问题</p>
+              <h2>常见问题</h2>
+            </div>
+          </div>
+          <div class="help-faq">
+            <details>
+              <summary>“预览分镜”按钮为什么不能点击？</summary>
+              <div class="help-faq-answer"><div>
+                <p>先点击“脚本文件”并至少添加一个脚本。脚本路径有效后，预览分镜按钮才会启用。</p>
+              </div></div>
+            </details>
+            <details>
+              <summary>为什么素材搜索不到或画面不合适？</summary>
+              <div class="help-faq-answer"><div>
+                <p>打开“编辑分镜”，把“素材搜索词”改得更短、更具体，并在“想要的画面”中补充主体、场景和动作。使用已有素材模式时，也要先确认视频已经导入素材库。</p>
+              </div></div>
+            </details>
+            <details>
+              <summary>任务失败后应该先看哪里？</summary>
+              <div class="help-faq-answer"><div>
+                <p>先在“当前流程”确认失败阶段，再点击“查看日志”阅读最后一段错误。历史任务中也可以重新打开任务日志和对应目录。</p>
+              </div></div>
+            </details>
+            <details>
+              <summary>生成过程中可以关闭软件吗？</summary>
+              <div class="help-faq-answer"><div>
+                <p>不建议。视频生成引擎正在下载、分析或渲染时，请保持软件运行，等待任务成功或明确停止任务。</p>
+              </div></div>
+            </details>
+            <details>
+              <summary>软件更新一直停在处理中怎么办？</summary>
+              <div class="help-faq-answer"><div>
+                <p>先保持网络连接并等待当前下载或安装阶段结束。长时间没有变化时，重新启动软件后到“设置 → 关于与更新”再次检查。</p>
+              </div></div>
+            </details>
+            <details>
+              <summary>如何找到生成的视频和中间文件？</summary>
+              <div class="help-faq-answer"><div>
+                <p>在“开始任务”或“历史任务”中选择对应任务，然后点击“目录”。最终视频、日志以及任务产生的中间文件都保存在该任务目录中。</p>
+              </div></div>
+            </details>
+          </div>
+          <div class="help-support">
+            <div>
+              <span>仍然无法解决？</span>
+              <strong>反馈时请附上失败阶段和日志末尾内容。</strong>
+            </div>
+            <a href="mailto:sales@evsrobot.com">发送邮件：sales@evsrobot.com</a>
+          </div>
+        </section>
+
+        <a class="help-back-top" href="#guide">返回顶部</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer help-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="footer-logo" href="../index.html" aria-label="VideoAutoCut Studio">
+          <img src="../assets/app-icon.png" alt="" />
+          <span><b>VideoAutoCut</b><i> Studio</i></span>
+        </a>
+        <p>把脚本、素材和时间线交给同一个自动化任务。</p>
+        <div class="footer-status">
+          <span>Windows x64</span>
+          <span data-release-version aria-live="polite">获取中…</span>
+        </div>
+      </div>
+
+      <div class="footer-flow" aria-label="视频自动化流程">
+        <span>Script</span>
+        <i></i>
+        <span>Assets</span>
+        <i></i>
+        <span>Timeline</span>
+        <i></i>
+        <span>final.mp4</span>
+      </div>
+
+      <nav class="footer-links" aria-label="底部导航">
+        <div>
+          <strong>产品</strong>
+          <a href="../index.html">产品概览</a>
+          <a href="../index.html#pipeline">工作流程</a>
+          <a href="#guide">使用帮助</a>
+        </div>
+        <div>
+          <strong>下载</strong>
+          <a href="../index.html#download">Windows 安装包</a>
+          <a href="../index.html#vision">素材匹配</a>
+        </div>
+        <div>
+          <strong>联系</strong>
+          <a href="mailto:sales@evsrobot.com">sales@evsrobot.com</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VideoAutoCut Studio</span>
+      <a href="../index.html#download">下载 Windows 版</a>
+    </div>
+  </footer>
+
+  <script src="../assets/site.js?v=20260902-1"></script>
+  <script src="../assets/help.js"></script>
+</body>
+</html>

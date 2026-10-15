@@ -1,0 +1,27 @@
+[
+  {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\scripts\\start-phase-51391164.ps1",
+    "size": 6152,
+    "sha256": "7c2755c7516258ccad68e5d8c4b384967e762bf021afbd05dd4bc519c643629e"
+  },
+  {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\scripts\\verify-phase-runtime.ps1",
+    "size": 6817,
+    "sha256": "7ebd485bcfca4072f2b28ae993f8422f31475ac6320fa6b1a533e1c59b29e7c7"
+  },
+  {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\scripts\\verify-phase-capture.ps1",
+    "size": 16922,
+    "sha256": "e176451fd21b98245a3f823366b086fa9bee2c2e4909813c5efaea11dfd75e03"
+  },
+  {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\scripts\\electron-stdout-tap.cjs",
+    "size": 7768,
+    "sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc"
+  },
+  {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391164-5893f7d\\scripts\\PREP-README.md",
+    "size": 3657,
+    "sha256": "dd1d659e4281f3af03fdf56d4ab450c1766a9fd0b9b795e3e2ec6920c9c9eac7"
+  }
+]

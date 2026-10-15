@@ -1,0 +1,41 @@
+{
+  "schema": "vacut-script-reveal-fix-validation/v1",
+  "parent_head": "25fcd892e6ada40e2498e28e5aff9b7af26a0f71",
+  "fixed_head": "5893f7dc76bc87faa7c7907327807fb8893acb3d",
+  "before": {
+    "behavior_log": "tests/baseline-behavior-red.log",
+    "harness": "tests/baseline-script-reveal-harness.mjs",
+    "task_start_ok": true,
+    "dedicated_script_reveal_registered": false,
+    "old_blocked_button_used_workspace_folder_open": true,
+    "old_workspace_guard_rejected_external_script_parent": true,
+    "expected_assertion_failed": true
+  },
+  "after": {
+    "focused": {
+      "tests": 55,
+      "pass": 55,
+      "fail": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "log": "tests/after-review-focused-final.log"
+    },
+    "full": {
+      "tests": 421,
+      "pass": 419,
+      "fail": 0,
+      "skipped": 2,
+      "exit_code": 0,
+      "log": "tests/after-review-full-final.log"
+    },
+    "build": {
+      "exit_code": 0,
+      "log": "tests/after-review-change-build.log"
+    },
+    "changed_lint": {
+      "exit_code": 0,
+      "log_not_persisted": true,
+      "exit_receipt": "tests/after-review-test-lint-final-exit.txt"
+    }
+  }
+}

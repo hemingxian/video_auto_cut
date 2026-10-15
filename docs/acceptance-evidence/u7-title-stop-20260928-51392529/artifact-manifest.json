@@ -1,0 +1,272 @@
+{
+  "kind": "u7-title-stop-artifact-manifest-v1",
+  "source_sha": "1c307c384a2ffaeed02bf29d5da55b671d3b59ab",
+  "result": "STOP",
+  "copy_semantics": "byte-for-byte; no redaction, trimming, or newline normalization",
+  "files": [
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\activation-owner-38288.json",
+      "target": "raw/activation-owner-38288.json",
+      "bytes": 450,
+      "sha256": "4bdbcb5e1b6af37c085708088b1fe97b796fcccc5347e188dd4e14c56ac58fb0"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\preflight-owner-38288.json",
+      "target": "raw/preflight-owner-38288.json",
+      "bytes": 451,
+      "sha256": "e062213d47952fa7d5c389c90143f685cebc0fa6a08c9541034f4a32d7d727d7"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-1-child-32124-metadata.json",
+      "target": "raw/observer-38288-seq-1-child-32124-metadata.json",
+      "bytes": 1005,
+      "sha256": "6fedaef5d322180debb6d52b2ebde5fbed8ab6abf6c36e34bebefb856fc8587f"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-1-child-32124-stdout.bin",
+      "target": "raw/observer-38288-seq-1-child-32124-stdout.bin",
+      "bytes": 1882,
+      "sha256": "d6e5b441a7444c0387a13aa7b0ae0f930c03463c81b6da8e8edf4bd01890a49e"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-1-child-32124-stderr.bin",
+      "target": "raw/observer-38288-seq-1-child-32124-stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-1-child-32124-vacut-events.bin",
+      "target": "raw/observer-38288-seq-1-child-32124-vacut-events.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-metadata.json",
+      "target": "raw/observer-38288-seq-2-child-39012-metadata.json",
+      "bytes": 1009,
+      "sha256": "1f9f35c1395a28472c473cf5cfe1c4ebd0d51997c76f1c2b9fd01587a631baae"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-stdout.bin",
+      "target": "raw/observer-38288-seq-2-child-39012-stdout.bin",
+      "bytes": 8077,
+      "sha256": "611ebedcf101eff5678d215160f848b715a6cafdd3a8bcc6c995e7203f4168cc"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-stderr.bin",
+      "target": "raw/observer-38288-seq-2-child-39012-stderr.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-vacut-events.bin",
+      "target": "raw/observer-38288-seq-2-child-39012-vacut-events.bin",
+      "bytes": 1191,
+      "sha256": "639bfe985851b28342fd37705ff89362b7eeb9cae3ab0de996a7e30cbc2641a3"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\logs\\launcher.stdout.log",
+      "target": "raw/launcher.stdout.log",
+      "bytes": 456,
+      "sha256": "fa16ba0ecff2e91711587f166d5fc4fc05236018aa0b4491828be29638cd48c0"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\logs\\launcher.stderr.log",
+      "target": "raw/launcher.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\current-before-u7.json",
+      "target": "receipts/current-before-u7.json",
+      "bytes": 233,
+      "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\resume-preimport-after-escape.json",
+      "target": "receipts/resume-preimport-after-escape.json",
+      "bytes": 2904,
+      "sha256": "34969fb5c3e5e5286b02a0ea4b3eb39b276b939f0db243263017b4f04f551c39"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\phase-preparation.json",
+      "target": "receipts/phase-preparation.json",
+      "bytes": 4305,
+      "sha256": "d47a957b138155716ca43fcd7dd3ae79adda3f8fa5b707fd8fee5be353d8849b"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\pre-import-u7.json",
+      "target": "receipts/pre-import-u7.json",
+      "bytes": 1902,
+      "sha256": "c9c73b6a859a4880bb7b59906dcff054d59af271d015619d512c9c17e9099b31"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\launch-environment.json",
+      "target": "receipts/launch-environment.json",
+      "bytes": 1428,
+      "sha256": "4ca73355e8d21d7b4b5b6b0b6dd9775379bfabeed5bd1ea87731df4ad1a8ad86"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\phase-artifacts.json",
+      "target": "receipts/phase-artifacts.json",
+      "bytes": 1449,
+      "sha256": "d6cf05ea687cc8dcd2c9954d222e94b9e3b6d01baef05be686f244ad58fca7ee"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\U7-STOP-TITLE-MISMATCH.json",
+      "target": "receipts/U7-STOP-TITLE-MISMATCH.json",
+      "bytes": 9027,
+      "sha256": "ddd5f2638885f1159592efb3268efaee9670295101da3b277ab283a6505e6584"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\U7-STOP-TITLE-MISMATCH.md",
+      "target": "receipts/U7-STOP-TITLE-MISMATCH.md",
+      "bytes": 715,
+      "sha256": "861a7215c616dda0da476520bc9ca8ca09d591b20a7093052f38bedba967656c"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\receipts\\U7-SHUTDOWN.json",
+      "target": "receipts/U7-SHUTDOWN.json",
+      "bytes": 4024,
+      "sha256": "42f9a369f86cfe5b644ce79fe6d82af55da184a84355d4b2bc43771235915604"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\artifacts\\final-shots-stop.json",
+      "target": "artifacts/final-shots-stop.json",
+      "bytes": 6899,
+      "sha256": "fc4ba10e6948355642ae56e08347906ce52b7b158f19817b0e17e4d795a73815"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\artifacts\\runtime-current-post-stop.json",
+      "target": "artifacts/runtime-current-post-stop.json",
+      "bytes": 233,
+      "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\artifacts\\runtime-current-after-shutdown.json",
+      "target": "artifacts/runtime-current-after-shutdown.json",
+      "bytes": 233,
+      "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\electron-stdout-tap.cjs",
+      "target": "helpers/electron-stdout-tap.cjs",
+      "bytes": 7768,
+      "sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\PREP-README.md",
+      "target": "helpers/PREP-README.md",
+      "bytes": 3950,
+      "sha256": "8e473a2b508371a3f9cb1bee86e6829e7f7b5900bd15e50af13d2b7ac519dc36"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\start-u7-phase.ps1",
+      "target": "helpers/start-u7-phase.ps1",
+      "bytes": 6672,
+      "sha256": "47d7619ce6769b9c03e9f457a3b98aea3353466ff9a2b66a6e87ac49bee06d3e"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\verify-u7-capture.ps1",
+      "target": "helpers/verify-u7-capture.ps1",
+      "bytes": 16606,
+      "sha256": "56b7ac646d5aa88e795b10162da4c71e7eeda9ffec0cd415292bcbdc3ab763a3"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\scripts\\verify-u7-preimport.ps1",
+      "target": "helpers/verify-u7-preimport.ps1",
+      "bytes": 6159,
+      "sha256": "1331acd4782a432dcdc48d43c778e730f4f285f9aa3f4d2ce470fd6de2b7df75"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-drawer-before-import.jpeg",
+      "target": "screenshots/u7-drawer-before-import.jpeg",
+      "bytes": 60256,
+      "sha256": "c749ae9d18f27b92250daf3c0991fc5b6f064fabcbb35e858348c48411f023f5"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-drawer-before-import.tree.txt",
+      "target": "screenshots/u7-drawer-before-import.tree.txt",
+      "bytes": 5286,
+      "sha256": "ec2e07fb87f38a6955bf56ecb7e15833b2bdb2e8edf59dfdf0f1fa678b4cf72b"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-shot04-title-stop.jpeg",
+      "target": "screenshots/u7-shot04-title-stop.jpeg",
+      "bytes": 130921,
+      "sha256": "a12cbb9d334c5462284234bad631bf788b3614219f3eb4acbe7f7d52b05971c8"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-shot04-title-stop.tree.txt",
+      "target": "screenshots/u7-shot04-title-stop.tree.txt",
+      "bytes": 8014,
+      "sha256": "43bc74c0aa3de767d360df5318a71f7ee74d32c538c45d5fc7cb54ee16b1ea89"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-shot06-title-stop-full.jpeg",
+      "target": "screenshots/u7-shot06-title-stop-full.jpeg",
+      "bytes": 95074,
+      "sha256": "9c44e5f2adcacbc9485995c3e40d1c246f707a2506b8fda78cd94cb8d6881f1c"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\screenshots\\u7-shot06-title-stop-full.tree.txt",
+      "target": "screenshots/u7-shot06-title-stop-full.tree.txt",
+      "bytes": 16237,
+      "sha256": "25d8319403c657bd9d6c80c8206343d83e4561394043f67fa6184ed87b39cd03"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\.codex-handoff\\root-review-u7-title-stop-51392529.json",
+      "target": "receipts/root-review-u7-title-stop-51392529.json",
+      "bytes": 14533,
+      "sha256": "82927ccd5d51b3bb49be16bb7b0ea8bc3fd1c3c165956b42b31cff8bed99d045"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\.codex-handoff\\review-u7-title-stop.py",
+      "target": "helpers/review-u7-title-stop.py",
+      "bytes": 6056,
+      "sha256": "7c64ca38ca5e1a12994897c2a3fcf00ee67a7bbc992ecc64d8ba74e7f6f2fd0c"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\w2-3715aa4-20260924-134913-prep\\expected-author-fields\\row-6.strict-validation.json",
+      "target": "inputs/row-6.strict-validation.json",
+      "bytes": 8066,
+      "sha256": "e8d132ead6801bf7b6ecda1ec1bd5169695a9969c281ea4b810353cc03d72cf0"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-audit-51390393\\u7_offline_verify.py",
+      "target": "helpers/u7_offline_verify.py",
+      "bytes": 11450,
+      "sha256": "910e327074ed8660c0431803084c95869ec76e633495777e91f4176490055790"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\food-audit-51390393\\U7-ACTUAL-VERIFY.md",
+      "target": "helpers/U7-ACTUAL-VERIFY.md",
+      "bytes": 2892,
+      "sha256": "cc1d1f5bacffba3efe00271d92db1c1f2c600820bf13f44f4cdec8545ccdb14d"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-stop-offline-51392529-1c307c3\\u7-offline-actual-verification.json",
+      "target": "receipts/u7-offline-actual-verification.json",
+      "bytes": 13698,
+      "sha256": "ff08b6864ccb5628781e27422de2c80a07317d20deb35a72c38ea1125253810a"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-stop-offline-51392529-1c307c3\\u7-stop-summary.json",
+      "target": "receipts/u7-stop-summary.json",
+      "bytes": 3209,
+      "sha256": "4c2dca133beeaa9837f995e10412805d3d2e6789e1b94cb3e316c158ab364eb8"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\u7-stop-offline-51392529-1c307c3\\PUBLIC-README.md",
+      "target": "README.md",
+      "bytes": 3114,
+      "sha256": "8683f8e2635713d29965851d257c1bf6df6178c613467f50401c774793c72a74"
+    },
+    {
+      "source": "D:\\autocut\\video-auto-cut\\.codex-handoff\\root-u7-shutdown-review-51392529.json",
+      "target": "receipts/root-u7-shutdown-review-51392529.json",
+      "bytes": 1866,
+      "sha256": "f68a98afa50a98671067fe75350b0cb9b6822c6cedf65cb4de905b6119a5a531"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schema": "step5-s2-subtitle-evidence-v1",
+  "baseline_commit": "a3e64b48",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "rgb24",
+    "font": "Microsoft YaHei",
+    "font_size": 68
+  },
+  "real_food_shot_08": {
+    "label": "真实食品任务第8镜",
+    "source_after_whole_caption_normalization": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型",
+    "before_lines": [
+      "先备好四样：箱体尺寸和重量、每小时箱数、托盘规",
+      "格、目标垛型"
+    ],
+    "after_lines": [
+      "先备好四样：箱体尺寸和重量、每小时箱数、托盘",
+      "规格、目标垛型"
+    ],
+    "before_join": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型",
+    "after_join": "先备好四样：箱体尺寸和重量、每小时箱数、托盘规格、目标垛型",
+    "before_codepoints_exact": true,
+    "after_codepoints_exact": true,
+    "old_split": "托盘规/格",
+    "new_split": "托盘/规格",
+    "before_frame": "food08-before.png",
+    "after_frame": "food08-after.png",
+    "before_ass": "food08-before.ass",
+    "after_ass": "food08-after.ass",
+    "before_source": "既有真实最终第8镜单帧",
+    "after_source": "相同任务第8镜所选素材、真实卡片 overlay 与当前字幕 ASS 的离线单帧重建；仅输出 PNG"
+  },
+  "targeted_reproduction": {
+    "label": "无标点长句复现夹具，沿用真实第8镜底图；不是另一个客户镜头",
+    "source": "这是一个没有标点的真实工业字幕用于确认箱体尺寸重量托盘规格目标垛型和码垛节拍不会在换行边界被拆开",
+    "before_lines": [
+      "这是一个没有标点的真实工业字",
+      "幕用于确认箱体尺寸重量托盘规",
+      "格目标垛型和码垛节拍不会在换",
+      "行边界被拆开"
+    ],
+    "after_lines": [
+      "这是一个没有标点的真实工业",
+      "字幕用于确认箱体尺寸重量托盘",
+      "规格目标垛型和码垛节拍不会在",
+      "换行边界被拆开"
+    ],
+    "before_join": "这是一个没有标点的真实工业字幕用于确认箱体尺寸重量托盘规格目标垛型和码垛节拍不会在换行边界被拆开",
+    "after_join": "这是一个没有标点的真实工业字幕用于确认箱体尺寸重量托盘规格目标垛型和码垛节拍不会在换行边界被拆开",
+    "before_codepoints_exact": true,
+    "after_codepoints_exact": true,
+    "old_splits": [
+      "字/幕",
+      "托盘规/格"
+    ],
+    "new_boundaries": [
+      "工业/字幕",
+      "托盘/规格"
+    ],
+    "before_frame": "targeted-before.png",
+    "after_frame": "targeted-after.png",
+    "before_ass": "targeted-before.ass",
+    "after_ass": "targeted-after.ass",
+    "background": "两图均使用真实食品第8镜相同素材与固定时间点；无卡片；仅字幕 ASS 不同"
+  },
+  "u0020": {
+    "source": "AMR · 皮带机",
+    "wrapped_lines": [
+      "AMR ·",
+      " 皮带机"
+    ],
+    "joined": "AMR · 皮带机",
+    "exact_codepoints": true,
+    "source_u0020_count": 2,
+    "wrapped_u0020_count": 2,
+    "continuation_first_codepoint": "U+0020",
+    "assertion": "test_soft_wrap_retains_u0020_through_wrap_and_ass_output verifies wrap output, exact join, ASS visible lines, and U+0020 counts."
+  },
+  "acceptance_rule": "51487839: differences may be soft-line positions, legacy per-soft-line terminal punctuation removal, and restored U+0020 only. Tests independently verify all nine food subtitles/cards.",
+  "artifacts": [
+    {
+      "file": "food08-before.png",
+      "bytes": 610513,
+      "sha256": "20478b6f685589e655a52ca5d1a061df3d32b04b6511d5d9df79e1bf7ef40702"
+    },
+    {
+      "file": "food08-after.png",
+      "bytes": 799981,
+      "sha256": "a17b97fe134e0d96ac6bcf39b46e30855687c2243c9950bd880a0809a14ba0fa"
+    },
+    {
+      "file": "food08-before.ass",
+      "bytes": 779,
+      "sha256": "5675467a4daf8b5f14c9d60a21e81c2758a54cc9b8b558c22d4f0692adc005ab"
+    },
+    {
+      "file": "food08-after.ass",
+      "bytes": 777,
+      "sha256": "af9640d30b136dfa549929383a8ce070aac69c7f006fc24361a22a559bdd3777"
+    },
+    {
+      "file": "targeted-before.png",
+      "bytes": 749827,
+      "sha256": "63b7ffb6af7024c76759a6de43417f8c1b870794e9a8a861b22330d97842a739"
+    },
+    {
+      "file": "targeted-after.png",
+      "bytes": 745162,
+      "sha256": "efd02cf5d64faa90ca105e7a0c054ad02c3192c93c57158beeb8883a891c7316"
+    },
+    {
+      "file": "targeted-before.ass",
+      "bytes": 971,
+      "sha256": "b48e62659acccca862f8d56c2f6007fc9c1f5c991bdd9126c693aa0b227bbd1b"
+    },
+    {
+      "file": "targeted-after.ass",
+      "bytes": 971,
+      "sha256": "42c6109f19d564699a90ecc5bd0837d762be7af7751822870eb9a50ca55d8359"
+    }
+  ]
+}

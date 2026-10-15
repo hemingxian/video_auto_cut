@@ -1,0 +1,230 @@
+.recharge-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1250;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 7, 18, 0.66);
+  backdrop-filter: blur(8px);
+}
+
+.recharge-dialog {
+  width: min(420px, 100%);
+  border: 1px solid #2b3442;
+  border-radius: 18px;
+  background: #111418;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
+}
+
+.recharge-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px;
+  border-bottom: 1px solid #242b36;
+}
+
+.recharge-head strong {
+  display: block;
+  color: #f8fafc;
+  font-size: 16px;
+}
+
+.recharge-head span {
+  display: block;
+  margin-top: 4px;
+  color: #8b95a7;
+  font-size: 12px;
+}
+
+.recharge-body {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+}
+
+.recharge-amount-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.recharge-amount {
+  min-height: 42px;
+  border: 1px solid #2b3442;
+  border-radius: 12px;
+  color: #dbe4f0;
+  background: #0d1117;
+}
+
+.recharge-amount:hover {
+  border-color: #3b82f6;
+}
+
+.recharge-amount.active {
+  color: #ffffff;
+  border-color: #2563eb;
+  background: #182235;
+}
+
+.recharge-method-section {
+  display: grid;
+  gap: 8px;
+}
+
+.recharge-section-label {
+  color: #8b95a7;
+  font-size: 12px;
+}
+
+.recharge-method-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recharge-method-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: auto;
+  min-width: 112px;
+  min-height: 42px;
+  padding: 8px 11px;
+  border: 1px solid #2a3240;
+  border-radius: 12px;
+  color: #e8edf6;
+  background: #0d1117;
+  font-size: 13px;
+  text-align: left;
+}
+
+.recharge-method-card.active {
+  color: #ffffff;
+  border-color: #2563eb;
+  background: #182235;
+  box-shadow: none;
+}
+
+.recharge-alipay-icon-wrap {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+}
+
+.recharge-alipay-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.recharge-method-name {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.recharge-custom {
+  display: grid;
+  gap: 7px;
+}
+
+.recharge-custom span {
+  color: #8b95a7;
+  font-size: 12px;
+}
+
+.recharge-custom input {
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid #2a3240;
+  border-radius: 12px;
+  padding: 0 13px;
+  color: #e8edf6;
+  outline: none;
+  background: #0d1117;
+}
+
+.recharge-custom input:focus {
+  border-color: #3b82f6;
+}
+
+.recharge-submit {
+  min-height: 42px;
+}
+
+.recharge-error {
+  padding: 9px 11px;
+  border: 1px solid #7f1d1d;
+  border-radius: 12px;
+  color: #fecaca;
+  background: #2a1114;
+  font-size: 12px;
+}
+
+.recharge-qr-state {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  padding: 4px 0 2px;
+}
+
+.recharge-pay-meta {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  text-align: center;
+}
+
+.recharge-pay-meta strong {
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.recharge-pay-meta span {
+  margin: 0;
+  color: #8b95a7;
+  font-size: 12px;
+}
+
+.recharge-qr-wrap {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.24);
+}
+
+.recharge-qr-image {
+  display: block;
+  width: 190px;
+  height: 190px;
+}
+
+.recharge-qr-loading {
+  display: grid;
+  place-items: center;
+  width: 210px;
+  height: 210px;
+  border: 1px dashed #334155;
+  border-radius: 16px;
+  color: #8b95a7;
+  background: #0b1017;
+  font-size: 12px;
+}
+
+.recharge-qr-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+}

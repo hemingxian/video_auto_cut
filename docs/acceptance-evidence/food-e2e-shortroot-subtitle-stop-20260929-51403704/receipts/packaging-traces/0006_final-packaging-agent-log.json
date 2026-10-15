@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "policy": "packaging-agent-step1",
+  "backend": "pi",
+  "shot_id": "template-0006",
+  "shot_index": 6,
+  "started_at": "2026-09-29 15:12:54",
+  "template_version": 1,
+  "input": {
+    "title": "换箱型",
+    "card_content": "箱型变了，改程序不改线",
+    "card_hint": "标题卡",
+    "voice_text": "同一个工作站，箱型变了，改的主要是垛型程序，必要时再换抓具，不用动整条线。",
+    "clip_requirements": "要看得到多条输送带；方向正常；地面、护栏可入画",
+    "duration": 10.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "deterministic": {
+    "template": "title",
+    "show": true
+  },
+  "response_raw": {
+    "show": true,
+    "template": "title",
+    "reason": "card_content 单句主张"
+  },
+  "decision": {
+    "template": "title",
+    "show": true,
+    "reason": "card_content 单句主张",
+    "overridden": null,
+    "source": "agent",
+    "cache_key": "sha256:14e0edba190884c2025988042ef976e1d1eeeb05675743d21aa47e866263be64"
+  },
+  "agreed_with_deterministic": true,
+  "show_agreed_with_deterministic": true,
+  "decision_changed": false,
+  "cache": {
+    "hit": false,
+    "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\_agent_cache\\packaging.json"
+  },
+  "budget": {
+    "seconds": 90,
+    "call_timeout_seconds": 89,
+    "overran": false,
+    "internal_attempts": 2
+  },
+  "timings": {
+    "model_seconds": 3.746
+  },
+  "errors": [],
+  "fallback_used": false,
+  "ok": true,
+  "elapsed_seconds": 3.75,
+  "final_check": {
+    "width": 1920,
+    "height": 1080,
+    "sar": "1:1",
+    "audio": {
+      "codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "duration": 10.0,
+    "duration_delta": 0.0,
+    "duration_warned": false
+  }
+}

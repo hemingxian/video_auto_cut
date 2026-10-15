@@ -1,0 +1,9 @@
+[0] 
+[0]   VITE v8.0.16  ready in 1452 ms
+[0] 
+[0]   ➜  Local:   http://127.0.0.1:4173/
+[1] 
+[1] [auth:gateway-key] ready { keyId: 30, groupId: 4 }
+[1] node_modules\.bin\wait-on.cmd http://127.0.0.1:4173 && node_modules\.bin\cross-env.cmd VITE_DEV_SERVER_URL=http://127.0.0.1:4173 node_modules\.bin\electron.cmd . exited with code 0
+--> Sending SIGTERM to other processes..
+[0] node_modules\.bin\vite.cmd --host 127.0.0.1 --port 4173 exited with code 1

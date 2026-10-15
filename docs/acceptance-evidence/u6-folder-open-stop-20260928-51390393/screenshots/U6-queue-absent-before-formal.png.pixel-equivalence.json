@@ -1,0 +1,22 @@
+{
+  "schema": "vacut-sky-jpeg-to-png-pixel-equivalence/v1",
+  "source_original_jpeg": {
+    "basename": "U6-queue-absent-before-formal.jpg",
+    "bytes": 72375,
+    "sha256": "fbf3690b41c594020f5544bff83314c3751942912e4bf7baa597c2065524f12e",
+    "retained": "private audit source; not copied to public evidence"
+  },
+  "public_png": {
+    "basename": "U6-queue-absent-before-formal.png",
+    "bytes": 214845,
+    "sha256": "78c7954497213b4dab917ae1948cbc44c1d99a5e0e9d4ee198ec5fd4e33b47d4"
+  },
+  "decoded": {
+    "mode": "RGB",
+    "width": 1306,
+    "height": 853,
+    "source_pixel_sha256": "e7960bf1fc66c71fe412e825b96ceefdbbced777249820d8510de8a8382a84d6",
+    "png_pixel_sha256": "e7960bf1fc66c71fe412e825b96ceefdbbced777249820d8510de8a8382a84d6",
+    "pixel_equal": true
+  }
+}

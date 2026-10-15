@@ -1,0 +1,26 @@
+{
+  "schema": "w6-isolated-config-cleanup-51411758/v1",
+  "instruction": 51411758,
+  "target": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutDesktop\\release-upload.local.json",
+  "before": {
+    "exact_path": true,
+    "bytes": 337,
+    "sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+    "same_as_main": true,
+    "is_readonly": true,
+    "attributes": 33,
+    "is_reparse": false
+  },
+  "actions": [
+    "Set-ItemProperty -LiteralPath <fixed target> -Name IsReadOnly -Value false",
+    "Remove-Item -LiteralPath <fixed target>"
+  ],
+  "after": {
+    "target_absent": true,
+    "main_sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+    "main_unchanged": true,
+    "isolated_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+    "isolated_normal_status_empty": true
+  },
+  "config_content_recorded": false
+}

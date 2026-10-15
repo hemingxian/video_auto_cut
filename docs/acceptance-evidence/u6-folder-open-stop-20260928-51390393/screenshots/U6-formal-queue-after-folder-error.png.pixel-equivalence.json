@@ -1,0 +1,22 @@
+{
+  "schema": "vacut-sky-jpeg-to-png-pixel-equivalence/v1",
+  "source_original_jpeg": {
+    "basename": "U6-formal-queue-after-folder-error.jpg",
+    "bytes": 87433,
+    "sha256": "eaa84c66791c647aa8d90003c66d84603eccb89c75c685a9856b0a260b7392ea",
+    "retained": "private audit source; not copied to public evidence"
+  },
+  "public_png": {
+    "basename": "U6-formal-queue-after-folder-error.png",
+    "bytes": 302066,
+    "sha256": "ef5d09458c4443d30e94ef7773e1dda2c4a814fb627e24c7747d81f82d2553a6"
+  },
+  "decoded": {
+    "mode": "RGB",
+    "width": 1306,
+    "height": 853,
+    "source_pixel_sha256": "efa4ec8141b44e13220775fc3b3c7cfdf08a100e983064f34cace28b283243fd",
+    "png_pixel_sha256": "efa4ec8141b44e13220775fc3b3c7cfdf08a100e983064f34cace28b283243fd",
+    "pixel_equal": true
+  }
+}

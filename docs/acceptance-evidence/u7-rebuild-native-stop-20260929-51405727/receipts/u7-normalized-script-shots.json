@@ -1,0 +1,181 @@
+{
+  "schema_version": 2,
+  "task_revision": 0,
+  "topic": "食品码垛工位观察（混合上屏）",
+  "shots": [
+    {
+      "shot_id": "shot_78484d7eca7645f09516b22322d239c2",
+      "shot": 1,
+      "title": "来料到位是第一道关",
+      "download_query": "white packaged bags on conveyor belt medium shot",
+      "visual_query": "白色包装袋在输送带上排队进入抓取位，中景，看得到输送带和挡边",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "来料到位",
+      "visual_mode": "stock_video",
+      "voice_text": "袋装物料码垛，先看来料怎样到位，再看机械臂如何抓取和落放。",
+      "subtitle": "先看来料到位，再看抓取落放",
+      "duration": 7,
+      "voiceover": true,
+      "query_optimized": false,
+      "card_content": "来料到位是码垛稳定的第一道关"
+    },
+    {
+      "shot_id": "shot_bdcdd5309b934a1a85762c3802b4ff31",
+      "shot": 2,
+      "title": "袋料和箱体要分开核对",
+      "download_query": "bagged and boxed products on separate conveyors comparison shot",
+      "visual_query": "包装袋与整箱瓶装饮品分别在两条输送带上前进，对比镜头",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "来料核对项",
+      "visual_mode": "stock_video",
+      "voice_text": "袋料和箱体的外形不同，来料朝向、抓取位置和支撑方式要分别核对。",
+      "subtitle": "袋料与箱体分别核对",
+      "duration": 8,
+      "voiceover": true,
+      "query_optimized": false
+    },
+    {
+      "shot_id": "shot_ccd6a5cb0d6a4ad99c373e90f1da3eb5",
+      "shot": 3,
+      "title": "镜头B",
+      "download_query": "robot arm lifting and turning package clear view of tool and guard rail",
+      "visual_query": "机械臂带料抬起并转向，画面能看到包装与抓具的完整外廓",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "抬升与转向",
+      "visual_mode": "stock_video",
+      "voice_text": "抓具带料抬起、转向时，要检查包装与工具有没有碰到输送带护栏。",
+      "subtitle": "抬升转向不碰护栏",
+      "duration": 7,
+      "voiceover": true,
+      "query_optimized": false
+    },
+    {
+      "shot_id": "shot_84d879895f38479c95e16901835acebe",
+      "shot": 4,
+      "title": "包装落到托盘以后还要核对排列方向垛层边缘和抓具退出的路径",
+      "download_query": "boxed drinks placed on pallet with lower layer already stacked",
+      "visual_query": "整箱瓶装饮品被放到塑料托盘上，托盘上已有码好的下层",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "落盘确认",
+      "visual_mode": "stock_video",
+      "voice_text": "包装落到托盘以后，还要核对排列方向、垛层边缘和抓具退出的路径。",
+      "subtitle": "核对方向与退出路径",
+      "duration": 7,
+      "voiceover": true,
+      "query_optimized": false
+    },
+    {
+      "shot_id": "shot_e84593c0cfa64886be1b2d238774ba8b",
+      "shot": 5,
+      "title": "换型准备",
+      "download_query": "worker checking new packaging sample at palletizing station",
+      "visual_query": "工人在码垛工位旁查看新包装样件，背景是成品托盘区",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "换型准备",
+      "visual_mode": "stock_video",
+      "voice_text": "换包装之前，先备好新包装样件、目标垛型和现场布局，再逐项确认要调整的抓具与路径。",
+      "subtitle": "换型前先备齐三样",
+      "card_content": "占位卡 05",
+      "duration": 8,
+      "voiceover": true,
+      "query_optimized": false
+    },
+    {
+      "shot_id": "shot_620feb3774644f1ebf6c37b66cd6a724",
+      "shot": 6,
+      "title": "开场",
+      "download_query": "palletizing robots in workshop showing pickup, conveyor, and pallet positions",
+      "visual_query": "车间内取料端、输送线和托盘位置同框，能看到多台码垛机器人同时作业",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "工位衔接",
+      "visual_mode": "stock_video",
+      "voice_text": "把取料端、输送线和托盘位置放在一起看，更容易看清工位之间的衔接。",
+      "subtitle": "整合视图看工位衔接",
+      "duration": 8,
+      "voiceover": true,
+      "query_optimized": false
+    },
+    {
+      "shot_id": "shot_eb9fedd4defb49218107e6957aeca131",
+      "shot": 7,
+      "title": "欢迎带着包装形态来试",
+      "download_query": "robot placing boxed drinks on pallet wide shot showing finished pallet area",
+      "visual_query": "机械臂将整箱瓶装饮品码到托盘上，镜头拉远露出成品托盘区",
+      "download_material": true,
+      "material_bindings": [],
+      "module_label": "现场复核",
+      "visual_mode": "stock_video",
+      "voice_text": "动态画面只能帮着理解工位配置，破包、滑移和满垛稳定性还是要在现场试。",
+      "subtitle": "稳定性要在现场试",
+      "card_content": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "card_hint": "CTA 行动号召",
+      "duration": 8,
+      "voiceover": true,
+      "query_optimized": false
+    }
+  ],
+  "background_music": {
+    "enabled": false
+  },
+  "content_blocks": [
+    {
+      "source": "Sheet1!A1:H9",
+      "role": "封面文案定义",
+      "purpose": "提供视频标题和副标题，用于开场视觉设计",
+      "content": "视频标题：食品码垛工位观察（混合上屏） 全片副标题：袋装与箱装同线码垛的现场核对要点",
+      "target_fields": [
+        "shots[0].title",
+        "shots[0].subtitle"
+      ]
+    },
+    {
+      "source": "Sheet1!A10:I17",
+      "role": "分镜脚本数据表",
+      "purpose": "定义视频的七个分镜，包括时间线、画面描述、口播文案、字幕、上屏文字和卡片样式",
+      "content": "共7行分镜数据，包含分镜编号、标题、时长、章节标签、画面、口播、字幕、上屏文字、卡片样式",
+      "target_fields": [
+        "shots"
+      ]
+    },
+    {
+      "source": "Sheet1!H15",
+      "role": "上屏卡片内容",
+      "purpose": "在第五个分镜中显示占位卡信息",
+      "content": "占位卡 05",
+      "target_fields": [
+        "shots[4].card_content"
+      ]
+    },
+    {
+      "source": "Sheet1!H17",
+      "role": "行动号召上屏文字",
+      "purpose": "在最后一个分镜中显示引导性文字，鼓励用户参与测试",
+      "content": "带上你的包装形态和目标垛型，一起把这条线试一遍",
+      "target_fields": [
+        "shots[6].card_content"
+      ]
+    },
+    {
+      "source": "Sheet1!I17",
+      "role": "卡片样式指令",
+      "purpose": "指示最后一帧使用 CTA 行动号召样式",
+      "content": "CTA 行动号召",
+      "target_fields": [
+        "shots[6].card_hint"
+      ]
+    }
+  ],
+  "extra_requirements": [
+    "所有分镜均未指定配音音色、语速或情绪要求",
+    "未提及背景音乐需求，默认不启用",
+    "无动画制作要求，全部按实拍素材处理",
+    "无特定素材文件名或时间码限制",
+    "‘混合上屏’可能指字幕与卡片交替或叠加呈现，需注意视觉层组合"
+  ]
+}

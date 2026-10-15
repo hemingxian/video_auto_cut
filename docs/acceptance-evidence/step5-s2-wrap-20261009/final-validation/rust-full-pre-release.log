@@ -1,0 +1,141 @@
+   Compiling video_auto_app v0.2.1 (D:\vac\s516-step5\VideoAutoCutApp)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.94s
+     Running unittests src\main.rs (VideoAutoCutApp\target\debug\deps\VideoAutoCutEngine-3fd1e581d959bbb7.exe)
+
+running 121 tests
+test candidate::tests::missing_provider_output_is_silently_ignored_during_cleanup ... ok
+test bgm::tests::audio_extension_prefers_metadata_then_falls_back_to_url ... ok
+test bgm::selection::tests::auto_provider_order_keeps_anonymous_openverse_as_fallback ... ok
+test bgm::selection::tests::bgm_queries_fall_back_from_specific_to_generic_without_duplicates ... ok
+test bgm::selection::tests::candidate_policy_rejects_incompatible_media_and_licenses ... ok
+test candidate::tests::non_finite_numeric_strings_are_rejected ... ok
+test bgm::selection::tests::acquire_timeout_prevents_unbounded_source_attempts ... ok
+test candidate::tests::provider_payload_requires_an_items_array ... ok
+test bgm::selection::tests::search_error_moves_to_next_source_without_retrying_simpler_queries ... ok
+test bgm::selection::tests::empty_results_use_simpler_query_and_record_the_successful_query ... ok
+test candidate::tests::parses_json_lines_and_uses_direct_url_as_download_target ... ok
+test bgm::selection::tests::exhausted_downloads_move_to_next_source_without_retrying_queries ... ok
+test checkpoint::tests::checkpoints_pin_resolution_and_keep_legacy_canvases_resumable ... ok
+test clip_manifest::tests::legacy_numbers_do_not_truncate_large_shot_numbers ... ok
+test domain::tests::explicit_download_material_is_independent_from_visual_mode ... ok
+test domain::tests::explicit_bgm_disable_overrides_descriptions ... ok
+test candidate::tests::provider_output_is_removed_when_processing_fails ... ok
+test domain::tests::visual_mode_defaults_only_when_missing_or_blank ... ok
+test domain::tests::legacy_bgm_intent_supports_nested_values_and_negation ... ok
+test domain::tests::voice_text_is_trimmed_and_honors_per_shot_opt_out ... ok
+test final_video::tests::real_task_copy_composes_from_legacy_and_recorded_paths ... ignored, requires VIDEOAUTO_TEST_RUNTIME, VIDEOAUTO_TEST_RUN and a new VIDEOAUTO_TEST_OUTPUT directory
+test final_video::tests::concat_list_entries_escape_single_quotes_for_ffmpeg_tokens ... ok
+test final_video::tests::concat_list_entries_normalize_windows_separators ... ok
+test final_video::tests::progress_labels_remove_short_prefixes_and_trailing_details ... ok
+test final_video::tests::spoken_captions_follow_narration_and_silent_segments_keep_display_text ... ok
+test domain::tests::card_layout_round_trips_and_stays_absent_when_missing ... ok
+test cli::tests::parses_voice_script_body_path_with_spaces_and_chinese ... ok
+test material_clip::tests::fallback_path_uses_reserved_last_sorting_name ... ok
+test incremental::tests::voice_settings_include_the_actual_synthesizer_without_invalidating_visual_stages ... ok
+test incremental::tests::annotation_metadata_is_ignored_only_at_its_defined_levels ... ok
+test incremental::tests::stage_dependencies_do_not_recompute_visual_matches_for_text_or_order_edits ... ok
+test material_clip::tests::rejects_conflicting_download_and_material_bindings ... ok
+test bgm::tests::fallback_audio_validation_accepts_known_container_and_rejects_documents ... ok
+test bgm::tests::replace_file_restores_target_when_replacement_is_missing ... ok
+test material_clip::tests::rejects_non_finite_similarity_values ... ok
+test material_clip::tests::parses_best_similarity_from_ranked_output ... ok
+test bgm::tests::replace_file_installs_replacement_and_removes_backup ... ok
+test material_download::tests::progress_reporting_preserves_item_position_and_phase ... ok
+test material_review::tests::malformed_json_response_has_actionable_error ... ok
+test material_review::tests::non_finite_model_scores_are_treated_as_zero ... ok
+test material_review::tests::parses_fenced_decisions_and_discards_unidentifiable_items ... ok
+test material_review::tests::prompt_renderer_replaces_all_occurrences ... ok
+test material_review::tests::relay_root_controls_chat_endpoint_and_keeps_direct_fallback ... ok
+test material_review::tests::selection_applies_policy_and_sorts_by_score_then_index ... ok
+test models::schema_tests::flatten_keeps_duration_and_tagged_material_bindings_semantics ... ok
+test models::schema_tests::known_only_plan_serialization_is_byte_stable ... ok
+test models::schema_tests::tagged_material_bindings_still_reject_unknown_fields ... ok
+test models::schema_tests::unknown_plan_and_shot_fields_round_trip_as_json_values ... ok
+test normalization_cache::tests::profile_keys_include_encoder_binary_and_all_encode_arguments_but_not_source_paths ... ok
+test normalization_cache::tests::real_corruption_source_config_changes_and_parallel_producers_are_verified ... ignored, Requires bundled FFmpeg/ffprobe; corruption and concurrent producer regression
+test normalization_cache::tests::real_three_sources_two_shots_and_new_task_encode_only_three_times ... ignored, Requires bundled FFmpeg/ffprobe; isolated real-media regression, no models or user data
+test material_clip::tests::saved_paths_use_only_current_results_in_rank_order ... ok
+test material_clip::tests::recursive_video_files_exclude_generated_index_and_remain_sorted ... ok
+test output_format::tests::requested_sizes_are_exact_and_other_combinations_are_rejected ... ok
+test material_clip::tests::index_budget_counts_normalized_files_and_nested_supported_inputs ... ok
+test clip_manifest::tests::interrupted_manifest_write_is_not_treated_as_a_legacy_task ... ok
+test clip_manifest::tests::ambiguous_legacy_directories_fail_without_creating_manifest ... ok
+test bgm::tests::complete_file_install_replaces_stale_output_without_leaving_partial_file ... ok
+test material_download::tests::archived_candidate_is_reused_in_a_later_shot ... ok
+test planner::tests::compose_requires_clip_segments ... ok
+test planner::tests::default_video_plan_adds_bgm_after_compose_when_requested ... ok
+test planner::tests::default_video_plan_does_not_repeat_finished_query_optimization ... ok
+test planner::tests::default_video_plan_ignores_card_fields_while_cards_are_disabled ... ok
+test planner::tests::default_video_plan_optimizes_stock_queries_before_download ... ok
+test planner::tests::download_assets_runs_before_clip_segments ... ok
+test planner::tests::prepare_bgm_requires_compose_video ... ok
+test clip_manifest::tests::imports_both_historical_formats_and_preserves_first_sorted_file ... ok
+test process::index_process::tests::child_fixture ... ok
+test process::index_process::tests::configured_workload_allowance_covers_all_bounded_child_attempts_and_preprocessing ... ok
+test incremental::tests::silent_shot_can_reuse_an_empty_voice_receipt_but_not_stale_audio ... ok
+test persistence::tests::write_failure_keeps_old_file_and_removes_partial_temporary_file ... ok
+test persistence::tests::install_failure_restores_old_file_to_original_path ... ok
+test output_format::tests::legacy_records_keep_their_canvas_and_invalid_dimensions_fail_closed ... ok
+test process::index_process::tests::progress_uses_only_reported_completion_and_cache_counts_and_aggregates_files ... ok
+test persistence::tests::pretty_json_format_matches_serde_pretty_output_without_trailing_newline ... ok
+test persistence::tests::recovery_restores_backup_and_discards_incomplete_temporary_file ... ok
+test planner::tests::read_job_plan_filters_disabled_generate_cards_step ... ok
+test process::tests::child_fixture ... ok
+test process::index_process::tests::workload_budget_expands_for_actual_chunks_never_shrinks_and_has_a_hard_ceiling ... ok
+test clip_manifest::tests::incomplete_retry_and_bad_manifests_never_fall_back_to_old_files ... ok
+test persistence::tests::successful_overwrite_replaces_content_and_cleans_sidecars ... ok
+test material_clip::tests::stale_normalized_projections_are_archived_outside_search_and_never_become_raw_candidates ... ok
+test script::tests::normalize_script_args_forward_optional_voice_body_verbatim ... ok
+test material_clip::tests::stages_only_hash_verified_manifest_materials ... ok
+test material_clip::tests::shot_workspace_groups_materials_by_dynamic_storyboard_title ... ok
+test material_clip::tests::produced_workspace_paths_round_trip_through_manifest_to_composer ... ok
+test tests::bgm_failure_message_only_claims_preservation_when_final_file_exists ... ok
+test tests::run_task_name_is_safe_and_readable ... ok
+test tests::script_error_is_neutral_and_shot_count_uses_parsed_plan ... ok
+test clip_manifest::tests::actual_paths_survive_reload_title_order_changes_and_directory_layout ... ok
+test video_encoder::tests::auto_prefers_cpu_when_hardware_is_meaningfully_slower ... ok
+test output_format::tests::task_canvas_survives_continue_and_resume ... ok
+test tests::final_video_versions_never_replace_an_existing_export ... ok
+test video_encoder::tests::auto_prefers_hardware_when_it_is_faster_or_nearly_equal ... ok
+test video_encoder::tests::bundled_ffmpeg_benchmark_smoke ... ignored, requires the bundled FFmpeg and may use local GPU hardware
+test script::tests::read_then_atomic_write_preserves_unknown_metadata ... ok
+test video_encoder::tests::benchmark_budget_caps_each_candidate_and_the_whole_detection ... ok
+test incremental::tests::receipts_verify_each_shot_and_reject_missing_corrupt_or_foreign_outputs ... ok
+test video_encoder::tests::encoder_arguments_keep_quality_controls_separate ... ok
+test video_encoder::tests::formal_encode_timeouts_scale_with_duration_and_stay_bounded ... ok
+test video_encoder::tests::cpu_failure_does_not_retry_and_removes_partial_output ... ok
+test video_encoder::tests::hardware_failure_removes_partial_output_before_cpu_retry ... ok
+test clip_manifest::tests::rejects_missing_empty_escape_and_duplicate_files ... ok
+test checkpoint::tests::changed_output_invalidates_its_step_and_downstream_but_keeps_valid_prefix ... ok
+test tests::run_workspace_reuses_date_and_task_material_folder_without_replacing_cloud_run_id ... ok
+test tests::shots_json_continuation_stays_in_the_original_project ... ok
+
+running 1 test
+test process::tests::completed_command_keeps_captured_stdout_and_stderr ... ok
+test process::tests::termination_polling_returns_when_nothing_ever_exits ... ok
+test clip_manifest::tests::rejects_version_run_revision_and_identity_mismatches ... ok
+test incremental::tests::reordered_revision_rebuilds_clip_manifest_by_id_and_preserves_producer_ranking_without_executors ... ok
+test incremental::tests::reordered_voice_maps_saved_audio_and_cues_to_the_new_timeline_without_tts ... ok
+test incremental::tests::voice_receipt_requires_both_hashed_audio_and_matching_valid_cues ... ok
+test incremental::tests::changing_one_bound_range_stages_only_that_shot_and_never_contaminates_the_old_candidates ... ok
+test process::index_process::tests::killing_the_engine_host_for_pause_closes_the_job_and_terminates_descendants ... ok
+test process::index_process::tests::oversized_unterminated_output_has_bounded_line_buffers_and_preserves_all_bytes ... ok
+test process::tests::timeout_does_not_wait_for_pipes_held_by_a_descendant ... ok
+test process::tests::inherited_output_command_honors_timeout ... ok
+test process::index_process::tests::timeout_and_parent_exit_kill_real_pipe_holding_descendants ... ok
+test process::index_process::tests::stdout_stderr_cr_and_trailing_output_are_forwarded_before_exit_with_heartbeat ... ok
+test process::index_process::tests::real_forwarding_writes_stdout_stderr_and_heartbeat_to_run_log ... ok
+test process::index_process::tests::fresh_attempt_gets_a_fresh_budget_after_a_stopped_or_timed_out_attempt ... ok
+
+test result: ok. 117 passed; 0 failed; 4 ignored; 0 measured; 0 filtered out; finished in 1.32s
+
+     Running tests\material_match_config.rs (VideoAutoCutApp\target\debug\deps\material_match_config-bacb77d104aaac50.exe)
+
+running 5 tests
+test desktop_material_match_setting_takes_precedence_over_legacy_keys ... ok
+test missing_or_empty_material_match_settings_keep_default ... ok
+test desktop_material_match_setting_reaches_engine_config ... ok
+test zero_is_valid_and_invalid_desktop_value_falls_back ... ok
+test legacy_material_match_settings_remain_supported ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.68s

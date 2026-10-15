@@ -1,0 +1,40 @@
+{
+  "schema": "vacut-u7-51406527-launch/v1",
+  "written_at": "2026-09-29T09:44:55.0916807Z",
+  "launcher_pid": 31136,
+  "source_head": "59412b33e4b4c68de3867ccb0736ac7fac30f450",
+  "candidate_path": "D:\\vac\\u7n",
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "script_card_fields_sha256": "ed9fcc788e7c8ef81ec3e23dd2bd45e09e55271106f3024c18a31e5ec8e77c57",
+  "fixture_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+  "observer_sha256": "a4686bd134c52aa99119f2311b4940c264007c017b9a4283a87934ea46ab5b91",
+  "current_json_sha256": "a313573406886fcf94c56a61b18305591ab142596b3460e87e862cc05e247d87",
+  "protected_hashes_same": 6,
+  "state_fresh_roots": [
+    "user-data",
+    "temp",
+    "output",
+    "data-except-runtime"
+  ],
+  "safe_effective_defaults": {
+    "parse_model": "qwen-long",
+    "review_model": "qwen-long",
+    "script_review": true,
+    "http_attempt_limit": 5,
+    "inherited_override_count": 0,
+    "app_env_override_count": 0
+  },
+  "manifest_isolation": {
+    "method": "process environment only",
+    "url": "http://127.0.0.1:9/runtime/manifest.json",
+    "aliases_set": [
+      "VIDEOAUTO_RUNTIME_MANIFEST_URL",
+      "VIDEOAUTOCUT_RUNTIME_MANIFEST_URL"
+    ],
+    "loopback_listener_present": false
+  },
+  "app_started_when_written": false,
+  "gui_import_clicks": 0,
+  "model_attempts": 0,
+  "secret_values_recorded": false
+}

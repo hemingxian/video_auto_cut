@@ -1,0 +1,167 @@
+{
+  "schema": "food-rerun-stop/v1",
+  "status": "STOP",
+  "source_head": "1f86b0b71d18cf617fabc3501fac1784fbff7e4a",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "helpers/capture-child-env.ps1",
+      "bytes": 6197,
+      "sha256": "fdea4ee3ac816490a5738fcb51221759ebc5f667d350f3526272b380b8cb5b29"
+    },
+    {
+      "path": "helpers/observer-selftest.mjs",
+      "bytes": 2280,
+      "sha256": "275006f34282677f28dd3ab14bd4c3b1b362bbd6bc68a9bf57dd2a772d6c06b5"
+    },
+    {
+      "path": "helpers/preflight.py",
+      "bytes": 6022,
+      "sha256": "756de4697090aef32c071a84a46b886f19bedf0aec5422fb898e2005bcdb8864"
+    },
+    {
+      "path": "helpers/run-formal-rerun.mjs",
+      "bytes": 16104,
+      "sha256": "23fc6f62af71825c17582df99374c5e545b1455eecff38304417adf3ac02a4a4"
+    },
+    {
+      "path": "helpers/run-formal-rerun.mts",
+      "bytes": 10616,
+      "sha256": "ad4479f38be756cf27ffd7c65d788306ba0cf7e5d77935eb1d85297906ecdd1b"
+    },
+    {
+      "path": "helpers/runner-source-note.md",
+      "bytes": 556,
+      "sha256": "89f86fbf3306bf474319831f6fbdd506c255472e504939f863713677c1c7c841"
+    },
+    {
+      "path": "inputs/material_manifest.json",
+      "bytes": 24878,
+      "sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421"
+    },
+    {
+      "path": "inputs/shots.json",
+      "bytes": 38149,
+      "sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d"
+    },
+    {
+      "path": "logs/safe-run-excerpt.txt",
+      "bytes": 12264,
+      "sha256": "b7c78e27b3083d74a2373eb2d0f27af0d6733e9d56dd2e40411baeecda985231"
+    },
+    {
+      "path": "README.md",
+      "bytes": 64,
+      "sha256": "2dca1ea0487c39ca5d58c08b54f86a8c5d1d4959eb8ef26a8fc85b79aa5cd566"
+    },
+    {
+      "path": "receipts/actual-process-environment.json",
+      "bytes": 388477,
+      "sha256": "d009c0c51dd4cb0fafeccddcac9c34859658f642b480405c7ed844075829cc14"
+    },
+    {
+      "path": "receipts/FORMAL-ATTEMPT-CONSUMED.json",
+      "bytes": 845,
+      "sha256": "7338f4fc9939de30c91ba9d6260fea4e64ceeac89e9cc0fcebcca64cac106b19"
+    },
+    {
+      "path": "receipts/formal-result.json",
+      "bytes": 1514,
+      "sha256": "d8b623ecb2a68b39d5478f735958165c4446e915b508ff358fafeee0d7931f15"
+    },
+    {
+      "path": "receipts/formal-state.json",
+      "bytes": 1776,
+      "sha256": "3b00b207b3a402aa292337fd805139eba3c36511362f6dffed564c72cd3b235e"
+    },
+    {
+      "path": "receipts/material-agent-session-summary.json",
+      "bytes": 4172,
+      "sha256": "cde71f08b2cd5a6c793f26c8ae45286172a983a0107ad54001e49dd681ed75a3"
+    },
+    {
+      "path": "receipts/observer-selftest-summary.json",
+      "bytes": 101,
+      "sha256": "87f73c7e3f880fc444cd2ae466c929b83d214990c5b8042f1c5361187a5ccd8a"
+    },
+    {
+      "path": "receipts/OWNED-PROCESS-TREE-STOP.json",
+      "bytes": 168,
+      "sha256": "2fab3d18d60ee2d6d1a0748555be3f0160f971b4e3c9df09c21a89b239d2e662"
+    },
+    {
+      "path": "receipts/packaging-cwd-fact.json",
+      "bytes": 978,
+      "sha256": "ae6bc31102e676d7929e36829872306f562c0c1b4882e0c2f0ab9c900178b294"
+    },
+    {
+      "path": "receipts/packaging-decision-summary.json",
+      "bytes": 653,
+      "sha256": "021334c0ac6336723199726acfa267bb8a351c2fecff85b30586f01a123f6478"
+    },
+    {
+      "path": "receipts/partial-call-ledger.json",
+      "bytes": 1060,
+      "sha256": "62634011ea13d3bdd1b74bbe6ceaad13d42403c59ae6ee5b98e72d1c18ef629c"
+    },
+    {
+      "path": "receipts/pre-engine-loader-failures.json",
+      "bytes": 529,
+      "sha256": "2b5e1408d75bc8cbe927291f8ca7db77254746258c5b4f833c3f6361415b1d65"
+    },
+    {
+      "path": "receipts/preflight-receipt.json",
+      "bytes": 5239,
+      "sha256": "1bbbb27807273e0941de90ae6b84be1b45271e04c7da77d2ec6efdd4dfc9faa4"
+    },
+    {
+      "path": "receipts/private-raw-ledger.json",
+      "bytes": 476,
+      "sha256": "010131e2bf770eb6be37bce3471f095f0fdc6182c1f6e342e2434e0fbb066dd3"
+    },
+    {
+      "path": "receipts/rerun-artifact-hashes.json",
+      "bytes": 13011,
+      "sha256": "ffcb3035c9801c69273b799563dfff03ed1459c900837fe0018f951ac473dff9"
+    },
+    {
+      "path": "receipts/rerun-failure-independent-review.json",
+      "bytes": 18777,
+      "sha256": "30fc4b78b8f2ca5a3b994bc8bd4c61bf78a62ff26f0ceef588ba4fb39a64d5cb"
+    },
+    {
+      "path": "receipts/root-artifact-hash-check.json",
+      "bytes": 2064,
+      "sha256": "8e2473aa66c4dd54dfc546ffa0c2bd5a49f90ab3ac7e3cebc10724b1930f6bcd"
+    },
+    {
+      "path": "receipts/root-postplan-deep-check.json",
+      "bytes": 264,
+      "sha256": "0bb233348e7db060a95c697f9f71fb38c90eebdabff7031b1e7e5d04fe33e758"
+    },
+    {
+      "path": "receipts/root-poststop-check.json",
+      "bytes": 1528,
+      "sha256": "fb31d48c8647b63b4a432b8751529015deff02782ff8b118750fb0617a314ad6"
+    },
+    {
+      "path": "receipts/source-54-field-oracle.json",
+      "bytes": 16428,
+      "sha256": "b94b4817b9fbdd4f75ff16c1dd8947b094e6f531e40915aadb8455d2118d5a94"
+    },
+    {
+      "path": "receipts/temp-precreate-receipt.json",
+      "bytes": 688,
+      "sha256": "164d557dea537233c7c2d39b9434fffc1fed17ddbc9661715ae2cf3af27b8ceb"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 3692,
+      "sha256": "801524bb9110a7ca49760c198bf132dbf9932bac0874af3bb536fa699ca45472"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+VACUT_EVENT:{"kind":"workflow_plan","workflowPlan":{"stages":["script","plan"]}}
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"script","status":"running","total":null},"workflowStage":"script","workflowStatus":"running"}
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowProgress":{"current":null,"label":"","phase":"stage","stage":"plan","status":"running","total":null},"workflowStage":"plan","workflowStatus":"running"}
+VACUT_EVENT:{"kind":"workflow","version":1,"workflowStage":"done","workflowStatus":"completed"}

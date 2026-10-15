@@ -1,0 +1,14 @@
+{
+  "schema": "vacut-screenshot-pixel-equivalence/v1",
+  "source": "screenshots/STOP-runtime-drift-formal-ready.original.jpg",
+  "source_file_sha256": "c11283988df5181a3efc2668b9eb0a3b3a6ad5a9434ba21f491ec5ca92dd7074",
+  "source_mime": "image/jpeg",
+  "output": "screenshots/STOP-runtime-drift-formal-ready.png",
+  "output_file_sha256": "f371af9642cbda14dc1af653f4ba4a802bfd486502441b07a42981ecaf20130d",
+  "output_mime": "image/png",
+  "width": 1306,
+  "height": 853,
+  "comparison_mode": "RGB",
+  "decoded_rgb_sha256": "b0cd696899549084482d289d1244b7c22f8ba5ba7af8dc5e725aee0bdd1f2404",
+  "pixels_equal": true
+}

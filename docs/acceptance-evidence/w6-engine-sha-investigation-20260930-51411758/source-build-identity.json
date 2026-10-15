@@ -1,0 +1,67 @@
+{
+  "schema": "w6-engine-source-identity/v1",
+  "old_build_confirmation_commit": "311d5e5b02bbf8610036cf81bea66b736a92621a",
+  "earliest_located_build_commit": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+  "new_pack_source_commit": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "videoautocutapp_tree_ids": {
+    "3715aa4": "fd2a274bbb38466b1c2ba5ab68d848fd89280d1f",
+    "311d5e5": "fd2a274bbb38466b1c2ba5ab68d848fd89280d1f",
+    "4c6fb40": "fd2a274bbb38466b1c2ba5ab68d848fd89280d1f"
+  },
+  "diff_311d5e5_to_4c6": {
+    "scope": [
+      "VideoAutoCutApp",
+      ".cargo",
+      "Cargo.toml",
+      "Cargo.lock",
+      "rust-toolchain",
+      "rust-toolchain.toml",
+      "rustfmt.toml",
+      ".github"
+    ],
+    "name_status": [],
+    "stat": "",
+    "videoautocutapp_changed_files": 0
+  },
+  "cargo_lock_worktree_sha256": "4f97aabfd4a7f458997c84eb6429787b8c4c0b9f1a86e8858576afac907b482c",
+  "old_command": "cargo build --release --locked",
+  "old_20260929_log": "Finished release profile [optimized] target(s) in 3.72s",
+  "old_log_interpretation": "cache-confirming build invocation; retained exe LastWriteTime/COFF timestamp is 2026-09-24, so this is not evidence of a fresh 2026-09-29 compile",
+  "new_command": "cargo build --release --locked (pack-release.ts:102)",
+  "current_toolchain_observed": {
+    "rustc": "1.98.1 (48a229cea 2026-09-01)",
+    "cargo": "1.98.1 (797e8a9bc 2026-08-05)",
+    "historical_toolchain_exact_version_proven": false
+  },
+  "diff_3715aa4_to_4c6": {
+    "scope": [
+      "VideoAutoCutApp",
+      ".cargo",
+      "Cargo.toml",
+      "Cargo.lock",
+      "rust-toolchain",
+      "rust-toolchain.toml",
+      "rustfmt.toml",
+      ".github"
+    ],
+    "name_status": [],
+    "stat": "",
+    "changed_files": 0
+  },
+  "historical_evidence": {
+    "earliest_build_report": ".codex-handoff/checkpoints/20260924-150525-user-paused-w5/live-handoff/step4-final-report-draft.md:5-9,37",
+    "u7_build_receipt": "docs/acceptance-evidence/u7-rebuild-native-stop-20260929-51405727/receipts/cargo-build-result.json",
+    "u7_build_log": "VideoAutoCutDesktop/node_modules/.tmp/u7-rerun-51405727/cargo-build-release-locked.log",
+    "new_build_log": "docs/acceptance-evidence/w6-local-pack-retry-stop-20260930-51411450/pack-runtime-retry.log",
+    "new_command_source": "VideoAutoCutDesktop/scripts/pack-release.ts:102",
+    "earliest_build_report_sha256": "af8b30a001f7d5c4b671022cb2422bcc11aa5e4e890410a111cc692563549ce4",
+    "earliest_build_report_kind": "historical draft summary; original compiler log not recovered"
+  },
+  "working_directories": {
+    "old": "D:\\autocut\\video-auto-cut\\VideoAutoCutApp",
+    "old_basis": "command has no --manifest-path; receipt output is this directory target/release path and Cargo.toml is here",
+    "new": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737\\VideoAutoCutApp",
+    "new_basis": "pack-release.ts engineRoot working directory plus pack log compiler path",
+    "old_cwd_inferred_not_directly_recorded": true
+  }
+}

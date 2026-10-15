@@ -1,0 +1,9 @@
+{
+  "baseline_capture_sha256": "a61efb871e947fe2746e225d7c81db0e06f7a1c05c5a600b623b06cdab76c0b7",
+  "oracle_fixture_sha256": "9d3f71433dfe6acccf99505b477a803b15bdae7724efcae2236cd4cac21301e3",
+  "own_keys_equal": true,
+  "undefined_keys_equal": true,
+  "values_equal": true,
+  "exact_semantics_equal": true,
+  "baseline_source": "git HEAD b9803b8 baseline hook in isolated audit module"
+}

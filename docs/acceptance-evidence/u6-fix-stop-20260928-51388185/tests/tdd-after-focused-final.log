@@ -1,0 +1,27 @@
+✔ a requested pause survives process exit, even if the process exits with zero (0.5005ms)
+✔ start events create a running task and merge protocol state into its queue item (0.4236ms)
+✔ output and stopping events preserve the existing queue merge semantics (0.1186ms)
+✔ indexing logs reach the selected task without turning indexed files into selected clips (0.0821ms)
+✔ close events resolve successful and failed workflow snapshots deterministically (0.2066ms)
+✔ queue reducer preserves launch identity and gives explicit protocol state precedence (0.1056ms)
+✔ U6 output report survives an immediately following close after a stale ref overwrite (15.4995ms)
+✔ non-template close remains field-for-field equal to the captured legacy hook result (0.3712ms)
+✔ a closed U6 report does not leak into the next non-template task (0.5246ms)
+✔ workflow event parser normalizes progress and removes terminal plan stages (0.9497ms)
+✔ task output hides valid protocol lines and keeps normal or malformed output (0.1648ms)
+✔ unsupported protocol values do not create phantom events (0.0722ms)
+✔ D7 template import reports are normalized, capped, forwarded and hidden from visible logs (0.9124ms)
+✔ invalid issue shot numbers are omitted without hiding the blocking import report (0.1859ms)
+✔ index file, cache and heartbeat output stays visible without replacing workflow counts (0.108ms)
+✔ run directory parsing is independent of slash style (0.198ms)
+✔ stream decoder reassembles protocol lines split across process chunks (0.1322ms)
+✔ U6 real template report survives every possible decoder chunk boundary (465.1033ms)
+✔ stream decoder emits carriage-return progress without waiting for process close (0.2348ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 548.739

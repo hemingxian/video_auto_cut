@@ -1,0 +1,12 @@
+{
+  "schema": "vacut-electron-stdout-tap-preflight/v1",
+  "completed_at": "2026-09-28T09:48:10.236Z",
+  "owner_pid": 38288,
+  "owner_executable_basename": "electron.exe",
+  "esm_builtin_spawn_matches_patched_spawn": true,
+  "child_executable_basename": "videoautocutengine.exe",
+  "child_arguments_sha256": "52a5f911ec69a2a984b9b8ea7e8197433ec1c3c44486b99c47ff36516fa53ad5",
+  "exit_code": 0,
+  "signal": null,
+  "import_or_model_invocation": false
+}

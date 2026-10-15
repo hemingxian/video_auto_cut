@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "signal": null,
+  "started_at": "2026-09-29T06:57:15.819Z",
+  "ended_at": "2026-09-29T07:17:07.986Z",
+  "executable": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut\\VideoAutoCutEngine.exe",
+  "executable_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "args": [
+    "--restart-all",
+    "--shots-json",
+    "D:\\vac\\f3\\shots.json",
+    "--material-manifest",
+    "D:\\vac\\f3\\material_manifest.json",
+    "--project-name",
+    "f3",
+    "--aspect-ratio",
+    "16:9",
+    "--output-resolution",
+    "1080p",
+    "--source",
+    "pexels"
+  ],
+  "stdout": {
+    "bytes": 584965,
+    "sha256": "dac51d8b5be5f0508c58aee2c21c64a36172a469308cebbf683645834d2684aa"
+  },
+  "stderr": {
+    "bytes": 51038,
+    "sha256": "652d0cc1fad3676507f2835e3df06ee61e1c96dfc6aee86a02bed6b24058e95e"
+  },
+  "derived_redacted_sha256": "4acda8700ee9fe4f66872793ff9d74f6981377fc19eedcea3b855f0ed38ea40c",
+  "no_retry": true,
+  "input_plan_sha256": "cfe073d8baf039e164f4497c4d4c9dd7a3ef556f9aaa16455417ca8cea5f551d",
+  "input_manifest_sha256": "d478427593440e01d437a9e5d0e2fcf10c4356416b85e441baf59e4fea9b5421",
+  "run_id": "run_175e3315e0624f028eba293d66a9dece"
+}

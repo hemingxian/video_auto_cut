@@ -1,0 +1,15 @@
+{
+  "schema": "vacut-runtime-current-sanitized/v1",
+  "source_relative_path": "data/runtime/current.json",
+  "source_sha256": "ca44afab8172178af787ff3be135333df27503796d00629417cb24c5beb995f6",
+  "version": "0.5.14",
+  "runtime_relative_path": "data/runtime/0.5.14/VideoAutoCut",
+  "package_sha256": "dd2d8da2e60c3e4dcf252d8846d7d2643b03d94d8a867bb46af43b62febfd73e",
+  "manifest_host": "auto-cut-public-package-1453657051.cos.ap-chengdu.myqcloud.com",
+  "download_host": "auto-cut-public-package-1453657051.cos.ap-chengdu.myqcloud.com",
+  "installed_at": "09/28/2026 06:11:16",
+  "download_trigger": "unconfirmed",
+  "operator_clicked_install_update_upgrade": false,
+  "operator_confirmed_update_by_key": false,
+  "secret_values_recorded": false
+}

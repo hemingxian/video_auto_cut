@@ -1,0 +1,32 @@
+{
+  "schema": "vacut-u6-pre-import-runtime-gate/v1",
+  "phase": "formal-u6",
+  "checked_at": "2026-09-28T07:16:05.9762069Z",
+  "pass": true,
+  "source_head": "314c52f0e77475d8d737e749936084e76ff0c520",
+  "current": {
+    "path": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\data\\runtime\\current.json",
+    "copied_to": "D:\\autocut\\video-auto-cut\\VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\receipts\\current-before-formal-u6.json",
+    "sha256": "4f4d6dbe81e1e852715f1cc6eead62ff02b81c2d094d5213a339f4f2b703af21",
+    "last_write_utc": "2026-09-28T07:11:06.9072789Z",
+    "version": "3715aa42c0b71894dd62e0df28900b380aa5a43a",
+    "runtime_path": "D:\\Video Edit\\VideoAutoCut-step4-audit\\44959b4-20260924-envprep\\runtime\\44959b4-envprep\\VideoAutoCut"
+  },
+  "candidate_engine_sha256": "be8efb22c57738627e595d8406baa87e0f953ca0058fb399a54ca34cd2916adf",
+  "downloaded_engine_count_under_audit_runtime": 0,
+  "manifest_isolation_listener_present": false,
+  "electron_owner": {
+    "pid": 38016,
+    "executable_basename": "electron.exe",
+    "process_type": "browser",
+    "observer_sha256": "4c528f71fd1dbb8b181f8a9f91866018a2b654e02d24a93aa3cda8b6a409a4dc",
+    "patched": true
+  },
+  "preflight": {
+    "exit_code": 0,
+    "esm_spawn_matches_patch": true,
+    "import_or_model_invocation": false
+  },
+  "captured_closed_child_count_before_import": 1,
+  "expected_closed_child_count_before_import": 1
+}

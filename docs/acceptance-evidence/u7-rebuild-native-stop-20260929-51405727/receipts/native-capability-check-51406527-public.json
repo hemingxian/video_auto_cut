@@ -1,0 +1,32 @@
+{
+  "schema": "native-capability-check-51406527-public/v1",
+  "instruction_comment": 51406527,
+  "checked_at": "2026-09-29T17:39:38.3887448+08:00",
+  "tool": "official @oai/sky via mcp__node_repl__js",
+  "module_import": "success",
+  "module_shape": {
+    "exports": [
+      "sky"
+    ],
+    "selected_export": "sky.sky"
+  },
+  "pre_native_namespace_error": {
+    "occurred": true,
+    "expression": "sky.list_windows()",
+    "error": "sky.list_windows is not a function",
+    "native_call_entered": false,
+    "classification": "module namespace correction; not a native list_windows call"
+  },
+  "native_list_windows_calls": 1,
+  "js_reset_calls": 0,
+  "native_result": "success",
+  "window_count": 13,
+  "windows_redacted": true,
+  "redaction_reason": "Public evidence omits unrelated private window titles; only the task-window count and native outcome are retained.",
+  "gui_launches_at_check": 0,
+  "gui_import_clicks_at_check": 0,
+  "uploads_at_check": 0,
+  "model_calls_at_check": 0,
+  "manual_retries_at_check": 0,
+  "u7_import_quota_consumed_at_check": false
+}

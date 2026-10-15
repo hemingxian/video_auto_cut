@@ -1,0 +1,23 @@
+{
+  "schema": "vacut-native-capability-check/v1",
+  "instruction_comment_id": 51406141,
+  "checked_at": "2026-09-29T09:10:13.9305184Z",
+  "source_head": "59412b33e4b4c68de3867ccb0736ac7fac30f450",
+  "tool": "mcp__node_repl__js",
+  "package_import": "@oai/sky",
+  "operation": "sky.list_windows",
+  "attempts_this_instruction": 1,
+  "result": "unavailable",
+  "error": "Computer Use native pipe is unavailable: failed to connect native pipe: 系统找不到指定的文件。 (os error 2)",
+  "reset_calls": 0,
+  "additional_retries": 0,
+  "gui_launches": 0,
+  "gui_import_clicks": 0,
+  "formal_engine_spawns": 0,
+  "file_uploads": 0,
+  "model_calls": 0,
+  "manual_retries": 0,
+  "u7_quota_consumed": false,
+  "cli_import_substitution": false,
+  "candidate_rebuild_repeated": false
+}

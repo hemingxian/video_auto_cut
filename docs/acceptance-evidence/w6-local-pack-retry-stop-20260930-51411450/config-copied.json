@@ -1,0 +1,11 @@
+{
+  "source": "VideoAutoCutDesktop/release-upload.local.json",
+  "target": "isolated-worktree/VideoAutoCutDesktop/release-upload.local.json",
+  "bytes": 337,
+  "sha256": "d3edd445ad45bda688a736b6b80f60d3399a0d44cc7a4843b9b26ad5d8f9d04c",
+  "same_bytes_and_sha": true,
+  "git_check_ignore": true,
+  "normal_status_unchanged": true,
+  "target_ignored_status": "!!",
+  "content_recorded": false
+}

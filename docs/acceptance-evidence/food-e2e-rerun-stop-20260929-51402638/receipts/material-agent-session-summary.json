@@ -1,0 +1,89 @@
+{
+  "schema": "food-rerun-material-agent-summary/v1",
+  "sessions": 9,
+  "all_ok": true,
+  "exact_direct_http_requests": null,
+  "items": [
+    {
+      "shot_id": "template-0003",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/11c73fb4c316336fade2ef86573f34f0f59ad18023295d74c8804b16ed2e46ac/849a6277aa7c132dfccbc66a322c4f74b739d39ae62d3be9bc8dd8cff6303b56/03 · 抓稳转快/material-agent-log.json",
+      "bytes": 57538,
+      "sha256": "724cff11da86fff9c9bb46fb3639ddaf107cd0a4bf2216ac3bbf5564c15495fe"
+    },
+    {
+      "shot_id": "template-0007",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/1b832a362dc2eee87e7c9caa0f1f721f5d0ca00b3173714502313e175c0a207b/b658b89ef4d232f623a6fa4545534aeb1590ceca25eeb441d86a40580b0ede2d/07 · 一人巡线/material-agent-log.json",
+      "bytes": 59307,
+      "sha256": "6c7b7f4e28938de2d4c5b575c7ff383ce243d47176d71f37f7bb28ee3c6ee979"
+    },
+    {
+      "shot_id": "template-0001",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/23683a21f2a2cafa03a7337dee9ad8aa87bd154c1d8b92e20e7c09080c0cae36/c11b950358ecc61c1762814bd152a4c32edf675b6919366e59a64e7e28e97089/01 · 包装线末端/material-agent-log.json",
+      "bytes": 59390,
+      "sha256": "149bef5ccac94616ee2403391c3476b63b7450ad9db6399307e6c2e29153a5e0"
+    },
+    {
+      "shot_id": "template-0006",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/42df285302e05e3a9a11d73a3df1677509ddfd105afbca0aa2421a9ae8456bdb/18629060da8661194fe6e3cea441d4c69ad07dd5fa77cb55a0e0f41c1fdae1a3/06 · 换箱型/material-agent-log.json",
+      "bytes": 54258,
+      "sha256": "a3fcf43d949e2501a56c0e24c48c440b131f45a44667e21e59bb1e094e51b359"
+    },
+    {
+      "shot_id": "template-0002",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/6e60b94e4463fc5f04bed6a950c3623f84d695c42d2e504aa3f910ebce49bc73/d74759f51220e462b5d28172b20be6c476b707b7e321475faba0b0efb4b5cff6/02 · 来料排队/material-agent-log.json",
+      "bytes": 60276,
+      "sha256": "d5e1a35311b2b4a036b2fdabffed8fa2632b067f977c6d98e9a1cce736c40fc5"
+    },
+    {
+      "shot_id": "template-0005",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/c5a7c9dbc0cd515389bf48eab98287d9c066d739c998d381c59a9c18cdff3f59/4d8ea128519b3659459f85a0e185291fa101887520b084d9fe8a7472195627cb/05 · 整垛稳/material-agent-log.json",
+      "bytes": 62816,
+      "sha256": "a9ed0405a59c6fef74a484735d647ed7d97c55c5d814f3a991cf6db8d8e5f0ad"
+    },
+    {
+      "shot_id": "template-0004",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/d354c40ef3ccbb51efea025ab506242492e9798ebfbbf4929b451c1cb530ea22/36b8db9f0fe4d3f93731a46525bc855291b0874e30c27bdc38a546cb61cd4eac/04 · 逐层码放/material-agent-log.json",
+      "bytes": 56965,
+      "sha256": "ff90c34a9eb4771a6c7ad4f5a7709703c0d69672b2c8722b97545205bfbf04ea"
+    },
+    {
+      "shot_id": "template-0009",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/d61d26df1bb04b7cdbe9c38a20375d2c1c5a551427f336f6b25bc7273a8811e6/b184bbd03c529081ef2681286f05e45829840ba314a892d212159a6db807e87d/09 · 发来箱型/material-agent-log.json",
+      "bytes": 63491,
+      "sha256": "18fcfe795e09b81e677f86d3328efb299b4add928d256372a2241b91dfdf5d11"
+    },
+    {
+      "shot_id": "template-0008",
+      "ok": true,
+      "backend": "dashscope",
+      "model": "qwen3.6-plus",
+      "source_relative": "clips/e68c24a7b2228b0e176844f02eca531d9fb7b63a3cfc8e7fef46e52fd6bcc393/5a08c2169ab9e45979ae50fecc1d46de924b11df40eed4ef81cbea90632d1a81/08 · 先备四样/material-agent-log.json",
+      "bytes": 60065,
+      "sha256": "9c7fd2675af4a340afe6baeec5f9117e2a3f460b1967c63108b956234d9838a3"
+    }
+  ]
+}

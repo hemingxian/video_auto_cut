@@ -1,0 +1,861 @@
+test_broken_manifest_recovers_verified_store_but_not_legacy_rows (test_analysis_cache.ContentAnalysisTests.test_broken_manifest_recovers_verified_store_but_not_legacy_rows) ... ok
+test_concurrent_identical_files_embed_once (test_analysis_cache.ContentAnalysisTests.test_concurrent_identical_files_embed_once) ... ok
+test_corrupt_receipt_recomputes_instead_of_mounting (test_analysis_cache.ContentAnalysisTests.test_corrupt_receipt_recomputes_instead_of_mounting) ... ok
+test_export_proof_seeds_another_task_and_rejects_wrong_source (test_analysis_cache.ContentAnalysisTests.test_export_proof_seeds_another_task_and_rejects_wrong_source) ... ok
+test_input_changed_during_request_cannot_leave_reusable_receipts (test_analysis_cache.ContentAnalysisTests.test_input_changed_during_request_cannot_leave_reusable_receipts) ... ok
+test_original_and_two_normalized_shots_embed_once (test_analysis_cache.ContentAnalysisTests.test_original_and_two_normalized_shots_embed_once) ... ok
+test_partial_failure_resumes_only_missing_chunks (test_analysis_cache.ContentAnalysisTests.test_partial_failure_resumes_only_missing_chunks) ... ok
+test_preprocess_failure_is_not_certified (test_analysis_cache.ContentAnalysisTests.test_preprocess_failure_is_not_certified) ... ok
+test_profile_model_and_replaced_content_invalidate (test_analysis_cache.ContentAnalysisTests.test_profile_model_and_replaced_content_invalidate) ... ok
+test_real_chroma_alias_queries_remain_strictly_scoped (test_analysis_cache.ContentAnalysisTests.test_real_chroma_alias_queries_remain_strictly_scoped) ... ok
+test_real_cli_index_export_import_and_cloud_reuse (test_analysis_cache.ContentAnalysisTests.test_real_cli_index_export_import_and_cloud_reuse) ... ok
+test_still_receipt_skips_repeated_processing (test_analysis_cache.ContentAnalysisTests.test_still_receipt_skips_repeated_processing) ... ok
+test_unverified_sidecar_cannot_claim_original_identity (test_analysis_cache.ContentAnalysisTests.test_unverified_sidecar_cannot_claim_original_identity) ... ok
+test_expected_code_fence_is_removed (test_animation_safety.GeneratedSourceBoundaryTests.test_expected_code_fence_is_removed) ... ok
+test_source_filename_must_be_a_plain_filename (test_animation_safety.GeneratedSourceBoundaryTests.test_source_filename_must_be_a_plain_filename) ... ok
+test_unexpected_code_fence_is_not_silently_relabelled (test_animation_safety.GeneratedSourceBoundaryTests.test_unexpected_code_fence_is_not_silently_relabelled) ... ok
+test_dangerous_symbol_cannot_be_aliased_from_allowed_module (test_animation_safety.ManimSourceSafetyTests.test_dangerous_symbol_cannot_be_aliased_from_allowed_module) ... ok
+test_normal_scene_is_allowed (test_animation_safety.ManimSourceSafetyTests.test_normal_scene_is_allowed) ... ok
+test_numpy_file_access_is_rejected (test_animation_safety.ManimSourceSafetyTests.test_numpy_file_access_is_rejected) ... ok
+test_private_module_attribute_is_rejected (test_animation_safety.ManimSourceSafetyTests.test_private_module_attribute_is_rejected) ... ok
+test_submodule_import_is_rejected (test_animation_safety.ManimSourceSafetyTests.test_submodule_import_is_rejected) ... ok
+test_mixed_raw_and_filtered_bytes_pass_and_neither_still_fails (test_check_pkg_contents.CheckPkgContentsTests.test_mixed_raw_and_filtered_bytes_pass_and_neither_still_fails) ... ok
+test_empty_trim_result_cannot_report_stale_directory_files (test_clip_path_handoff.ClipPathHandoffTests.test_empty_trim_result_cannot_report_stale_directory_files) ... ok
+test_failed_trim_does_not_publish_a_success_result (test_clip_path_handoff.ClipPathHandoffTests.test_failed_trim_does_not_publish_a_success_result) ... ok
+test_handoff_contains_exact_actual_paths_in_match_order (test_clip_path_handoff.ClipPathHandoffTests.test_handoff_contains_exact_actual_paths_in_match_order) ... ok
+test_chat_files_and_embedding_derive_from_one_relay_root (test_dashscope_config.DashScopeRelayConfigTests.test_chat_files_and_embedding_derive_from_one_relay_root) ... ok
+test_chat_request_uses_relay_chat_completions (test_dashscope_config.DashScopeRelayConfigTests.test_chat_request_uses_relay_chat_completions) ... ok
+test_master_root_wins_over_legacy_endpoint_and_direct_fallback_remains (test_dashscope_config.DashScopeRelayConfigTests.test_master_root_wins_over_legacy_endpoint_and_direct_fallback_remains) ... ok
+voice saved: ignored.mp3
+voice template: longanyang
+提交阿里 ASR 打轴任务: qwen3-asr-flash-filetrans
+ASR task_id: task-1
+ASR 状态: SUCCEEDED
+test_tts_asr_and_task_polling_use_relay_native_paths (test_dashscope_config.DashScopeRelayConfigTests.test_tts_asr_and_task_polling_use_relay_native_paths) ... ok
+test_upload_policy_and_voice_customization_use_relay (test_dashscope_config.DashScopeRelayConfigTests.test_upload_policy_and_voice_customization_use_relay) ... ok
+test_default_is_dashscope_even_when_pi_is_found (test_material_agent_select.BackendDefaultTests.test_default_is_dashscope_even_when_pi_is_found) ... ok
+test_only_an_explicit_setting_selects_pi (test_material_agent_select.BackendDefaultTests.test_only_an_explicit_setting_selects_pi) ... ok
+test_bundled_cli_beats_pi_on_path (test_material_agent_select.BundledPiTests.test_bundled_cli_beats_pi_on_path) ... ok
+test_env_exe_beats_the_bundled_cli (test_material_agent_select.BundledPiTests.test_env_exe_beats_the_bundled_cli) ... ok
+test_node_falls_back_to_the_sibling_then_path (test_material_agent_select.BundledPiTests.test_node_falls_back_to_the_sibling_then_path) ... ok
+test_node_resolution_order (test_material_agent_select.BundledPiTests.test_node_resolution_order) ... ok
+test_node_slash_node_exe_is_the_second_bundled_location (test_material_agent_select.BundledPiTests.test_node_slash_node_exe_is_the_second_bundled_location) ... ok
+test_pi_command_pairs_the_bundled_cli_with_the_bundled_node (test_material_agent_select.BundledPiTests.test_pi_command_pairs_the_bundled_cli_with_the_bundled_node) ... ok
+test_runtime_root_is_the_parent_of_tools (test_material_agent_select.BundledPiTests.test_runtime_root_is_the_parent_of_tools) ... ok
+test_without_a_bundled_cli_it_falls_back_to_path (test_material_agent_select.BundledPiTests.test_without_a_bundled_cli_it_falls_back_to_path) ... ok
+test_other_value_errors_are_not_retried (test_material_agent_select.DashscopeListRetryTests.test_other_value_errors_are_not_retried) ... ok
+[agent] 模型返回了顶层数组，补充对象格式要求后重试一次
+test_top_level_array_answer_is_retried_once_with_object_nudge (test_material_agent_select.DashscopeListRetryTests.test_top_level_array_answer_is_retried_once_with_object_nudge) ... ok
+test_chord_missing_from_both_places_fails (test_material_agent_select.InstallPiChordCheckTests.test_chord_missing_from_both_places_fails) ... ok
+test_hoisted_layout_also_passes_the_path_fallback (test_material_agent_select.InstallPiChordCheckTests.test_hoisted_layout_also_passes_the_path_fallback) ... ok
+test_nested_shrinkwrap_layout_passes_the_path_fallback (test_material_agent_select.InstallPiChordCheckTests.test_nested_shrinkwrap_layout_passes_the_path_fallback) ... ok
+test_node_reports_a_missing_chord_instead_of_passing (test_material_agent_select.InstallPiChordCheckTests.test_node_reports_a_missing_chord_instead_of_passing) ... ok
+test_node_resolves_chord_inside_the_nested_layout (test_material_agent_select.InstallPiChordCheckTests.test_node_resolves_chord_inside_the_nested_layout) ... ok
+test_runtime_root_is_the_parent_of_tools (test_material_agent_select.InstallPiChordCheckTests.test_runtime_root_is_the_parent_of_tools) ... ok
+test_any_reconfigure_failure_is_tolerated (test_material_agent_select.InstallScriptEncodingTests.test_any_reconfigure_failure_is_tolerated) ... ok
+test_entry_point_switches_the_streams_to_utf8 (test_material_agent_select.InstallScriptEncodingTests.test_entry_point_switches_the_streams_to_utf8) ... ok
+test_gbk_stdout_would_have_crashed (test_material_agent_select.InstallScriptEncodingTests.test_gbk_stdout_would_have_crashed) ... ok
+test_main_reconfigures_before_doing_anything (test_material_agent_select.InstallScriptEncodingTests.test_main_reconfigures_before_doing_anything)
+`reconfigure` 只影响之后写出的字节，所以它必须是 `main()` 的**第一句**。 ... ok
+test_dashscope_does_not_retry_nontransient_http_errors (test_material_agent_select.ParsingTests.test_dashscope_does_not_retry_nontransient_http_errors) ... ok
+test_dashscope_invalid_thinking_setting_does_not_call_model (test_material_agent_select.ParsingTests.test_dashscope_invalid_thinking_setting_does_not_call_model) ... ok
+[agent] 视觉模型 JSON 生成中断，原样重试一次
+test_dashscope_json_generation_retry_is_bounded (test_material_agent_select.ParsingTests.test_dashscope_json_generation_retry_is_bounded) ... ok
+[agent] 视觉模型 JSON 生成中断，原样重试一次
+test_dashscope_retries_transient_json_generation_with_identical_request (test_material_agent_select.ParsingTests.test_dashscope_retries_transient_json_generation_with_identical_request) ... ok
+test_dashscope_thinking_is_opt_in (test_material_agent_select.ParsingTests.test_dashscope_thinking_is_opt_in) ... ok
+test_parse_search_output (test_material_agent_select.ParsingTests.test_parse_search_output) ... ok
+test_pi_event_text (test_material_agent_select.ParsingTests.test_pi_event_text) ... ok
+test_pi_provider_error_is_raised (test_material_agent_select.ParsingTests.test_pi_provider_error_is_raised) ... ok
+test_plain_text_fallback (test_material_agent_select.ParsingTests.test_plain_text_fallback) ... ok
+test_qwen_wire_payload_preserves_default_and_passes_explicit_thinking (test_material_agent_select.ParsingTests.test_qwen_wire_payload_preserves_default_and_passes_explicit_thinking) ... ok
+test_gateway_provider_reuses_dashscope_key (test_material_agent_select.PiApiKeySourceTests.test_gateway_provider_reuses_dashscope_key) ... ok
+test_other_provider_does_not_leak_dashscope_key_unless_asked (test_material_agent_select.PiApiKeySourceTests.test_other_provider_does_not_leak_dashscope_key_unless_asked) ... ok
+test_ask_pi_runs_node_with_cli_js (test_material_agent_select.PiCommandTests.test_ask_pi_runs_node_with_cli_js) ... ok
+test_cmd_shim_falls_back_to_node_on_path (test_material_agent_select.PiCommandTests.test_cmd_shim_falls_back_to_node_on_path) ... ok
+test_cmd_shim_resolves_bundled_cli_js_with_sibling_node (test_material_agent_select.PiCommandTests.test_cmd_shim_resolves_bundled_cli_js_with_sibling_node) ... ok
+test_cmd_shim_without_cli_js_raises_with_paths (test_material_agent_select.PiCommandTests.test_cmd_shim_without_cli_js_raises_with_paths) ... ok
+test_cmd_shim_without_node_raises (test_material_agent_select.PiCommandTests.test_cmd_shim_without_node_raises) ... ok
+test_env_node_exe_wins_over_path (test_material_agent_select.PiCommandTests.test_env_node_exe_wins_over_path) ... ok
+test_env_pointing_at_cli_js_gets_node_prefix (test_material_agent_select.PiCommandTests.test_env_pointing_at_cli_js_gets_node_prefix) ... ok
+test_missing_pi_returns_none (test_material_agent_select.PiCommandTests.test_missing_pi_returns_none) ... ok
+test_plain_pi_path_is_used_as_is (test_material_agent_select.PiCommandTests.test_plain_pi_path_is_used_as_is) ... ok
+test_debug_command_is_off_by_default (test_material_agent_select.PiPromptShapeTests.test_debug_command_is_off_by_default) ... ok
+test_debug_command_masks_api_key_and_clips_long_text (test_material_agent_select.PiPromptShapeTests.test_debug_command_masks_api_key_and_clips_long_text) ... ok
+test_non_array_parse_failure_is_not_retried (test_material_agent_select.PiPromptShapeTests.test_non_array_parse_failure_is_not_retried) ... ok
+test_single_element_array_also_counts_as_a_top_level_array (test_material_agent_select.PiPromptShapeTests.test_single_element_array_also_counts_as_a_top_level_array) ... ok
+test_top_level_array_is_retried_once_with_object_nudge (test_material_agent_select.PiPromptShapeTests.test_top_level_array_is_retried_once_with_object_nudge) ... ok
+test_two_arrays_in_a_row_raise (test_material_agent_select.PiPromptShapeTests.test_two_arrays_in_a_row_raise) ... ok
+test_user_text_is_the_last_positional_after_the_image_args (test_material_agent_select.PiPromptShapeTests.test_user_text_is_the_last_positional_after_the_image_args) ... ok
+test_a_damaged_models_json_warns_and_keeps_the_file (test_material_agent_select.PiProviderConfigTests.test_a_damaged_models_json_warns_and_keeps_the_file) ... ok
+test_a_provider_without_a_bundled_file_is_a_silent_no_op (test_material_agent_select.PiProviderConfigTests.test_a_provider_without_a_bundled_file_is_a_silent_no_op) ... ok
+test_an_unwritable_target_does_not_raise (test_material_agent_select.PiProviderConfigTests.test_an_unwritable_target_does_not_raise) ... ok
+test_identical_content_is_not_rewritten (test_material_agent_select.PiProviderConfigTests.test_identical_content_is_not_rewritten) ... ok
+test_missing_models_json_is_created_with_its_parent (test_material_agent_select.PiProviderConfigTests.test_missing_models_json_is_created_with_its_parent) ... ok
+test_other_providers_and_other_top_level_keys_survive (test_material_agent_select.PiProviderConfigTests.test_other_providers_and_other_top_level_keys_survive) ... ok
+test_pi_backend_merges_before_the_first_model_call (test_material_agent_select.PiProviderConfigTests.test_pi_backend_merges_before_the_first_model_call)
+调用点：run_agent_selection 判完 backend 就合并一次，dashscope 后端不碰用户目录。 ... ok
+test_the_switch_turns_the_merge_off (test_material_agent_select.PiProviderConfigTests.test_the_switch_turns_the_merge_off) ... ok
+test_an_unreadable_config_is_not_evidence_of_a_missing_provider (test_material_agent_select.PiProviderMissingWarningTests.test_an_unreadable_config_is_not_evidence_of_a_missing_provider)
+读不出来（损坏 / 没权限）≠ 查不到：这时不下结论、不告警，也绝不抛。 ... ok
+test_bundled_config_does_not_count_when_the_merge_is_switched_off (test_material_agent_select.PiProviderMissingWarningTests.test_bundled_config_does_not_count_when_the_merge_is_switched_off)
+关掉首启合并时包里那份进不了用户目录，不能拿它当「配好了」的证据。 ... ok
+test_dashscope_backend_never_warns (test_material_agent_select.PiProviderMissingWarningTests.test_dashscope_backend_never_warns) ... ok
+test_silent_for_every_real_pi_config_layout (test_material_agent_select.PiProviderMissingWarningTests.test_silent_for_every_real_pi_config_layout)
+pi 用户目录的布局随版本变，命中任一线索文件都不许告警（不许打假告警）。 ... ok
+test_silent_when_an_explicit_api_key_is_given (test_material_agent_select.PiProviderMissingWarningTests.test_silent_when_an_explicit_api_key_is_given)
+docs 里推荐的另一条配法：直接给 key（换 provider 时用），不许被当成没配。 ... ok
+test_silent_when_the_bundled_config_carries_the_provider (test_material_agent_select.PiProviderMissingWarningTests.test_silent_when_the_bundled_config_carries_the_provider) ... ok
+test_silent_when_the_user_models_json_carries_the_provider (test_material_agent_select.PiProviderMissingWarningTests.test_silent_when_the_user_models_json_carries_the_provider) ... ok
+test_the_warning_sits_on_the_shared_backend_entry (test_material_agent_select.PiProviderMissingWarningTests.test_the_warning_sits_on_the_shared_backend_entry)
+两条线（选材 / 包装）都经 make_ask，告警必须挂在那里，不许各写一份。 ... ok
+test_the_warning_survives_a_gbk_stdout (test_material_agent_select.PiProviderMissingWarningTests.test_the_warning_survives_a_gbk_stdout)
+中文 Windows 重定向到文件时按 gbk 编码：这条提醒自己不许把调用方打断。 ... ok
+test_warns_once_per_process_when_nothing_defines_the_provider (test_material_agent_select.PiProviderMissingWarningTests.test_warns_once_per_process_when_nothing_defines_the_provider) ... ok
+test_policy_imports_and_branches (test_material_agent_select.PolicyEntryTests.test_policy_imports_and_branches) ... ok
+test_any_shot_word_is_refused_but_shot_blasting_is_not (test_material_agent_select.QueryConcretenessTests.test_any_shot_word_is_refused_but_shot_blasting_is_not)
+黑名单只有 aerial/wide/close/medium/establishing shot 时，top-down shot 漏了过去。 ... ok
+test_blocklist_matches_whole_words_only (test_material_agent_select.QueryConcretenessTests.test_blocklist_matches_whole_words_only) ... ok
+test_concrete_queries_pass (test_material_agent_select.QueryConcretenessTests.test_concrete_queries_pass) ... ok
+test_editing_narration_is_refused (test_material_agent_select.QueryConcretenessTests.test_editing_narration_is_refused) ... ok
+test_keyword_string_without_an_action_is_refused (test_material_agent_select.QueryConcretenessTests.test_keyword_string_without_an_action_is_refused) ... ok
+test_noun_pile_without_any_verb_is_refused (test_material_agent_select.QueryConcretenessTests.test_noun_pile_without_any_verb_is_refused) ... ok
+test_plain_verbs_are_not_mistaken_for_noun_piles (test_material_agent_select.QueryConcretenessTests.test_plain_verbs_are_not_mistaken_for_noun_piles)
+2026-09-17 误拒：connects 不在词表里，整条被判「没有任何动作词」。 ... ok
+test_sizes_the_script_never_states_are_refused (test_material_agent_select.QueryConcretenessTests.test_sizes_the_script_never_states_are_refused) ... ok
+[agent] 检索词不具象，不重搜：「box spillage slip simulation pallet stability test real world failure」（含抽象概念或剪辑叙述词「simulation」，向量库里没有对应画面）
+[agent] 检索词不具象，不重搜：「操作员调整机器人示教器上袋料/箱体两组参数，画面切至传送带上袋料歪斜、箱体端正的对比」（含抽象概念或剪辑叙述词「切至」，向量库里没有对应画面）
+[agent] 评审池 3/8：engine 2 + agent 1 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3（1/3），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3，按未评审记录，不参与 pick
+test_abstract_rewrites_are_not_searched_and_are_logged (test_material_agent_select.SelectionFlowTests.test_abstract_rewrites_are_not_searched_and_are_logged) ... ok
+[agent] 评审池 8/8：engine 4 + agent 2 + both 2（重搜命中已并入 2 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3、4、5、6、7、8（1/8），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3、4、5、6、7、8，按未评审记录，不参与 pick
+test_agent_and_both_candidates_share_the_agent_quota (test_material_agent_select.SelectionFlowTests.test_agent_and_both_candidates_share_the_agent_quota) ... ok
+test_agent_candidates_keep_a_reserved_share_of_the_pool (test_material_agent_select.SelectionFlowTests.test_agent_candidates_keep_a_reserved_share_of_the_pool)
+[agent] 评审池 8/8：engine 4 + agent 2 + both 2（重搜命中已并入 2 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3、4、5、6、7、8（1/8），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3、4、5、6、7、8，按未评审记录，不参与 pick
+10 engine + 6 agent candidates (2 of them repeats) must not starve the agent. ... ok
+[agent] 评审池 3/8：engine 2 + agent 1 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_agent_picks_from_research_and_logs (test_material_agent_select.SelectionFlowTests.test_agent_picks_from_research_and_logs) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_barely_usable_low_score_is_refused_and_logged_as_a_fallback_suggestion (test_material_agent_select.SelectionFlowTests.test_barely_usable_low_score_is_refused_and_logged_as_a_fallback_suggestion) ... ok
+[agent] 评审池 8/8：engine 8 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3、7、8（4/8），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3、7、8，按未评审记录，不参与 pick
+test_candidates_missing_from_both_rankings_are_logged_as_unreviewed (test_material_agent_select.SelectionFlowTests.test_candidates_missing_from_both_rankings_are_logged_as_unreviewed) ... ok
+[agent] 评审池 8/8：engine 8 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_complete_ranking_is_never_asked_twice (test_material_agent_select.SelectionFlowTests.test_complete_ranking_is_never_asked_twice) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_dashscope_http_exit_writes_failure_report_and_log (test_material_agent_select.SelectionFlowTests.test_dashscope_http_exit_writes_failure_report_and_log) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_dashscope_query_exit_still_judges_engine_candidates (test_material_agent_select.SelectionFlowTests.test_dashscope_query_exit_still_judges_engine_candidates) ... ok
+test_dedupe_key_matches_the_same_span_across_export_directories (test_material_agent_select.SelectionFlowTests.test_dedupe_key_matches_the_same_span_across_export_directories) ... ok
+test_empty_pick_is_a_refusal_and_never_a_score_fallback (test_material_agent_select.SelectionFlowTests.test_empty_pick_is_a_refusal_and_never_a_score_fallback)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2（1/2），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2，按未评审记录，不参与 pick
+第 2 镜：judge.pick=[]，ranking 里却有 acceptable=true 的 85 分候选。 ... ok
+test_fabricated_size_is_not_searched (test_material_agent_select.SelectionFlowTests.test_fabricated_size_is_not_searched)
+[agent] 检索词不具象，不重搜：「吸盘已离开箱面5厘米，工件静止在砂带上」（分镜信息里没有「5厘米」这个尺寸/角度，不许自己设定数值）
+[agent] 评审池 3/8：engine 2 + agent 1 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3（1/3），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3，按未评审记录，不参与 pick
+分镜 duration=5，但文案里没有 5；「5厘米」仍然是编的，不许重搜。 ... ok
+[agent] 评审池 3/8：engine 3 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_fallback_suggestion_prefers_an_unobstructed_candidate_on_a_tie (test_material_agent_select.SelectionFlowTests.test_fallback_suggestion_prefers_an_unobstructed_candidate_on_a_tie) ... ok
+[agent] 评审池 3/8：engine 3 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_fill_mode_cuts_in_a_marked_placeholder_instead_of_stopping (test_material_agent_select.SelectionFlowTests.test_fill_mode_cuts_in_a_marked_placeholder_instead_of_stopping) ... ok
+test_heavy_obstruction_caps_the_score_and_refuses_the_candidate (test_material_agent_select.SelectionFlowTests.test_heavy_obstruction_caps_the_score_and_refuses_the_candidate)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+第 3 镜：前景大面积安全网栏，模型仍写「无遮挡」并给 95 分。 ... ok
+test_independent_orientation_call_overrides_an_upright_judge (test_material_agent_select.SelectionFlowTests.test_independent_orientation_call_overrides_an_upright_judge)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+第 5 镜：同一张横倒 sheet，在「口播要俯视」的上下文里被评审说成 upright/overhead 85 分。 ... ok
+test_log_records_per_stage_timings (test_material_agent_select.SelectionFlowTests.test_log_records_per_stage_timings)
+[agent] 评审池 3/8：engine 2 + agent 1 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 1、2（1/3），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 1、2，按未评审记录，不参与 pick
+elapsed_seconds alone cannot say where a shot's 40+ seconds went. ... ok
+test_merge_quota_hands_unused_slots_to_the_other_side (test_material_agent_select.SelectionFlowTests.test_merge_quota_hands_unused_slots_to_the_other_side) ... ok
+[agent] 评审池 1/8：engine 1 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_metadata_rotation_is_only_recorded (test_material_agent_select.SelectionFlowTests.test_metadata_rotation_is_only_recorded) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_min_accept_score_zero_restores_the_model_verdict (test_material_agent_select.SelectionFlowTests.test_min_accept_score_zero_restores_the_model_verdict) ... ok
+test_missing_count_caps_are_graded (test_material_agent_select.SelectionFlowTests.test_missing_count_caps_are_graded) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_missing_orientation_is_treated_as_unsure_and_penalised (test_material_agent_select.SelectionFlowTests.test_missing_orientation_is_treated_as_unsure_and_penalised) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_model_failure_is_reported_not_swallowed (test_material_agent_select.SelectionFlowTests.test_model_failure_is_reported_not_swallowed) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_no_acceptable_means_not_ok_and_no_fallback (test_material_agent_select.SelectionFlowTests.test_no_acceptable_means_not_ok_and_no_fallback) ... ok
+test_orientation_cache_damage_is_ignored (test_material_agent_select.SelectionFlowTests.test_orientation_cache_damage_is_ignored) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_orientation_cache_refuses_a_clip_judged_rotated_earlier_in_the_run (test_material_agent_select.SelectionFlowTests.test_orientation_cache_refuses_a_clip_judged_rotated_earlier_in_the_run) ... ok
+test_orientation_merge_rules (test_material_agent_select.SelectionFlowTests.test_orientation_merge_rules) ... ok
+test_oversized_judge_fields_are_truncated_and_flagged (test_material_agent_select.SelectionFlowTests.test_oversized_judge_fields_are_truncated_and_flagged)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+28/48 条 reason 超过 40 字（最长 72）；提示词收不住就在解析后截断。 ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2（1/2），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2，按未评审记录，不参与 pick
+test_partial_obstruction_keeps_a_candidate_out_of_the_90_band (test_material_agent_select.SelectionFlowTests.test_partial_obstruction_keeps_a_candidate_out_of_the_90_band) ... ok
+test_partial_ranking_is_asked_again_with_every_candidate_spelled_out (test_material_agent_select.SelectionFlowTests.test_partial_ranking_is_asked_again_with_every_candidate_spelled_out)
+[agent] 评审池 8/8：engine 8 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3、7、8（4/8），补充要求逐个评审后重试一次
+Windows flash 实测：8 个候选只回了 4 条 ranking，漏掉的会被当成"全被拒"。 ... ok
+[agent] 评审池 1/8：engine 1 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_paths_outside_scope_are_ignored (test_material_agent_select.SelectionFlowTests.test_paths_outside_scope_are_ignored) ... ok
+test_placeholder_order_prefers_upright_then_unobstructed (test_material_agent_select.SelectionFlowTests.test_placeholder_order_prefers_upright_then_unobstructed) ... ok
+test_ranking_without_visible_missing_or_orientation_still_parses (test_material_agent_select.SelectionFlowTests.test_ranking_without_visible_missing_or_orientation_still_parses)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 1（1/2），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 1，按未评审记录，不参与 pick
+Older/looser model replies must not break selection, only lose priority. ... ok
+test_re_search_hits_on_low_ranked_engine_candidates_enter_the_pool (test_material_agent_select.SelectionFlowTests.test_re_search_hits_on_low_ranked_engine_candidates_enter_the_pool)
+[agent] 评审池 8/8：engine 5 + agent 0 + both 3（重搜命中已并入 9 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2、3、4、5、6、7、8（1/8），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2、3、4、5、6、7、8，按未评审记录，不参与 pick
+9 agent hits that all repeat engine #8/#9/#10: those three must reach the pool. ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审给候选 1 各写了多条结论，只保留第一条
+test_repeated_candidate_entries_keep_the_first_verdict (test_material_agent_select.SelectionFlowTests.test_repeated_candidate_entries_keep_the_first_verdict) ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_rotated_candidate_is_refused_even_with_the_top_model_score (test_material_agent_select.SelectionFlowTests.test_rotated_candidate_is_refused_even_with_the_top_model_score) ... ok
+test_three_missing_items_cap_the_score_at_55 (test_material_agent_select.SelectionFlowTests.test_three_missing_items_cap_the_score_at_55)
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+[agent] 评审漏评候选 2（1/2），补充要求逐个评审后重试一次
+[agent] 评审仍漏评候选 2，按未评审记录，不参与 pick
+第 2 镜候选 7：missing 三条（袋料/箱体/对比）却给了 85 分并入选。 ... ok
+[agent] 评审池 2/8：engine 2 + agent 0 + both 0（重搜命中已并入 0 条，agent 名额比例 0.4）
+test_timings_are_written_even_when_the_model_fails (test_material_agent_select.SelectionFlowTests.test_timings_are_written_even_when_the_model_fails) ... ok
+test_missing_or_rejected_credentials_and_server_errors (test_material_audio_provider.JamendoAdapterTests.test_missing_or_rejected_credentials_and_server_errors) ... ok
+test_response_filters_and_exact_candidate_contract (test_material_audio_provider.JamendoAdapterTests.test_response_filters_and_exact_candidate_contract) ... ok
+test_main_normalizes_exhausted_transient_network_errors (test_material_audio_provider.MaterialProviderTransportTests.test_main_normalizes_exhausted_transient_network_errors) ... ok
+test_read_json_honors_provider_timeout_and_attempt_limits (test_material_audio_provider.MaterialProviderTransportTests.test_read_json_honors_provider_timeout_and_attempt_limits) ... ok
+test_anonymous_search_caps_oversampling_at_twenty (test_material_audio_provider.OpenverseSearchTests.test_anonymous_search_caps_oversampling_at_twenty) ... ok
+test_authenticated_search_can_oversample_up_to_fifty (test_material_audio_provider.OpenverseSearchTests.test_authenticated_search_can_oversample_up_to_fifty) ... ok
+test_cli_wrappers_keep_token_transport_cache_and_constants_patchable (test_material_audio_provider.OpenverseSearchTests.test_cli_wrappers_keep_token_transport_cache_and_constants_patchable) ... ok
+test_license_duration_and_mature_filters_preserve_exact_output_contract (test_material_audio_provider.OpenverseSearchTests.test_license_duration_and_mature_filters_preserve_exact_output_contract) ... ok
+test_search_auth_errors_are_translated_but_server_errors_propagate (test_material_audio_provider.OpenverseSearchTests.test_search_auth_errors_are_translated_but_server_errors_propagate) ... ok
+test_search_unauthorized_error_distinguishes_anonymous_and_token_requests (test_material_audio_provider.OpenverseSearchTests.test_search_unauthorized_error_distinguishes_anonymous_and_token_requests) ... ok
+test_expiring_token_is_refreshed (test_material_audio_provider.OpenverseTokenTests.test_expiring_token_is_refreshed) ... ok
+test_headers_add_bearer_only_when_token_exists (test_material_audio_provider.OpenverseTokenTests.test_headers_add_bearer_only_when_token_exists) ... ok
+test_missing_or_partial_credentials_use_anonymous_access (test_material_audio_provider.OpenverseTokenTests.test_missing_or_partial_credentials_use_anonymous_access) ... ok
+test_token_errors_are_classified_and_missing_token_is_rejected (test_material_audio_provider.OpenverseTokenTests.test_token_errors_are_classified_and_missing_token_is_rejected) ... ok
+test_token_is_fetched_cached_and_reused_before_expiry_margin (test_material_audio_provider.OpenverseTokenTests.test_token_is_fetched_cached_and_reused_before_expiry_margin) ... ok
+test_audio_license_normalizes_allowed_commercial_licenses (test_material_normalization.LicenseAndMetadataTests.test_audio_license_normalizes_allowed_commercial_licenses) ... ok
+test_audio_url_uses_direct_then_valid_alternative (test_material_normalization.LicenseAndMetadataTests.test_audio_url_uses_direct_then_valid_alternative) ... ok
+test_license_helpers_handle_public_domain_and_attribution (test_material_normalization.LicenseAndMetadataTests.test_license_helpers_handle_public_domain_and_attribution) ... ok
+test_metadata_and_tags_are_cleaned_deduplicated_and_bounded (test_material_normalization.LicenseAndMetadataTests.test_metadata_and_tags_are_cleaned_deduplicated_and_bounded) ... ok
+test_pexels_selection_ignores_malformed_and_oversized_candidates (test_material_normalization.MediaSelectionTests.test_pexels_selection_ignores_malformed_and_oversized_candidates) ... ok
+test_pixabay_selection_prefers_valid_1080p_variant (test_material_normalization.MediaSelectionTests.test_pixabay_selection_prefers_valid_1080p_variant) ... ok
+test_jamendo_cc0_response_does_not_require_attribution (test_material_normalization.ProviderIntegrationTests.test_jamendo_cc0_response_does_not_require_attribution) ... ok
+test_missing_provider_credentials_fail_before_network_access (test_material_normalization.ProviderIntegrationTests.test_missing_provider_credentials_fail_before_network_access) ... ok
+test_openverse_response_uses_central_license_and_duration_rules (test_material_normalization.ProviderIntegrationTests.test_openverse_response_uses_central_license_and_duration_rules) ... ok
+test_bool_accepts_common_api_encodings (test_material_normalization.ScalarNormalizationTests.test_bool_accepts_common_api_encodings) ... ok
+test_duration_policy_handles_unknown_bounds_and_invalid_values (test_material_normalization.ScalarNormalizationTests.test_duration_policy_handles_unknown_bounds_and_invalid_values) ... ok
+test_float_rejects_invalid_and_non_finite_values (test_material_normalization.ScalarNormalizationTests.test_float_rejects_invalid_and_non_finite_values) ... ok
+test_limit_clamps_and_rejects_invalid_bounds (test_material_normalization.ScalarNormalizationTests.test_limit_clamps_and_rejects_invalid_bounds) ... ok
+test_cached_visual_result_is_bound_to_media_content_and_model (test_material_selection_policy.CandidatePolicyTests.test_cached_visual_result_is_bound_to_media_content_and_model) ... ok
+test_disabled_policy_does_not_call_model (test_material_selection_policy.CandidatePolicyTests.test_disabled_policy_does_not_call_model) ... ok
+test_empty_bound_scope_is_not_randomly_expanded (test_material_selection_policy.CandidatePolicyTests.test_empty_bound_scope_is_not_randomly_expanded) ... ok
+test_failed_inspection_is_not_clean_and_does_not_randomize_without_opt_in (test_material_selection_policy.CandidatePolicyTests.test_failed_inspection_is_not_clean_and_does_not_randomize_without_opt_in) ... ok
+test_malformed_review_cannot_be_treated_as_no_logo (test_material_selection_policy.CandidatePolicyTests.test_malformed_review_cannot_be_treated_as_no_logo) ... ok
+test_outside_scope_and_directory_are_rejected (test_material_selection_policy.CandidatePolicyTests.test_outside_scope_and_directory_are_rejected) ... ok
+test_rejects_logo_uncertainty_then_selects_next_actual_candidate (test_material_selection_policy.CandidatePolicyTests.test_rejects_logo_uncertainty_then_selects_next_actual_candidate) ... ok
+test_samples_cover_ends_and_bound_request_size (test_material_selection_policy.CandidatePolicyTests.test_samples_cover_ends_and_bound_request_size) ... ok
+test_different_model_and_backend_are_not_normal_empty_matches (test_material_selection_policy.StrictSearchTests.test_different_model_and_backend_are_not_normal_empty_matches) ... ok
+test_embedding_network_error_is_not_swallowed_as_empty_match (test_material_selection_policy.StrictSearchTests.test_embedding_network_error_is_not_swallowed_as_empty_match) ... ok
+test_empty_index_search_reports_empty_clip_protocol_without_model (test_material_selection_policy.StrictSearchTests.test_empty_index_search_reports_empty_clip_protocol_without_model) ... ok
+test_engine_threshold_filters_before_trimming_and_reports_empty_paths (test_material_selection_policy.StrictSearchTests.test_engine_threshold_filters_before_trimming_and_reports_empty_paths) ... ok
+test_auth_failures_are_translated_and_server_errors_propagate (test_material_video_provider.PexelsAdapterTests.test_auth_failures_are_translated_and_server_errors_propagate) ... ok
+test_cli_compatibility_wrapper_uses_current_shared_reader (test_material_video_provider.PexelsAdapterTests.test_cli_compatibility_wrapper_uses_current_shared_reader) ... ok
+test_missing_key_fails_without_transport (test_material_video_provider.PexelsAdapterTests.test_missing_key_fails_without_transport) ... ok
+test_response_is_mapped_to_exact_candidate_contract (test_material_video_provider.PexelsAdapterTests.test_response_is_mapped_to_exact_candidate_contract) ... ok
+test_missing_key_and_malformed_payload_return_stable_results (test_material_video_provider.PixabayAdapterTests.test_missing_key_and_malformed_payload_return_stable_results) ... ok
+test_request_failures_are_classified (test_material_video_provider.PixabayAdapterTests.test_request_failures_are_classified) ... ok
+test_response_is_filtered_and_mapped_to_exact_candidate_contract (test_material_video_provider.PixabayAdapterTests.test_response_is_filtered_and_mapped_to_exact_candidate_contract) ... ok
+test_invalid_combinations_and_corrupted_saved_size_are_rejected (test_output_format.OutputFormatTests.test_invalid_combinations_and_corrupted_saved_size_are_rejected) ... ok
+test_subtitle_and_progress_geometry_scale_with_output_resolution (test_output_format.OutputFormatTests.test_subtitle_and_progress_geometry_scale_with_output_resolution) ... ok
+test_supported_sizes_saved_configuration_and_legacy_default (test_output_format.OutputFormatTests.test_supported_sizes_saved_configuration_and_legacy_default) ... ok
+test_paged_card_uses_the_packaging_line_break_rules (test_packaging_agent.CompositionTests.test_paged_card_uses_the_packaging_line_break_rules)
+包装卡片走 kinsoku 换行：docs §9.1 的「路径确｜认」不再把词切成两半。 ... ok
+test_paged_output_only_adds_the_hard_kill_lines (test_packaging_agent.CompositionTests.test_paged_output_only_adds_the_hard_kill_lines)
+分页样本：除新增的 tl.set 硬收尾外，与 ba6553e 那版逐字节相同。 ... ok
+test_plan_changes_only_the_template_not_the_copy (test_packaging_agent.CompositionTests.test_plan_changes_only_the_template_not_the_copy) ... ok
+test_show_false_skips_the_overlay_entirely (test_packaging_agent.CompositionTests.test_show_false_skips_the_overlay_entirely) ... ok
+test_single_page_output_matches_the_pre_change_module_byte_for_byte (test_packaging_agent.CompositionTests.test_single_page_output_matches_the_pre_change_module_byte_for_byte)
+真对照：把 ba6553e（接入 agent 之前）那份 template_packaging.py 单独载进来比。 ... ok
+test_title_shot_still_has_copy_so_packaging_never_starves (test_packaging_agent.CompositionTests.test_title_shot_still_has_copy_so_packaging_never_starves) ... ok
+test_every_page_gets_a_hard_kill_at_its_own_end (test_packaging_agent.PagedCompositionTests.test_every_page_gets_a_hard_kill_at_its_own_end) ... ok
+test_real_hyperframes_lint_accepts_the_paged_composition (test_packaging_agent.PagedCompositionTests.test_real_hyperframes_lint_accepts_the_paged_composition)
+真 lint。四件套齐才跑。 ... skipped '没有 HyperFrames 运行组件，跳过真 lint：模板包装缺少运行组件：内置 Node、Chrome Headless Shell。请修复运行环境，或在画面样式中关闭模板包装后重试。'
+test_single_page_keeps_the_old_animation_verbatim (test_packaging_agent.PagedCompositionTests.test_single_page_keeps_the_old_animation_verbatim) ... ok
+test_agent_choice_replaces_the_regex_and_is_logged (test_packaging_agent.PlanTests.test_agent_choice_replaces_the_regex_and_is_logged) ... ok
+test_bad_return_degrades_to_none_and_records_why (test_packaging_agent.PlanTests.test_bad_return_degrades_to_none_and_records_why) ... ok
+test_budget_never_drops_below_the_floor (test_packaging_agent.PlanTests.test_budget_never_drops_below_the_floor) ... ok
+test_cache_can_be_disabled (test_packaging_agent.PlanTests.test_cache_can_be_disabled) ... ok
+test_cache_hit_skips_the_model (test_packaging_agent.PlanTests.test_cache_hit_skips_the_model) ... ok
+test_exceptions_and_timeouts_never_escape (test_packaging_agent.PlanTests.test_exceptions_and_timeouts_never_escape) ... ok
+test_prompt_carries_no_writable_text_field (test_packaging_agent.PlanTests.test_prompt_carries_no_writable_text_field) ... ok
+test_show_false_is_kept_only_without_author_copy (test_packaging_agent.PlanTests.test_show_false_is_kept_only_without_author_copy) ... ok
+test_three_comparison_fields_separate_template_from_show (test_packaging_agent.PlanTests.test_three_comparison_fields_separate_template_from_show) ... ok
+test_timeout_is_a_per_shot_budget_split_across_internal_attempts (test_packaging_agent.PlanTests.test_timeout_is_a_per_shot_budget_split_across_internal_attempts) ... ok
+test_prompt_is_byte_for_byte_the_frozen_version (test_packaging_agent.PromptTests.test_prompt_is_byte_for_byte_the_frozen_version) ... ok
+test_the_two_rules_that_must_never_be_softened_are_present (test_packaging_agent.PromptTests.test_the_two_rules_that_must_never_be_softened_are_present) ... ok
+test_progress_event_is_a_running_compose_line (test_packaging_agent.RenderSegmentWiringTests.test_progress_event_is_a_running_compose_line) ... ok
+test_record_is_a_no_op_while_the_switch_is_off (test_packaging_agent.RenderSegmentWiringTests.test_record_is_a_no_op_while_the_switch_is_off) ... ok
+test_shot_total_reads_the_plan_and_survives_garbage (test_packaging_agent.RenderSegmentWiringTests.test_shot_total_reads_the_plan_and_survives_garbage) ... ok
+test_backend_defaults_to_dashscope_unless_pi_is_explicit (test_packaging_agent.SettingsTests.test_backend_defaults_to_dashscope_unless_pi_is_explicit) ... ok
+test_model_override_covers_both_backends_and_restores (test_packaging_agent.SettingsTests.test_model_override_covers_both_backends_and_restores) ... ok
+test_switch_is_off_unless_explicitly_enabled (test_packaging_agent.SettingsTests.test_switch_is_off_unless_explicitly_enabled) ... ok
+test_timeout_is_clamped (test_packaging_agent.SettingsTests.test_timeout_is_clamped) ... ok
+test_accepts_the_three_templates_only (test_packaging_agent.ValidationTests.test_accepts_the_three_templates_only) ... ok
+test_author_card_content_forces_show (test_packaging_agent.ValidationTests.test_author_card_content_forces_show) ... ok
+test_reason_is_truncated_and_never_reaches_the_screen (test_packaging_agent.ValidationTests.test_reason_is_truncated_and_never_reaches_the_screen) ... ok
+test_rejects_bad_returns_without_guessing (test_packaging_agent.ValidationTests.test_rejects_bad_returns_without_guessing) ... ok
+test_bar_tracks_letterboxed_picture_not_canvas (test_progress_renderer.PictureProgressTests.test_bar_tracks_letterboxed_picture_not_canvas) ... ok
+test_portrait_picture_limits_horizontal_bar_extent (test_progress_renderer.PictureProgressTests.test_portrait_picture_limits_horizontal_bar_extent) ... ok
+[警告] 读取用户进度条模板失败，使用默认模板: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+test_malformed_user_template_file_falls_back_to_classic (test_progress_renderer.ProgressAssTests.test_malformed_user_template_file_falls_back_to_classic) ... ok
+test_progress_uses_separate_alpha_tags_and_animated_clip (test_progress_renderer.ProgressAssTests.test_progress_uses_separate_alpha_tags_and_animated_clip) ... ok
+test_unknown_template_falls_back_to_bottom_aligned_default (test_progress_renderer.ProgressAssTests.test_unknown_template_falls_back_to_bottom_aligned_default) ... ok
+test_user_template_is_loaded_and_selected (test_progress_renderer.ProgressAssTests.test_user_template_is_loaded_and_selected) ... ok
+test_ass_color_splits_alpha_from_override_color (test_progress_renderer.ProgressColorTests.test_ass_color_splits_alpha_from_override_color) ... ok
+test_web_color_is_opaque_and_converted_to_bgr (test_progress_renderer.ProgressColorTests.test_web_color_is_opaque_and_converted_to_bgr) ... ok
+test_preview_examples_follow_rendering_anchor_and_ignore_obsolete_y (test_progress_renderer.SubtitleStyleTests.test_preview_examples_follow_rendering_anchor_and_ignore_obsolete_y) ... ok
+test_subtitle_stays_bold_when_legacy_config_disables_it (test_progress_renderer.SubtitleStyleTests.test_subtitle_stays_bold_when_legacy_config_disables_it) ... ok
+test_subtitle_uses_black_space_or_sits_above_progress (test_progress_renderer.SubtitleStyleTests.test_subtitle_uses_black_space_or_sits_above_progress) ... ok
+test_env_int_handles_boolean_and_invalid_values (test_python_boundaries.EnvironmentParsingTests.test_env_int_handles_boolean_and_invalid_values) ... ok
+test_parse_bool_supports_conventional_values (test_python_boundaries.EnvironmentParsingTests.test_parse_bool_supports_conventional_values) ... ok
+test_default_user_agent_is_added_to_request_objects_and_urls (test_python_boundaries.HttpClientTests.test_default_user_agent_is_added_to_request_objects_and_urls) ... ok
+test_explicit_and_environment_user_agents_take_precedence (test_python_boundaries.HttpClientTests.test_explicit_and_environment_user_agents_take_precedence) ... ok
+test_response_reader_decompresses_gzip_with_or_without_header (test_python_boundaries.HttpClientTests.test_response_reader_decompresses_gzip_with_or_without_header) ... ok
+test_retry_entrypoint_applies_default_user_agent (test_python_boundaries.HttpClientTests.test_retry_entrypoint_applies_default_user_agent) ... ok
+test_atomic_bytes_round_trip (test_python_boundaries.JsonIoTests.test_atomic_bytes_round_trip) ... ok
+test_atomic_json_round_trip_and_no_temp_file (test_python_boundaries.JsonIoTests.test_atomic_json_round_trip_and_no_temp_file) ... ok
+test_decode_json_error_includes_label_and_location (test_python_boundaries.JsonIoTests.test_decode_json_error_includes_label_and_location) ... ok
+test_decode_json_object_rejects_non_object (test_python_boundaries.JsonIoTests.test_decode_json_object_rejects_non_object) ... ok
+test_failed_replace_preserves_previous_file_and_cleans_temp (test_python_boundaries.JsonIoTests.test_failed_replace_preserves_previous_file_and_cleans_temp) ... ok
+test_compact_plan_preserves_previous_nearest_duration_semantics (test_python_boundaries.ShotPlanNormalizationTests.test_compact_plan_preserves_previous_nearest_duration_semantics) ... ok
+test_compaction_can_collapse_nested_whitespace_and_drop_nan (test_python_boundaries.ShotPlanNormalizationTests.test_compaction_can_collapse_nested_whitespace_and_drop_nan) ... ok
+test_duration_rounding_modes_and_non_finite_values (test_python_boundaries.ShotPlanNormalizationTests.test_duration_rounding_modes_and_non_finite_values) ... ok
+test_known_only_normalization_keeps_the_previous_exact_json (test_python_boundaries.ShotPlanNormalizationTests.test_known_only_normalization_keeps_the_previous_exact_json) ... ok
+分镜 #01 卡片: title_card -> C:\Users\evstm\AppData\Local\Temp\tmppwzhb3ek\cards\0001_card.ass
+已回写卡片计划: C:\Users\evstm\AppData\Local\Temp\tmppwzhb3ek\shots.json
+test_prepare_cards_main_preserves_unknown_metadata (test_python_boundaries.ShotPlanNormalizationTests.test_prepare_cards_main_preserves_unknown_metadata) ... ok
+test_shot_identity_and_minimal_material_bindings_survive_normalization (test_python_boundaries.ShotPlanNormalizationTests.test_shot_identity_and_minimal_material_bindings_survive_normalization) ... ok
+test_unknown_plan_and_shot_keys_are_deep_copied_after_known_keys (test_python_boundaries.ShotPlanNormalizationTests.test_unknown_plan_and_shot_keys_are_deep_copied_after_known_keys) ... ok
+优化搜索词 #1: first
+  download_query: robot
+  visual_query: robot arm
+优化搜索词 #2: second
+优化搜索词 #2: second
+  download_query: robot
+  visual_query: robot arm
+已回写优化后的搜索词: C:\Users\evstm\AppData\Local\Temp\tmpqr5gqn32\shots.json
+test_interruption_preserves_finished_shots_and_resume_skips_them (test_query_resume.QueryResumeTests.test_interruption_preserves_finished_shots_and_resume_skips_them) ... ok
+分镜 #7 搜索词自检未通过，正在自动修正 (2/3)
+分镜 #7 搜索词自检未通过，正在自动修正 (2/3)
+分镜 #7 搜索词自检未通过，正在自动修正 (2/3)
+test_invalid_model_results_are_corrected_without_changing_source (test_query_resume.QueryResumeTests.test_invalid_model_results_are_corrected_without_changing_source) ... ok
+分镜 #7 搜索词自检未通过，正在自动修正 (2/3)
+分镜 #7 搜索词自检未通过，正在自动修正 (3/3)
+test_persistent_invalid_output_stops_after_three_attempts (test_query_resume.QueryResumeTests.test_persistent_invalid_output_stops_after_three_attempts) ... ok
+test_service_failure_is_not_retried_as_model_correction (test_query_resume.QueryResumeTests.test_service_failure_is_not_retried_as_model_correction) ... ok
+test_dashscope_dimension_is_sent_as_a_top_level_parameter (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_dashscope_dimension_is_sent_as_a_top_level_parameter) ... ok
+test_dimension_mismatch_is_rejected (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_dimension_mismatch_is_rejected) ... ok
+test_hung_upload_worker_is_actually_killed_by_deadline (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_hung_upload_worker_is_actually_killed_by_deadline) ... ok
+test_permanent_provider_error_is_not_retried (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_permanent_provider_error_is_not_retried) ... ok
+test_video_retries_only_three_attempts_and_two_backoffs (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_video_retries_only_three_attempts_and_two_backoffs) ...   Retryable transport error (attempt 1/2), waiting 2s: bounded request
+  Retryable transport error (attempt 2/2), waiting 4s: bounded request
+ok
+test_worker_has_hard_timeout_and_no_key_in_payload (test_qwen_cloud_embedder.QwenCloudEmbedderTests.test_worker_has_hard_timeout_and_no_key_in_payload) ...   Qwen request attempt finished in 0.00s
+ok
+test_overlay_failure_with_a_plan_falls_back_to_the_deterministic_template (test_render_segment_packaging.PreparePackagingTests.test_overlay_failure_with_a_plan_falls_back_to_the_deterministic_template) ... ok
+test_overlay_failure_without_a_plan_is_raised_as_before (test_render_segment_packaging.PreparePackagingTests.test_overlay_failure_without_a_plan_is_raised_as_before) ... ok
+test_switch_off_leaves_no_trace (test_render_segment_packaging.PreparePackagingTests.test_switch_off_leaves_no_trace) ... ok
+test_unknown_shot_total_is_reported_as_question_mark (test_render_segment_packaging.PreparePackagingTests.test_unknown_shot_total_is_reported_as_question_mark) ... ok
+test_shot_with_card_content_still_asks_the_agent (test_render_segment_packaging.ScriptOnlyWiringTests.test_shot_with_card_content_still_asks_the_agent) ... ok
+test_shot_without_card_content_never_imports_or_calls_the_agent (test_render_segment_packaging.ScriptOnlyWiringTests.test_shot_without_card_content_never_imports_or_calls_the_agent) ... ok
+test_skipped_shot_still_emits_both_progress_events (test_render_segment_packaging.ScriptOnlyWiringTests.test_skipped_shot_still_emits_both_progress_events)
+跳过也要发进度事件，否则桌面端 current 会跳号、末镜被跳时像卡住。 ... ok
+test_switch_off_puts_the_agent_back_on_every_shot (test_render_segment_packaging.ScriptOnlyWiringTests.test_switch_off_puts_the_agent_back_on_every_shot) ... ok
+test_audio_problem_is_hard_only_when_the_agent_took_part (test_render_segment_packaging.SettleSegmentTests.test_audio_problem_is_hard_only_when_the_agent_took_part) ... ok
+test_clean_result_does_nothing (test_render_segment_packaging.SettleSegmentTests.test_clean_result_does_nothing) ... ok
+test_fallback_render_failure_keeps_the_original_diagnosis (test_render_segment_packaging.SettleSegmentTests.test_fallback_render_failure_keeps_the_original_diagnosis) ... ok
+test_second_verification_failure_still_raises (test_render_segment_packaging.SettleSegmentTests.test_second_verification_failure_still_raises) ... ok
+test_show_false_shot_never_gains_packaging_on_retry (test_render_segment_packaging.SettleSegmentTests.test_show_false_shot_never_gains_packaging_on_retry) ... ok
+test_video_problem_with_an_agent_overlay_re_renders_and_re_encodes_once (test_render_segment_packaging.SettleSegmentTests.test_video_problem_with_an_agent_overlay_re_renders_and_re_encodes_once) ... ok
+test_a_formula_card_with_a_cached_value_also_only_warns (test_script_card_fields.CellKindTests.test_a_formula_card_with_a_cached_value_also_only_warns) ... ok
+test_a_formula_card_without_a_cached_value_is_not_called_invented (test_script_card_fields.CellKindTests.test_a_formula_card_without_a_cached_value_is_not_called_invented) ... ok
+test_a_numeric_shot_number_column_is_fine (test_script_card_fields.CellKindTests.test_a_numeric_shot_number_column_is_fine) ... ok
+test_a_percent_or_float_card_only_warns (test_script_card_fields.CellKindTests.test_a_percent_or_float_card_only_warns) ... ok
+test_numeric_cells_are_flagged_by_the_reader (test_script_card_fields.CellKindTests.test_numeric_cells_are_flagged_by_the_reader) ... ok
+test_a_card_merged_down_across_two_shots_is_warn_only (test_script_card_fields.CertaintyGateTests.test_a_card_merged_down_across_two_shots_is_warn_only) ... ok
+test_a_card_merged_down_within_one_shot_is_still_certain (test_script_card_fields.CertaintyGateTests.test_a_card_merged_down_within_one_shot_is_still_certain) ... ok
+test_a_horizontal_merge_over_a_key_column_is_warn_only (test_script_card_fields.CertaintyGateTests.test_a_horizontal_merge_over_a_key_column_is_warn_only)
+口播格横向合并盖住右边的上屏列（C2:D2）：读取层不再往右摊，上层整份只告警。 ... ok
+test_block_a_legend_or_example_header_above_the_real_table (test_script_card_fields.CertaintyGateTests.test_block_a_legend_or_example_header_above_the_real_table)
+阻断 A（1a5f5d0 引入）：真表上方的图例 / 填写示例表头抢表，口播被写进无卡镜。 ... ok
+test_block_b_real_v1_shape_never_clears_author_cards (test_script_card_fields.CertaintyGateTests.test_block_b_real_v1_shape_never_clears_author_cards)
+阻断 B（2976c0a 引入）：真实 `上下料B端视频脚本_v1.xlsx` 主表列名 ... ok
+test_real_v2a_shape_stays_certain_and_restores_the_author_cards (test_script_card_fields.CertaintyGateTests.test_real_v2a_shape_stays_certain_and_restores_the_author_cards)
+真实 v2A 的完整形状（14 列主表 + 旁白副本 + 红线 / 素材 / 图层三张附表） ... ok
+test_the_same_table_without_the_legend_is_certain (test_script_card_fields.CertaintyGateTests.test_the_same_table_without_the_legend_is_certain)
+对照组：去掉图例后是确定档；第 1 镜被丢的卡按原文补回，2/3 镜不造卡。 ... ok
+test_the_y1_y2_fixes_of_the_fourth_review_are_not_undone (test_script_card_fields.CertaintyGateTests.test_the_y1_y2_fixes_of_the_fourth_review_are_not_undone)
+第四次复审 Y1 / Y2：下方角色更多的小表、`分镜标题（全片通用）` + 纵向合并 ... ok
+test_tiers_are_reported_for_every_route (test_script_card_fields.CertaintyGateTests.test_tiers_are_reported_for_every_route) ... ok
+test_a_faithful_parse_of_a_multi_line_card_needs_no_correction (test_script_card_fields.CompactPlanLayoutTests.test_a_faithful_parse_of_a_multi_line_card_needs_no_correction) ... ok
+test_table_scripts_keep_card_line_breaks_and_text_scripts_still_fold (test_script_card_fields.CompactPlanLayoutTests.test_table_scripts_keep_card_line_breaks_and_text_scripts_still_fold) ... ok
+test_the_table_version_corrects_exactly_what_the_markdown_one_does (test_script_card_fields.EquivalentScriptTests.test_the_table_version_corrects_exactly_what_the_markdown_one_does) ... ok
+test_the_table_version_keeps_the_two_title_probes (test_script_card_fields.EquivalentScriptTests.test_the_table_version_keeps_the_two_title_probes)
+B8 的两个探针：第 4 镜的长句标题、第 6 镜的「开场」。 ... ok
+test_the_three_formats_of_script_03_extract_identically (test_script_card_fields.EquivalentScriptTests.test_the_three_formats_of_script_03_extract_identically)
+B7 的前提：xlsx 版、txt 版、md 版必须抽出一模一样的东西。 ... ok
+test_u7_exception_does_not_apply_to_plain_text_titles (test_script_card_fields.EquivalentScriptTests.test_u7_exception_does_not_apply_to_plain_text_titles) ... ok
+test_u7_exception_does_not_unprotect_table_card_fields (test_script_card_fields.EquivalentScriptTests.test_u7_exception_does_not_unprotect_table_card_fields) ... ok
+test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels (test_script_card_fields.EquivalentScriptTests.test_u7_table_repairs_titles_even_when_parser_copied_chapter_labels)
+51405257：用原 07 表和 U7 首次导入 plan 复现第 4/6 镜标题被保护逻辑拦住。 ... ok
+test_bare_symbols_are_placeholders_for_every_field (test_script_card_fields.ExtractionTests.test_bare_symbols_are_placeholders_for_every_field)
+2026-09-23 用户拍板：上屏列里的纯符号 / 「空白」「不上屏」都等于作者没写卡片。 ... ok
+test_bold_key_with_the_colon_inside_the_emphasis (test_script_card_fields.ExtractionTests.test_bold_key_with_the_colon_inside_the_emphasis) ... ok
+test_english_script_is_supported (test_script_card_fields.ExtractionTests.test_english_script_is_supported) ... ok
+test_extracts_both_fields_and_folds_placeholders_to_empty (test_script_card_fields.ExtractionTests.test_extracts_both_fields_and_folds_placeholders_to_empty) ... ok
+test_fenced_example_blocks_are_ignored (test_script_card_fields.ExtractionTests.test_fenced_example_blocks_are_ignored) ... ok
+test_free_form_script_without_shot_markers_is_skipped (test_script_card_fields.ExtractionTests.test_free_form_script_without_shot_markers_is_skipped) ... ok
+test_non_text_formats_are_not_read (test_script_card_fields.ExtractionTests.test_non_text_formats_are_not_read) ... ok
+test_placeholder_only_matches_the_whole_value (test_script_card_fields.ExtractionTests.test_placeholder_only_matches_the_whole_value) ... ok
+test_prose_mentioning_a_shot_number_breaks_the_1_to_n_sequence (test_script_card_fields.ExtractionTests.test_prose_mentioning_a_shot_number_breaks_the_1_to_n_sequence) ... ok
+test_shot_title_field_is_not_mistaken_for_a_shot_marker (test_script_card_fields.ExtractionTests.test_shot_title_field_is_not_mistaken_for_a_shot_marker) ... ok
+test_utf16_is_not_guessed_at (test_script_card_fields.ExtractionTests.test_utf16_is_not_guessed_at) ... ok
+test_value_with_its_own_colon_keeps_the_whole_value (test_script_card_fields.ExtractionTests.test_value_with_its_own_colon_keeps_the_whole_value) ... ok
+test_a_cell_that_is_only_a_label_counts_as_not_written (test_script_card_fields.LayoutLabelTests.test_a_cell_that_is_only_a_label_counts_as_not_written) ... ok
+test_labels_are_not_stripped_from_hints_or_titles (test_script_card_fields.LayoutLabelTests.test_labels_are_not_stripped_from_hints_or_titles) ... ok
+test_labels_are_stripped_at_the_start_of_every_line_only (test_script_card_fields.LayoutLabelTests.test_labels_are_stripped_at_the_start_of_every_line_only) ... ok
+test_the_parse_prompt_tells_the_model_the_same_whitelist (test_script_card_fields.LayoutLabelTests.test_the_parse_prompt_tells_the_model_the_same_whitelist) ... ok
+test_the_text_route_strips_the_label_too (test_script_card_fields.LayoutLabelTests.test_the_text_route_strips_the_label_too) ... ok
+test_every_new_log_line_survives_a_gbk_stdout (test_script_card_fields.NewRouteOutputTests.test_every_new_log_line_survives_a_gbk_stdout) ... ok
+test_the_table_route_still_emits_one_event (test_script_card_fields.NewRouteOutputTests.test_the_table_route_still_emits_one_event) ... ok
+test_a_corrupt_workbook_is_a_zero_action (test_script_card_fields.OtherFormatTests.test_a_corrupt_workbook_is_a_zero_action) ... ok
+test_a_docx_shot_script_goes_down_the_text_route (test_script_card_fields.OtherFormatTests.test_a_docx_shot_script_goes_down_the_text_route) ... ok
+test_a_docx_without_shot_markers_is_a_zero_action (test_script_card_fields.OtherFormatTests.test_a_docx_without_shot_markers_is_a_zero_action) ... ok
+test_an_unknown_suffix_is_a_zero_action (test_script_card_fields.OtherFormatTests.test_an_unknown_suffix_is_a_zero_action) ... ok
+test_pdf_doc_and_xls_are_never_opened (test_script_card_fields.OtherFormatTests.test_pdf_doc_and_xls_are_never_opened) ... ok
+test_event_is_emitted_only_when_something_was_corrected (test_script_card_fields.OutputTests.test_event_is_emitted_only_when_something_was_corrected) ... ok
+test_every_log_line_survives_a_gbk_stdout (test_script_card_fields.OutputTests.test_every_log_line_survives_a_gbk_stdout)
+中文 Windows 把 stdout 重定向到文件时按 gbk 编码：日志里不许有 gbk 编不出的符号。 ... ok
+test_no_event_when_everything_matches (test_script_card_fields.OutputTests.test_no_event_when_everything_matches) ... ok
+test_printable_is_a_no_op_under_utf8 (test_script_card_fields.OutputTests.test_printable_is_a_no_op_under_utf8) ... ok
+test_text_the_author_wrote_is_sanitised_for_the_console_encoding (test_script_card_fields.OutputTests.test_text_the_author_wrote_is_sanitised_for_the_console_encoding)
+作者在上屏文字里放了 emoji / `⚠`，日志会原样回显它——不许因此崩掉。 ... ok
+test_verify_never_raises (test_script_card_fields.OutputTests.test_verify_never_raises) ... ok
+test_a_clean_parse_of_each_script_needs_no_correction (test_script_card_fields.RealScriptRegressionTests.test_a_clean_parse_of_each_script_needs_no_correction)
+解析器完全正确时零纠正——这是「不误改」的总闸门。 ... ok
+test_a_merged_shot_plan_is_not_silently_realigned (test_script_card_fields.RealScriptRegressionTests.test_a_merged_shot_plan_is_not_silently_realigned)
+qwen 把 7 段合成 6 镜再拆回 7 条时，块数仍相等——必须靠锚点挡住。 ... ok
+test_every_shot_of_the_five_scripts_is_extracted_verbatim (test_script_card_fields.RealScriptRegressionTests.test_every_shot_of_the_five_scripts_is_extracted_verbatim) ... ok
+test_readme_is_not_mistaken_for_a_script (test_script_card_fields.RealScriptRegressionTests.test_readme_is_not_mistaken_for_a_script) ... ok
+test_the_parser_edits_from_the_windows_report_are_all_caught (test_script_card_fields.RealScriptRegressionTests.test_the_parser_edits_from_the_windows_report_are_all_caught)
+回帖 51296044 第三节那张表里属于上屏字段的 10 处，逐条应被抽出并纠正。 ... ok
+test_a_block_without_any_anchor_only_warns (test_script_card_fields.ReconcileTests.test_a_block_without_any_anchor_only_warns) ... ok
+test_a_mid_way_failure_leaves_the_original_plan_untouched (test_script_card_fields.ReconcileTests.test_a_mid_way_failure_leaves_the_original_plan_untouched) ... ok
+test_anchor_matches_even_when_the_title_was_rewritten (test_script_card_fields.ReconcileTests.test_anchor_matches_even_when_the_title_was_rewritten)
+口播对得上就算认人成功——03 第 4/6 镜的 title 正是被解析器改写过的。 ... ok
+test_autofix_env_switch_defaults_to_on (test_script_card_fields.ReconcileTests.test_autofix_env_switch_defaults_to_on) ... ok
+test_autofix_off_reports_without_changing_the_plan (test_script_card_fields.ReconcileTests.test_autofix_off_reports_without_changing_the_plan) ... ok
+test_binary_format_is_a_no_op (test_script_card_fields.ReconcileTests.test_binary_format_is_a_no_op) ... ok
+test_duplicate_field_lines_in_one_shot_only_warn (test_script_card_fields.ReconcileTests.test_duplicate_field_lines_in_one_shot_only_warn) ... ok
+test_free_form_script_is_a_no_op (test_script_card_fields.ReconcileTests.test_free_form_script_is_a_no_op) ... ok
+test_invented_card_hint_is_cleared (test_script_card_fields.ReconcileTests.test_invented_card_hint_is_cleared) ... ok
+test_markdown_emphasis_only_differences_are_not_corrections (test_script_card_fields.ReconcileTests.test_markdown_emphasis_only_differences_are_not_corrections) ... ok
+test_missing_card_content_is_restored_from_the_script (test_script_card_fields.ReconcileTests.test_missing_card_content_is_restored_from_the_script) ... ok
+test_rewritten_value_is_replaced_by_the_script_text (test_script_card_fields.ReconcileTests.test_rewritten_value_is_replaced_by_the_script_text) ... ok
+test_script_side_line_breaks_are_folded_like_normalize_script_does (test_script_card_fields.ReconcileTests.test_script_side_line_breaks_are_folded_like_normalize_script_does) ... ok
+test_script_without_card_fields_at_all_is_a_zero_action (test_script_card_fields.ReconcileTests.test_script_without_card_fields_at_all_is_a_zero_action) ... ok
+test_shot_count_mismatch_only_warns (test_script_card_fields.ReconcileTests.test_shot_count_mismatch_only_warns) ... ok
+test_shot_identity_must_be_confirmed_by_an_anchor (test_script_card_fields.ReconcileTests.test_shot_identity_must_be_confirmed_by_an_anchor)
+块数相等但镜号错位（qwen 合并/拆分分镜）→ 只告警，不许把别镜的文字写进来。 ... ok
+test_unrecognised_field_name_does_not_wipe_a_correct_plan (test_script_card_fields.ReconcileTests.test_unrecognised_field_name_does_not_wipe_a_correct_plan)
+作者用了同义词表不认识的字段名 → 不许把解析器抽对的值当「臆造」删掉。 ... ok
+test_value_continued_on_the_next_line_only_warns (test_script_card_fields.ReconcileTests.test_value_continued_on_the_next_line_only_warns) ... ok
+test_whitespace_only_differences_are_not_corrections (test_script_card_fields.ReconcileTests.test_whitespace_only_differences_are_not_corrections) ... ok
+test_a_headline_that_does_not_fit_falls_back_to_the_existing_layout (test_script_card_fields.ScriptLayoutRenderTests.test_a_headline_that_does_not_fit_falls_back_to_the_existing_layout) ... ok
+test_equal_lines_keeps_the_existing_two_equal_lines_look (test_script_card_fields.ScriptLayoutRenderTests.test_equal_lines_keeps_the_existing_two_equal_lines_look) ... ok
+test_headline_sub_renders_the_big_plus_small_card (test_script_card_fields.ScriptLayoutRenderTests.test_headline_sub_renders_the_big_plus_small_card) ... ok
+test_real_hyperframes_lint_accepts_the_headline_card (test_script_card_fields.ScriptLayoutRenderTests.test_real_hyperframes_lint_accepts_the_headline_card)
+真 lint（大字+小字卡）。四件套齐才跑，否则 skip——与 ... skipped '没有 HyperFrames 运行组件，跳过真 lint：模板包装缺少运行组件：内置 Node、Chrome Headless Shell。请修复运行环境，或在画面样式中关闭模板包装后重试。'
+test_shots_without_labels_render_byte_identical_to_556210e (test_script_card_fields.ScriptLayoutRenderTests.test_shots_without_labels_render_byte_identical_to_556210e)
+回归保证：没写任何标签的脚本，画面与 556210e 完全一致（html 与 manifest 逐字节）。 ... ok
+test_the_agent_is_still_asked_for_shots_without_a_script_layout (test_script_card_fields.ScriptLayoutRenderTests.test_the_agent_is_still_asked_for_shots_without_a_script_layout) ... ok
+test_the_packaging_agent_cannot_override_a_script_layout (test_script_card_fields.ScriptLayoutRenderTests.test_the_packaging_agent_cannot_override_a_script_layout) ... ok
+test_a_certain_table_writes_card_layout_for_labelled_shots_only (test_script_card_fields.ScriptLayoutTests.test_a_certain_table_writes_card_layout_for_labelled_shots_only) ... ok
+test_layout_is_derived_only_from_script_labels (test_script_card_fields.ScriptLayoutTests.test_layout_is_derived_only_from_script_labels) ... ok
+test_no_layout_when_anything_is_uncertain (test_script_card_fields.ScriptLayoutTests.test_no_layout_when_anything_is_uncertain) ... ok
+test_the_model_cannot_supply_card_layout_and_the_schema_passes_it_through (test_script_card_fields.ScriptLayoutTests.test_the_model_cannot_supply_card_layout_and_the_schema_passes_it_through) ... ok
+test_a_copied_placeholder_explanation_is_flagged_not_changed (test_script_card_fields.SecondReviewTests.test_a_copied_placeholder_explanation_is_flagged_not_changed) ... ok
+test_a_csv_that_falls_back_to_the_text_route_folds_card_breaks (test_script_card_fields.SecondReviewTests.test_a_csv_that_falls_back_to_the_text_route_folds_card_breaks) ... ok
+test_b1_an_example_block_with_the_same_header_above_is_warn_only (test_script_card_fields.SecondReviewTests.test_b1_an_example_block_with_the_same_header_above_is_warn_only)
+阻断 B1（夹具 C1 / C1b）：上方示例块表头与正表逐字相同、示例行号写 1（或空） ... ok
+test_b2_a_trailing_note_in_the_card_column_is_not_merged_into_the_last_shot (test_script_card_fields.SecondReviewTests.test_b2_a_trailing_note_in_the_card_column_is_not_merged_into_the_last_shot)
+阻断 B2（夹具 C2）：表尾隔两行空白、不写镜号的说明落在上屏列 -> 556210e 把它 ... ok
+test_b2_variants_trailing_example_blocks (test_script_card_fields.SecondReviewTests.test_b2_variants_trailing_example_blocks)
+C2b：表尾同表头示例 -> 整份只告警；C2c：表尾示例行号写「例」-> 第 3 镜只告警； ... ok
+test_c4_a_shared_title_cannot_vouch_for_a_mismatched_voice (test_script_card_fields.SecondReviewTests.test_c4_a_shared_title_cannot_vouch_for_a_mismatched_voice)
+应修 1（夹具 C4）：第 1、2 镜标题都叫「痛点」，plan 把两镜口播顺序颠倒了。 ... ok
+test_chained_labels_and_markdown_around_labels_are_stripped (test_script_card_fields.SecondReviewTests.test_chained_labels_and_markdown_around_labels_are_stripped) ... ok
+test_hidden_columns_or_rows_make_the_table_warn_only (test_script_card_fields.SecondReviewTests.test_hidden_columns_or_rows_make_the_table_warn_only)
+夹具 C5 的真实形状：隐藏的旧上屏列 / 隐藏的示例行，解析器读不读说不准 -> 只告警。 ... ok
+test_placeholder_variants_are_never_put_on_screen (test_script_card_fields.SecondReviewTests.test_placeholder_variants_are_never_put_on_screen)
+应修 2：这些写法模型留空是对的，556210e 判「丢失」写回、渲上屏。 ... ok
+test_x0000_and_other_controls_are_dropped_but_tab_newline_cr_are_kept (test_script_card_fields.SecondReviewTests.test_x0000_and_other_controls_are_dropped_but_tab_newline_cr_are_kept) ... ok
+test_a_note_row_after_the_last_shot_does_not_become_a_shot (test_script_card_fields.TableGroupingTests.test_a_note_row_after_the_last_shot_does_not_become_a_shot) ... ok
+test_a_note_row_with_content_poisons_only_the_shot_it_follows (test_script_card_fields.TableGroupingTests.test_a_note_row_with_content_poisons_only_the_shot_it_follows) ... ok
+test_a_repeated_header_row_is_not_taken_for_a_shot (test_script_card_fields.TableGroupingTests.test_a_repeated_header_row_is_not_taken_for_a_shot)
+重复的表头行不会被当成一镜（分组仍是 2 镜）；2026-09-23 第二次对抗复审起 ... ok
+test_a_row_holding_two_shot_numbers_makes_that_shot_advisory_only (test_script_card_fields.TableGroupingTests.test_a_row_holding_two_shot_numbers_makes_that_shot_advisory_only) ... ok
+test_a_shot_spanning_several_rows_via_a_merged_number_stays_one_shot (test_script_card_fields.TableGroupingTests.test_a_shot_spanning_several_rows_via_a_merged_number_stays_one_shot) ... ok
+test_a_shot_whose_rows_give_two_different_values_is_advisory_only (test_script_card_fields.TableGroupingTests.test_a_shot_whose_rows_give_two_different_values_is_advisory_only) ... ok
+test_a_table_without_a_shot_number_column_uses_one_row_per_shot (test_script_card_fields.TableGroupingTests.test_a_table_without_a_shot_number_column_uses_one_row_per_shot) ... ok
+test_an_unreadable_shot_number_makes_the_whole_group_doubtful (test_script_card_fields.TableGroupingTests.test_an_unreadable_shot_number_makes_the_whole_group_doubtful)
+对抗复审建议 2：`1-2` 那一行在上屏列上是空的，值仍然唯一——不能只靠「不唯一」。 ... ok
+test_blank_rows_are_skipped (test_script_card_fields.TableGroupingTests.test_blank_rows_are_skipped) ... ok
+test_columns_that_are_not_validated_still_protect_a_correct_plan (test_script_card_fields.TableGroupingTests.test_columns_that_are_not_validated_still_protect_a_correct_plan)
+对抗复审建议 4：画面 / 时长这类列的值也要算进「表外值」，与纯文本路一致。 ... ok
+test_shot_numbers_may_be_written_with_decorations (test_script_card_fields.TableGroupingTests.test_shot_numbers_may_be_written_with_decorations) ... ok
+test_shot_numbers_that_are_not_strictly_one_to_n_are_a_zero_action (test_script_card_fields.TableGroupingTests.test_shot_numbers_that_are_not_strictly_one_to_n_are_a_zero_action) ... ok
+test_a_failed_earlier_header_is_not_replaced_by_a_lower_table (test_script_card_fields.TableHeaderTests.test_a_failed_earlier_header_is_not_replaced_by_a_lower_table)
+上方候选切不出分镜时宁可漏报，不让下方另一张表接管。 ... ok
+test_a_generic_key_with_a_bracketed_qualifier_is_not_matched_either (test_script_card_fields.TableHeaderTests.test_a_generic_key_with_a_bracketed_qualifier_is_not_matched_either)
+限定语写在**括号里**的那一类（对抗复审阻断 1）。 ... ok
+test_a_header_of_only_numbers_and_durations_is_not_a_shot_table (test_script_card_fields.TableHeaderTests.test_a_header_of_only_numbers_and_durations_is_not_a_shot_table) ... ok
+test_a_later_target_sheet_with_copied_voice_cannot_replace_the_first_shot_table (test_script_card_fields.TableHeaderTests.test_a_later_target_sheet_with_copied_voice_cannot_replace_the_first_shot_table)
+跨 sheet 对抗：不能按“有待校验字段”让后面的平台表反超主表。 ... ok
+test_a_lower_table_with_more_roles_does_not_steal_the_header (test_script_card_fields.TableHeaderTests.test_a_lower_table_with_more_roles_does_not_steal_the_header)
+第四次复审应修 1：下方表角色更多，也不能反超上方真正的分镜表。 ... ok
+test_a_merged_whole_video_title_cannot_overwrite_every_shot_title (test_script_card_fields.TableHeaderTests.test_a_merged_whole_video_title_cannot_overwrite_every_shot_title) ... ok
+test_a_narration_sheet_that_only_looks_equal_after_markup_stripping_is_not_ignored (test_script_card_fields.TableHeaderTests.test_a_narration_sheet_that_only_looks_equal_after_markup_stripping_is_not_ignored) ... ok
+test_a_note_that_contradicts_the_role_disables_the_column (test_script_card_fields.TableHeaderTests.test_a_note_that_contradicts_the_role_disables_the_column)
+第二次对抗复审应修 1：`中文文案（上屏）` 不是口播，认成口播会清掉作者的卡片。 ... ok
+test_a_platform_title_column_cannot_rewrite_every_shot_title (test_script_card_fields.TableHeaderTests.test_a_platform_title_column_cannot_rewrite_every_shot_title)
+对抗复审阻断 1 的复现 A：全片标题列 + 纵向合并 -> 所有分镜标题被替换。 ... ok
+test_a_real_header_with_a_remarks_column_still_wins (test_script_card_fields.TableHeaderTests.test_a_real_header_with_a_remarks_column_still_wins)
+第三轮对抗复审阻断：真表头多一个 `备注` 列密度就掉到 0.75， ... ok
+test_a_row_where_half_the_cells_are_values_is_not_a_header (test_script_card_fields.TableHeaderTests.test_a_row_where_half_the_cells_are_values_is_not_a_header)
+密度闸门：封面块那种 `标题|x|文案|y|素材|z` 是 3/6 = 0.5，挡掉，选不上表头。 ... ok
+test_a_second_small_table_below_does_not_steal_the_header (test_script_card_fields.TableHeaderTests.test_a_second_small_table_below_does_not_steal_the_header)
+第二次对抗复审阻断：靠「同分取靠后」选表头会被下方小表抢走 -> 全片标题被覆盖。 ... ok
+test_a_table_without_a_shot_number_column_needs_three_recognised_columns (test_script_card_fields.TableHeaderTests.test_a_table_without_a_shot_number_column_needs_three_recognised_columns)
+没有分镜号列时只剩「块数 + 锚点」两道闸门，入口门槛抬到 3 个角色。 ... ok
+test_a_table_without_recognisable_columns_is_a_zero_action (test_script_card_fields.TableHeaderTests.test_a_table_without_recognisable_columns_is_a_zero_action) ... ok
+test_a_trailing_copy_of_the_header_does_not_kill_the_real_table (test_script_card_fields.TableHeaderTests.test_a_trailing_copy_of_the_header_does_not_kill_the_real_table)
+末尾逐字抄了一遍表头：表头仍认第 4 行（不被下方那行抢走、也不整表放弃）， ... ok
+test_a_trailing_header_that_is_not_a_verbatim_copy_is_warn_only (test_script_card_fields.TableHeaderTests.test_a_trailing_header_that_is_not_a_verbatim_copy_is_warn_only)
+末尾那行多了一列（不是逐字重复）：选表头仍是第 4 行，但工作簿里有第二行 ... ok
+test_a_whole_video_title_note_disables_the_column (test_script_card_fields.TableHeaderTests.test_a_whole_video_title_note_disables_the_column)
+第四次复审应修 2：全片/整片限定语不能被认成逐镜 title。 ... ok
+test_an_empty_second_sheet_does_not_block_the_real_one (test_script_card_fields.TableHeaderTests.test_an_empty_second_sheet_does_not_block_the_real_one) ... ok
+test_an_on_screen_column_named_wencan_cannot_wipe_every_card (test_script_card_fields.TableHeaderTests.test_an_on_screen_column_named_wencan_cannot_wipe_every_card)
+对抗复审阻断 1 的复现 B：`文案（上屏）` 被当口播 -> 正确的卡片被整片清空。 ... ok
+test_column_names_are_matched_with_and_without_bracketed_notes (test_script_card_fields.TableHeaderTests.test_column_names_are_matched_with_and_without_bracketed_notes)
+括注变体仍能认出列（选表头、抽取都照旧），但**只有白名单原名**才进「确定」档： ... ok
+test_header_is_found_below_a_vertical_cover_copy_block (test_script_card_fields.TableHeaderTests.test_header_is_found_below_a_vertical_cover_copy_block) ... ok
+test_lookalike_column_names_are_never_matched_by_substring (test_script_card_fields.TableHeaderTests.test_lookalike_column_names_are_never_matched_by_substring)
+「视频号标题 / 全片副标题 / 附属文案」都不是分镜字段，认错就会把对的改坏。 ... ok
+test_one_recognised_column_is_not_enough_to_be_a_header (test_script_card_fields.TableHeaderTests.test_one_recognised_column_is_not_enough_to_be_a_header) ... ok
+test_real_machine_tending_shape_prefers_the_field_sheet_over_narration_copy (test_script_card_fields.TableHeaderTests.test_real_machine_tending_shape_prefers_the_field_sheet_over_narration_copy)
+B7 真实结构：屏字/大字是正文，原创图层是提示；旁白副表不应挡住正表。 ... ok
+test_table_may_start_at_a_column_other_than_a (test_script_card_fields.TableHeaderTests.test_table_may_start_at_a_column_other_than_a) ... ok
+test_text_route_keeps_its_existing_whitespace_collapse (test_script_card_fields.TableHeaderTests.test_text_route_keeps_its_existing_whitespace_collapse) ... ok
+test_the_cover_copy_block_does_not_steal_the_header_row (test_script_card_fields.TableHeaderTests.test_the_cover_copy_block_does_not_steal_the_header_row)
+对抗复审应修 1：封面块里也有「标题 / 文案 / 素材」，并列时要取靠后的那行。 ... ok
+test_two_columns_for_one_field_make_that_field_advisory_only (test_script_card_fields.TableHeaderTests.test_two_columns_for_one_field_make_that_field_advisory_only)
+中英双语表：同一字段两列，谁也不能当准。 ... ok
+test_two_differently_laid_out_card_values_in_one_shot_are_advisory (test_script_card_fields.TableHeaderTests.test_two_differently_laid_out_card_values_in_one_shot_are_advisory) ... ok
+test_two_sheets_that_both_look_like_shot_tables_are_a_zero_action (test_script_card_fields.TableHeaderTests.test_two_sheets_that_both_look_like_shot_tables_are_a_zero_action) ... ok
+test_a_card_column_that_exists_still_clears_an_invented_card (test_script_card_fields.TableReconcileTests.test_a_card_column_that_exists_still_clears_an_invented_card)
+反面：表里**有**上屏列、该镜那格为空（或占位）-> 确定档照常清掉臆造的卡。 ... ok
+test_a_column_this_table_does_not_know_protects_a_correct_plan (test_script_card_fields.TableReconcileTests.test_a_column_this_table_does_not_know_protects_a_correct_plan) ... ok
+test_a_csv_shot_table_goes_down_the_table_route (test_script_card_fields.TableReconcileTests.test_a_csv_shot_table_goes_down_the_table_route) ... ok
+test_a_csv_that_is_really_free_text_falls_back_to_the_text_route (test_script_card_fields.TableReconcileTests.test_a_csv_that_is_really_free_text_falls_back_to_the_text_route) ... ok
+test_a_plain_table_without_card_columns_leaves_a_correct_plan_byte_identical (test_script_card_fields.TableReconcileTests.test_a_plain_table_without_card_columns_leaves_a_correct_plan_byte_identical)
+真实生产脚本（时间轴 / 中文文案 / 素材搜索）就是这个形状，一个上屏列都没有。 ... ok
+test_a_table_without_a_card_column_never_clears_even_one_card (test_script_card_fields.TableReconcileTests.test_a_table_without_a_card_column_never_clears_even_one_card)
+2026-09-23 用户拍板（取代 9/21 的 1/3 保险丝）：表里没有上屏列时**绝不清空**， ... ok
+test_placeholder_cells_count_as_not_written (test_script_card_fields.TableReconcileTests.test_placeholder_cells_count_as_not_written) ... ok
+test_rows_in_a_different_order_than_the_plan_are_caught_by_the_anchors (test_script_card_fields.TableReconcileTests.test_rows_in_a_different_order_than_the_plan_are_caught_by_the_anchors) ... ok
+test_shot_count_mismatch_only_warns (test_script_card_fields.TableReconcileTests.test_shot_count_mismatch_only_warns) ... ok
+test_the_fuse_fires_at_one_third_not_only_past_a_half (test_script_card_fields.TableReconcileTests.test_the_fuse_fires_at_one_third_not_only_past_a_half)
+第二次对抗复审应修 3：4 镜里清掉 2 镜的卡片，和清掉全部是同一量级的事故。 ... ok
+test_the_fuse_only_freezes_the_card_fields_not_the_title (test_script_card_fields.TableReconcileTests.test_the_fuse_only_freezes_the_card_fields_not_the_title)
+保险丝只冻上屏两个字段——标题该纠正还得纠正。 ... ok
+test_the_same_three_kinds_are_caught_through_a_workbook (test_script_card_fields.TableReconcileTests.test_the_same_three_kinds_are_caught_through_a_workbook) ... ok
+test_a_file_that_is_not_a_zip_reads_as_nothing (test_script_card_fields.TabularReaderTests.test_a_file_that_is_not_a_zip_reads_as_nothing) ... ok
+test_a_workbook_carrying_a_dtd_is_refused (test_script_card_fields.TabularReaderTests.test_a_workbook_carrying_a_dtd_is_refused)
+`xml.etree` 会展开内部实体（billion laughs），脚本里根本不该有 DTD。 ... ok
+test_column_letters_convert_past_z (test_script_card_fields.TabularReaderTests.test_column_letters_convert_past_z) ... ok
+test_csv_is_read_as_a_grid (test_script_card_fields.TabularReaderTests.test_csv_is_read_as_a_grid) ... ok
+test_docx_paragraphs_come_out_one_per_line (test_script_card_fields.TabularReaderTests.test_docx_paragraphs_come_out_one_per_line) ... ok
+test_every_sheet_is_returned_in_workbook_order (test_script_card_fields.TabularReaderTests.test_every_sheet_is_returned_in_workbook_order) ... ok
+test_line_breaks_inside_one_cell_survive_and_then_fold (test_script_card_fields.TabularReaderTests.test_line_breaks_inside_one_cell_survive_and_then_fold) ... ok
+test_row_merged_cells_are_spread_over_the_whole_range (test_script_card_fields.TabularReaderTests.test_row_merged_cells_are_spread_over_the_whole_range) ... ok
+test_shared_strings_and_inline_strings_read_the_same (test_script_card_fields.TabularReaderTests.test_shared_strings_and_inline_strings_read_the_same) ... ok
+test_sheet_names_stay_aligned_when_a_sheet_part_is_missing (test_script_card_fields.TabularReaderTests.test_sheet_names_stay_aligned_when_a_sheet_part_is_missing)
+对抗复审建议 1：`r:id` 指向的成员不在包里时，名字不能整体错位。 ... ok
+test_sparse_rows_stay_aligned_by_column_index (test_script_card_fields.TabularReaderTests.test_sparse_rows_stay_aligned_by_column_index) ... ok
+test_too_many_sheets_is_a_zero_action_not_a_truncation (test_script_card_fields.TabularReaderTests.test_too_many_sheets_is_a_zero_action_not_a_truncation)
+第二次对抗复审应修 2：截断会把「恰好一个 sheet 像分镜表」那道闸门绕过去。 ... ok
+test_a_label_without_a_colon_is_warn_only (test_script_card_fields.ThirdReviewTests.test_a_label_without_a_colon_is_warn_only) ... ok
+test_a_placeholder_lookalike_is_never_cleared_nor_supplied (test_script_card_fields.ThirdReviewTests.test_a_placeholder_lookalike_is_never_cleared_nor_supplied)
+「没有！」可能是作者正文：plan 有卡不删，plan 留空不补，一律只告警。 ... ok
+test_a_truncated_cell_is_warn_only (test_script_card_fields.ThirdReviewTests.test_a_truncated_cell_is_warn_only) ... ok
+test_a_truncated_docx_paragraph_gives_up_on_the_whole_file (test_script_card_fields.ThirdReviewTests.test_a_truncated_docx_paragraph_gives_up_on_the_whole_file) ... ok
+test_b1_a_copied_placeholder_explanation_is_flagged_not_changed (test_script_card_fields.ThirdReviewTests.test_b1_a_copied_placeholder_explanation_is_flagged_not_changed) ... ok
+test_b1_a_copied_placeholder_line_is_flagged_not_changed (test_script_card_fields.ThirdReviewTests.test_b1_a_copied_placeholder_line_is_flagged_not_changed)
+模型照抄了占位行：两边一致，不改、不带版式，但要提醒（那一行会原样上屏）。 ... ok
+test_b1_a_placeholder_explanation_is_warn_only_for_rewrites_too (test_script_card_fields.ThirdReviewTests.test_b1_a_placeholder_explanation_is_warn_only_for_rewrites_too)
+说明文字不只拦 missing；模型改写或照抄时也只告警、绝不带版式。 ... ok
+test_b1_a_placeholder_line_inside_a_real_card_is_warn_only (test_script_card_fields.ThirdReviewTests.test_b1_a_placeholder_line_inside_a_real_card_is_warn_only)
+4775b9a 把这四种都「纠正」成带占位行的两行卡（前三种还带 headline_sub），且无告警。 ... ok
+test_b1_placeholder_hint_substrings_cover_missing_rewritten_and_copied (test_script_card_fields.ThirdReviewTests.test_b1_placeholder_hint_substrings_cover_missing_rewritten_and_copied) ... ok
+test_b1_whole_explanation_placeholders_still_clear_invented_cards (test_script_card_fields.ThirdReviewTests.test_b1_whole_explanation_placeholders_still_clear_invented_cards)
+R1 只拦说明正文；整格确定占位仍表示作者没写，必须清掉模型臆造。 ... ok
+test_b1_whole_placeholders_and_real_two_line_cards_are_unchanged (test_script_card_fields.ThirdReviewTests.test_b1_whole_placeholders_and_real_two_line_cards_are_unchanged)
+对照：整格确定占位仍是「没写」；每行都是占位但整格不在确定写法里的，只告警； ... ok
+test_b2_blank_rows_or_a_time_only_row_before_the_first_shot_are_fine (test_script_card_fields.ThirdReviewTests.test_b2_blank_rows_or_a_time_only_row_before_the_first_shot_are_fine)
+对照：表头和第 1 镜之间只有空行 / 只写了时长，不算片头，仍是确定档。 ... ok
+test_b2_rows_before_the_first_shot_number_make_the_table_warn_only (test_script_card_fields.ThirdReviewTests.test_b2_rows_before_the_first_shot_number_make_the_table_warn_only)
+4775b9a 静默跳过这些行；模型把片头并进第 1 镜给卡，确定档再把卡当臆造删掉。 ... ok
+test_edge_marks_only_strip_a_pair_around_the_whole_line (test_script_card_fields.ThirdReviewTests.test_edge_marks_only_strip_a_pair_around_the_whole_line) ... ok
+test_paired_markdown_in_title_and_hint_is_warn_only (test_script_card_fields.ThirdReviewTests.test_paired_markdown_in_title_and_hint_is_warn_only) ... ok
+test_placeholder_hint_substrings_in_title_and_hint_are_warn_only (test_script_card_fields.ThirdReviewTests.test_placeholder_hint_substrings_in_title_and_hint_are_warn_only) ... ok
+test_placeholder_is_only_the_exact_set_and_bare_symbols (test_script_card_fields.ThirdReviewTests.test_placeholder_is_only_the_exact_set_and_bare_symbols) ... ok
+test_the_explanation_reminder_matches_whole_words_only (test_script_card_fields.ThirdReviewTests.test_the_explanation_reminder_matches_whole_words_only) ... ok
+test_a_lost_title_is_restored (test_script_card_fields.TitleTests.test_a_lost_title_is_restored) ... ok
+test_a_rewritten_title_is_replaced_by_the_script_text (test_script_card_fields.TitleTests.test_a_rewritten_title_is_replaced_by_the_script_text) ... ok
+test_a_schema_fallback_title_is_not_treated_as_invented (test_script_card_fields.TitleTests.test_a_schema_fallback_title_is_not_treated_as_invented)
+脚本没写标题 -> plan 里的「分镜N」是 schema 兜底的，不许清、也不吵。 ... ok
+test_a_table_without_a_title_column_leaves_titles_alone (test_script_card_fields.TitleTests.test_a_table_without_a_title_column_leaves_titles_alone) ... ok
+test_a_title_cannot_be_corrected_when_it_is_the_only_anchor (test_script_card_fields.TitleTests.test_a_title_cannot_be_corrected_when_it_is_the_only_anchor)
+只有标题能认人，而标题恰恰被改写了 -> 认不了人 -> 只告警。 ... ok
+test_a_title_the_author_left_blank_is_also_a_fallback (test_script_card_fields.TitleTests.test_a_title_the_author_left_blank_is_also_a_fallback) ... ok
+test_module_label_is_never_touched (test_script_card_fields.TitleTests.test_module_label_is_never_touched)
+章节标签是解析器按规则生成的，不是作者原文——不在校验范围里。 ... ok
+test_title_is_validated_on_the_table_route_too (test_script_card_fields.TitleTests.test_title_is_validated_on_the_table_route_too) ... ok
+test_a_crlf_card_is_compared_as_a_plain_line_break (test_script_card_fields.XstringAndMergeReaderTests.test_a_crlf_card_is_compared_as_a_plain_line_break) ... ok
+test_a_horizontal_merge_is_only_spread_down_its_own_column (test_script_card_fields.XstringAndMergeReaderTests.test_a_horizontal_merge_is_only_spread_down_its_own_column) ... ok
+test_x000d_is_decoded_in_shared_and_inline_strings (test_script_card_fields.XstringAndMergeReaderTests.test_x000d_is_decoded_in_shared_and_inline_strings) ... ok
+test_x005f_escapes_the_underscore_itself (test_script_card_fields.XstringAndMergeReaderTests.test_x005f_escapes_the_underscore_itself) ... ok
+test_fix_s1_overflow_and_unexpected_template_failures_are_blocked (test_script_template.ScriptTemplateTests.test_fix_s1_overflow_and_unexpected_template_failures_are_blocked) ... [script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: RuntimeError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+[script] 标准模板导入 unexpected_error: OSError: boom
+ok
+test_fix_s3_s5_blank_title_and_status_note_variants (test_script_template.ScriptTemplateTests.test_fix_s3_s5_blank_title_and_status_note_variants) ... ok
+[script] 标准模板导入 module_label_replaced: B2 段落不适合作为进度标签，已确定性替换
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"running","workflowProgress":{"stage":"script","status":"running","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\uff1a1 \u955c\uff0c1 \u6761\u63d0\u9192"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"english_segment_chinese_script.xlsx","shots":1,"blocked":[],"warnings":[{"shot":1,"cell":"B2","column":"\u6bb5\u843d","code":"module_label_replaced","message":"\u6bb5\u843d\u4e0d\u9002\u5408\u4f5c\u4e3a\u8fdb\u5ea6\u6807\u7b7e\uff0c\u5df2\u786e\u5b9a\u6027\u66ff\u6362","action":"\u8bf7\u6309\u63d0\u793a\u68c0\u67e5 Excel \u539f\u6587","field":"module_label","level":"warn"}]}}
+[script] 标准模板导入完成: 1 镜，1 条提醒
+test_fix_s7_english_template_with_chinese_script_never_calls_reviewer (test_script_template.ScriptTemplateTests.test_fix_s7_english_template_with_chinese_script_never_calls_reviewer) ... ok
+test_fix_y1_event_prefix_matches_electron_contract (test_script_template.ScriptTemplateTests.test_fix_y1_event_prefix_matches_electron_contract) ... ok
+test_fix_y2_fill_coordinates_follow_sparse_text_grid (test_script_template.ScriptTemplateTests.test_fix_y2_fill_coordinates_follow_sparse_text_grid) ... ok
+test_fix_y4_template_card_filters_only_exact_placeholder_lines (test_script_template.ScriptTemplateTests.test_fix_y4_template_card_filters_only_exact_placeholder_lines) ... ok
+test_known_key_sets_are_exact_and_independent (test_script_template.ScriptTemplateTests.test_known_key_sets_are_exact_and_independent) ... ok
+test_section_4_2_data_contract_and_determinism (test_script_template.ScriptTemplateTests.test_section_4_2_data_contract_and_determinism) ... ok
+test_t10_each_production_column_yellow_warns_without_blocking (test_script_template.ScriptTemplateTests.test_t10_each_production_column_yellow_warns_without_blocking) ... ok
+test_t11_each_structural_gate_and_all_errors_at_once (test_script_template.ScriptTemplateTests.test_t11_each_structural_gate_and_all_errors_at_once) ... ok
+test_t11_hidden_empty_and_header_content_do_not_block (test_script_template.ScriptTemplateTests.test_t11_hidden_empty_and_header_content_do_not_block) ... ok
+test_t11_hidden_reports_include_cell_and_column (test_script_template.ScriptTemplateTests.test_t11_hidden_reports_include_cell_and_column) ... ok
+test_t12_status_contract (test_script_template.ScriptTemplateTests.test_t12_status_contract) ... ok
+test_t13_reads_and_applies_rgb_theme_indexed_and_zebra_fills (test_script_template.ScriptTemplateTests.test_t13_reads_and_applies_rgb_theme_indexed_and_zebra_fills) ... ok
+test_t14_subtitle_contract_and_authored_whitespace (test_script_template.ScriptTemplateTests.test_t14_subtitle_contract_and_authored_whitespace) ... ok
+VACUT_EVENT:{"kind":"workflow","workflowStage":"script","workflowStatus":"running","workflowProgress":{"stage":"script","status":"running","phase":"template_import","label":"\u6807\u51c6\u6a21\u677f\u5bfc\u5165\uff1a9 \u955c\uff0c0 \u6761\u63d0\u9192"},"scriptImport":{"route":"template","format":"VAC-SB-1","file":"\u5206\u955c\u811a\u672c\u793a\u4f8b_\u4e0a\u4e0b\u6599_v1.xlsx","shots":9,"blocked":[],"warnings":[]}}
+[script] 标准模板导入完成: 9 镜，0 条提醒
+test_t15_template_main_makes_zero_model_and_network_calls (test_script_template.ScriptTemplateTests.test_t15_template_main_makes_zero_model_and_network_calls) ... ok
+test_t16_blocked_main_preserves_or_avoids_output_and_emits_details (test_script_template.ScriptTemplateTests.test_t16_blocked_main_preserves_or_avoids_output_and_emits_details) ... ok
+test_t17_non_template_output_and_stdout_match_1bc0fdb (test_script_template.ScriptTemplateTests.test_t17_non_template_output_and_stdout_match_1bc0fdb) ... ok
+test_t18_real_template_plans_need_no_card_reconciliation (test_script_template.ScriptTemplateTests.test_t18_real_template_plans_need_no_card_reconciliation) ... ok
+test_t19_dictionary_constants_match_every_real_dictionary_sheet (test_script_template.ScriptTemplateTests.test_t19_dictionary_constants_match_every_real_dictionary_sheet) ... ok
+test_t1_cli_direct_execution_finds_sibling_modules_in_isolated_mode (test_script_template.ScriptTemplateTests.test_t1_cli_direct_execution_finds_sibling_modules_in_isolated_mode) ... ok
+test_t1_detects_all_real_templates (test_script_template.ScriptTemplateTests.test_t1_detects_all_real_templates) ... ok
+test_t2_detect_swallows_reader_exceptions (test_script_template.ScriptTemplateTests.test_t2_detect_swallows_reader_exceptions) ... ok
+test_t2_rejects_every_non_template_silently (test_script_template.ScriptTemplateTests.test_t2_rejects_every_non_template_silently) ... ok
+test_t3_recognized_invalid_templates_are_blocked_with_differences (test_script_template.ScriptTemplateTests.test_t3_recognized_invalid_templates_are_blocked_with_differences) ... ok
+test_t4_extra_column_is_preserved_with_one_warning (test_script_template.ScriptTemplateTests.test_t4_extra_column_is_preserved_with_one_warning) ... ok
+test_t5_duration_raw_is_only_kept_for_non_integer_values (test_script_template.ScriptTemplateTests.test_t5_duration_raw_is_only_kept_for_non_integer_values) ... ok
+test_t5_maps_all_eighteen_columns (test_script_template.ScriptTemplateTests.test_t5_maps_all_eighteen_columns) ... ok
+test_t6_real_card_text_and_layout_match_the_design (test_script_template.ScriptTemplateTests.test_t6_real_card_text_and_layout_match_the_design) ... ok
+test_t7_placeholders_and_doubtful_values_are_conservative (test_script_template.ScriptTemplateTests.test_t7_placeholders_and_doubtful_values_are_conservative) ... ok
+test_t8_every_standard_column_red_and_failed_status_block (test_script_template.ScriptTemplateTests.test_t8_every_standard_column_red_and_failed_status_block) ... ok
+test_t8_red_in_author_added_column_blocks (test_script_template.ScriptTemplateTests.test_t8_red_in_author_added_column_blocks) ... ok
+test_t9_each_authored_text_column_and_duration_yellow_blocks (test_script_template.ScriptTemplateTests.test_t9_each_authored_text_column_and_duration_yellow_blocks) ... ok
+test_unexpected_template_error_diagnostic_failure_keeps_stable_exit (test_script_template.ScriptTemplateTests.test_unexpected_template_error_diagnostic_failure_keeps_stable_exit) ... ok
+test_unexpected_template_error_stderr_is_one_encoding_safe_private_line (test_script_template.ScriptTemplateTests.test_unexpected_template_error_stderr_is_one_encoding_safe_private_line) ... ok
+test_xlsx_fixture_default_output_is_byte_identical_to_c6f3382 (test_script_template.ScriptTemplateTests.test_xlsx_fixture_default_output_is_byte_identical_to_c6f3382) ... ok
+test_y3_header_colors_on_data_cells_are_not_normal (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_header_colors_on_data_cells_are_not_normal) ... ok
+test_y3_nonstandard_fills_block_every_critical_column (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_nonstandard_fills_block_every_critical_column) ... ok
+test_y3_nonstandard_fills_warn_on_production_and_status_columns (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_nonstandard_fills_warn_on_production_and_status_columns) ... ok
+test_y3_normal_data_fills_are_accepted (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_normal_data_fills_are_accepted) ... ok
+test_y3_real_header_colors_on_header_row_do_not_affect_import (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_real_header_colors_on_header_row_do_not_affect_import) ... ok
+test_y3_standard_red_keeps_red_cell_for_every_column (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_standard_red_keeps_red_cell_for_every_column) ... ok
+test_y3_standard_yellow_blocks_all_critical_columns (test_script_template_fills.ScriptTemplateFillContractTests.test_y3_standard_yellow_blocks_all_critical_columns) ... ok
+test_collection_import_uses_an_available_chromadb_without_leaking_a_double (test_sentry_store_export.SentryStoreExportTests.test_collection_import_uses_an_available_chromadb_without_leaking_a_double)
+A discover-time import must bind production store to an available package. ... ok
+test_export_file_chunks_orders_ranges_and_does_not_return_local_path (test_sentry_store_export.SentryStoreExportTests.test_export_file_chunks_orders_ranges_and_does_not_return_local_path) ... ok
+test_import_file_chunks_rekeys_cloud_chunks_for_the_current_local_path (test_sentry_store_export.SentryStoreExportTests.test_import_file_chunks_rekeys_cloud_chunks_for_the_current_local_path) ... ok
+test_missing_chromadb_double_is_scoped_to_the_private_import (test_sentry_store_export.SentryStoreExportTests.test_missing_chromadb_double_is_scoped_to_the_private_import)
+The fallback must restore sys.modules and avoid caching production store. ... ok
+test_environment_backed_segmentation_and_display_signatures_are_preserved (test_subtitle_alignment.AlignSubtitlesCompatibilityTests.test_environment_backed_segmentation_and_display_signatures_are_preserved) ... ok
+test_environment_minimum_duration_is_forwarded_by_original_signature (test_subtitle_alignment.AlignSubtitlesCompatibilityTests.test_environment_minimum_duration_is_forwarded_by_original_signature) ... ok
+test_extremely_short_span_never_produces_negative_or_reversed_cues (test_subtitle_alignment.CueTimelineTests.test_extremely_short_span_never_produces_negative_or_reversed_cues) ... ok
+test_fix_timing_rejects_invalid_span_and_does_not_require_positive_floor (test_subtitle_alignment.CueTimelineTests.test_fix_timing_rejects_invalid_span_and_does_not_require_positive_floor) ... ok
+test_out_of_range_and_non_finite_word_times_are_clamped_monotonically (test_subtitle_alignment.CueTimelineTests.test_out_of_range_and_non_finite_word_times_are_clamped_monotonically) ... ok
+test_weighted_distribution_covers_full_span_monotonically (test_subtitle_alignment.CueTimelineTests.test_weighted_distribution_covers_full_span_monotonically) ... ok
+test_word_distribution_uses_asr_boundaries_and_full_final_span (test_subtitle_alignment.CueTimelineTests.test_word_distribution_uses_asr_boundaries_and_full_final_span) ... ok
+test_apply_format_copies_input_preserves_original_and_drops_empty_display (test_subtitle_alignment.DisplayFormattingTests.test_apply_format_copies_input_preserves_original_and_drops_empty_display) ... ok
+test_default_trailing_and_full_punctuation_modes (test_subtitle_alignment.DisplayFormattingTests.test_default_trailing_and_full_punctuation_modes) ... ok
+test_model_boundaries_are_projected_back_to_original_unicode_text (test_subtitle_alignment.ProjectionTests.test_model_boundaries_are_projected_back_to_original_unicode_text) ... ok
+test_projection_rejects_mismatched_empty_and_too_long_boundaries (test_subtitle_alignment.ProjectionTests.test_projection_rejects_mismatched_empty_and_too_long_boundaries) ... ok
+test_long_ascii_tokens_are_kept_intact (test_subtitle_alignment.SegmentationTests.test_long_ascii_tokens_are_kept_intact) ... ok
+test_soft_punctuation_fallback_preserves_all_content (test_subtitle_alignment.SegmentationTests.test_soft_punctuation_fallback_preserves_all_content) ... ok
+test_standard_segment_validation_covers_content_length_and_boundaries (test_subtitle_alignment.SegmentationTests.test_standard_segment_validation_covers_content_length_and_boundaries) ... ok
+test_strong_punctuation_splits_without_rewriting_original (test_subtitle_alignment.SegmentationTests.test_strong_punctuation_splits_without_rewriting_original) ... ok
+test_cue_weight_accounts_for_ascii_cjk_and_pause_strength (test_subtitle_alignment.TextNormalizationTests.test_cue_weight_accounts_for_ascii_cjk_and_pause_strength) ... ok
+test_normalized_units_keep_original_indices_and_lowercase_ascii (test_subtitle_alignment.TextNormalizationTests.test_normalized_units_keep_original_indices_and_lowercase_ascii) ... ok
+test_unicode_whitespace_and_punctuation_are_ignored_for_comparison (test_subtitle_alignment.TextNormalizationTests.test_unicode_whitespace_and_punctuation_are_ignored_for_comparison) ... ok
+test_sentence_words_skips_malformed_and_non_positive_ranges (test_subtitle_alignment.WeightAndWordTests.test_sentence_words_skips_malformed_and_non_positive_ranges) ... ok
+test_timing_segment_validation_has_stable_failure_contract (test_subtitle_alignment.WeightAndWordTests.test_timing_segment_validation_has_stable_failure_contract) ... ok
+test_weight_split_preserves_unicode_content_and_count (test_subtitle_alignment.WeightAndWordTests.test_weight_split_preserves_unicode_content_and_count) ... ok
+test_actual_frame_sampler_passes_images_to_configured_service (test_subtitle_safe_area.SubtitleSafeAreaTests.test_actual_frame_sampler_passes_images_to_configured_service) ... ok
+test_ass_uses_selected_position_for_cues_and_plain_text (test_subtitle_safe_area.SubtitleSafeAreaTests.test_ass_uses_selected_position_for_cues_and_plain_text) ... ok
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+AI 字幕位置：已依据 3 个采样画面选择位置 y=995（采样检测不代表逐帧保证）
+test_cache_identity_includes_content_model_sampling_and_prompt_and_validates_cache (test_subtitle_safe_area.SubtitleSafeAreaTests.test_cache_identity_includes_content_model_sampling_and_prompt_and_validates_cache) ... ok
+test_disabled_and_sufficient_black_border_never_hash_sample_or_call_model (test_subtitle_safe_area.SubtitleSafeAreaTests.test_disabled_and_sufficient_black_border_never_hash_sample_or_call_model) ... ok
+test_fixed_position_avoids_union_of_protected_regions_and_stays_in_lower_half (test_subtitle_safe_area.SubtitleSafeAreaTests.test_fixed_position_avoids_union_of_protected_regions_and_stays_in_lower_half) ... ok
+test_invalid_and_uncertain_results_never_count_as_success (test_subtitle_safe_area.SubtitleSafeAreaTests.test_invalid_and_uncertain_results_never_count_as_success) ... ok
+test_model_failure_missing_key_or_no_space_returns_default_with_explicit_warning (test_subtitle_safe_area.SubtitleSafeAreaTests.test_model_failure_missing_key_or_no_space_returns_default_with_explicit_warning) ... ok
+test_agent_plan_cannot_put_a_card_on_a_shot_the_script_left_empty (test_template_packaging.ScriptOnlyTests.test_agent_plan_cannot_put_a_card_on_a_shot_the_script_left_empty) ... ok
+test_card_hint_alone_is_not_script_copy (test_template_packaging.ScriptOnlyTests.test_card_hint_alone_is_not_script_copy) ... ok
+test_default_is_on_and_only_the_false_words_turn_it_off (test_template_packaging.ScriptOnlyTests.test_default_is_on_and_only_the_false_words_turn_it_off)
+口径与 common.parse_bool 完全一致：大小写不敏感，认不出来的值按默认（开）。 ... ok
+test_default_mode_still_lays_out_a_letterboxed_card (test_template_packaging.ScriptOnlyTests.test_default_mode_still_lays_out_a_letterboxed_card)
+默认模式下的正向样本：写了 card_content 的镜，定位/几何断言照样要跑。 ... ok
+test_shot_with_card_content_is_byte_for_byte_unchanged_by_the_switch (test_template_packaging.ScriptOnlyTests.test_shot_with_card_content_is_byte_for_byte_unchanged_by_the_switch)
+写了 card_content 的镜：开关开或关，html 与 manifest 必须一模一样。 ... ok
+test_shot_without_card_content_gets_no_card (test_template_packaging.ScriptOnlyTests.test_shot_without_card_content_gets_no_card) ... ok
+test_switch_off_restores_the_title_fallback (test_template_packaging.ScriptOnlyTests.test_switch_off_restores_the_title_fallback) ... ok
+test_whitespace_only_card_content_is_not_script_copy (test_template_packaging.ScriptOnlyTests.test_whitespace_only_card_content_is_not_script_copy) ... ok
+test_empty_display_fields_do_not_render_instruction_as_text (test_template_packaging.TemplatePackagingTests.test_empty_display_fields_do_not_render_instruction_as_text) ... ok
+test_html_is_escaped_and_hint_never_executes (test_template_packaging.TemplatePackagingTests.test_html_is_escaped_and_hint_never_executes) ... ok
+test_letterboxed_picture_controls_position (test_template_packaging.TemplatePackagingTests.test_letterboxed_picture_controls_position) ... ok
+test_load_shot_checks_index_and_fields (test_template_packaging.TemplatePackagingTests.test_load_shot_checks_index_and_fields) ... ok
+test_long_copy_pages_preserve_words_and_duration (test_template_packaging.TemplatePackagingTests.test_long_copy_pages_preserve_words_and_duration) ... ok
+test_missing_dependencies_are_explicit (test_template_packaging.TemplatePackagingTests.test_missing_dependencies_are_explicit) ... ok
+test_switch_is_off_without_explicit_enable (test_template_packaging.TemplatePackagingTests.test_switch_is_off_without_explicit_enable) ... ok
+test_three_templates_take_existing_copy_without_mutating_shot (test_template_packaging.TemplatePackagingTests.test_three_templates_take_existing_copy_without_mutating_shot) ... ok
+test_closing_punctuation_never_starts_a_line (test_text_layout.PackagingKinsokuTests.test_closing_punctuation_never_starts_a_line) ... ok
+test_glued_unit_that_cannot_fit_falls_back_instead_of_failing (test_text_layout.PackagingKinsokuTests.test_glued_unit_that_cannot_fit_falls_back_instead_of_failing)
+窄到放不下「700 包/小时」时退回逐字换行，不能把卡片逼出「超长词」错误。 ... ok
+test_kinsoku_never_widens_a_line_beyond_plain (test_text_layout.PackagingKinsokuTests.test_kinsoku_never_widens_a_line_beyond_plain)
+**本层最硬的一条不变量**：kinsoku 不许比不加禁则时多造出任何一条超宽的行。 ... ok
+test_number_and_its_unit_never_split (test_text_layout.PackagingKinsokuTests.test_number_and_its_unit_never_split) ... ok
+test_opening_bracket_never_ends_a_line (test_text_layout.PackagingKinsokuTests.test_opening_bracket_never_ends_a_line) ... ok
+test_orphan_single_character_line_borrows_from_the_line_above (test_text_layout.PackagingKinsokuTests.test_orphan_single_character_line_borrows_from_the_line_above)
+docs §9.1 的原例：「路径确认」被切成「路径确」+「认」，第二页只剩一个字。 ... ok
+test_pure_chinese_two_character_word_split_is_a_known_limitation (test_text_layout.PackagingKinsokuTests.test_pure_chinese_two_character_word_split_is_a_known_limitation)
+04 第 5 镜的「节｜拍」：整句没有任何标点，不引入分词库判不出词边界。 ... ok
+test_subtitle_and_progress_wrapping_is_untouched (test_text_layout.PackagingKinsokuTests.test_subtitle_and_progress_wrapping_is_untouched)
+默认（不带 kinsoku）的换行结果必须与加禁则之前逐字不差。 ... ok
+test_chinese_script_prefers_existing_chinese_title (test_text_layout.ProgressLanguageTests.test_chinese_script_prefers_existing_chinese_title) ... ok
+test_english_script_repairs_chinese_label_and_preserves_brand (test_text_layout.ProgressLanguageTests.test_english_script_repairs_chinese_label_and_preserves_brand) ... ok
+[警告] 章节标签复核失败，使用脚本原文标签: offline
+[警告] 部分章节标签未通过语言复核，使用对应语言的脚本原文标签
+test_failed_review_and_old_plan_render_remain_in_target_language (test_text_layout.ProgressLanguageTests.test_failed_review_and_old_plan_render_remain_in_target_language) ... ok
+test_language_review_only_changes_labels_and_retries_invalid_language (test_text_layout.ProgressLanguageTests.test_language_review_only_changes_labels_and_retries_invalid_language) ... ok
+test_wrong_language_without_title_uses_complete_original_clause (test_text_layout.ProgressLanguageTests.test_wrong_language_without_title_uses_complete_original_clause) ... ok
+test_long_labels_are_not_character_truncated (test_text_layout.ProgressLayoutTests.test_long_labels_are_not_character_truncated) ... ok
+test_narrow_segments_show_full_current_label_with_timeline (test_text_layout.ProgressLayoutTests.test_narrow_segments_show_full_current_label_with_timeline) ... ok
+test_two_line_layout_keeps_complete_words (test_text_layout.ProgressLayoutTests.test_two_line_layout_keeps_complete_words) ... ok
+test_bundled_noto_font_is_measured_without_system_installation (test_text_layout.SubtitleWrappingTests.test_bundled_noto_font_is_measured_without_system_installation) ... ok
+test_cue_and_sentence_paths_keep_complete_english (test_text_layout.SubtitleWrappingTests.test_cue_and_sentence_paths_keep_complete_english) ... ok
+test_edited_subtitle_does_not_reuse_old_voice_cue_text (test_text_layout.SubtitleWrappingTests.test_edited_subtitle_does_not_reuse_old_voice_cue_text) ... ok
+test_engine_render_never_replaces_missing_prepared_voice_with_new_tts (test_text_layout.SubtitleWrappingTests.test_engine_render_never_replaces_missing_prepared_voice_with_new_tts) ... ok
+test_engine_render_rejects_stale_cues_instead_of_using_another_narration_timeline (test_text_layout.SubtitleWrappingTests.test_engine_render_rejects_stale_cues_instead_of_using_another_narration_timeline) ... ok
+test_english_spaces_and_words_survive_wrapping (test_text_layout.SubtitleWrappingTests.test_english_spaces_and_words_survive_wrapping) ... ok
+test_explicit_line_breaks_are_retained (test_text_layout.SubtitleWrappingTests.test_explicit_line_breaks_are_retained) ... ok
+test_mixed_script_spaces_and_cjk_punctuation_survive (test_text_layout.SubtitleWrappingTests.test_mixed_script_spaces_and_cjk_punctuation_survive) ... ok
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmpshibulmp\template_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmpshibulmp\template_no_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmpshibulmp\non_template_hint.mp4
+video encoder: test
+segment saved: C:\Users\evstm\AppData\Local\Temp\tmpshibulmp\voice_fallback.mp4
+test_p4_render_segment_uses_template_caption_hint_in_generated_ass (test_text_layout.SubtitleWrappingTests.test_p4_render_segment_uses_template_caption_hint_in_generated_ass) ... ok
+test_spoken_caption_preserves_prepared_sentence_timing (test_text_layout.SubtitleWrappingTests.test_spoken_caption_preserves_prepared_sentence_timing) ... ok
+test_unbreakable_subtitle_is_scaled_inside_canvas_without_losing_text (test_text_layout.SubtitleWrappingTests.test_unbreakable_subtitle_is_scaled_inside_canvas_without_losing_text) ... ok
+test_unicode_apostrophes_and_long_identifiers_are_not_cut (test_text_layout.SubtitleWrappingTests.test_unicode_apostrophes_and_long_identifiers_are_not_cut) ... ok
+test_wide_letters_and_narrow_letters_use_actual_font_width (test_text_layout.SubtitleWrappingTests.test_wide_letters_and_narrow_letters_use_actual_font_width) ... ok
+test_empty_unknown_and_invalid_stress_are_rejected (test_tts_term_rules.CmuValidationTests.test_empty_unknown_and_invalid_stress_are_rejected) ... ok
+test_valid_phonemes_are_normalized (test_tts_term_rules.CmuValidationTests.test_valid_phonemes_are_normalized) ... ok
+test_english_narration_does_not_require_pronunciation_model (test_tts_term_rules.PrepareVoiceCompatibilityTests.test_english_narration_does_not_require_pronunciation_model) ... ok
+test_english_sentence_ignores_mixed_language_cached_readings (test_tts_term_rules.PrepareVoiceCompatibilityTests.test_english_sentence_ignores_mixed_language_cached_readings) ... ok
+test_environment_policy_is_preserved_by_compatibility_facade (test_tts_term_rules.PrepareVoiceCompatibilityTests.test_environment_policy_is_preserved_by_compatibility_facade) ... ok
+test_facade_keeps_system_exit_failure_contract (test_tts_term_rules.PrepareVoiceCompatibilityTests.test_facade_keeps_system_exit_failure_contract) ... ok
+test_model_response_facade_uses_pure_normalizer (test_tts_term_rules.PrepareVoiceCompatibilityTests.test_model_response_facade_uses_pure_normalizer) ... ok
+test_english_does_not_require_llm_or_ssml_and_ignores_old_readings (test_tts_term_rules.PrepareVoiceLanguageTests.test_english_does_not_require_llm_or_ssml_and_ignores_old_readings) ... ok
+test_english_narration_reaches_tts_without_per_word_pronunciation (test_tts_term_rules.PrepareVoiceLanguageTests.test_english_narration_reaches_tts_without_per_word_pronunciation) ... ok
+test_english_sentence_mode_passes_each_sentence_directly_to_tts (test_tts_term_rules.PrepareVoiceLanguageTests.test_english_sentence_mode_passes_each_sentence_directly_to_tts) ... ok
+test_missing_chinese_term_reading_still_reports_a_failure (test_tts_term_rules.PrepareVoiceLanguageTests.test_missing_chinese_term_reading_still_reports_a_failure) ... ok
+test_mixed_language_shots_only_prepare_terms_in_chinese_narration (test_tts_term_rules.PrepareVoiceLanguageTests.test_mixed_language_shots_only_prepare_terms_in_chinese_narration) ... ok
+test_six_english_shots_pass_voice_preparation_and_preserve_subtitles (test_tts_term_rules.PrepareVoiceLanguageTests.test_six_english_shots_pass_voice_preparation_and_preserve_subtitles) ... ok
+test_cjk_adjacent_character_mode_stays_inline_without_ssml_wrapper (test_tts_term_rules.TermApplicationTests.test_cjk_adjacent_character_mode_stays_inline_without_ssml_wrapper) ... ok
+test_plain_application_replaces_only_explicit_substitution (test_tts_term_rules.TermApplicationTests.test_plain_application_replaces_only_explicit_substitution) ... ok
+test_ssml_disabled_missing_strategy_and_invalid_mode_fail_clearly (test_tts_term_rules.TermApplicationTests.test_ssml_disabled_missing_strategy_and_invalid_mode_fail_clearly) ... ok
+test_ssml_escapes_content_and_supports_each_mode (test_tts_term_rules.TermApplicationTests.test_ssml_escapes_content_and_supports_each_mode) ... ok
+test_unresolved_detail_limit_is_deterministic (test_tts_term_rules.TermApplicationTests.test_unresolved_detail_limit_is_deterministic) ... ok
+test_unresolved_detection_and_text_resolution_contract (test_tts_term_rules.TermApplicationTests.test_unresolved_detection_and_text_resolution_contract) ... ok
+test_letter_by_letter_detection_ignores_acronyms (test_tts_term_rules.TermExtractionTests.test_letter_by_letter_detection_ignores_acronyms) ... ok
+test_terms_are_classified_and_deduplicated_case_insensitively (test_tts_term_rules.TermExtractionTests.test_terms_are_classified_and_deduplicated_case_insensitively) ... ok
+test_acronym_defaults_to_characters_and_aliases_are_normalized (test_tts_term_rules.TermSpecTests.test_acronym_defaults_to_characters_and_aliases_are_normalized) ... ok
+test_cmu_mode_validates_and_normalizes_model_fields (test_tts_term_rules.TermSpecTests.test_cmu_mode_validates_and_normalizes_model_fields) ... ok
+test_model_readings_ignore_unknown_and_invalid_items (test_tts_term_rules.TermSpecTests.test_model_readings_ignore_unknown_and_invalid_items) ... ok
+test_text_substitution_requires_explicit_policy_and_safe_alias (test_tts_term_rules.TermSpecTests.test_text_substitution_requires_explicit_policy_and_safe_alias) ... ok
+test_names_and_ffmpeg_aliases_map_to_immutable_specs (test_video_encoder.EncoderMappingTests.test_names_and_ffmpeg_aliases_map_to_immutable_specs) ... ok
+test_pixel_format_is_appended_after_ass_filter (test_video_encoder.EncoderMappingTests.test_pixel_format_is_appended_after_ass_filter) ... ok
+test_quality_arguments_are_encoder_specific_and_numeric (test_video_encoder.EncoderMappingTests.test_quality_arguments_are_encoder_specific_and_numeric) ... ok
+test_benchmark_executes_a_real_encode_with_item_timeout (test_video_encoder.EncoderResolutionTests.test_benchmark_executes_a_real_encode_with_item_timeout) ... ok
+test_electron_resolved_encoder_does_not_probe_again (test_video_encoder.EncoderResolutionTests.test_electron_resolved_encoder_does_not_probe_again) ... ok
+test_existing_fallback_marker_forces_cpu_without_probe (test_video_encoder.EncoderResolutionTests.test_existing_fallback_marker_forces_cpu_without_probe) ... ok
+test_standalone_auto_benchmarks_cpu_and_hardware_then_uses_fastest (test_video_encoder.EncoderResolutionTests.test_standalone_auto_benchmarks_cpu_and_hardware_then_uses_fastest) ... ok
+test_standalone_benchmark_respects_total_budget (test_video_encoder.EncoderResolutionTests.test_standalone_benchmark_respects_total_budget) ... ok
+test_remotion_uses_safe_optional_hardware_acceleration (test_video_encoder.GeneratedMaterialEncoderTests.test_remotion_uses_safe_optional_hardware_acceleration) ... ok
+test_cpu_failure_is_not_retried (test_video_encoder.HardwareFallbackTests.test_cpu_failure_is_not_retried) ... ok
+test_cpu_os_error_is_cleaned_and_raised (test_video_encoder.HardwareFallbackTests.test_cpu_os_error_is_cleaned_and_raised) ... ok
+[警告] NVIDIA NVENC 编码失败，已切换 CPU 编码重试...
+test_hardware_failure_removes_partial_output_marks_and_retries_cpu (test_video_encoder.HardwareFallbackTests.test_hardware_failure_removes_partial_output_marks_and_retries_cpu) ... ok
+[警告] Intel Quick Sync 编码失败，已切换 CPU 编码重试...
+test_hardware_timeout_marks_then_cpu_timeout_is_raised_without_loop (test_video_encoder.HardwareFallbackTests.test_hardware_timeout_marks_then_cpu_timeout_is_raised_without_loop) ... ok
+test_timeouts_scale_with_duration_and_are_capped (test_video_encoder.HardwareFallbackTests.test_timeouts_scale_with_duration_and_are_capped) ... ok
+test_disabling_voice_removes_all_stale_voice_references (test_voice_artifacts.VoiceArtifactTests.test_disabling_voice_removes_all_stale_voice_references) ... ok
+test_normalization_preserves_prepared_voice_and_its_timeline (test_voice_artifacts.VoiceArtifactTests.test_normalization_preserves_prepared_voice_and_its_timeline) ... ok
+test_prepare_voice_persists_the_same_audio_and_cues_after_schema_round_trip (test_voice_artifacts.VoiceArtifactTests.test_prepare_voice_persists_the_same_audio_and_cues_after_schema_round_trip) ... ok
+test_env_update_preserves_other_values (test_voice_config.VoiceConfigSafetyTests.test_env_update_preserves_other_values) ... ok
+test_env_update_rejects_name_and_value_injection (test_voice_config.VoiceConfigSafetyTests.test_env_update_rejects_name_and_value_injection) ... ok
+test_invalid_registry_is_not_silently_overwritten_as_empty (test_voice_config.VoiceConfigSafetyTests.test_invalid_registry_is_not_silently_overwritten_as_empty) ... ok
+test_upload_filename_is_header_safe (test_voice_config.VoiceConfigSafetyTests.test_upload_filename_is_header_safe) ... ok
+
+----------------------------------------------------------------------
+Ran 639 tests in 36.840s
+
+OK (skipped=2)

@@ -1,0 +1,408 @@
+{
+  "ok": false,
+  "kind": "u7-offline-actual-verification",
+  "inputs": {
+    "xlsx_sha256": "32928ce140c3d8b25ad0b5ac482896b3698417f7de8401920c9129c3b030697e",
+    "shots_sha256": "fc4ba10e6948355642ae56e08347906ce52b7b158f19817b0e17e4d795a73815",
+    "stdout_sha256": "611ebedcf101eff5678d215160f848b715a6cafdd3a8bcc6c995e7203f4168cc",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 8077,
+    "stderr_bytes": 0,
+    "metadata": [
+      {
+        "path": "VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-metadata.json",
+        "sha256": "1f9f35c1395a28472c473cf5cfe1c4ebd0d51997c76f1c2b9fd01587a631baae",
+        "bytes": 1009
+      },
+      {
+        "path": "VideoAutoCutDesktop\\node_modules\\.tmp\\ui-u6-51388993-314c52f-20260928\\phase-51391241-u7-1c307c3\\raw-electron-stdout\\observer-38288-seq-2-child-39012-vacut-events.bin",
+        "sha256": "639bfe985851b28342fd37705ff89362b7eeb9cae3ab0de996a7e30cbc2641a3",
+        "bytes": 1191
+      }
+    ]
+  },
+  "stream_line_counts": {
+    "stdout": 103,
+    "stderr": 0
+  },
+  "marker_line_positions": {
+    "upload_start": [
+      17
+    ],
+    "upload_complete": [
+      18
+    ],
+    "main_parse_start": [
+      19
+    ],
+    "voice_review_start": [],
+    "voice_review_complete": [],
+    "normalize_complete": [
+      26
+    ],
+    "retry": [],
+    "label_review_warning": []
+  },
+  "stderr_retry_line_positions": [],
+  "purpose_counts": {
+    "main_parse": {
+      "logical_calls": 1,
+      "evidence": "workflow-marker-observed"
+    },
+    "voice_subtitle_review": {
+      "logical_calls": 0,
+      "start_marker_count": 0,
+      "completion_marker_count": 0,
+      "evidence": "source-control-flow-derived: review call is always preceded by start marker"
+    },
+    "progress_label_review": {
+      "logical_calls": 0,
+      "evidence": "frozen-cleaned-title-and-actual-context-source-derived"
+    },
+    "automatic_retry_warnings": {
+      "count": 0,
+      "stdout_line_positions": [],
+      "stderr_line_positions": []
+    }
+  },
+  "field_checks": [
+    {
+      "shot": 1,
+      "fields": {
+        "card_content": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 14,
+          "actual_sha256": "84b3db8f15d26c5d771e236477ac39f90511f70bf38e195d31932b035b2bf28d",
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 9,
+          "actual_sha256": "2f0369490582258bb53450c9390ec2c6a35f4c2e3119fb77e5757b160a897e0f",
+          "exact": true
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": true,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 2,
+      "fields": {
+        "card_content": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 10,
+          "actual_sha256": "ad861097182f4f1d99a2317c40db2a47f0e3a46baa4bb1814ae616b3ea82dbec",
+          "exact": true
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": false,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 3,
+      "fields": {
+        "card_content": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 3,
+          "actual_sha256": "91ef2fe0d5c628da175725557d3d2183670fa09b71ec87ac599fc70425900d03",
+          "exact": true
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": false,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 4,
+      "fields": {
+        "card_content": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 4,
+          "actual_sha256": "4d715c838a5e1a661d3b7f566e07fd1cc0c8b89642ead70ea8e347fcba7e5822",
+          "exact": false
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": false,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 5,
+      "fields": {
+        "card_content": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 6,
+          "actual_sha256": "bc1c66752ee5d9a7869ffab72b955dbb6b5520e91cdbe6a752ac373b9c61ef31",
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 4,
+          "actual_sha256": "ffc5d44d4a1f199214564da0ca3c51eb2fea8f926ab01078d2d2232008204e03",
+          "exact": true
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": true,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 6,
+      "fields": {
+        "card_content": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": false,
+          "expected_present": false,
+          "actual_present": false,
+          "actual_len": 0,
+          "actual_sha256": null,
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 4,
+          "actual_sha256": "95c49c3ab00db529cfac25c802fba19b311f7a2de749fd29bf459b6f7539a17d",
+          "exact": false
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": false,
+        "direct_show_field_observed": false
+      }
+    },
+    {
+      "shot": 7,
+      "fields": {
+        "card_content": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 23,
+          "actual_sha256": "bd154ffb70ffee662527ccf4e68660713a5d55a9f38805a9bb1a118c1714f3ed",
+          "exact": true
+        },
+        "card_hint": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 8,
+          "actual_sha256": "87cb846417e046a796b85e5a74ccbfba6e799437a16b263fbd766eb570133412",
+          "exact": true
+        },
+        "title": {
+          "expected_authored": true,
+          "expected_present": true,
+          "actual_present": true,
+          "actual_len": 10,
+          "actual_sha256": "801adf5a436aca06275b8938cb4800aae2cb818780167d4d5f7520c1c39d7525",
+          "exact": true
+        }
+      },
+      "explicit_show": {},
+      "show_inference": {
+        "source": "card_content_presence_only",
+        "expected": true,
+        "direct_show_field_observed": false
+      }
+    }
+  ],
+  "progress_label_source_predicate": {
+    "status": "proven_zero",
+    "proven_pending_count": 0,
+    "choices": [
+      {
+        "shot": 1,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "2f0369490582258bb53450c9390ec2c6a35f4c2e3119fb77e5757b160a897e0f",
+        "cleaned_title_sha256": "2f0369490582258bb53450c9390ec2c6a35f4c2e3119fb77e5757b160a897e0f",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 2,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "ad861097182f4f1d99a2317c40db2a47f0e3a46baa4bb1814ae616b3ea82dbec",
+        "cleaned_title_sha256": "ad861097182f4f1d99a2317c40db2a47f0e3a46baa4bb1814ae616b3ea82dbec",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 3,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "91ef2fe0d5c628da175725557d3d2183670fa09b71ec87ac599fc70425900d03",
+        "cleaned_title_sha256": "91ef2fe0d5c628da175725557d3d2183670fa09b71ec87ac599fc70425900d03",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 4,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "4d715c838a5e1a661d3b7f566e07fd1cc0c8b89642ead70ea8e347fcba7e5822",
+        "cleaned_title_sha256": "4d715c838a5e1a661d3b7f566e07fd1cc0c8b89642ead70ea8e347fcba7e5822",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 5,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "ffc5d44d4a1f199214564da0ca3c51eb2fea8f926ab01078d2d2232008204e03",
+        "cleaned_title_sha256": "ffc5d44d4a1f199214564da0ca3c51eb2fea8f926ab01078d2d2232008204e03",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 6,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "95c49c3ab00db529cfac25c802fba19b311f7a2de749fd29bf459b6f7539a17d",
+        "cleaned_title_sha256": "95c49c3ab00db529cfac25c802fba19b311f7a2de749fd29bf459b6f7539a17d",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      },
+      {
+        "shot": 7,
+        "context_source": "subtitle",
+        "language": "zh",
+        "context_present": true,
+        "title_sha256": "801adf5a436aca06275b8938cb4800aae2cb818780167d4d5f7520c1c39d7525",
+        "cleaned_title_sha256": "801adf5a436aca06275b8938cb4800aae2cb818780167d4d5f7520c1c39d7525",
+        "title_sufficient_for_language": true,
+        "excluded_because_context_or_language_empty": false,
+        "pending_excluded_without_using_final_module_label": true
+      }
+    ]
+  },
+  "evidence_gaps": [],
+  "errors": [
+    "shot 4 title differs from frozen authored oracle",
+    "shot 6 title differs from frozen authored oracle"
+  ],
+  "notes": [
+    "Missing log markers are not converted to zero calls.",
+    "No model is called and no product module is imported by this verifier.",
+    "Legacy drawer visual comparison remains native-UI evidence outside this receipt."
+  ]
+}

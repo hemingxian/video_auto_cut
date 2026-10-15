@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "policy": "packaging-agent-step1",
+  "backend": "pi",
+  "shot_id": "template-0007",
+  "shot_index": 7,
+  "started_at": "2026-09-29 15:13:55",
+  "template_version": 1,
+  "input": {
+    "title": "一人巡线",
+    "card_content": "搬箱子交给机器人\n人只管巡线、换托盘",
+    "card_hint": "对照卡",
+    "voice_text": "现场留一个人巡线、换托盘就够了，搬箱子这种重复的体力活，交给机器人。",
+    "clip_requirements": "人只做中景以上，不出人脸特写；工服上的字样不做特写",
+    "duration": 8.0,
+    "width": 1920,
+    "height": 1080
+  },
+  "deterministic": {
+    "template": "parameters",
+    "show": true
+  },
+  "response_raw": {
+    "show": true,
+    "template": "parameters",
+    "reason": "card_content 两行换行"
+  },
+  "decision": {
+    "template": "parameters",
+    "show": true,
+    "reason": "card_content 两行换行",
+    "overridden": null,
+    "source": "agent",
+    "cache_key": "sha256:9d8bfa738a7fe73465c2c0eb7260381c2e23ac5ccf554cdc273f8f3c212f83ff"
+  },
+  "agreed_with_deterministic": true,
+  "show_agreed_with_deterministic": true,
+  "decision_changed": false,
+  "cache": {
+    "hit": false,
+    "path": "\\\\?\\D:\\vac\\f3\\w\\video\\runs\\20260929\\f3\\.videoautocut\\runs\\run_175e3315e0624f028eba293d66a9dece\\final_clips\\packaging\\_agent_cache\\packaging.json"
+  },
+  "budget": {
+    "seconds": 90,
+    "call_timeout_seconds": 89,
+    "overran": false,
+    "internal_attempts": 2
+  },
+  "timings": {
+    "model_seconds": 2.454
+  },
+  "errors": [],
+  "fallback_used": false,
+  "ok": true,
+  "elapsed_seconds": 2.46,
+  "final_check": {
+    "width": 1920,
+    "height": 1080,
+    "sar": "1:1",
+    "audio": {
+      "codec": "aac",
+      "sample_rate": "48000",
+      "channels": 2
+    },
+    "duration": 8.0,
+    "duration_delta": 0.0,
+    "duration_warned": false
+  }
+}

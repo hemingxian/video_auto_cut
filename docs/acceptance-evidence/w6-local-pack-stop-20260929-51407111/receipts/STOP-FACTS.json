@@ -1,0 +1,57 @@
+{
+  "schema": "w6-local-pack-stop-51407111/v1",
+  "instruction": 51407111,
+  "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "worktree": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737",
+  "worktree_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+  "worktree_status": [],
+  "preparation_harness_stops": 3,
+  "preparation_harness_notes": [
+    "v1 00: PowerShell case-insensitive same-scope variable collision replaced $script:Protected with a six-item snapshot before SOURCE-LOCK",
+    "v2 10: detached worktree did not contain gitignored runtime-release/manifest.json; finalized by exact-byte seed from protected main manifest",
+    "v2 first 20: owned untracked records probe was rejected by status helper; narrowed explicit one-path/one-SHA allowance"
+  ],
+  "formal_pack_invocations": 1,
+  "formal_pack_exit_code": 1,
+  "formal_pack_log": "pack-runtime.log",
+  "formal_pack_log_bytes": 351,
+  "formal_pack_log_sha256": "91d1d51eb80906cc4578f8e192677bc298ac5550e864ee4dd075a330c8bb287e",
+  "build_scripts_tsc_completed": true,
+  "failure": "missing local release config in isolated worktree: VideoAutoCutDesktop/release-upload.local.json",
+  "release_config_copied": false,
+  "engine_build_started": false,
+  "pkg_exists": false,
+  "manifest_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+  "state": {
+    "source_head": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+    "worktree": "D:\\autocut\\video-auto-cut-w6-51407111-4c6fb40ff737",
+    "head_create": "4c6fb40ff7371e73a0d0daa4c9ef0606610afc21",
+    "isolated_manifest_before_sha256": "b92c9477703b91d503974881c103b0b35cb8878f819691caa28cdae764f99942",
+    "worktree_complete": true,
+    "pack_complete": false,
+    "verify_complete": false,
+    "hashes_complete": false
+  },
+  "phase30_verify_calls": 0,
+  "phase40_hash_report_calls": 0,
+  "cleanup_commits_started": 0,
+  "upload_calls": 0,
+  "publish_calls": 0,
+  "merge_master_calls": 0,
+  "ui_calls": 0,
+  "model_calls": 0,
+  "probe_cleanup_first": {
+    "records_probe": "removed_owned_probe",
+    "cache_probe": "removed_owned_probe",
+    "records_dir_initially_existed": false,
+    "cache_dir_initially_existed": false
+  },
+  "probe_cleanup_pack": {
+    "records_probe": "removed_owned_probe",
+    "cache_probe": "removed_owned_probe",
+    "records_dir_initially_existed": false,
+    "cache_dir_initially_existed": false
+  },
+  "process_temp_stage_dirs": [],
+  "main_protected_six_unchanged": true
+}
